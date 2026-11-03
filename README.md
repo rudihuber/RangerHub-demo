@@ -14,7 +14,7 @@ Logik, Aufgaben, Rollen und gespeicherten Fortschritte werden weiterverwendet.
 - [V26 direkt öffnen](https://rudihuber.github.io/RangerHub-demo/RangerHub_Webapp_V26_Demo.html)
 - [Unveränderte Vorversion](https://rudihuber.github.io/RangerHub-demo/RangerHub_Webapp_V25_Demo_Backup.html)
 - [Übergabe](docs/V26-UEBERGABE.md)
-- [56 Prüfungen und alle Geräte-Screenshots](docs/V26-TESTBERICHT.md)
+- [57 Prüfungen und alle Geräte-Screenshots](docs/V26-TESTBERICHT.md)
 - [SHA-256-Prüfsummen](docs/V26-SHA256SUMS)
 
 Die Erweiterung verwendet SVG, CSS und vorhandene Bildassets. Es gibt keine

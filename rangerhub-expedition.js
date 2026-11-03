@@ -145,6 +145,7 @@
   const oldClose = closeM;
   closeM = function () {
     const expDialog = box.dataset.expeditionDialog === 'true', origin = dialogOrigin;
+    modal.classList.remove('expedition-modal');
     if (expDialog) { delete box.dataset.expeditionDialog;box.removeAttribute('role');box.removeAttribute('aria-modal');box.removeAttribute('aria-labelledby');box.removeEventListener('keydown',trapFocus);dialogOrigin=null; }
     oldClose(); if(expDialog&&origin?.isConnected)origin.focus({preventScroll:true});
   };
@@ -170,7 +171,7 @@
     dialogOrigin=document.activeElement;
     box.innerHTML=`<div class="expedition-detail"><div class="exp-detail-top"><span class="expedition-eyebrow">${places[index]}</span><button type="button" class="btn alt" onclick="closeM()" aria-label="Stationsdetails schließen">Schließen</button></div><span class="exp-detail-scarf ${earned?'is-earned':''}" style="--station-color:${colors[index]}" aria-hidden="true"></span><h2 id="expedition-detail-title" tabindex="-1">${p.stage}</h2><p class="exp-detail-subtitle">${esc(v21StageSubtitles[index])}${earned?' · erreicht':''}</p><div class="exp-detail-progress"><strong>${p.total?p.percent+'%':'—'}</strong><span>${p.done} erledigt<br>${Math.max(0,p.total-p.done)} offen</span></div><div class="exp-detail-track" role="progressbar" aria-label="Fortschritt ${p.stage}" aria-valuemin="0" aria-valuemax="${p.total||1}" aria-valuenow="${p.done}"><i style="width:${p.percent}%"></i></div><p class="exp-detail-notice">${!p.available?lock:''}${message}</p>${p.available?`<p class="exp-detail-official">Deine offizielle Stufe: <b>${state.official}</b>${index!==state.officialIndex&&!p.complete?' · Diese Etappe ist bereits freigeschaltet.':''}</p><div class="exp-detail-actions"><button type="button" class="btn" onclick="RangerHub.openExpeditionTasks(${index})">Aufgaben öffnen</button><button type="button" class="btn alt" onclick="RangerHub.openExpeditionLogbook(${index})">Logbuch und Inhalte</button></div>${index===0&&Object.keys(pdfs()).some(k=>pdfs()[k])?`<div class="exp-detail-pdfs"><h3>Logbuch-PDFs</h3>${['A','B','C','R'].filter(k=>pdfs()[k]).map(k=>`<button type="button" class="btn alt sm" ${RH.packageUnlocked&&!RH.packageUnlocked(session.id,k)?'disabled':''} onclick="RangerHub.expeditionDownload('${k}')">${k==='R'?'Reflexionsbogen':'Aufgabenpaket '+k} herunterladen</button>`).join('')}</div>`:''}`:''}<button type="button" class="exp-detail-back" onclick="closeM()">← Zur Expeditionskarte</button></div>`;
     box.dataset.expeditionDialog='true';box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');box.setAttribute('aria-labelledby','expedition-detail-title');box.addEventListener('keydown',trapFocus);
-    openM();box.querySelector('h2').focus({preventScroll:true});
+    modal.classList.add('expedition-modal');openM();box.querySelector('h2').focus({preventScroll:true});
   };
   RH.openExpeditionTasks = index => {
     const state=snapshot(), p=state?.progress[Number(index)];if(!p||!p.available)return;
@@ -178,7 +179,7 @@
   };
   RH.openExpeditionLogbook = index => {
     const state=snapshot(),p=state?.progress[Number(index)];if(!p||!p.available)return;
-    closeM();if(p.index===0){openObserverIntro();addReturn();}else{openStageV15(p.stage);addReturn(box);}
+    closeM();if(p.index===0){openObserverIntro();addReturn();}else{openStageV15(p.stage);addReturn(box);modal.classList.add('expedition-modal');}
   };
   for(const name of ['observerTasks','openRangerStageV19','openObserverIntro']) {
     const previous=window[name];window[name]=function(...args){const result=previous.apply(this,args);if(isOwnRanger())addReturn();return result;};

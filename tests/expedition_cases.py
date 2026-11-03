@@ -232,3 +232,24 @@ class ExpeditionCases:
                         self.assertFalse(min(a['right'],b['right'])-max(a['x'],b['x'])>1 and min(a['bottom'],b['bottom'])-max(a['y'],b['y'])>1,'Station labels overlap')
                 if width<768 or (width<=1023 and height<=500):
                     self.page.wait_for_function("document.querySelector('.expedition-marker').getBoundingClientRect().top>150&&document.querySelector('.expedition-marker').getBoundingClientRect().bottom<innerHeight")
+
+    def test_touch_dialog_close_and_existing_logbook_above_mobile_navigation(self):
+        original_page=self.page
+        for width,height in [(320,568),(390,844)]:
+            context=self.browser.new_context(viewport={'width':width,'height':height},is_mobile=True,has_touch=True,device_scale_factor=2,locale='de-DE',timezone_id='Europe/Berlin')
+            try:
+                self.page=context.new_page();self.page.on('pageerror',lambda error:self.errors.append(str(error)))
+                self.page.goto(self.url);self.page.wait_for_function('window.RangerHub?.expeditionReady === true')
+                self.choose_profile();self.progress_fixture(85,20)
+                self.page.wait_for_function("document.querySelector('.expedition-marker').getBoundingClientRect().bottom<innerHeight")
+                self.page.locator('[data-exp-station="0"]').tap()
+                expect(self.page.locator('#box[role=dialog]')).to_be_visible()
+                self.page.get_by_role('button',name='Stationsdetails schließen').tap()
+                self.assertFalse(self.page.evaluate("modal.classList.contains('show')"))
+                self.page.locator('[data-exp-station="1"]').tap()
+                self.page.get_by_role('button',name='Logbuch und Inhalte',exact=True).tap()
+                expect(self.page.locator('#box')).to_contain_text('Erkunder')
+                self.page.locator('#box').get_by_role('button',name='Schließen',exact=True).tap()
+                self.assertFalse(self.page.evaluate("modal.classList.contains('show')"))
+            finally:
+                context.close();self.page=original_page

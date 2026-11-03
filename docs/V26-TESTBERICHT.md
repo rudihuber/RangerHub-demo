@@ -3,7 +3,7 @@
 Chromium 154.0.8037.57, Playwright 1.62.0, Sprache Deutsch,
 Zeitzone Europe/Berlin. Alle Tests verwenden isolierte Browserkontexte.
 
-**56 Prüfungen erfolgreich:** 43 bisherige Prüfungen und 13 Abnahmeprüfungen
+**57 Prüfungen erfolgreich:** 43 bisherige Prüfungen und 14 Abnahmeprüfungen
 für die neue Expeditionskarte. Die private Vollversion wird mit ihren eigenen
 Integritäts-, Rollen-, Upgrade- und PDF-Prüfungen getrennt getestet.
 
@@ -18,6 +18,7 @@ Integritäts-, Rollen-, Upgrade- und PDF-Prüfungen getrennt getestet.
 | Stammwechsel, gleiche IDs | Keine Vermischung persönlicher Fortschritte |
 | Bestehende Aufgaben und Logbuch | Erreichbar, Rückkehr zur Karte funktioniert |
 | Gesperrte Stationen | Verständlicher Hinweis statt Fehler oder leerer Seite |
+| Touch auf 320 / 390 Pixel | Stationsdetails und bestehender Logbuchdialog schließen per Tap oberhalb der Navigation |
 | Tastatur / Screenreader | Dialogname, Fokus, Tab-Zyklus, Escape und Fokusrückkehr geprüft |
 | Reduzierte Bewegung | Keine Markeranimation und kein sanftes automatisches Scrollen |
 | Bisherige Funktionen | Planung, Teilnahme, Rezepte, PDF/Word/OCR und Speicherung erhalten |
@@ -37,6 +38,8 @@ Integritäts-, Rollen-, Upgrade- und PDF-Prüfungen getrennt getestet.
 
 Zusätzlich: [Stationsdetails Erkunder](screenshots/v26/station-erkunder.png)
 und [Admin-Dashboard ohne Karte](screenshots/v26/admin-without-map.png).
+Der [mobile Stationsdialog](screenshots/v26/station-mobile-dialog.png) wurde
+zusätzlich in Touch-Kontexten auf 320 und 390 Pixel Breite geöffnet und geschlossen.
 
 Geprüft: keine horizontale Seitenscrollleiste, keine überlappenden oder
 abgeschnittenen Stationsfelder, mindestens 44 × 44 Pixel große Ziele und
