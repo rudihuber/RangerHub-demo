@@ -270,6 +270,7 @@ h2,h3{letter-spacing:-.55px}
 
 </style><link rel="stylesheet" href="rangerhub-design.css" data-rangerhub-design>
 <link rel="stylesheet" href="rangerhub-logbook.css" data-rangerhub-logbook>
+<link rel="stylesheet" href="rangerhub-ranger-view.css" data-rangerhub-ranger-view>
 </head><body><div style="padding:8px;text-align:center;background:#fff0ce;color:#174b3a;font:14px system-ui">Öffentliche Demo · nur fiktive Beispieldaten</div><div id="root"></div><div class="modal" id="modal"><div class="box" id="box"></div></div>
 <script>
 const now=new Date(),TODAY=now.toISOString().slice(0,10),stages=['Beobachter','Erkunder','Entdecker','Forscher','Meister'];
@@ -537,16 +538,18 @@ function v21WeatherBox({style,location,date,min,max,rain,wind,source,when}){
  if(typeof wind==='number'&&Number.isFinite(wind))metrics.push(`<span class="weatherMetric">↗ ${Math.round(wind)} km/h Wind</span>`);
  return `<div class="weatherCard weatherV21 ${cls}"><span class="weatherIcon" aria-hidden="true">${ico}</span><div class="weatherDetails"><h2>${txt}</h2><b>${temps}</b><div class="weatherMetrics">${metrics.join('')}</div><div class="weatherSource">${esc(date)}${when?' · '+esc(when):''} · ${esc(location)}<br>Datenquelle: ${esc(source)}</div></div></div>`;
 }
-async function loadMeetingWeather(m){
- const el=document.getElementById('nextWeather');if(!el)return;
- const days=Math.round((new Date(m.date+'T12:00')-new Date(TODAY+'T12:00'))/86400000);
- if(days>16||days<0){el.innerHTML=`<div class="weatherCard weatherCloudy"><div><b>Noch keine Wetterprognose verfügbar</b><div class="muted">${fmt(m.date)} · ${esc(weatherPlace)}</div></div></div>`;return}
+async function loadMeetingWeather(m,target=null){
+ const el=target||document.getElementById('nextWeather');if(!el)return;
+ const genericPlace=!m.place||['Demo-Treffpunkt','Gemeindehaus'].includes(m.place);
+ const forecastPlace=m.weatherPlace||(genericPlace?weatherPlace:m.place);
+ const days=Math.round((new Date(m.date+'T12:00')-new Date((window.RangerHub?.localDate?.()||TODAY)+'T12:00'))/86400000);
+ if(days>16||days<0){el.innerHTML=`<div class="weatherCard weatherCloudy"><div><b>Noch keine Wetterprognose verfügbar</b><div class="muted">${fmt(m.date)} · ${esc(forecastPlace)}</div></div></div>`;return}
  // Open-Meteo geocoding is retained for user-entered locations. No weather results are persisted.
  try{
-  const gr=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(weatherPlace)}&count=1&language=de&format=json`);
+  const gr=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(forecastPlace)}&count=1&language=de&format=json`);
   if(!gr.ok)throw Error('geocoding unavailable');
   const gj=await gr.json(),loc=gj.results?.[0];if(!loc)throw Error('place not found');
-  const locationLabel=[loc.name,loc.admin1].filter(Boolean).join(', ');
+  const locationLabel=[loc.name,loc.admin1].filter(Boolean).join(', ')+(genericPlace?' · Wetterort des Stamms':'');
   if(days<=10&&loc.country_code==='DE'){
    try{
     const u=`https://api.brightsky.dev/weather?lat=${loc.latitude}&lon=${loc.longitude}&date=${m.date}`;
@@ -571,7 +574,7 @@ async function loadMeetingWeather(m){
   const rain=d.precipitation_probability_max?.[0],wind=d.wind_speed_10m_max?.[0];
   el.innerHTML=v21WeatherBox({style:weatherStyle(d.weather_code[0]),location:locationLabel,date:fmt(m.date),min:d.temperature_2m_min?.[0],max:d.temperature_2m_max?.[0],rain,wind,source:'Open-Meteo'});
  }catch(e){
-  el.innerHTML=`<div class="weatherCard weatherCloudy"><div class="weatherIcon">☁️</div><div><b>Wetterdaten aktuell nicht verfügbar</b><div class="muted">${esc(weatherPlace)} · Bitte Internet und Ortsnamen prüfen.</div></div></div>`;
+  el.innerHTML=`<div class="weatherCard weatherCloudy"><div class="weatherIcon">☁️</div><div><b>Wetterdaten aktuell nicht verfügbar</b><div class="muted">${esc(forecastPlace)} · Bitte Internet und Ortsnamen prüfen.</div></div></div>`;
  }
 }
 
@@ -1434,4 +1437,5 @@ render();
 <script src="rangerhub-learning.js"></script>
 <script src="rangerhub-leader-meetings.js"></script>
 <script src="rangerhub-logbook.js"></script>
+<script src="rangerhub-ranger-view.js"></script>
 </body></html>

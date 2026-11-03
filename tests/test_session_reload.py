@@ -52,7 +52,7 @@ class SessionReloadTests(BrowserCase):
             ("Ranger-Treffen", "Rangertreffen"),
             ("Wachstumspfad", "Beobachter"),
             ("Meine Aufgaben", "Meine Aufgaben"),
-            ("Abwesenheiten", "Abwesenheiten"),
+            ("Teilnahme", "Teilnahme & Abmeldungen"),
         ]:
             with self.subTest(view=label):
                 self.nav(label)
@@ -66,7 +66,7 @@ class SessionReloadTests(BrowserCase):
         marker = "Regression: persisted absence"
         self.add_absence(marker)
         self.reload()
-        self.nav("Abwesenheiten")
+        self.nav("Teilnahme")
         expect(self.page.locator("main")).to_contain_text(marker)
         saved_data = self.state()
         self.nav("Benutzer wechseln")
@@ -74,7 +74,7 @@ class SessionReloadTests(BrowserCase):
         self.page.reload(wait_until="load")
         self.page.locator(".v24-loginChoice").wait_for()
         self.login()
-        self.nav("Abwesenheiten")
+        self.nav("Teilnahme")
         expect(self.page.locator("main")).to_contain_text(marker)
         self.assertEqual(self.state(), saved_data)
 
@@ -88,11 +88,11 @@ class SessionReloadTests(BrowserCase):
         self.add_absence("Regression: Demo-Nord only")
         expect(self.page.locator("main")).not_to_contain_text("Regression: Demo-West only")
         self.reload(tribe="RANGERSTAMM 02")
-        self.nav("Abwesenheiten")
+        self.nav("Teilnahme")
         expect(self.page.locator("main")).to_contain_text("Regression: Demo-Nord only")
         self.page.locator("#v24-stamm-switch").select_option("clp-west")
         self.reload()
-        self.nav("Abwesenheiten")
+        self.nav("Teilnahme")
         expect(self.page.locator("main")).to_contain_text("Regression: Demo-West only")
         expect(self.page.locator("main")).not_to_contain_text("Regression: Demo-Nord only")
 

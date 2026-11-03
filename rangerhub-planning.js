@@ -60,12 +60,14 @@ window.RangerHub = window.RangerHub || {};
   }
   const badge = m => { const p = planningState(m); return `<span class="plan-badge">${p.complete ? '✓' : '○'} ${p.label}</span>`; };
   function programParts(m) {
+    if (!isLeader()) return '';
     return [['Naturphänomen', m.nature], ['Aktion', m.action], ['Impuls', m.impulse], ['Essen', m.food]].map(([label, part]) => {
       const off = label !== 'Aktion' && part?.enabled === false;
       return `<div class="meetingpart"><b>${label}:</b> ${off ? 'Nicht vorgesehen' : `${esc(part?.title || (label === 'Essen' ? 'Essen vorgesehen' : 'Thema noch offen'))} · ${esc(validLeader(part?.leaderId) ? name(part.leaderId) : 'Leitung noch offen')}`}</div>`;
     }).join('');
   }
   function meetingBlock(m, compact = false) {
+    if (!isLeader()) return `<article class="meeting-block ranger-meeting" data-meeting-id="${m.id}"><div class="meeting-date">${fmt(m.date)} · ${esc(m.start || '18:00')}${m.end ? '–' + esc(m.end) : ''} Uhr</div><h3>Rangertreffen</h3><p>${esc(m.place || 'Ort folgt')}</p>${compact ? '<div id="nextWeather" class="muted">Wetter wird geladen …</div>' : ''}</article>`;
     const p = planningState(m);
     return `<article class="meeting-block is-${p.kind}" data-meeting-id="${m.id}" data-planning="${p.kind}"><div class="meeting-heading"><div><div class="meeting-date">${fmt(m.date)} · ${esc(m.start || '18:00')} Uhr</div><h3>${esc(m.theme || 'Rangertreffen')}</h3><div class="muted">${esc(m.place || 'Ort noch offen')}</div></div>${badge(m)}</div>${programParts(m)}${p.missing.length ? `<p class="planning-missing">Noch offen: ${p.missing.map(esc).join(' · ')}</p>` : ''}<div class="meeting-open"><span class="muted" style="font-size:11px">${p.days === 0 ? 'Heute' : p.days === 1 ? 'Morgen' : p.days > 1 ? `In ${p.days} Tagen` : 'Vergangenes Treffen'}</span><button class="btn" onclick="openRangerMeeting(${m.id})">${isLeader() ? 'Planung öffnen' : 'Treffen öffnen'} ↗</button></div>${compact ? '<div id="nextWeather" class="muted">Wetter wird geladen …</div>' : ''}</article>`;
   }
@@ -97,7 +99,11 @@ window.RangerHub = window.RangerHub || {};
     if (view === 'tasks') render();
   };
   meetings = function () {
-    host().innerHTML = `<div class="top page-heading"><div><h1>Rangertreffen</h1><p class="muted">Die Planung wächst mit euren Ideen. Der Status ergibt sich aus den Zuweisungen.</p></div>${isLeader() ? '<button class="btn" onclick="meetingFormV15()">+ Neues Rangertreffen</button>' : ''}</div><div class="meeting-list">${db.meetings.slice().sort((a, b) => b.date.localeCompare(a.date)).map(m => meetingBlock(m)).join('') || '<p>Noch keine Treffen geplant.</p>'}</div>`;
+    if (!isLeader()) return;
+    const today = localDate(), future = db.meetings.filter(m => m.date >= today).sort((a, b) => a.date.localeCompare(b.date)), past = db.meetings.filter(m => m.date < today).sort((a, b) => b.date.localeCompare(a.date));
+    host().innerHTML = `<div class="top page-heading"><div><h1>Rangertreffen</h1><p class="muted">Die Planung wächst mit euren Ideen. Der Status ergibt sich aus den Zuweisungen.</p></div><button class="btn" onclick="meetingFormV15()">+ Neues Rangertreffen</button></div><div class="meeting-list">${future.map(m => meetingBlock(m)).join('') || '<p>Noch keine kommenden Treffen geplant.</p>'}</div><details class="meeting-archive"><summary>Vergangene Rangertreffen <span>${past.length}</span></summary><div class="meeting-list" data-past-meetings></div></details>`;
+    const archive = host().querySelector('.meeting-archive');
+    archive.addEventListener('toggle', () => { if (archive.open && !archive.dataset.loaded) { archive.querySelector('[data-past-meetings]').innerHTML = past.map(m => meetingBlock(m)).join('') || '<p class="muted">Noch keine vergangenen Treffen.</p>'; archive.dataset.loaded = 'true'; } });
   };
   parts = programParts;
   const previousSummary = lastSummary;
@@ -105,16 +111,18 @@ window.RangerHub = window.RangerHub || {};
     return previousSummary({ ...m, nature: m.nature?.enabled === false ? { title: 'Nicht vorgesehen' } : m.nature, impulse: m.impulse?.enabled === false ? { title: 'Nicht vorgesehen' } : m.impulse });
   };
   nature = function () {
+    if (!isLeader()) return;
     const rows = db.meetings.filter(m => m.nature?.enabled !== false && m.nature?.leaderId).sort((a, b) => b.date.localeCompare(a.date));
     host().innerHTML = `<div class="top page-heading"><h1>Naturphänomene</h1></div><div>${rows.map(m => `<div class="task-row"><div><b>${esc(m.nature.title || 'Thema noch offen')}</b><small>${esc(name(m.nature.leaderId))}</small></div><span class="task-date">${fmt(m.date)}</span></div>`).join('') || '<p class="muted">Noch keine Naturphänomene geplant.</p>'}</div>`;
   };
   openRangerMeeting = function (id) {
     const m = byId(id); if (!m || !session) return;
+    if (!isLeader()) return window.RangerHub.openPublicMeeting?.(id);
     const past = m.date < localDate();
     const cancelled = db.cancellations.some(c => c.meetingId === id && c.kind === session.kind && c.personId === session.id);
     const cancellations = db.cancellations.filter(c => c.meetingId === id);
     const p = planningState(m);
-    box.innerHTML = `<div class="top"><h2>${esc(m.theme)} · ${fmt(m.date)}</h2><button class="btn alt" onclick="closeM()">Schließen</button></div><section class="meeting-block is-${p.kind}" data-planning="${p.kind}"><div class="meeting-heading"><div class="muted">${esc(m.start || '')}–${esc(m.end || '')} · ${esc(m.place || '')}</div>${badge(m)}</div>${programParts(m)}${p.missing.length ? `<p class="planning-missing">Noch offen: ${p.missing.map(esc).join(' · ')}</p>` : ''}</section>${m.details ? `<section style="margin-top:24px"><h3>Weitere Inhalte</h3><p style="white-space:pre-wrap">${esc(m.details)}</p></section>` : ''}${m.food.enabled ? `<section class="meeting-food"><h3>${esc(m.food.title || 'Gemeinsam essen')}</h3><p class="muted">Verantwortlich: ${esc(name(m.food.leaderId))}</p>${m.food.ingredients.length ? `<h4>Lebensmittel</h4>${foodChecklist(m)}` : '<p class="muted">Noch keine Lebensmittel eingetragen.</p>'}${m.food.instructions ? `<h4>Zubereitung</h4><div class="recipe-instructions">${esc(m.food.instructions)}</div>` : ''}</section>` : ''}${!past ? `<button class="bigCancel" onclick="cancel(${id})">${cancelled ? 'Abmeldung zurücknehmen' : 'Abmeldung für dieses Treffen'}</button>` : ''}${isLeader() ? `<section style="margin-top:20px"><b>Abgemeldet:</b> ${cancellations.map(c => esc((c.kind === 'leaders' ? db.leaders : db.rangers).find(person => person.id === c.personId)?.name || 'Archiviertes Profil')).join(', ') || 'Niemand'}</section><div class="row" style="margin-top:20px"><button class="btn" onclick="meetingFormV15(${id})">Treffen bearbeiten</button><button class="btn alt" onclick="attendance(${id})">Anwesenheit pflegen</button><button class="btn red" onclick="deleteMeetingV15(${id})">Treffen löschen</button></div>` : ''}${past ? `<section style="margin-top:24px">${lastSummary(m)}</section>` : ''}`;
+    box.innerHTML = `<div class="top"><h2>${esc(m.theme)} · ${fmt(m.date)}</h2><button class="btn alt" onclick="closeM()">Schließen</button></div><section class="meeting-block is-${p.kind}" data-planning="${p.kind}"><div class="meeting-heading"><div class="muted">${esc(m.start || '')}–${esc(m.end || '')} · ${esc(m.place || '')}</div>${badge(m)}</div>${programParts(m)}${p.missing.length ? `<p class="planning-missing">Noch offen: ${p.missing.map(esc).join(' · ')}</p>` : ''}</section>${m.details ? `<section style="margin-top:24px"><h3>Weitere Inhalte</h3><p style="white-space:pre-wrap">${esc(m.details)}</p></section>` : ''}${m.food.enabled ? `<section class="meeting-food"><h3>${esc(m.food.title || 'Gemeinsam essen')}</h3><p class="muted">Verantwortlich: ${esc(name(m.food.leaderId))}</p>${m.food.ingredients.length ? `<h4>Lebensmittel</h4>${foodChecklist(m)}` : '<p class="muted">Noch keine Lebensmittel eingetragen.</p>'}${m.food.instructions ? `<h4>Zubereitung</h4><div class="recipe-instructions">${esc(m.food.instructions)}</div>` : ''}</section>` : ''}${!past ? `<button class="bigCancel" onclick="cancel(${id})">${cancelled ? 'Abmeldung zurücknehmen' : 'Abmeldung für dieses Treffen'}</button>` : ''}${isLeader() ? `<section style="margin-top:20px"><b>Abgemeldet:</b> ${cancellations.map(c => esc((c.kind === 'leaders' ? db.leaders : db.rangers).find(person => person.id === c.personId)?.name || 'Archiviertes Profil') + (c.reason ? ' · ' + esc(c.reason) : '')).join(', ') || 'Niemand'}</section><div class="row" style="margin-top:20px"><button class="btn" onclick="meetingFormV15(${id})">Treffen bearbeiten</button><button class="btn alt" onclick="attendance(${id})">Anwesenheit pflegen</button><button class="btn red" onclick="deleteMeetingV15(${id})">Treffen löschen</button></div>` : ''}${past ? `<section style="margin-top:24px">${lastSummary(m)}</section>` : ''}`;
     openM();
   };
   function draftFromForm(form) {

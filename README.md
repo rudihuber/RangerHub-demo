@@ -16,11 +16,12 @@ mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet w
   Persönliche Angaben bleiben durch fiktive Profile ersetzt.
 - Es werden keine PDF-Arbeitsblätter mitgeliefert, auch keine PDF-Platzhalter.
   Die Aufgabenpakete und ihre Fortschritts-Checkboxen bleiben erhalten.
-- Der integrierte Wachstumspfad verwendet die Illustration mit dunklerer Schrift
-  und ohne gedruckte Seitenzahl. Das Dashboard bleibt ohne Illustration.
+- Der integrierte Wachstumspfad verwendet eine bereinigte Illustration mit
+  Beschriftung in der App-Schrift. Rollenbezeichnungen oben rechts entfallen.
+  Gesperrte Stufen zeigen sofort ein Schloss. Das Dashboard bleibt ohne Illustration.
 
 Die Rollen Admin, Stammleiter, Leiter und Ranger sowie Kalender, Treffen,
-Wachstumspfad, Abwesenheiten, Backup und Stammwechsel sind bedienbar.
+Wachstumspfad, Teilnahme, Backup und Stammwechsel sind entsprechend ihrer Rolle bedienbar.
 Der Fehler beim Neuladen einer aktiven Sitzung ist korrigiert.
 
 Zum Einstieg Stamm und Profil im Dropdown wählen; das Passwortfeld bleibt in
@@ -37,6 +38,10 @@ und der PDF-/Word-Rezeptimport sind in
 [Dashboard und Planung](docs/dashboard-and-planning.md) beschrieben.
 Die kompakte Anmeldung, mobile Navigation, Jahresplanung und neuen Regeln für
 den Wachstumspfad sind in [Logbuch und Leiterabläufe](docs/logbook-workflow.md) dokumentiert.
+Die persönliche Rangeransicht mit Anwesenheitsquote, Absagen, Wachstumsfortschritt
+und Rangliste ist in [Rangeransicht und Teilnahme](docs/ranger-view.md) beschrieben.
+Ranger sehen keine Planungsbibliotheken. Vergangene Treffen werden für das
+Leiterteam erst nach dem Öffnen des Archivs angezeigt.
 
 Die öffentliche Demo ist unter **https://rudihuber.github.io/RangerHub-demo/**
 direkt im Browser erreichbar. Die Profilauswahl dient der Demonstration und ist

@@ -65,7 +65,7 @@ class BrowserCase(unittest.TestCase):
         self.assertEqual(response.status, 200)
         # Decompression/document.write finishes after the outer document's load.
         self.page.locator(".v24-loginChoice").wait_for()
-        self.page.wait_for_function("window.RangerHub?.logbookReady === true")
+        self.page.wait_for_function("window.RangerHub?.rangerViewReady === true")
 
     def tearDown(self):
         self.assertEqual(self.errors, [], "Uncaught application JavaScript errors")
@@ -130,7 +130,7 @@ class BrowserCase(unittest.TestCase):
         self.assertEqual(self.errors, [])
 
     def add_absence(self, reason):
-        self.nav("Abwesenheiten")
+        self.nav("Teilnahme")
         self.page.get_by_role("button", name="+ Abwesenheit", exact=True).click()
         self.page.locator('#box input[name="from"]').fill("2026-11-03")
         self.page.locator('#box input[name="to"]').fill("2026-11-04")

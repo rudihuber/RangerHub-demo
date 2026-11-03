@@ -79,7 +79,7 @@ Tests: `python3 -m unittest discover -s tests -v`.
 - [Automatische Planungsfarben](screenshots/planning-states.png)
 - [Rezeptimport aus einer PDF-Datei](screenshots/recipe-import.png)
 
-Geprüft: 32 Tests in der vollständigen Demo, zuvor 14 Tests in der privaten App, einschließlich echter
+Geprüft: 43 Tests in der vollständigen Demo, zuvor 14 Tests in der privaten App, einschließlich echter
 PDF-/DOCX-Importe und OCR einer gescannten PDF-Seite. Die Screenshots verwenden
 ausschließlich fiktive Demo-Daten; die Beispiele für Planungsfarben wurden nur
 in einem isolierten Testbrowser angelegt.

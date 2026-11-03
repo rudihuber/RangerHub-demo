@@ -123,9 +123,11 @@
   }
   RH.cancelRecipeImport = () => { importGeneration++; if (activeWorker) { activeWorker.terminate(); activeWorker = null; } };
   RH.renderRecipes = () => {
+    if (!isLeader()) return;
     RH.content().innerHTML = `<div class="top page-heading"><div><h1>Rezepte</h1><p class="muted">Für den gemeinsamen Topf und die nächste Runde am Feuer.</p></div>${isLeader() ? '<button class="btn" onclick="RangerHub.openRecipeForm()">+ Rezept hinzufügen</button>' : ''}</div><div class="recipe-grid">${db.recipes.map(r => `<article class="recipe-entry"><h2>${esc(r.title)}</h2><p>${r.ingredients.length} Zutaten${r.servings ? ` · für ${r.servings} Personen` : ''}</p><button class="btn text" onclick="RangerHub.openRecipe('${esc(r.id)}')">Rezept ansehen ↗</button></article>`).join('') || `<section style="padding:35px 0"><h2 style="font:32px Georgia,serif">Was kochen wir zusammen?</h2><p class="muted">Hier ist Platz für eure Lieblingsrezepte.${isLeader() ? ' Einfügen, hochladen oder einfach selbst aufschreiben.' : ''}</p>${isLeader() ? '<button class="btn" onclick="RangerHub.openRecipeForm()">Erstes Rezept anlegen</button>' : ''}</section>`}</div>`;
   };
   RH.openRecipe = id => {
+    if (!isLeader()) return;
     const recipe = db.recipes.find(r => String(r.id) === String(id)); if (!recipe) return;
     box.innerHTML = `<div class="top"><div><span class="section-kicker">Gemeinsam essen</span><h2>${esc(recipe.title)}</h2>${recipe.servings ? `<p class="muted">Für ${recipe.servings} Personen</p>` : ''}</div><button class="btn alt" onclick="closeM()">Schließen</button></div><div class="recipe-detail-grid"><section><h3>Zutaten</h3><ul class="checklist">${recipe.ingredients.map(item => `<li>${esc(item)}</li>`).join('')}</ul></section><section><h3>Zubereitung</h3><div class="recipe-instructions">${esc(recipe.instructions)}</div></section></div>${isLeader() ? `<div class="row"><button class="btn" onclick="RangerHub.openRecipeForm('${esc(recipe.id)}')">Rezept bearbeiten</button><button class="btn red" onclick="RangerHub.deleteRecipe('${esc(recipe.id)}')">Rezept löschen</button></div>` : ''}`;
     openM();

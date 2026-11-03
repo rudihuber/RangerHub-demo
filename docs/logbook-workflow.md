@@ -69,7 +69,7 @@ QR-Einladungen wird noch ein Authentifizierungsdienst mit zentraler Datenbank
 benötigt. QR-Codes dürfen später keine dauerhaften Anmeldeschlüssel enthalten;
 Einladungen müssen ablaufen und nach Aktivierung ungültig werden.
 
-32 Inhalts- und Browsertests prüfen alle vier Rollen, Neuladen, Navigation,
+43 Inhalts- und Browsertests prüfen alle vier Rollen, Neuladen, Navigation,
 Speicherung, Stammtrennung, Migration, mobile Menüs, Kartenlinks, Jahresvision,
 Aufgabenfolge sowie echte PDF-/DOCX-Importe und OCR. Wetter-Erfolg und Fehlerfall
 werden mit kontrollierten HTTP-Antworten geprüft; eine Live-Antwort des externen
@@ -87,3 +87,6 @@ erforderlich. Die Änderung kann im Git-Vergleich des Feature-Branches geprüft
 werden. Ein Übertrag in die private Hauptanwendung erfordert dort einen eigenen
 geprüften Änderungsstand, damit keine Demo-Profile oder Demo-Speicherschlüssel
 in die produktive App gelangen.
+
+Die nachfolgenden Anpassungen an Ranger-Dashboard, Teilnahme, Sichtbarkeit und
+Wachstumsillustration stehen in [Rangeransicht und Teilnahme](ranger-view.md).
