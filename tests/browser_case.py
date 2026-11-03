@@ -65,21 +65,27 @@ class BrowserCase(unittest.TestCase):
         self.assertEqual(response.status, 200)
         # Decompression/document.write finishes after the outer document's load.
         self.page.locator(".v24-loginChoice").wait_for()
-        self.page.wait_for_function("window.RangerHub?.ready === true")
+        self.page.wait_for_function("window.RangerHub?.logbookReady === true")
 
     def tearDown(self):
         self.assertEqual(self.errors, [], "Uncaught application JavaScript errors")
 
-    def login(self, profile="Demo-Admin", role="Admin"):
-        self.page.get_by_role(
-            "button", name=re.compile("^" + re.escape(profile) + " ·")
-        ).click()
+    def login(self, profile="RH", role="Admin"):
+        value = self.page.locator("#demo-person option").filter(has_text=re.compile("^" + re.escape(profile) + " ·")).get_attribute("value")
+        self.page.locator("#demo-person").select_option(value)
+        self.page.get_by_role("button", name="Logbuch öffnen").click()
         expect(self.page.locator(".brand small")).to_have_text(
-            f"STAMM DEMO-WEST · {role}"
+            f"STAMM RANGERSTAMM 01 · {role}"
         )
 
     def nav(self, label):
-        self.page.locator(".nav").get_by_role("button", name=label, exact=True).click()
+        toggle = self.page.locator("[data-menu-toggle]")
+        if toggle.is_visible() and toggle.get_attribute("aria-expanded") != "true":
+            toggle.click()
+        button = self.page.locator(".nav").get_by_role("button", name=label, exact=True)
+        if not button.is_visible():
+            self.page.locator(".navGroupTitle").click()
+        button.click()
 
     def state(self):
         return self.page.evaluate("JSON.parse(localStorage.getItem('rhv9-demo'))")
@@ -108,7 +114,7 @@ class BrowserCase(unittest.TestCase):
         else:
             self.assertEqual(before, after, path)
 
-    def reload(self, tribe="DEMO-WEST", role="Admin"):
+    def reload(self, tribe="RANGERSTAMM 01", role="Admin"):
         session_before = self.session()
         data_before = self.state()
         self.page.reload(wait_until="load")

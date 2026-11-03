@@ -11,7 +11,7 @@ class CompleteDemoTests(BrowserCase):
         expect(self.page.get_by_role("heading", name="Beobachter-Stufe", exact=True)).to_be_visible()
 
     def test_observer_illustrations_load_without_placeholders_or_pdf_downloads(self):
-        self.login("Demo-Ranger 01", "Ranger")
+        self.login("JB", "Ranger")
         self.open_observer()
         expect(self.page.locator(".observerPhoto")).to_have_attribute(
             "src", "assets/logbook/observer-shoulder.jpg"
@@ -34,7 +34,7 @@ class CompleteDemoTests(BrowserCase):
         self.assertTrue(self.page.evaluate("document.documentElement.scrollWidth <= innerWidth + 1"))
 
     def test_bonus_and_regular_tasks_remain_usable_without_pdf_files(self):
-        self.login("Demo-Ranger 01", "Ranger")
+        self.login("JB", "Ranger")
         self.open_observer()
         self.page.locator(".tasksLaunch").click()
         expect(self.page.locator(".bonusCard")).to_have_count(4)
@@ -42,13 +42,21 @@ class CompleteDemoTests(BrowserCase):
         bonus = self.page.locator(".bonusCard").filter(
             has=self.page.get_by_role("heading", name="Aufgabenpaket A", exact=True)
         )
+        expect(bonus.get_by_role("checkbox", name="Erledigt", exact=True)).to_be_disabled()
+        self.page.locator(".obsCategory summary").first.click()
+        expect(self.page.locator(".obsCategory").first.locator("input[type=checkbox]").first).to_be_disabled()
+        self.nav("Benutzer wechseln")
+        self.login("DL", "Leiter")
+        self.page.evaluate("observerTasks(db.rangers.find(p=>p.name==='JB').id)")
         bonus.get_by_role("checkbox", name="Erledigt", exact=True).click()
         expect(bonus.get_by_role("checkbox", name="Erledigt", exact=True)).to_be_checked()
         self.page.locator(".obsCategory summary").first.click()
         self.page.locator(".obsCategory").first.locator("input[type=checkbox]").first.click()
-        before = self.page.evaluate("observerCounts(session.id)")
+        before = self.page.evaluate("observerCounts(db.rangers.find(p=>p.name==='JB').id)")
         self.assertEqual(before["bcount"], 1)
         self.assertGreaterEqual(before["regular"], 1)
+        self.nav("Benutzer wechseln")
+        self.login("JB", "Ranger")
         self.reload(role="Ranger")
         self.open_observer()
         self.page.locator(".tasksLaunch").click()
@@ -71,7 +79,7 @@ class CompleteDemoTests(BrowserCase):
                     self.assertGreater(self.page.locator("#box .item").count(), 0)
                     self.page.locator("#box").get_by_role("button", name="Schließen", exact=True).click()
                     self.page.locator(".tasksLaunch").click()
-                    expect(self.page.locator("main")).to_contain_text("Demo-Ranger")
+                    expect(self.page.locator("main")).to_contain_text("JB")
                 else:
                     expect(self.page.locator("#box").get_by_role("heading", name=stage, exact=True)).to_be_visible()
                     self.assertGreater(self.page.locator("#box .item").count(), 0)

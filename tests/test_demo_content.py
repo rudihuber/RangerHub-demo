@@ -40,7 +40,7 @@ class DemoContentTests(unittest.TestCase):
         self.assertTrue(all(email.endswith("@example.invalid") for email in emails))
         names = re.findall(r"name:'([^']*)'", self.html)
         self.assertTrue(names)
-        self.assertTrue(all(name.startswith("Demo-") for name in names))
+        self.assertTrue(all(name.startswith("Demo-") or name in {"PM", "RH", "DL", "JB", "KN", "LI", "TK", "JK", "EL", "LM", "AT"} for name in names))
         for array in ["leaderNames", "rangerNames"]:
             values = re.search(rf"const {array}=\[(.*?)\];", self.html)[1]
             self.assertTrue(all(name.startswith("Demo-Nord-") for name in re.findall(r"'([^']+)'", values)))

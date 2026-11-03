@@ -6,9 +6,9 @@ mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet w
 
 ## Beispieldaten
 
-- Stamm **Demo-West**: **Demo-Admin**, **Demo-Stammleitung**, **Demo-Leitung**
-  und **Demo-Ranger 01** bis **Demo-Ranger 10**.
-- Stamm **Demo-Nord**: zusätzliche fiktive Leiter- und Rangerprofile.
+- **Rangerstamm 01**: **PM** (Stammleiter), **RH** (Admin), **DL** (Leiter)
+  sowie **JB, KN, LI, TK, JK, EL, LM, AT** (Ranger).
+- **Rangerstamm 02**: zusätzliche fiktive Leiter- und Rangerprofile.
 - E-Mail-Adressen verwenden die reservierte Domain `example.invalid`.
 - Telefonnummern stammen aus dem fiktiven Bereich `+1 202 555 0100–0199`.
 - Alle nicht persönlichen Inhalte und freigegebenen Bilder sind enthalten:
@@ -23,9 +23,10 @@ Die Rollen Admin, Stammleiter, Leiter und Ranger sowie Kalender, Treffen,
 Wachstumspfad, Abwesenheiten, Backup und Stammwechsel sind bedienbar.
 Der Fehler beim Neuladen einer aktiven Sitzung ist korrigiert.
 
-Für den vollständigen Funktionsumfang **Demo-Admin** auswählen. Die übrigen
-Profile zeigen die unveränderten Berechtigungen von Stammleiter, Leiter und
-Ranger. Alle fünf Wachstumsstufen einschließlich der Beobachter-Einführung
+Zum Einstieg Stamm und Profil im Dropdown wählen; das Passwortfeld bleibt in
+der Demo deaktiviert. Für den vollständigen Funktionsumfang **RH · Admin** wählen.
+Aufgabenfortschritte können ausschließlich Leiter bestätigen. Admin und
+Stammleiter dürfen Aufgaben samt Kategorie hinzufügen. Alle fünf Wachstumsstufen einschließlich der Beobachter-Einführung
 bleiben erreichbar. Private Personendaten und PDF-Dateien werden nicht veröffentlicht.
 
 Der Rezeptimport aus selbst ausgewählten PDF- und Word-Dateien bleibt nutzbar.
@@ -34,6 +35,13 @@ Diese Dateien werden nur lokal im Browser gelesen und nicht mit der Demo gehoste
 Das neue freie Dashboard, die automatische Treffenplanung, Lebensmittel-Aufgaben
 und der PDF-/Word-Rezeptimport sind in
 [Dashboard und Planung](docs/dashboard-and-planning.md) beschrieben.
+Die kompakte Anmeldung, mobile Navigation, Jahresplanung und neuen Regeln für
+den Wachstumspfad sind in [Logbuch und Leiterabläufe](docs/logbook-workflow.md) dokumentiert.
+
+Die öffentliche Demo ist unter **https://rudihuber.github.io/RangerHub-demo/**
+direkt im Browser erreichbar. Die Profilauswahl dient der Demonstration und ist
+keine sichere Anmeldung. Persönliche Zugangsdaten und einmalige QR-Einladungen
+benötigen eine zentrale Benutzerverwaltung; sie sind hier noch nicht aktiviert.
 
 Diese Demo nutzt `rhv9-demo`, `rhv9-demo-session` und einen eigenen
 Wetterort-Schlüssel. Vorhandene Daten unter `rhv9` werden nicht gelesen oder

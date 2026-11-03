@@ -26,9 +26,9 @@ class SessionReloadTests(BrowserCase):
 
     def test_other_roles_survive_reload(self):
         for profile, role in [
-            ("Demo-Stammleitung", "Stammleiter"),
-            ("Demo-Leitung", "Leiter"),
-            ("Demo-Ranger 01", "Ranger"),
+            ("PM", "Stammleiter"),
+            ("DL", "Leiter"),
+            ("JB", "Ranger"),
         ]:
             with self.subTest(role=role):
                 self.login(profile, role)
@@ -82,12 +82,12 @@ class SessionReloadTests(BrowserCase):
         self.login()
         self.add_absence("Regression: Demo-West only")
         self.page.locator("#v24-stamm-switch").select_option("meppen")
-        self.reload(tribe="DEMO-NORD")
+        self.reload(tribe="RANGERSTAMM 02")
         self.assertEqual(self.session()["homeStammId"], "clp-west")
         self.assertEqual(self.session()["activeStammId"], "meppen")
         self.add_absence("Regression: Demo-Nord only")
         expect(self.page.locator("main")).not_to_contain_text("Regression: Demo-West only")
-        self.reload(tribe="DEMO-NORD")
+        self.reload(tribe="RANGERSTAMM 02")
         self.nav("Abwesenheiten")
         expect(self.page.locator("main")).to_contain_text("Regression: Demo-Nord only")
         self.page.locator("#v24-stamm-switch").select_option("clp-west")

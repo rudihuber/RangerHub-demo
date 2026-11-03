@@ -8,7 +8,7 @@ Die Demo zeigt alle nicht persönlichen Inhalte und die geprüften Bilder. Die
 mitgelieferten PDF-Arbeitsblätter und ihre Download-Schaltflächen sind entfernt;
 Aufgabenpakete, Checkboxen und Fortschritte bleiben erhalten. Der lokale Import
 eigener Rezeptdateien aus PDF und Word ist weiterhin verfügbar. Um alle
-Leiterfunktionen zu sehen, bei der Profilauswahl **Demo-Admin** wählen.
+Leiterfunktionen zu sehen, bei der Profilauswahl **RH · Admin** wählen.
 
 ## Oberfläche
 
@@ -79,7 +79,7 @@ Tests: `python3 -m unittest discover -s tests -v`.
 - [Automatische Planungsfarben](screenshots/planning-states.png)
 - [Rezeptimport aus einer PDF-Datei](screenshots/recipe-import.png)
 
-Geprüft: 23 Tests in der vollständigen Demo, zuvor 14 Tests in der privaten App, einschließlich echter
+Geprüft: 32 Tests in der vollständigen Demo, zuvor 14 Tests in der privaten App, einschließlich echter
 PDF-/DOCX-Importe und OCR einer gescannten PDF-Seite. Die Screenshots verwenden
 ausschließlich fiktive Demo-Daten; die Beispiele für Planungsfarben wurden nur
 in einem isolierten Testbrowser angelegt.

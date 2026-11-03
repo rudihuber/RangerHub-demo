@@ -269,10 +269,11 @@ h2,h3{letter-spacing:-.55px}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
 </style><link rel="stylesheet" href="rangerhub-design.css" data-rangerhub-design>
+<link rel="stylesheet" href="rangerhub-logbook.css" data-rangerhub-logbook>
 </head><body><div style="padding:8px;text-align:center;background:#fff0ce;color:#174b3a;font:14px system-ui">Öffentliche Demo · nur fiktive Beispieldaten</div><div id="root"></div><div class="modal" id="modal"><div class="box" id="box"></div></div>
 <script>
 const now=new Date(),TODAY=now.toISOString().slice(0,10),stages=['Beobachter','Erkunder','Entdecker','Forscher','Meister'];
-const seed={leaders:[{id:1,name:'Demo-Altleitung 1',birthday:'1988-11-15'},{id:2,name:'Demo-Altleitung 2',birthday:'1990-12-08'}],rangers:[{id:11,name:'Demo-Ranger 01',birthday:'2011-11-08',stage:'Erkunder'},{id:12,name:'Demo-Ranger 02',birthday:'2012-12-02',stage:'Beobachter'}],meetings:[{id:100,date:'2026-10-28',start:'18:00',end:'20:30',place:'Demo-Treffpunkt',theme:'Rangertreffen',nature:{title:'Blätter im Herbst',leaderId:1},action:{title:'Knoten-Challenge',leaderId:2},impulse:{title:'Zusammenhalt',leaderId:1},food:{title:''},attendance:{rangers:{11:'ANWESEND',12:'ANWESEND'},leaders:{1:'ANWESEND',2:'ANWESEND'}}},{id:101,date:'2026-11-11',start:'18:00',end:'20:30',place:'Demo-Treffpunkt',theme:'Rangertreffen',nature:{title:'',leaderId:1},action:{title:'Kompass-Parcours',leaderId:2},impulse:{title:'',leaderId:1},food:{title:''},attendance:{rangers:{},leaders:{}}}],leaderMeetings:[{id:200,date:'2026-10-30',start:'19:30',end:'21:00',place:'Demo-Treffpunkt',info:'',actions:[]}],custom:[],cancellations:[],absences:[]};
+const seed={leaders:[{id:1,name:'Demo-Altleitung 1',birthday:'1988-11-15'},{id:2,name:'Demo-Altleitung 2',birthday:'1990-12-08'}],rangers:[{id:11,name:'JB',birthday:'2011-11-08',stage:'Erkunder'},{id:12,name:'KN',birthday:'2012-12-02',stage:'Beobachter'}],meetings:[{id:100,date:'2026-10-28',start:'18:00',end:'20:30',place:'Demo-Treffpunkt',theme:'Rangertreffen',nature:{title:'Blätter im Herbst',leaderId:1},action:{title:'Knoten-Challenge',leaderId:2},impulse:{title:'Zusammenhalt',leaderId:1},food:{title:''},attendance:{rangers:{11:'ANWESEND',12:'ANWESEND'},leaders:{1:'ANWESEND',2:'ANWESEND'}}},{id:101,date:'2026-11-11',start:'18:00',end:'20:30',place:'Demo-Treffpunkt',theme:'Rangertreffen',nature:{title:'',leaderId:1},action:{title:'Kompass-Parcours',leaderId:2},impulse:{title:'',leaderId:1},food:{title:''},attendance:{rangers:{},leaders:{}}}],leaderMeetings:[{id:200,date:'2026-10-30',start:'19:30',end:'21:00',place:'Demo-Treffpunkt',info:'',actions:[]}],custom:[],cancellations:[],absences:[]};
 var v24Store=null, v24StammId='clp-west';
 function v24MeppenSeed(){
  const leaderNames=['Demo-Nord-Leitung 01','Demo-Nord-Leitung 02','Demo-Nord-Leitung 03','Demo-Nord-Leitung 04','Demo-Nord-Leitung 05','Demo-Nord-Leitung 06','Demo-Nord-Leitung 07'];
@@ -674,13 +675,13 @@ render = function(){
 })();
 
 const V23_LEADERS = [
-  {name:'Demo-Stammleitung', birthday:'1990-01-01', mobile:'+1 202 555 0101', email:'stammleitung@example.invalid', address:'Musterweg 1', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Stammleiter', team:'Stammleiter'},
-  {name:'Demo-Admin', birthday:'1990-02-02', mobile:'+1 202 555 0102', email:'admin@example.invalid', address:'Musterweg 2', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Leiter', team:'Leiter'},
-  {name:'Demo-Leitung', birthday:'1990-03-03', mobile:'+1 202 555 0103', email:'leitung@example.invalid', address:'Musterweg 3', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Leiter', team:'Leiter'}
+  {name:'PM', birthday:'1990-01-01', mobile:'+1 202 555 0101', email:'stammleitung@example.invalid', address:'Musterweg 1', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Stammleiter', team:'Stammleiter'},
+  {name:'RH', birthday:'1990-02-02', mobile:'+1 202 555 0102', email:'admin@example.invalid', address:'Musterweg 2', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Leiter', team:'Leiter'},
+  {name:'DL', birthday:'1990-03-03', mobile:'+1 202 555 0103', email:'leitung@example.invalid', address:'Musterweg 3', address2:'00000 Beispielort', church:'Demo-West', region:'', role:'Leiter', team:'Leiter'}
 ];
 const V23_RANGERS = [
-  ['Demo-Ranger 03','2013-01-18'],['Demo-Ranger 04','2012-03-07'],['Demo-Ranger 05','2014-04-22'],['Demo-Ranger 06','2011-06-11'],
-  ['Demo-Ranger 07','2013-08-30'],['Demo-Ranger 08','2012-09-14'],['Demo-Ranger 09','2014-11-03'],['Demo-Ranger 10','2011-12-19']
+  ['LI','2013-01-18'],['TK','2012-03-07'],['JK','2014-04-22'],['EL','2011-06-11'],
+  ['LM','2013-08-30'],['AT','2012-09-14']
 ].map((x,i)=>({name:x[0],birthday:x[1],team:'',stage:'Beobachter',address:'',address2:'',church:'Demo-West',region:'',email:'',mobile:'',idHint:'v23ex'+(i+1)}));
 const V23_STAGE_TASKS = {
   'Erkunder':[
@@ -733,8 +734,8 @@ function normalizeV23(){
     Object.entries(src).forEach(([k,v])=>{ if(!p[k]) { p[k]=v; changed=true; } });
     v23ApplyDefaultsToPerson(p,'leaders');
   });
-  // Ensure exactly one Stammleiter role among known leaders if Demo-Stammleitung exists.
-  db.leaders.forEach(l=>{ if(l.name!=='Demo-Stammleitung' && /stammleiter/i.test(l.role||'')){} });
+  // Ensure exactly one Stammleiter role among known leaders if PM exists.
+  db.leaders.forEach(l=>{ if(l.name!=='PM' && /stammleiter/i.test(l.role||'')){} });
   // Add eight example rangers only once.
   V23_RANGERS.forEach(src=>{
     let p=db.rangers.find(r=>r.name===src.name || r.idHint===src.idHint);
@@ -813,7 +814,7 @@ function personRows(kind){
   return db.rangers.map(r=>{ const prog=v21StageCounts(r.stage||'Beobachter',r.id); const pct=prog.total?Math.round(prog.done/prog.total*100):0; const nextUnlocked=stages.indexOf(r.stage||'Beobachter')<stages.length-1 && v23StagePercent(r.stage||'Beobachter',r.id)>=80 && v23StagePercent(r.stage||'Beobachter',r.id)<100; return `<div class="v23-rangerCard"><div><b>${esc(r.name)}</b><div class="muted">${esc(r.team||'')}${r.team&&r.church?' · ':''}${esc(r.church||'')}</div><div class="v23-stageInfo">Aktuelle Stufe: <b>${esc(r.stage||'Beobachter')}</b>${nextUnlocked?' · nächste Stufe ist bereits freigeschaltet':''}</div></div><div style="min-width:190px"><div class="v23-rangerStage"><span class="v23-badge">${pct}%</span><div class="v23-progressMini"><i style="width:${pct}%"></i></div></div><div class="v23-personActions" style="justify-content:flex-end;margin-top:10px">${isLeader()?`<button class="btn alt sm" onclick="personForm2('rangers',${r.id})">Bearbeiten</button>`:''}<button class="btn alt sm" onclick="v23OpenPersonProfile('rangers',${r.id})">Profil</button></div></div></div>`; }).join('');
 }
 function leaders(){
-  main.innerHTML=`<div class="top"><div><h1>Leiterteam</h1><div class="muted">Stammdaten, Rollen und Kontaktinformationen</div></div>${isLeader()?`<div class="row">${v23IsStammleiter()?'<span class="v23-badge">Stammleiter-Rechte aktiv</span>':''}<button class="btn" onclick="personForm2('leaders')">+ Leiter hinzufügen</button></div>`:''}</div><div class="v23-note">Demo-Stammleitung ist als Stammleiter hinterlegt. Rudi und Dennis sind als Leiter hinterlegt. Der Stammleiter kann andere Leiter aus dem Team entfernen.</div><div style="margin-top:14px">${personRows('leaders')}</div>`;
+  main.innerHTML=`<div class="top"><div><h1>Leiterteam</h1><div class="muted">Stammdaten, Rollen und Kontaktinformationen</div></div>${isLeader()?`<div class="row">${v23IsStammleiter()?'<span class="v23-badge">Stammleiter-Rechte aktiv</span>':''}<button class="btn" onclick="personForm2('leaders')">+ Leiter hinzufügen</button></div>`:''}</div><div class="v23-note">PM ist als Stammleiter, RH als Admin und DL als Leiter hinterlegt. Der Stammleiter kann andere Leiter aus dem Team entfernen.</div><div style="margin-top:14px">${personRows('leaders')}</div>`;
 }
 function rangers(){
   v23SyncAllStages();
@@ -1048,7 +1049,7 @@ normalizeV23(); v23SyncAllStages();
  document.head.appendChild(st);
 })();
 
-const V24_STAMM_NAMES={'clp-west':'Demo-West','meppen':'Demo-Nord'};
+const V24_STAMM_NAMES={'clp-west':'Rangerstamm 01','meppen':'Rangerstamm 02'};
 function v24StammName(id=v24StammId){return V24_STAMM_NAMES[id]||id}
 function v24Principal(){
  if(!session?.kind||!session?.id) return null;
@@ -1071,7 +1072,7 @@ function v24CanEditRanger(id){
 function v24RoleTitle(){return v24IsAdmin()?'Admin':v24IsStammleiter()?'Stammleiter':session?.kind==='leaders'?'Leiter':'Ranger'}
 function v24EnsureAdmin(){
  const clp=v24Store.stamms['clp-west'];
- const demoAdmin=clp?.leaders?.find(p=>p.name==='Demo-Admin'||p.email==='admin@example.invalid');
+ const demoAdmin=clp?.leaders?.find(p=>p.name==='RH'||p.email==='admin@example.invalid');
  if(demoAdmin){
   demoAdmin.role='Admin';demoAdmin.team='Administrator';
   v24Store.adminPrincipal={homeStammId:'clp-west',id:demoAdmin.id};
@@ -1326,7 +1327,7 @@ function personForm2(kind,id=0){
  if(!p)return;
  const canChangeRole=kind==='leaders'&&v24CanManagePeople()&&p.role!=='Admin';
  const roleField=kind==='leaders'?`<label>Rolle${canChangeRole?`<select name="role"><option value="Leiter" ${p.role!=='Stammleiter'?'selected':''}>Leiter</option><option value="Stammleiter" ${p.role==='Stammleiter'?'selected':''}>Stammleiter</option></select>`:`<input name="role" readonly value="${esc(p.role||'Leiter')}">`}</label>`:`<label>Offizielle Stufe<input readonly name="stage" value="${esc(p.stage||'Beobachter')}"></label>`;
- box.innerHTML=`<div class="top"><div><h2>${id?'Profil bearbeiten':kind==='leaders'?'Leiter hinzufügen':'Ranger hinzufügen'}</h2><div class="muted">Stamm ${esc(v24StammName())}</div></div><button class="btn alt" onclick="closeM()">Schließen</button></div><form onsubmit="savePerson2(event,'${kind}',${id})"><div class="v24-settingsForm"><label>Name<input name="name" required value="${esc(p.name||'')}"></label>${roleField}<label>Team / Funktion<input name="team" value="${esc(p.team||'')}"></label><label>Geburtsdatum<input name="birthday" type="date" value="${esc(p.birthday||'')}"></label><label>Telefon<input name="mobile" type="tel" value="${esc(p.mobile||'')}"></label><label>E-Mail<input name="email" type="email" value="${esc(p.email||'')}"></label><label>Adresse<input name="address" value="${esc(p.address||'')}"></label><label>Ort und Zusatz<input name="address2" value="${esc(p.address2||'')}"></label><label>Gemeinde<input name="church" value="${esc(p.church||v24StammName())}"></label><label>Gemeinde Region<input name="region" value="${esc(p.region||'')}"></label><label>Profilbild (optional)<input type="file" name="photo" accept="image/*"></label></div><div class="v24-modalHelp">${kind==='rangers'?'Die Wachstumsstufe wird aus erledigten Aufgaben automatisch berechnet. Neue Ranger beginnen immer als Beobachter.':'Die Admin-Rolle bleibt exklusiv Demo-Admin vorbehalten.'}</div><button class="btn" style="width:100%;margin-top:14px" type="submit">Änderungen speichern</button></form>`;
+ box.innerHTML=`<div class="top"><div><h2>${id?'Profil bearbeiten':kind==='leaders'?'Leiter hinzufügen':'Ranger hinzufügen'}</h2><div class="muted">Stamm ${esc(v24StammName())}</div></div><button class="btn alt" onclick="closeM()">Schließen</button></div><form onsubmit="savePerson2(event,'${kind}',${id})"><div class="v24-settingsForm"><label>Name<input name="name" required value="${esc(p.name||'')}"></label>${roleField}<label>Team / Funktion<input name="team" value="${esc(p.team||'')}"></label><label>Geburtsdatum<input name="birthday" type="date" value="${esc(p.birthday||'')}"></label><label>Telefon<input name="mobile" type="tel" value="${esc(p.mobile||'')}"></label><label>E-Mail<input name="email" type="email" value="${esc(p.email||'')}"></label><label>Adresse<input name="address" value="${esc(p.address||'')}"></label><label>Ort und Zusatz<input name="address2" value="${esc(p.address2||'')}"></label><label>Gemeinde<input name="church" value="${esc(p.church||v24StammName())}"></label><label>Gemeinde Region<input name="region" value="${esc(p.region||'')}"></label><label>Profilbild (optional)<input type="file" name="photo" accept="image/*"></label></div><div class="v24-modalHelp">${kind==='rangers'?'Die Wachstumsstufe wird aus erledigten Aufgaben automatisch berechnet. Neue Ranger beginnen immer als Beobachter.':'Die Admin-Rolle bleibt exklusiv RH vorbehalten.'}</div><button class="btn" style="width:100%;margin-top:14px" type="submit">Änderungen speichern</button></form>`;
  openM();
 }
 function savePerson2(e,kind,id){
@@ -1430,4 +1431,7 @@ render();
 </script><script src="rangerhub-planning.js"></script>
 <script src="rangerhub-recipes.js"></script>
 <script src="rangerhub-demo-content.js"></script>
+<script src="rangerhub-learning.js"></script>
+<script src="rangerhub-leader-meetings.js"></script>
+<script src="rangerhub-logbook.js"></script>
 </body></html>
