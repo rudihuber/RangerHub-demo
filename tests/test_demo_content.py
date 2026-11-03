@@ -11,7 +11,7 @@ class DemoContentTests(unittest.TestCase):
     def setUpClass(cls):
         cls.html = (Path(__file__).resolve().parents[1] / "index.html").read_text()
 
-    def test_all_binary_assets_are_generated_demo_placeholders(self):
+    def test_embedded_assets_are_generated_demo_placeholders(self):
         assets = re.findall(r'data:[^\s\"\'<>]+', self.html)
         self.assertEqual(len(assets), 17)
         expected = {

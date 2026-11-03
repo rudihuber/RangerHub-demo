@@ -1,0 +1,2 @@
+# Preserve upstream runtime and license files byte for byte.
+vendor/** linguist-vendored -whitespace

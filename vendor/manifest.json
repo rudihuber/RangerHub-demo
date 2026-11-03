@@ -1,0 +1,85 @@
+{
+  "packages": {
+    "pdfjs-dist": {
+      "version": "6.5.438",
+      "resolved": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.5.438.tgz",
+      "integrity": "sha512-vg8Pw1x+AFKy4AMDvhuWl5cOYV8d698UoEANoFFhc79hqXDnZQqnOXoxw3HG907WHOg1JYOvLhP756boddFxpA=="
+    },
+    "mammoth": {
+      "version": "1.13.0",
+      "resolved": "https://registry.npmjs.org/mammoth/-/mammoth-1.13.0.tgz",
+      "integrity": "sha512-2cawcYFcP7ISfXbBcL9lmVgTNWo88v/52ND1gnywHtVT/pX0//puPnf0iMPV9ZgmuvNOE+zkIhDgZ9M2c2dDDg=="
+    },
+    "tesseract.js": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-7.0.0.tgz",
+      "integrity": "sha512-exPBkd+z+wM1BuMkx/Bjv43OeLBxhL5kKWsz/9JY+DXcXdiBjiAch0V49QR3oAJqCaL5qURE0vx9Eo+G5YE7mA=="
+    },
+    "tesseract.js-core": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/tesseract.js-core/-/tesseract.js-core-7.0.0.tgz",
+      "integrity": "sha512-WnNH518NzmbSq9zgTPeoF8c+xmilS8rFIl1YKbk/ptuuc7p6cLNELNuPAzcmsYw450ca6bLa8j3t0VAtq435Vw=="
+    },
+    "@tesseract.js-data/deu": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/@tesseract.js-data/deu/-/deu-1.0.0.tgz",
+      "integrity": "sha512-3ter1p2gFAiCd5CMC+PodZ9YY2UDomkKj+ytlKeeZqOUmhLx1SDnYPf5zog0g5MBbxYveW+8omI3PUflqHfZ4Q=="
+    },
+    "@tesseract.js-data/eng": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/@tesseract.js-data/eng/-/eng-1.0.0.tgz",
+      "integrity": "sha512-mbTumm6KQPUHyzTPQaF3ObXYnx0SqqfV2nabqFVQBwD6Kl7PhGSLSzOlfFTWy0P3BjghaSKA2W9GB19Jk+ZcTg=="
+    }
+  },
+  "files": {
+    "README.md": "d3da08c9110aea389e919514f6a6090227cb286ea25057978c801af66e3c30ab",
+    "mammoth/LICENSE": "6663bbd049205d38a496ccacb412a151980b444627d38de218b3b809aef330f1",
+    "mammoth/mammoth.browser.min.js": "92914a3708cfdf1e62cb553d1856a7fedab21da83d8ee82845de2f897b368cab",
+    "ocr/LICENSE-core": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+    "ocr/LICENSE-tesseract.md": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "ocr/lang/README-deu.md": "db11100b63fc16eae02300fc6cebfb7d77a6689d9259df8ece7ae21dc9855ace",
+    "ocr/lang/README-eng.md": "adcb325473fe124291951a0a3d29fcb54b341828881570e45c42dc2a3a61a45d",
+    "ocr/lang/deu.traineddata.gz": "306c4280d0cbed46fbff727486bd43b92730181bae80f56941a091f363bdf28b",
+    "ocr/lang/eng.traineddata.gz": "45b4cb346724ac1774f1c36f42f182b887bcdb28ebe63e6fff90ac41f3fcff91",
+    "ocr/tesseract-core-lstm.wasm.js": "eef5f8b2f8e20e150680b20adaec4a60babafee3adbe8a94583c81fee46e8680",
+    "ocr/tesseract.min.js": "000c27d9cd0def655f77b36c72a389c0ab13793aa31cb4d7aab56d09c0afbc7e",
+    "ocr/tesseract.min.js.LICENSE.txt": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2",
+    "ocr/worker.min.js": "576b7df7e3393e137e51849357c9adb53fe7ac1bb69bfa06cf3d61520f182c6d",
+    "ocr/worker.min.js.LICENSE.txt": "45f54171aeaa1d10c0c1a66f374b7bba1f02472b1487fbe892eec04f840002ac",
+    "pdfjs/LICENSE": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "pdfjs/pdf.mjs": "3a88402882cfa3e7e72c2c9b5149f52f0f88baf1c5b62aa11a41abdbc2072440",
+    "pdfjs/pdf.renderer.mjs": "51a99dd41ad3edb55716c13f03a8d8827990bbf00688431e70e303a1dbb9ed0d",
+    "pdfjs/pdf.worker.mjs": "1e64c8240e54735ec5913b37acd5134747799cb8c6bb3777c70adbc01232d2aa",
+    "pdfjs/standard_fonts/FoxitDingbats.pfb": "845c752392b6c914fb989c75a08b7792b88f542d2499042ef2889f8c814a16ed",
+    "pdfjs/standard_fonts/FoxitFixed.pfb": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b",
+    "pdfjs/standard_fonts/FoxitFixedBold.pfb": "f1b7159702973f54fc86254ea38bcf3712b2a736eb3a0995751e9f4bb45ad603",
+    "pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb": "8a000945843bd31add06aee63bf9fd41b7578b4f3242a4b7cd46349ad9d24d4d",
+    "pdfjs/standard_fonts/FoxitFixedItalic.pfb": "5007faf8320fa1fcc08b8894b356ad976f60b992ba29ee5272578bbdebaf3876",
+    "pdfjs/standard_fonts/FoxitSerif.pfb": "4f57d2b9d884af8f907bf22df6019b52d86cbf6214fdbd02b1ae05472a543f35",
+    "pdfjs/standard_fonts/FoxitSerifBold.pfb": "0bdf4b04e964139818d51eda03d566ba999fc3ba2421b1c6c51f9dc969022e80",
+    "pdfjs/standard_fonts/FoxitSerifBoldItalic.pfb": "a406cac82583bf98175cb62c87ed5e95c45fbb34eece63a10b0a13e793cb2e10",
+    "pdfjs/standard_fonts/FoxitSerifItalic.pfb": "610ae0687198045c4db5d1a6650fd5e92536631706382eb8b72e38df578d0ae9",
+    "pdfjs/standard_fonts/FoxitSymbol.pfb": "47967d055530e7357088a08403115425643ec2cdfd6201ba8af0fbd7116c1539",
+    "pdfjs/standard_fonts/LICENSE_FOXIT": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7",
+    "pdfjs/standard_fonts/LICENSE_LIBERATION": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc",
+    "pdfjs/standard_fonts/LiberationSans-Bold.ttf": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc",
+    "pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d",
+    "pdfjs/standard_fonts/LiberationSans-Italic.ttf": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512",
+    "pdfjs/standard_fonts/LiberationSans-Regular.ttf": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f",
+    "pdfjs/wasm/LICENSE_JBIG2": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1",
+    "pdfjs/wasm/LICENSE_OPENJPEG": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6",
+    "pdfjs/wasm/LICENSE_PDFJS_JBIG2": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5",
+    "pdfjs/wasm/LICENSE_PDFJS_OPENJPEG": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425",
+    "pdfjs/wasm/LICENSE_PDFJS_QCMS": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1",
+    "pdfjs/wasm/LICENSE_PDFJS_QUICKJS": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0",
+    "pdfjs/wasm/LICENSE_QCMS": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc",
+    "pdfjs/wasm/LICENSE_QUICKJS": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d",
+    "pdfjs/wasm/jbig2.wasm": "466f45c2a61a698152fb5400c27e56ff2ceb73dcb71fde3fc366a502308eaab0",
+    "pdfjs/wasm/jbig2_nowasm_fallback.js": "70150223396487e1ccfef7eac61fc780074ad7fcc9e843b702a8a3bc23107494",
+    "pdfjs/wasm/openjpeg.wasm": "7ea4b2b04613370ad4e9c1162da750cc88b4b176eac0d0c164b3caff23fc0a46",
+    "pdfjs/wasm/openjpeg_nowasm_fallback.js": "2855f1590e7fd7abbbf204cd13a5c09d30c92fe2c9313fb72b64aa763fe8b4f3",
+    "pdfjs/wasm/qcms_bg.wasm": "663d86126d5f5fcb1c61490f94353e2a8375660b8c5498ab3ebab5a34b08800e",
+    "pdfjs/wasm/quickjs-eval.js": "fe7930418e869791ce892567dbd0bc4698152b7e550b5cefa553992c56ddc325",
+    "pdfjs/wasm/quickjs-eval.wasm": "7bcacc9f22cacf7e9b23866d2a6d1639693d40c7f144e41b7c69ed37ba9cbe8f"
+  }
+}

@@ -1,7 +1,8 @@
 # RangerHub Demo
 
 Öffentliche Vorschau mit ausschließlich fiktiven Demo-Profilen. Die App ist
-vollständig in `index.html` enthalten und benötigt weder Backend noch Build.
+über `index.html` erreichbar und benötigt weder Backend noch Build. Die
+mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
 ## Beispieldaten
 
@@ -10,12 +11,17 @@ vollständig in `index.html` enthalten und benötigt weder Backend noch Build.
 - Stamm **Demo-Nord**: zusätzliche fiktive Leiter- und Rangerprofile.
 - E-Mail-Adressen verwenden die reservierte Domain `example.invalid`.
 - Telefonnummern stammen aus dem fiktiven Bereich `+1 202 555 0100–0199`.
-- Sämtliche eingebetteten Bilder und PDF-Arbeitsblätter wurden durch neu
-  erzeugte Demo-Platzhalter ersetzt. Originaldateien sind nicht enthalten.
+- Personenbilder und PDF-Arbeitsblätter sind Demo-Platzhalter. Für den
+  Wachstumspfad wird die freigegebene Illustration mit dunklerer Schrift und
+  ohne gedruckte Seitenzahl verwendet; sie enthält keine persönlichen Daten.
 
 Die Rollen Admin, Stammleiter, Leiter und Ranger sowie Kalender, Treffen,
 Wachstumspfad, Abwesenheiten, Backup und Stammwechsel sind bedienbar.
 Der Fehler beim Neuladen einer aktiven Sitzung ist korrigiert.
+
+Das neue freie Dashboard, die automatische Treffenplanung, Lebensmittel-Aufgaben
+und der PDF-/Word-Rezeptimport sind in
+[Dashboard und Planung](docs/dashboard-and-planning.md) beschrieben.
 
 Diese Demo nutzt `rhv9-demo`, `rhv9-demo-session` und einen eigenen
 Wetterort-Schlüssel. Vorhandene Daten unter `rhv9` werden nicht gelesen oder
