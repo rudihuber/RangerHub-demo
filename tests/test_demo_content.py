@@ -1,5 +1,4 @@
 """Audit the complete standalone demo, including decoded embedded assets."""
-import base64
 import hashlib
 from pathlib import Path
 import re
@@ -11,20 +10,29 @@ class DemoContentTests(unittest.TestCase):
     def setUpClass(cls):
         cls.html = (Path(__file__).resolve().parents[1] / "index.html").read_text()
 
-    def test_embedded_assets_are_generated_demo_placeholders(self):
-        assets = re.findall(r'data:[^\s\"\'<>]+', self.html)
-        self.assertEqual(len(assets), 17)
-        expected = {
-            "image/svg+xml": "a242e17752feacce895acd233f06a0932cc9039556d7ed9d4185878e3811efe7",
-            "application/pdf": "f01f44d2e10b015ee75fa44394f9180b67e9ebbb83648fd47b6ea78d6e7c2810",
-        }
-        for asset in assets:
-            with self.subTest(type=asset.split(";", 1)[0]):
-                header, encoded = asset.split(",", 1)
-                media_type = header.removeprefix("data:").removesuffix(";base64")
-                self.assertIn(media_type, expected)
-                data = base64.b64decode(encoded, validate=True)
-                self.assertEqual(hashlib.sha256(data).hexdigest(), expected[media_type])
+    def test_original_nonpersonal_illustrations_are_restored(self):
+        expected = {           'growth-illustration.jpg': '2837dc622a126bafd157839ddda84b0a2611d5768d626fea6b9a2548c8443a6a',
+            'growth-logbook.png': '3dc3e9467ca177643cd20ead73898564e8a5cfca929acc1656563da52d3ef1cc',
+            'growth-overview.jpg': 'a4614e5a50eb96902bbec56a10a6d3eb0ed0794e3b93e5424e443d9db2829bf5',
+            'observer-introduction.png': '76ffbe72ebaf012b02c193d9d8c51f1354711d9fa98a8b11b968f1deb5355c2a',
+            'observer-shoulder.jpg': 'ec665e35153cfdd17ea7bfa93fb1d01bf07df401e095981b8670d3737a7a0032'}
+        root = Path(__file__).resolve().parents[1]
+        self.assertFalse(re.findall(r'data:[^\s\"\'<>]+', self.html))
+        for name, digest in expected.items():
+            with self.subTest(image=name):
+                self.assertIn('assets/logbook/' + name, self.html)
+                data = (root / 'assets/logbook' / name).read_bytes()
+                self.assertEqual(hashlib.sha256(data).hexdigest(), digest)
+                self.assertNotIn(b'Exif\x00\x00', data)
+        self.assertNotIn('__TOPICS__', self.html)
+
+    def test_demo_bundles_no_pdf_documents(self):
+        root = Path(__file__).resolve().parents[1]
+        self.assertNotIn('data:application/pdf', self.html)
+        self.assertNotIn('PDF herunterladen', self.html)
+        self.assertEqual(list(root.rglob('*.pdf')), [])
+        for variable in ['obsPdfs', 'v18Pdfs', 'v19Pdfs']:
+            self.assertIn('const ' + variable + '={};', self.html)
 
     def test_literal_contacts_are_fictional(self):
         emails = re.findall(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', self.html)

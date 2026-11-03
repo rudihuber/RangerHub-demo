@@ -11,13 +11,25 @@ mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet w
 - Stamm **Demo-Nord**: zusätzliche fiktive Leiter- und Rangerprofile.
 - E-Mail-Adressen verwenden die reservierte Domain `example.invalid`.
 - Telefonnummern stammen aus dem fiktiven Bereich `+1 202 555 0100–0199`.
-- Personenbilder und PDF-Arbeitsblätter sind Demo-Platzhalter. Für den
-  Wachstumspfad wird die freigegebene Illustration mit dunklerer Schrift und
-  ohne gedruckte Seitenzahl verwendet; sie enthält keine persönlichen Daten.
+- Alle nicht persönlichen Inhalte und freigegebenen Bilder sind enthalten:
+  Wachstumspfad, Schulterschlaufe, Beobachter-Einführung und Themengrafik.
+  Persönliche Angaben bleiben durch fiktive Profile ersetzt.
+- Es werden keine PDF-Arbeitsblätter mitgeliefert, auch keine PDF-Platzhalter.
+  Die Aufgabenpakete und ihre Fortschritts-Checkboxen bleiben erhalten.
+- Der integrierte Wachstumspfad verwendet die Illustration mit dunklerer Schrift
+  und ohne gedruckte Seitenzahl. Das Dashboard bleibt ohne Illustration.
 
 Die Rollen Admin, Stammleiter, Leiter und Ranger sowie Kalender, Treffen,
 Wachstumspfad, Abwesenheiten, Backup und Stammwechsel sind bedienbar.
 Der Fehler beim Neuladen einer aktiven Sitzung ist korrigiert.
+
+Für den vollständigen Funktionsumfang **Demo-Admin** auswählen. Die übrigen
+Profile zeigen die unveränderten Berechtigungen von Stammleiter, Leiter und
+Ranger. Alle fünf Wachstumsstufen einschließlich der Beobachter-Einführung
+bleiben erreichbar. Private Personendaten und PDF-Dateien werden nicht veröffentlicht.
+
+Der Rezeptimport aus selbst ausgewählten PDF- und Word-Dateien bleibt nutzbar.
+Diese Dateien werden nur lokal im Browser gelesen und nicht mit der Demo gehostet.
 
 Das neue freie Dashboard, die automatische Treffenplanung, Lebensmittel-Aufgaben
 und der PDF-/Word-Rezeptimport sind in

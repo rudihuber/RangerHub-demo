@@ -1,4 +1,10 @@
 /* Shared presentation for the demo and private app. */
+.observerOriginal{margin:0;min-width:0;min-height:0;background:var(--paper);border:0;box-shadow:none;border-radius:0}
+.observerLeft{min-width:0;background:transparent}
+.observerRight{min-width:0}
+.observerLeft h1,.observerLeft h2{color:#30291d!important;text-shadow:none!important}
+.observerPhoto{border:0;box-shadow:none;border-radius:4px}
+.observerTopicsImg{display:block;width:100%;height:auto;aspect-ratio:700/410;object-fit:cover;object-position:center 86%;mix-blend-mode:multiply;border:0}
 :root{--paper:#f7f5ef;--ink:#19372d;--quiet:#68746a;--rule:#cdd1c4;--accent:#697d45;--urgent:#a7362d;--complete:#dcebdc;--g:#234d3b;--bg:var(--paper);--mut:var(--quiet);--line:var(--rule)}
 body{background:var(--paper);color:var(--ink)}
 button,a,input,select,textarea{accent-color:var(--g)}

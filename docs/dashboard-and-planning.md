@@ -1,8 +1,14 @@
 # Dashboard, Treffenplanung und Rezepte
 
-Diese Änderungen liegen zunächst auf `feature/open-dashboard-meeting-planning`.
-Die bestehende Pages-Seite folgt weiterhin `main`, bis die Änderungen geprüft
-und übernommen werden.
+Die vollständige öffentliche Demo wird über `main` auf GitHub Pages bereitgestellt.
+Sie enthält die Dashboard-, Planungs- und Rezeptänderungen. Der Hauptbranch der
+privaten App bleibt davon getrennt und unverändert.
+
+Die Demo zeigt alle nicht persönlichen Inhalte und die geprüften Bilder. Die
+mitgelieferten PDF-Arbeitsblätter und ihre Download-Schaltflächen sind entfernt;
+Aufgabenpakete, Checkboxen und Fortschritte bleiben erhalten. Der lokale Import
+eigener Rezeptdateien aus PDF und Word ist weiterhin verfügbar. Um alle
+Leiterfunktionen zu sehen, bei der Profilauswahl **Demo-Admin** wählen.
 
 ## Oberfläche
 
@@ -73,7 +79,7 @@ Tests: `python3 -m unittest discover -s tests -v`.
 - [Automatische Planungsfarben](screenshots/planning-states.png)
 - [Rezeptimport aus einer PDF-Datei](screenshots/recipe-import.png)
 
-Geprüft: 19 Tests in der Demo, 14 Tests in der privaten App, einschließlich echter
+Geprüft: 23 Tests in der vollständigen Demo, zuvor 14 Tests in der privaten App, einschließlich echter
 PDF-/DOCX-Importe und OCR einer gescannten PDF-Seite. Die Screenshots verwenden
 ausschließlich fiktive Demo-Daten; die Beispiele für Planungsfarben wurden nur
 in einem isolierten Testbrowser angelegt.

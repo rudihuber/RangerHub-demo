@@ -1,0 +1,24 @@
+{
+  "images": {
+    "growth-logbook.png": {
+      "sha256": "3dc3e9467ca177643cd20ead73898564e8a5cfca929acc1656563da52d3ef1cc",
+      "mime": "image/png"
+    },
+    "observer-introduction.png": {
+      "sha256": "76ffbe72ebaf012b02c193d9d8c51f1354711d9fa98a8b11b968f1deb5355c2a",
+      "mime": "image/png"
+    },
+    "growth-overview.jpg": {
+      "sha256": "a4614e5a50eb96902bbec56a10a6d3eb0ed0794e3b93e5424e443d9db2829bf5",
+      "mime": "image/jpeg"
+    },
+    "observer-shoulder.jpg": {
+      "sha256": "ec665e35153cfdd17ea7bfa93fb1d01bf07df401e095981b8670d3737a7a0032",
+      "mime": "image/jpeg"
+    },
+    "growth-illustration.jpg": {
+      "sha256": "2837dc622a126bafd157839ddda84b0a2611d5768d626fea6b9a2548c8443a6a",
+      "mime": "image/jpeg"
+    }
+  }
+}
