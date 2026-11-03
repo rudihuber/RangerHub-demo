@@ -4,6 +4,22 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
+## V26 – persönlicher Wachstumspfad als Expeditionskarte
+
+Die Karte erscheint ausschließlich auf dem persönlichen Ranger-Dashboard,
+beispielsweise nach **Rangerstamm 01 → JB · Ranger**. Leiter, Stammleiter und
+Admin behalten ihre Verwaltungsansichten ohne Karte. Die vorhandene 80-%-/100-%-
+Logik, Aufgaben, Rollen und gespeicherten Fortschritte werden weiterverwendet.
+
+- [V26 direkt öffnen](https://rudihuber.github.io/RangerHub-demo/RangerHub_Webapp_V26_Demo.html)
+- [Unveränderte Vorversion](https://rudihuber.github.io/RangerHub-demo/RangerHub_Webapp_V25_Demo_Backup.html)
+- [Übergabe](docs/V26-UEBERGABE.md)
+- [56 Prüfungen und alle Geräte-Screenshots](docs/V26-TESTBERICHT.md)
+- [SHA-256-Prüfsummen](docs/V26-SHA256SUMS)
+
+Die Erweiterung verwendet SVG, CSS und vorhandene Bildassets. Es gibt keine
+neuen großen Bilder, kein zusätzliches Framework und keine neue Fortschrittsdatenbank.
+
 ## Beispieldaten
 
 - **Rangerstamm 01**: **PM** (Stammleiter), **RH** (Admin), **DL** (Leiter)

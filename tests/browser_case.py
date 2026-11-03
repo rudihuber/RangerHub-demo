@@ -49,7 +49,15 @@ class BrowserCase(unittest.TestCase):
                 "server": os.environ["HTTPS_PROXY"],
                 "bypass": "127.0.0.1,localhost",
             }
-        cls.browser = cls.playwright.chromium.launch(**launch)
+        engine = os.environ.get("RANGERHUB_BROWSER", "chromium")
+        if engine == "webkit":
+            launch.pop("args", None)
+            launch.pop("executable_path", None)
+            cls.browser = cls.playwright.webkit.launch(**launch)
+        elif engine == "chromium":
+            cls.browser = cls.playwright.chromium.launch(**launch)
+        else:
+            raise ValueError("RANGERHUB_BROWSER must be chromium or webkit")
         cls.addClassCleanup(cls.browser.close)
 
     def setUp(self):
