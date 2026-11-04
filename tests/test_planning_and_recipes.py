@@ -254,7 +254,8 @@ class PlanningAndRecipeTests(BrowserCase):
             with self.subTest(width=width):
                 self.page.set_viewport_size({"width": width, "height": 900})
                 self.nav("Dashboard")
-                expect(self.page.locator("main img")).to_have_count(0)
+                # V30 adds a functional growth-path preview beside Fachwissen, not the removed decorative hero.
+                expect(self.page.locator("main img:not(.kw-growth-preview img)")).to_have_count(0)
                 expect(self.page.get_by_role("button", name="Profil und Einstellungen", exact=True)).to_be_visible()
                 self.assertEqual(self.page.locator(".settingsBtn").inner_text(), "")
                 self.assertNotRegex(self.page.locator("body").inner_text(), r"\bV\d+\b")

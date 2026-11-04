@@ -1,0 +1,70 @@
+{
+  "version": 30,
+  "files": {
+    "RangerHub_Webapp_V29_Demo.html": {
+      "bytes": 221010,
+      "sha256": "c29084b450fd0dd1fd1eeac4b5ff5bcf0afeeaf21283062f90b03b779636dafe"
+    },
+    "index.html": {
+      "bytes": 221380,
+      "sha256": "379eae2d2eb18773e8a95e55a403bd3d31b54be6ed8a51b69cbe15c4cc3fb05a"
+    },
+    "RangerHub_Webapp_V30_Demo.html": {
+      "bytes": 221380,
+      "sha256": "379eae2d2eb18773e8a95e55a403bd3d31b54be6ed8a51b69cbe15c4cc3fb05a"
+    },
+    "rangerhub-knowledge-catalog-v30.js": {
+      "bytes": 11168,
+      "sha256": "9b1e9dcb86c9f7ca917989977ec6ec5f708d58d8950effcb87bf97a828f68642"
+    },
+    "rangerhub-knowledge-model-v30.js": {
+      "bytes": 16392,
+      "sha256": "2604cbc50a0528da53455f8ffca708b12b456fd77bbe0d808181c50e744ae0c7"
+    },
+    "rangerhub-knowledge-transport-v30.js": {
+      "bytes": 6766,
+      "sha256": "4dbddfc75600bde7eea31288cd928fd7f40394dfcae363eb049596f12dacc6ce"
+    },
+    "rangerhub-knowledge-subworlds-v30.js": {
+      "bytes": 10785,
+      "sha256": "034d24f21fd6d7d284607a5bbbdbf0cf9ab06d64b4d364608e74f188ba19609a"
+    },
+    "rangerhub-knowledge-exams-v30.js": {
+      "bytes": 13064,
+      "sha256": "cec36979947ac2a46d3bd08001c8e543a5b64ac410e73ac7fe6b3074958afbe1"
+    },
+    "rangerhub-knowledge-editor-v30.js": {
+      "bytes": 10356,
+      "sha256": "d40122b73589b08bd2c0091073cedd5096ea99be22ea6446e5bf06aff1b36e88"
+    },
+    "rangerhub-knowledge-v30.js": {
+      "bytes": 35409,
+      "sha256": "ddca3a7d4c97fa7b4169e8574557a0037413ee95399286baf66ab102174b28e6"
+    },
+    "rangerhub-knowledge-v30.css": {
+      "bytes": 14806,
+      "sha256": "67d6731767751370189bd117a7e5b93e1a24cf9e9bfe9411c09563b1e24e955c"
+    },
+    "rangerhub-knowledge-catalog.js": {
+      "bytes": 146855,
+      "sha256": "627244a1a52c5078aea4af5c95fd2abce4dbcba7c6ac37b4528925c648cf7c13"
+    },
+    "rangerhub-knowledge-map.js": {
+      "bytes": 7836,
+      "sha256": "ad6491f20c1046fee9589f6f3f4fad81af1e121d2343e92121dbbb93ff6889c0"
+    },
+    "backend/knowledge-server.mjs": {
+      "bytes": 17481,
+      "sha256": "c7f5f823bd723453ac6ef4942cd40783287975873473acfebbe2fe70e82ef301"
+    },
+    "backend/import-existing.mjs": {
+      "bytes": 1208,
+      "sha256": "f8f6e7713ded5df03bdfe6cb5206061a3976b401ad162accd36f19e006cea4ab"
+    },
+    "data/RangerHub_Fachwissen_Quellkatalog.json": {
+      "bytes": 120319,
+      "sha256": "c3ed7f0f4b5f20387b2b536fa7a59a4cdcb756e3ad42ac97c1e7a62190266cc0"
+    }
+  },
+  "bundledPDFs": 0
+}

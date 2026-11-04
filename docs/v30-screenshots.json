@@ -1,0 +1,283 @@
+{
+  "version": 30,
+  "engine": "Chromium / Playwright",
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      812
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "touchContexts": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ]
+  ],
+  "physicalSafariTested": false,
+  "files": [
+    {
+      "file": "dashboard-1366x768.png",
+      "sha256": "4542ef5ce94d4ba09d79d65764398bf01d6e2598120f8f1787e48853d80681e3"
+    },
+    {
+      "file": "dashboard-1440x900.png",
+      "sha256": "4a5f80224d8356d020dcbdb20f2f2c668d3a8f609240f136c6bcd8113157e67e"
+    },
+    {
+      "file": "dashboard-1920x1080.png",
+      "sha256": "255c1721eee43ccba6b3cf3d65d66261a0b9f56c410a31ca7e6dad3d7f072b4d"
+    },
+    {
+      "file": "dashboard-320x568.png",
+      "sha256": "38d598c68252a5410999fe4e20b47691c450d058a156d98c8305871872f3ba57"
+    },
+    {
+      "file": "dashboard-375x812.png",
+      "sha256": "9bb342997602b229982c4712f17440c55a1bbee49486cd99b8df216741cc98ea"
+    },
+    {
+      "file": "dashboard-390x844.png",
+      "sha256": "3acfae385c2922d20bc75f37cacd2fa2e182610b34e968b365e8e59ef38eda55"
+    },
+    {
+      "file": "dashboard-768x1024.png",
+      "sha256": "eeaf25cb20af61c82bdd98ea8003e7e80bf0e12d5c817ac264f1665aba952e66"
+    },
+    {
+      "file": "dashboard-844x390.png",
+      "sha256": "a40714a0ba6379d167c3539051b052fae2a7b6ee29693fa2d63db4f988ba08cd"
+    },
+    {
+      "file": "dashboard-confirmed-podium-desktop.png",
+      "sha256": "55914f2f521afecaf94e957c2decfa1fbb0bead06be72c363060a31aca2de9ad"
+    },
+    {
+      "file": "dashboard-confirmed-podium-phone.png",
+      "sha256": "0841c597b0dc276a41e055a244396aa6a4c8c9f7bf4b95a9c74529e587ba66bf"
+    },
+    {
+      "file": "entdecker-1440x900.png",
+      "sha256": "82d0f99a0aab2c0e35fed6e06a50e72c4c09c7ec2d73123d5b1a27a14847c861"
+    },
+    {
+      "file": "entdecker-320x568.png",
+      "sha256": "fdd3ae10e919ae4c551958a36979e6a856bf086f2d4775ddf4e6509c2acec1fb"
+    },
+    {
+      "file": "entdecker-390x844.png",
+      "sha256": "271ab37e86253f3706ea506ecb1bd072c45e5e2eaf9c552369eb6d61b985d361"
+    },
+    {
+      "file": "entdecker-768x1024.png",
+      "sha256": "a475dc7503c40bc2b31a4b8923560b42d4e7080981b7be5d9ecfab1303c83e47"
+    },
+    {
+      "file": "exam-center-1440x900.png",
+      "sha256": "1cddd5c7d54578447713e134c824ef0580e772e0a2cb4be2eced20a8bb717eec"
+    },
+    {
+      "file": "exam-center-320x568.png",
+      "sha256": "51b1a2aefd316da03b35c95dd7ecc101ff87f436b380517cbf69f0fed57c9a9d"
+    },
+    {
+      "file": "exam-center-390x844.png",
+      "sha256": "9d9fa4ca79f9fa31dd2844b17f1083c1662037a0c6ba3a0e776f9444253785c3"
+    },
+    {
+      "file": "exam-center-768x1024.png",
+      "sha256": "3fa876d5600aba8a31cd6c0a54f098461c00a114c8ceb9b4a17dc71838d41522"
+    },
+    {
+      "file": "gemeinschaft-1440x900.png",
+      "sha256": "b2072852e4d82e6f48252eab092717be187087db65ef7884fe1a3d57508d2906"
+    },
+    {
+      "file": "gemeinschaft-320x568.png",
+      "sha256": "70aa3eb1a7c3fa7cc0e3b11654ee660d57bc196d727931dbed1df6cb0febaae4"
+    },
+    {
+      "file": "gemeinschaft-390x844.png",
+      "sha256": "4d3dec1ee33d4c69c08f422ebef2c96832961cb766bdba1d582dade85bb7fc38"
+    },
+    {
+      "file": "gemeinschaft-768x1024.png",
+      "sha256": "ba1d117d25f6e1cb2dbcc9ca1ac1f7401e65aa2827ac6d773f455920e4687e83"
+    },
+    {
+      "file": "growth-1440x900.png",
+      "sha256": "1c72c2e36a29fca2a691bdd12ed624cc394d621c7f0c557c78d84ec8237f40be"
+    },
+    {
+      "file": "growth-320x568.png",
+      "sha256": "aa9358455a98f3f4869c0fa04face0639f5c21960952cb407735154899eb506a"
+    },
+    {
+      "file": "growth-390x844.png",
+      "sha256": "c11cdb733ae0c468b30b24aa75d2a0f08692d9c088994dcea51346653bda525e"
+    },
+    {
+      "file": "leader-dashboard-icons.png",
+      "sha256": "a33d7445e82cbe07f94ca7c07e4dd6da449710df7038266a1568d1f2071ddd99"
+    },
+    {
+      "file": "leiter-dashboard-1440x900.png",
+      "sha256": "a33d7445e82cbe07f94ca7c07e4dd6da449710df7038266a1568d1f2071ddd99"
+    },
+    {
+      "file": "leiter-dashboard-320x568.png",
+      "sha256": "04aa5a7f1f00aee7d6d7f79e027f4707e821350e8732edba6f65fa03ab6f36cf"
+    },
+    {
+      "file": "leiter-growth-desktop.png",
+      "sha256": "1c72c2e36a29fca2a691bdd12ed624cc394d621c7f0c557c78d84ec8237f40be"
+    },
+    {
+      "file": "overworld-1366x768.png",
+      "sha256": "e6bde040f1b7b522ed66d9467185a62508a67b81ac07da9090dcfaf1c60e6671"
+    },
+    {
+      "file": "overworld-1440x900.png",
+      "sha256": "8ab0f6e9c69eb990dab0ffbb0edd36d7b1e0b9e9ff3f056b7b4ee811dc65c7f0"
+    },
+    {
+      "file": "overworld-1920x1080.png",
+      "sha256": "6b521d1f4e2fb4aa76c3af2fc2d5dd88dd351b3662985e140332b4a3895cca04"
+    },
+    {
+      "file": "overworld-320x568.png",
+      "sha256": "3d8715df1542890bbf0636cd8dc59b07aef88c64f419b929136d066826090a62"
+    },
+    {
+      "file": "overworld-375x812.png",
+      "sha256": "4ff49e95bf6984402ee0513f9bffc4ea821b93059da295bd99a4342c58bc51b1"
+    },
+    {
+      "file": "overworld-390x844.png",
+      "sha256": "83b1ea3fab5c42e38efd7492a958ae551ce25be8f77b32b97b780ae4932706c8"
+    },
+    {
+      "file": "overworld-768x1024.png",
+      "sha256": "0e341b07625f4c6d48b5e2f3afe8769354b59113731eb5b9262143410d1df241"
+    },
+    {
+      "file": "overworld-844x390.png",
+      "sha256": "79e3b3536c2285caf37b278cb0385345909d217cc291c0e03664375681252eb5"
+    },
+    {
+      "file": "ranger-dashboard-1440x900.png",
+      "sha256": "55c0d5c6fc7150171f86a16e59d6820d6b3de739000037691dc4a012721acc5b"
+    },
+    {
+      "file": "ranger-dashboard-320x568.png",
+      "sha256": "38d598c68252a5410999fe4e20b47691c450d058a156d98c8305871872f3ba57"
+    },
+    {
+      "file": "ranger-dashboard-390x844.png",
+      "sha256": "3acfae385c2922d20bc75f37cacd2fa2e182610b34e968b365e8e59ef38eda55"
+    },
+    {
+      "file": "ranger-growth-desktop.png",
+      "sha256": "8e26b99009b62a4a88fd6636f63bc1582f6a1a7de0f7ede46e1dcfd2a0ca2d63"
+    },
+    {
+      "file": "ranking-phone.png",
+      "sha256": "d44f92cc6adeae048ee5c0f78e38f531abfc511189c8d06792c9c3ce28cc4b69"
+    },
+    {
+      "file": "rettung-1440x900.png",
+      "sha256": "2ec22fd1ba256c726a21f45ee3fbf132b85dcf700fb9ce8f21cace97b4ac9a4f"
+    },
+    {
+      "file": "rettung-320x568.png",
+      "sha256": "5ae5373a8ae2e090c467d622361c765094a536d0ac9f73df1bfa834740afafd8"
+    },
+    {
+      "file": "rettung-390x844.png",
+      "sha256": "1567118d497bf8e9c221c73bd296e83838a27dba07d3a602bfaa845930747732"
+    },
+    {
+      "file": "rettung-768x1024.png",
+      "sha256": "9d2370ac2a5a63852d6db4c7f56022dc4f6e5b7e6ea9d5f81ef92da906548e9e"
+    },
+    {
+      "file": "touch-registration-320x568.png",
+      "sha256": "53489c341c235e9ce0faa4e5b658821ac4a9bae17d6f7dd41a94157044c89786"
+    },
+    {
+      "file": "touch-registration-390x844.png",
+      "sha256": "10e49ca2308a11fa4d95156b666ec1629eccec5728640b77ebff6d618ede9d61"
+    },
+    {
+      "file": "touch-registration-768x1024.png",
+      "sha256": "82568c1f12b2fd156acd0df2327664d7742f9693d4554b99ff8bcbd33927feac"
+    },
+    {
+      "file": "werkstatt-1440x900.png",
+      "sha256": "f019b5660b935eeac43b4ef12f1f3af607e7837021c7031da435179f7cab9719"
+    },
+    {
+      "file": "werkstatt-320x568.png",
+      "sha256": "ee5a53ffb07d775f54f3a08ab069ce8c09c294bc8db37e42576f76e84c1562e3"
+    },
+    {
+      "file": "werkstatt-390x844.png",
+      "sha256": "2d72c29b39f576e2f2f7a1c4bcda1a3314fd68717af578d5beabceac4cc5dd8b"
+    },
+    {
+      "file": "werkstatt-768x1024.png",
+      "sha256": "ecf7723b553dfea6248c2f41e22238d9625c887464c238ed23297fe3f796fb5c"
+    },
+    {
+      "file": "wildnis-1440x900.png",
+      "sha256": "5a39d5c7287687f81ee9aea6e2b04338ed8c371f37f1a31572c284ebb292fdda"
+    },
+    {
+      "file": "wildnis-320x568.png",
+      "sha256": "fbb31679e2927207311970be495f9482df7fcc6fbd6567c39a527d5e6e340793"
+    },
+    {
+      "file": "wildnis-390x844.png",
+      "sha256": "ccc74c9e72048d9192580fd4d0ee763c3837006e2541dc8a46c6ee6e26c5095e"
+    },
+    {
+      "file": "wildnis-768x1024.png",
+      "sha256": "6560f6f80de52ae2f76365e5c8b99b790f9d1b91427b2f9880a1ffa90cc3876f"
+    }
+  ]
+}

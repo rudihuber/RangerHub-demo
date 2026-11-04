@@ -4,24 +4,22 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Fachwissen – neue Abenteuerkarte
+## Fachwissen – interaktive Unterwelten und persönliche Prüfungen
 
-Neuer Einstieg: [RangerHub_Webapp_V29_Demo.html](RangerHub_Webapp_V29_Demo.html); `index.html` öffnet diesen Stand. Die vollständige V28 bleibt unverändert erhalten.
+Aktueller Einstieg: [RangerHub_Webapp_V30_Demo.html](RangerHub_Webapp_V30_Demo.html), auch über `index.html`. V29 bleibt unverändert archiviert.
 
-Fachwissen bietet eine eigenständige interaktive SVG-Abenteuerkarte mit sechs Regionen, 36 Quellthemen und 253 Hauptaufgaben. Inhalte öffnen erst auf Klick. Dashboard, offizielle Punkte, Rangliste, Leiterprüfung und freiwillige Challenges verwenden dieselben Datensätze. Vier unklare Quellwerte sind ausgewiesen, keine Punkte geraten.
+Die vorhandene Oberwelt führt zu fünf eigenen Unterwelten mit 36 Themenorten und 253 Originalaufgaben. Erst Ort und Aufgabe auswählen; dann für ein echtes Rangertreffen anmelden, höchstens drei Prüfungen pro Ranger/Treffen. Leiter bestätigen persönlich bestandene Aufgaben, Punkte und Rangliste folgen dem bestehenden Journal. Die frühere Arena ist ausschließlich Rangliste. Globale Redaktion und lokale Stammesanpassungen bleiben getrennt.
 
-Die Vorschau ist ausdrücklich **Demo / nur lokale Daten**. Eine zentrale Anbindung ist mit persönlicher Rollenprüfung und SQLite-Transaktionen implementiert und mit getrennten Browserprofilen getestet; produktives Hosting und persönliche Server-Zugänge sind noch einzurichten.
+Das Dashboard zeigt beide interaktiven Karten sowie Punkte, Platzierung, Top 3 und Prüfungsstatus. Die öffentliche Vorschau bleibt ausdrücklich lokal. Die zentrale Node-/SQLite-Anbindung mit persönlichen Rollen wurde mit getrennten Browserprofilen getestet; ein produktiver Host und persönliche Online-Zugänge sind noch einzurichten.
 
-- [Übergabe und Datenmodell](docs/V29-UEBERGABE.md)
-- [Testbericht](docs/V29-TESTBERICHT.md)
-- [Quellkatalog-Audit](docs/v29-catalog-audit.json)
-- [Backend-Konfiguration](docs/V29-BACKEND.md)
-- [Prüfsummen](docs/V29-SHA256SUMS)
-- [Browser-Screenshots](docs/screenshots/v29/)
+- [Übergabe, Dateien und Datenmodell](docs/V30-UEBERGABE.md)
+- [Testbericht und Screenshots](docs/V30-TESTBERICHT.md)
+- [Backend-Einrichtung](docs/V30-BACKEND.md)
+- [SHA-256](docs/V30-SHA256SUMS), [unveränderte Baseline](docs/v30-baseline.json)
 
-Start: `python3 -m http.server 8000`, dann `index.html` öffnen. Die übrigen Dateien, `assets/` und `vendor/` gemeinsam bereitstellen. Tests: `python3 -m unittest discover -s tests -v`; zentraler Dienst: `node --test backend/test-knowledge-server.mjs` (Node 24).
+Start: `python3 -m http.server 8000`, dann `index.html` öffnen. `assets/` und `vendor/` gemeinsam mitliefern. Aktuelle Tests: `python tools/check_v30.py` (Playwright/Chromium, Node 24). Ältere versionierte Tests dokumentieren die früheren Releases und deren inzwischen ersetzte Workflows.
 
-Der private Hauptbranch bleibt bis zur Abnahme unverändert. LocalStorage bleibt privat `rhv9`, Demo `rhv9-demo`. Keine bestehenden Aufgaben, Personen, Termine oder Originalassets werden gelöscht.
+Privater Hauptbranch bleibt bis zur Abnahme unverändert. Speicher bleibt `rhv9`, Demo getrennt `rhv9-demo`. Keine bestehenden Personen, Aufgaben, Fortschritte, Termine oder Originalassets gelöscht.
 
 ## Archiv V28 – Vorschläge, Navigation und Demo-Nachrichten
 

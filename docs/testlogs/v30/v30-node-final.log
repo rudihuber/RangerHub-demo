@@ -1,0 +1,33 @@
+✔ server identity, tribe permissions, disabled old workflows and no evidence fields (96.327427ms)
+✔ three slots are transactional across categories and four simultaneous clients (91.83415ms)
+✔ duplicate booking and request replay create one registration (38.000492ms)
+✔ withdraw before the meeting frees a slot, but reviewed attempts still consume slots (97.223279ms)
+✔ grading is in-person and concurrent leaders cannot double-grade or double-credit (66.94017ms)
+✔ failed and no-show attempts award no points and can be retried later (102.710064ms)
+✔ cancellation keeps history and explicit replacement checks its own three-slot limit (63.007289ms)
+✔ only matching real calendar meetings can be used; cancelled participation is respected (39.312107ms)
+✔ local editor, stammleiter and global admin layers remain separated (163.974651ms)
+✔ editor permissions can be withdrawn; malicious global role fields never grant access (47.561406ms)
+✔ point edits and archival never rewrite earned points or booked requirement versions (183.440345ms)
+✔ result correction needs stammleiter authority, a reason and a matching reversal (72.124256ms)
+✔ all 36 source topics keep one location, and custom regions/places/topics/tasks are editable (169.815598ms)
+✔ legacy points and evidence survive once in a closed archive and never enter active exam payloads (13.169715ms)
+✔ team-scoped leader cannot inspect or grade another team and ranger cannot forge a target (71.113756ms)
+✔ server refuses digital evidence and forged points, and calendar uses compare-and-swap (28.877606ms)
+✔ unknown source points need an audited clarification and fitness keeps its exact original option (120.782531ms)
+✔ a cancelled registration cannot be moved into a full replacement meeting (81.808933ms)
+✔ custom task without a short title, subitem revisions and stale editor writes are handled (73.197581ms)
+✔ verified imports preserve global layers and reject unaudited local knowledge without changing the DB (18.884335ms)
+✔ existing SQLite schema-one state upgrades at server restart without changing ledger or private archive (13.886763ms)
+✔ matching team meetings are selected and cancelled meeting details remain in personal history (70.873372ms)
+✔ custom local entries remain editable after creation and global arena title can change (129.451378ms)
+✔ same ranger IDs in different stamms never share credits or examinations (60.866462ms)
+✔ cancelled duplicate attempt cannot be reassigned after the task has been passed elsewhere (65.715914ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2069.077676

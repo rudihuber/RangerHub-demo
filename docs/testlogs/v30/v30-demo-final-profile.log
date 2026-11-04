@@ -1,0 +1,29 @@
+test_actual_v29_upgrade_preserves_verified_points_and_active_session (test_v30.V30Tests.test_actual_v29_upgrade_preserves_verified_points_and_active_session) ... ok
+test_all_36_locations_open_only_the_chosen_topic_and_task (test_v30.V30Tests.test_all_36_locations_open_only_the_chosen_topic_and_task) ... ok
+test_browser_back_deep_link_reload_and_mobile_focus (test_v30.V30Tests.test_browser_back_deep_link_reload_and_mobile_focus) ... ok
+test_cancelled_meeting_keeps_registration_and_can_be_reassigned (test_v30.V30Tests.test_cancelled_meeting_keeps_registration_and_can_be_reassigned) ... ok
+test_catalog_has_all_source_paragraphs_points_and_exact_examples (test_v30.V30Tests.test_catalog_has_all_source_paragraphs_points_and_exact_examples) ... ok
+test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state (test_v30.V30Tests.test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state) ... ok
+test_dashboard_two_maps_correct_preview_and_existing_growth_navigation (test_v30.V30Tests.test_dashboard_two_maps_correct_preview_and_existing_growth_navigation) ... ok
+test_editor_creates_each_entity_and_moves_task_in_real_forms (test_v30.V30Tests.test_editor_creates_each_entity_and_moves_task_in_real_forms) ... ok
+test_editor_text_points_subitems_original_and_local_reset (test_v30.V30Tests.test_editor_text_points_subitems_original_and_local_reset) ... ok
+test_http_failure_does_not_silently_save_locally (test_v30.V30Tests.test_http_failure_does_not_silently_save_locally) ... ok
+test_leader_pass_fail_no_show_history_and_ranking (test_v30.V30Tests.test_leader_pass_fail_no_show_history_and_ranking) ... ok
+test_migration_preserves_old_points_profiles_and_archives_legacy_data (test_v30.V30Tests.test_migration_preserves_old_points_profiles_and_archives_legacy_data) ... ok
+test_no_meeting_no_uploads_and_old_workflows_disabled (test_v30.V30Tests.test_no_meeting_no_uploads_and_old_workflows_disabled) ... ok
+test_online_server_three_independent_browser_storages_complete_exam_flow (test_v30.V30Tests.test_online_server_three_independent_browser_storages_complete_exam_flow) ... ok
+test_quota_failure_does_not_erase_existing_storage (test_v30.V30Tests.test_quota_failure_does_not_erase_existing_storage) ... ok
+test_registration_preview_three_slots_withdrawal_and_reload (test_v30.V30Tests.test_registration_preview_three_slots_withdrawal_and_reload) ... ok
+test_roles_stamm_switch_global_local_and_dirty_editor_guard (test_v30.V30Tests.test_roles_stamm_switch_global_local_and_dirty_editor_guard) ... ok
+test_screenshots_all_sizes_all_subworlds_dashboard_and_reduced_motion (test_v30.V30Tests.test_screenshots_all_sizes_all_subworlds_dashboard_and_reduced_motion) ... ok
+test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots (test_v30.V30Tests.test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots) ... ok
+test_true_touch_mobile_sheet_back_close_and_registration (test_v30.V30Tests.test_true_touch_mobile_sheet_back_close_and_registration) ... ok
+test_index_named_html_and_active_modules (test_v30_packaging.V30PackagingTests.test_index_named_html_and_active_modules) ... ok
+test_unchanged_backup_source_assets_and_checksums (test_v30_packaging.V30PackagingTests.test_unchanged_backup_source_assets_and_checksums) ... ok
+test_previous_ranger_profile_and_team_screen_can_be_restored (test_v28.V28Tests.test_previous_ranger_profile_and_team_screen_can_be_restored) ... ok
+test_editorial_layout_icon_and_growth_art_on_mobile_and_desktop (test_planning_and_recipes.PlanningAndRecipeTests.test_editorial_layout_icon_and_growth_art_on_mobile_and_desktop) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 86.842s
+
+OK

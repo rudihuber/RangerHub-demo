@@ -1,0 +1,126 @@
+test_actual_v29_upgrade_preserves_verified_points_and_active_session (test_v30.V30Tests.test_actual_v29_upgrade_preserves_verified_points_and_active_session) ... ok
+test_all_36_locations_open_only_the_chosen_topic_and_task (test_v30.V30Tests.test_all_36_locations_open_only_the_chosen_topic_and_task) ... ok
+test_browser_back_deep_link_reload_and_mobile_focus (test_v30.V30Tests.test_browser_back_deep_link_reload_and_mobile_focus) ... ok
+test_cancelled_meeting_keeps_registration_and_can_be_reassigned (test_v30.V30Tests.test_cancelled_meeting_keeps_registration_and_can_be_reassigned) ... ok
+test_catalog_has_all_source_paragraphs_points_and_exact_examples (test_v30.V30Tests.test_catalog_has_all_source_paragraphs_points_and_exact_examples) ... ok
+test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state (test_v30.V30Tests.test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state) ... ok
+test_dashboard_two_maps_correct_preview_and_existing_growth_navigation (test_v30.V30Tests.test_dashboard_two_maps_correct_preview_and_existing_growth_navigation) ... ok
+test_editor_creates_each_entity_and_moves_task_in_real_forms (test_v30.V30Tests.test_editor_creates_each_entity_and_moves_task_in_real_forms) ... ok
+test_editor_text_points_subitems_original_and_local_reset (test_v30.V30Tests.test_editor_text_points_subitems_original_and_local_reset) ... ok
+test_http_failure_does_not_silently_save_locally (test_v30.V30Tests.test_http_failure_does_not_silently_save_locally) ... ok
+test_leader_pass_fail_no_show_history_and_ranking (test_v30.V30Tests.test_leader_pass_fail_no_show_history_and_ranking) ... ok
+test_migration_preserves_old_points_profiles_and_archives_legacy_data (test_v30.V30Tests.test_migration_preserves_old_points_profiles_and_archives_legacy_data) ... ok
+test_no_meeting_no_uploads_and_old_workflows_disabled (test_v30.V30Tests.test_no_meeting_no_uploads_and_old_workflows_disabled) ... ok
+test_online_server_three_independent_browser_storages_complete_exam_flow (test_v30.V30Tests.test_online_server_three_independent_browser_storages_complete_exam_flow) ... ok
+test_quota_failure_does_not_erase_existing_storage (test_v30.V30Tests.test_quota_failure_does_not_erase_existing_storage) ... ok
+test_registration_preview_three_slots_withdrawal_and_reload (test_v30.V30Tests.test_registration_preview_three_slots_withdrawal_and_reload) ... ok
+test_roles_stamm_switch_global_local_and_dirty_editor_guard (test_v30.V30Tests.test_roles_stamm_switch_global_local_and_dirty_editor_guard) ... ok
+test_screenshots_all_sizes_all_subworlds_dashboard_and_reduced_motion (test_v30.V30Tests.test_screenshots_all_sizes_all_subworlds_dashboard_and_reduced_motion) ... ok
+test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots (test_v30.V30Tests.test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots) ... ok
+test_true_touch_mobile_sheet_back_close_and_registration (test_v30.V30Tests.test_true_touch_mobile_sheet_back_close_and_registration) ... ok
+test_curved_marker_motion_threshold_notice_and_reduced_motion (test_expedition.ExpeditionTests.test_curved_marker_motion_threshold_notice_and_reduced_motion) ... ok
+test_early_following_progress_survives_promotion_and_reload (test_expedition.ExpeditionTests.test_early_following_progress_survives_promotion_and_reload) ... ok
+test_exact_thresholds_bonus_tasks_and_official_promotion (test_expedition.ExpeditionTests.test_exact_thresholds_bonus_tasks_and_official_promotion) ... ok
+test_existing_leader_checkbox_updates_the_same_ranger_progress (test_expedition.ExpeditionTests.test_existing_leader_checkbox_updates_the_same_ranger_progress) ... ok
+test_existing_pdf_assets_are_accessible_when_present (test_expedition.ExpeditionTests.test_existing_pdf_assets_are_accessible_when_present) ... ok
+test_expedition_is_only_on_the_own_ranger_dashboard (test_expedition.ExpeditionTests.test_expedition_is_only_on_the_own_ranger_dashboard) ... ok
+test_locked_stations_accessible_details_keyboard_and_focus_return (test_expedition.ExpeditionTests.test_locked_stations_accessible_details_keyboard_and_focus_return) ... ok
+test_marker_positions_are_based_on_existing_stage_completion (test_expedition.ExpeditionTests.test_marker_positions_are_based_on_existing_stage_completion) ... ok
+test_read_only_map_does_not_change_people_shared_content_or_progress (test_expedition.ExpeditionTests.test_read_only_map_does_not_change_people_shared_content_or_progress) ... ok
+test_stages_without_tasks_never_complete_or_unlock_the_next_stage (test_expedition.ExpeditionTests.test_stages_without_tasks_never_complete_or_unlock_the_next_stage) ... ok
+test_stamm_switch_and_colliding_person_ids_do_not_mix_progress (test_expedition.ExpeditionTests.test_stamm_switch_and_colliding_person_ids_do_not_mix_progress) ... ok
+test_touch_dialog_close_and_existing_logbook_above_mobile_navigation (test_expedition.ExpeditionTests.test_touch_dialog_close_and_existing_logbook_above_mobile_navigation) ... ok
+test_unlocked_stations_open_existing_tasks_and_logbook_and_return (test_expedition.ExpeditionTests.test_unlocked_stations_open_existing_tasks_and_logbook_and_return) ... ok
+test_viewports_touch_targets_no_overlap_or_horizontal_overflow (test_expedition.ExpeditionTests.test_viewports_touch_targets_no_overlap_or_horizontal_overflow) ... ok
+test_attendance_checkboxes_cancellations_and_explicit_save (test_v27.V27Tests.test_attendance_checkboxes_cancellations_and_explicit_save) ... ok
+test_birthdays_are_last_number_four (test_v27.V27Tests.test_birthdays_are_last_number_four) ... ok
+test_catalog_import_deduplicates_preserves_and_enforces_delete_roles (test_v27.V27Tests.test_catalog_import_deduplicates_preserves_and_enforces_delete_roles) ... ok
+test_confirmation_has_date_leader_reload_and_role_protection (test_v27.V27Tests.test_confirmation_has_date_leader_reload_and_role_protection) ... ok
+test_forecast_limits_and_network_failure_are_honest (test_v27.V27Tests.test_forecast_limits_and_network_failure_are_honest) ... ok
+test_invalid_plan_stays_open_when_save_requested (test_v27.V27Tests.test_invalid_plan_stays_open_when_save_requested) ... ok
+test_knots_require_two_distinct_meeting_days_and_keep_legacy (test_v27.V27Tests.test_knots_require_two_distinct_meeting_days_and_keep_legacy) ... ok
+test_layout_sizes_and_screenshots (test_v27.V27Tests.test_layout_sizes_and_screenshots) ... ok
+test_mobile_touch_planning_attendance_and_dashboard_cancellation (test_v27.V27Tests.test_mobile_touch_planning_attendance_and_dashboard_cancellation) ... ok
+test_observer_extra_content_leader_only_and_no_duplicate_labels (test_v27.V27Tests.test_observer_extra_content_leader_only_and_no_duplicate_labels) ... ok
+test_photos_save_reload_slides_and_quota_rollback (test_v27.V27Tests.test_photos_save_reload_slides_and_quota_rollback) ... ok
+test_planning_close_warns_continue_discard_and_save (test_v27.V27Tests.test_planning_close_warns_continue_discard_and_save) ... ok
+test_planning_guard_escape_backdrop_navigation_and_stamm_switch (test_v27.V27Tests.test_planning_guard_escape_backdrop_navigation_and_stamm_switch) ... ok
+test_ranger_dashboard_cancellation_and_attendance_encouragement (test_v27.V27Tests.test_ranger_dashboard_cancellation_and_attendance_encouragement) ... ok
+test_recipe_roundtrip_keeps_planning_guard_and_photo_draft (test_v27.V27Tests.test_recipe_roundtrip_keeps_planning_guard_and_photo_draft) ... ok
+test_recipe_selection_still_fills_checklist (test_v27.V27Tests.test_recipe_selection_still_fills_checklist) ... ok
+test_stamm_confirmation_and_photo_isolation (test_v27.V27Tests.test_stamm_confirmation_and_photo_isolation) ... ok
+test_upgrade_from_v26_preserves_all_existing_values_and_active_session (test_v27.V27Tests.test_upgrade_from_v26_preserves_all_existing_values_and_active_session) ... ok
+test_weather_town_postcode_and_detailed_current (test_v27.V27Tests.test_weather_town_postcode_and_detailed_current) ... ok
+test_action_and_impulse_planning_does_not_create_fictitious_dates (test_v28.V28Tests.test_action_and_impulse_planning_does_not_create_fictitious_dates) ... ok
+test_action_linked_impulse_can_be_selected_and_customized (test_v28.V28Tests.test_action_linked_impulse_can_be_selected_and_customized) ... ok
+test_chat_followup_reopens_question_and_survives_reload (test_v28.V28Tests.test_chat_followup_reopens_question_and_survives_reload) ... ok
+test_chat_own_ranger_only_and_cross_stamm_protection (test_v28.V28Tests.test_chat_own_ranger_only_and_cross_stamm_protection) ... ok
+test_chat_question_reply_bold_status_checkmark_and_read_receipts (test_v28.V28Tests.test_chat_question_reply_bold_status_checkmark_and_read_receipts) ... ok
+test_chat_quota_errors_do_not_claim_delivery_or_erase_data (test_v28.V28Tests.test_chat_quota_errors_do_not_claim_delivery_or_erase_data) ... ok
+test_chat_text_is_escaped_and_push_is_only_prepared (test_v28.V28Tests.test_chat_text_is_escaped_and_push_is_only_prepared) ... ok
+test_icons_growth_alignment_back_controls_and_screenshots (test_v28.V28Tests.test_icons_growth_alignment_back_controls_and_screenshots) ... ok
+test_nature_and_action_catalogs_are_additive_complete_and_private (test_v28.V28Tests.test_nature_and_action_catalogs_are_additive_complete_and_private) ... ok
+test_nature_edit_permissions_and_stamm_separation (test_v28.V28Tests.test_nature_edit_permissions_and_stamm_separation) ... ok
+test_nature_library_plan_into_existing_meeting_and_dirty_guard (test_v28.V28Tests.test_nature_library_plan_into_existing_meeting_and_dirty_guard) ... ok
+test_nature_picker_saves_snapshot_and_required_leader_is_not_invented (test_v28.V28Tests.test_nature_picker_saves_snapshot_and_required_leader_is_not_invented) ... ok
+test_prepared_http_adapter_uses_personal_token_and_rejects_forbidden (test_v28.V28Tests.test_prepared_http_adapter_uses_personal_token_and_rejects_forbidden) ... ok
+test_previous_ranger_profile_and_team_screen_can_be_restored (test_v28.V28Tests.test_previous_ranger_profile_and_team_screen_can_be_restored) ... ok
+test_same_browser_tabs_receive_replies_without_losing_a_draft (test_v28.V28Tests.test_same_browser_tabs_receive_replies_without_losing_a_draft) ... ok
+test_touch_back_and_chat_at_small_phone_sizes (test_v28.V28Tests.test_touch_back_and_chat_at_small_phone_sizes) ... ok
+test_untouched_form_is_not_marked_dirty_by_new_picker_controls (test_v28.V28Tests.test_untouched_form_is_not_marked_dirty_by_new_picker_controls) ... ok
+test_v27_upgrade_keeps_existing_people_progress_and_library_edits (test_v28.V28Tests.test_v27_upgrade_keeps_existing_people_progress_and_library_edits) ... ok
+test_editorial_layout_icon_and_growth_art_on_mobile_and_desktop (test_planning_and_recipes.PlanningAndRecipeTests.test_editorial_layout_icon_and_growth_art_on_mobile_and_desktop) ... ok
+test_grocery_tasks_follow_food_leader_and_preserve_checked_items (test_planning_and_recipes.PlanningAndRecipeTests.test_grocery_tasks_follow_food_leader_and_preserve_checked_items) ... ok
+test_import_errors_leave_recipe_editable (test_planning_and_recipes.PlanningAndRecipeTests.test_import_errors_leave_recipe_editable) ... ok
+test_live_planning_status_saves_incomplete_and_updates_automatically (test_planning_and_recipes.PlanningAndRecipeTests.test_live_planning_status_saves_incomplete_and_updates_automatically) ... ok
+test_pasted_recipe_and_immediate_meeting_checklist_preserve_draft (test_planning_and_recipes.PlanningAndRecipeTests.test_pasted_recipe_and_immediate_meeting_checklist_preserve_draft) ... ok
+test_pdf_and_word_file_import (test_planning_and_recipes.PlanningAndRecipeTests.test_pdf_and_word_file_import) ... ok
+test_planning_boundaries_and_required_assignments (test_planning_and_recipes.PlanningAndRecipeTests.test_planning_boundaries_and_required_assignments) ... ok
+test_recipes_are_separate_per_tribe_and_rangers_cannot_edit (test_planning_and_recipes.PlanningAndRecipeTests.test_recipes_are_separate_per_tribe_and_rangers_cannot_edit) ... ok
+test_scanned_pdf_uses_local_ocr (test_planning_and_recipes.PlanningAndRecipeTests.test_scanned_pdf_uses_local_ocr) ... ok
+test_index_named_html_and_active_modules (test_v30_packaging.V30PackagingTests.test_index_named_html_and_active_modules) ... ok
+test_unchanged_backup_source_assets_and_checksums (test_v30_packaging.V30PackagingTests.test_unchanged_backup_source_assets_and_checksums) ... ok
+test_admin_session_survives_reload (test_session_reload.SessionReloadTests.test_admin_session_survives_reload) ... ok
+test_demo_does_not_touch_original_storage (test_session_reload.SessionReloadTests.test_demo_does_not_touch_original_storage) ... ok
+test_navigation_after_reload (test_session_reload.SessionReloadTests.test_navigation_after_reload) ... ok
+test_other_roles_survive_reload (test_session_reload.SessionReloadTests.test_other_roles_survive_reload) ... ok
+test_saved_data_survives_reload_and_relogin (test_session_reload.SessionReloadTests.test_saved_data_survives_reload_and_relogin) ... ok
+test_tribe_switch_survives_reload_without_mixing_data (test_session_reload.SessionReloadTests.test_tribe_switch_survives_reload_without_mixing_data) ... ok
+
+----------------------------------------------------------------------
+Ran 88 tests in 179.866s
+
+OK
+✔ server identity, tribe permissions, disabled old workflows and no evidence fields (96.90527ms)
+✔ three slots are transactional across categories and four simultaneous clients (143.349057ms)
+✔ duplicate booking and request replay create one registration (45.545944ms)
+✔ withdraw before the meeting frees a slot, but reviewed attempts still consume slots (109.037911ms)
+✔ grading is in-person and concurrent leaders cannot double-grade or double-credit (85.002688ms)
+✔ failed and no-show attempts award no points and can be retried later (126.874814ms)
+✔ cancellation keeps history and explicit replacement checks its own three-slot limit (76.577233ms)
+✔ only matching real calendar meetings can be used; cancelled participation is respected (40.007446ms)
+✔ local editor, stammleiter and global admin layers remain separated (198.121316ms)
+✔ editor permissions can be withdrawn; malicious global role fields never grant access (59.724011ms)
+✔ point edits and archival never rewrite earned points or booked requirement versions (206.209494ms)
+✔ result correction needs stammleiter authority, a reason and a matching reversal (86.001336ms)
+✔ all 36 source topics keep one location, and custom regions/places/topics/tasks are editable (179.907052ms)
+✔ legacy points and evidence survive once in a closed archive and never enter active exam payloads (14.897218ms)
+✔ team-scoped leader cannot inspect or grade another team and ranger cannot forge a target (75.419786ms)
+✔ server refuses digital evidence and forged points, and calendar uses compare-and-swap (30.011186ms)
+✔ unknown source points need an audited clarification and fitness keeps its exact original option (131.864051ms)
+✔ a cancelled registration cannot be moved into a full replacement meeting (101.062841ms)
+✔ custom task without a short title, subitem revisions and stale editor writes are handled (93.068221ms)
+✔ verified imports preserve global layers and reject unaudited local knowledge without changing the DB (27.432573ms)
+✔ existing SQLite schema-one state upgrades at server restart without changing ledger or private archive (19.23239ms)
+✔ matching team meetings are selected and cancelled meeting details remain in personal history (83.264325ms)
+✔ custom local entries remain editable after creation and global arena title can change (131.172171ms)
+✔ same ranger IDs in different stamms never share credits or examinations (65.589291ms)
+✔ cancelled duplicate attempt cannot be reassigned after the task has been passed elsewhere (66.906582ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2384.891398

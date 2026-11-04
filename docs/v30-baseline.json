@@ -1,0 +1,930 @@
+{
+  "commit": "f681ce279bcf4ab91d938db62fec9c5678b0d6f7",
+  "backup_tag": "backup/before-v30-fachwissen-v2",
+  "files": {
+    ".gitattributes": {
+      "bytes": 101,
+      "sha256": "21b94b814c1ba2ccbd12617be18be740bae1d2ad27ca0d7940f4cd48b6f15756"
+    },
+    ".gitignore": {
+      "bytes": 203,
+      "sha256": "9db9e81ce084ea5a6d1fb6a66f9ee8f1e0b5d70daac146fd49027e7f47eceb46"
+    },
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 8447,
+      "sha256": "075a58729175b24443a21286fb5d06b224509ee9bd781877030769a1649e0cb3"
+    },
+    "RangerHub_Webapp_V25_Demo_Backup.html": {
+      "bytes": 219904,
+      "sha256": "fe6f712b3b83c2dcd33c9ca21eb6c1fb51d7d43985d0001b42731a3f9aa67aea"
+    },
+    "RangerHub_Webapp_V26_Demo.html": {
+      "bytes": 220103,
+      "sha256": "98fd6423cc59e22cdf80a45e11c13331396da5a8ec5edfe9a8390cd59cd4c714"
+    },
+    "RangerHub_Webapp_V27_Demo.html": {
+      "bytes": 220282,
+      "sha256": "775ce433813809864c6270da52635df92d2c3a6d9012e57f88c9b4b4bc74029c"
+    },
+    "RangerHub_Webapp_V28_Demo.html": {
+      "bytes": 220625,
+      "sha256": "cd867e9a67af99a1f5b6e5bf3e153623d8029d2d138f17854b6d0f6f5bd8ae38"
+    },
+    "RangerHub_Webapp_V29_Demo.html": {
+      "bytes": 221010,
+      "sha256": "c29084b450fd0dd1fd1eeac4b5ff5bcf0afeeaf21283062f90b03b779636dafe"
+    },
+    "assets/growth-journey-clean.png": {
+      "bytes": 1532762,
+      "sha256": "a8a7bc115c039605f29fca6c6ccc61e3c43a7a42a88e943d90144f44394e081f"
+    },
+    "assets/growth-journey.png": {
+      "bytes": 1494179,
+      "sha256": "afa02c8977f69f9fca36877c911feabcf6cb935f99d715f437881b363b1b77bd"
+    },
+    "assets/logbook/growth-illustration.jpg": {
+      "bytes": 227595,
+      "sha256": "2837dc622a126bafd157839ddda84b0a2611d5768d626fea6b9a2548c8443a6a"
+    },
+    "assets/logbook/growth-logbook.png": {
+      "bytes": 339835,
+      "sha256": "3dc3e9467ca177643cd20ead73898564e8a5cfca929acc1656563da52d3ef1cc"
+    },
+    "assets/logbook/growth-overview.jpg": {
+      "bytes": 407962,
+      "sha256": "a4614e5a50eb96902bbec56a10a6d3eb0ed0794e3b93e5424e443d9db2829bf5"
+    },
+    "assets/logbook/manifest.json": {
+      "bytes": 765,
+      "sha256": "d6f43ab2b9a7b1657525c09cc0de84bef650bca02ebc96f7c8f2a22742588c59"
+    },
+    "assets/logbook/observer-introduction.png": {
+      "bytes": 288282,
+      "sha256": "76ffbe72ebaf012b02c193d9d8c51f1354711d9fa98a8b11b968f1deb5355c2a"
+    },
+    "assets/logbook/observer-shoulder.jpg": {
+      "bytes": 159680,
+      "sha256": "ec665e35153cfdd17ea7bfa93fb1d01bf07df401e095981b8670d3737a7a0032"
+    },
+    "backend/import-existing.mjs": {
+      "bytes": 1208,
+      "sha256": "f8f6e7713ded5df03bdfe6cb5206061a3976b401ad162accd36f19e006cea4ab"
+    },
+    "backend/knowledge-server.mjs": {
+      "bytes": 10803,
+      "sha256": "f8a287b8eeeff91c1f81c6421245a466dcd8544fb2a237d46c02332648b94ad2"
+    },
+    "backend/test-knowledge-server.mjs": {
+      "bytes": 13329,
+      "sha256": "a9fff838f0da961e37e53dc5dca2c08eaf45bae1d8cd7dde784ba3d3261bdfd6"
+    },
+    "data/RangerHub_Fachwissen_Quellkatalog.json": {
+      "bytes": 120319,
+      "sha256": "c3ed7f0f4b5f20387b2b536fa7a59a4cdcb756e3ad42ac97c1e7a62190266cc0"
+    },
+    "data/knowledge-normalized.json": {
+      "bytes": 146750,
+      "sha256": "be8f1c89bcc14b093cf12717c79191670e9501bec307e382b788574ebd8bf741"
+    },
+    "docs/V26-SHA256SUMS": {
+      "bytes": 459,
+      "sha256": "d50b70c6f6a1d64be81e0e0242416597449b76ac530a729127a21dbeca1f129e"
+    },
+    "docs/V26-TESTBERICHT.md": {
+      "bytes": 3686,
+      "sha256": "82b0f152fdd5866bd01550d204fa74d17e2e793254e3670937fc9d5e2a81d5d7"
+    },
+    "docs/V26-UEBERGABE.md": {
+      "bytes": 4229,
+      "sha256": "af4ffb78e943388d2912f0186a8b4af8c22ec7921dde388f7ca47c96735c0c06"
+    },
+    "docs/V27-SHA256SUMS": {
+      "bytes": 529,
+      "sha256": "2e200a1db1e6fc48ab94ab844a4d2ace8333d8c454d57f9e577c08441759c776"
+    },
+    "docs/V27-TESTBERICHT.md": {
+      "bytes": 4775,
+      "sha256": "1a2590f535008c341cce7d52df92221ba794112f3bed79b3cd150c7df3aa9d22"
+    },
+    "docs/V27-UEBERGABE.md": {
+      "bytes": 8499,
+      "sha256": "20592fb286474615069144c5b2fa7ddd11480a89881e5b68d74c6c9d0f8b0e4c"
+    },
+    "docs/V28-ONLINE-CHAT.md": {
+      "bytes": 6139,
+      "sha256": "ce6c4bd38ea07a14ffdfde367720643658072cdd2b464add7a175269258648c0"
+    },
+    "docs/V28-SHA256SUMS": {
+      "bytes": 809,
+      "sha256": "0d78c2784b937d0e0d7aea725095547a7be26cadd2cd50d7a83056928a8a989c"
+    },
+    "docs/V28-TESTBERICHT.md": {
+      "bytes": 3512,
+      "sha256": "4078b69ce14714dee905c2694998d3b1e7d8a3279620237c4760427d29f35bbb"
+    },
+    "docs/V28-UEBERGABE.md": {
+      "bytes": 8304,
+      "sha256": "4384b94c74ff412c40102a3ca380ffaf8b6ec84254453905d895caab17ca9db6"
+    },
+    "docs/V29-AUFTRAG.md": {
+      "bytes": 21628,
+      "sha256": "6682416d77edc7f18a5ad07f9eeeecc804e8ce6f6978d5b42fc7db7cf38d3adb"
+    },
+    "docs/V29-BACKEND.md": {
+      "bytes": 8213,
+      "sha256": "80b30318825ea92f951151912930f171afee9eed30f144d0d301454f04403049"
+    },
+    "docs/V29-SHA256SUMS": {
+      "bytes": 1506,
+      "sha256": "f0f270e790cdfef60b8462a1ec323e53eafa22d90a1cd1076e3c784970f89f9f"
+    },
+    "docs/V29-TESTBERICHT.md": {
+      "bytes": 5491,
+      "sha256": "72675491d59353c8fab7f79b90ac0ef4f6fcb3df2346f41981dcc70d5f97415b"
+    },
+    "docs/V29-UEBERGABE.md": {
+      "bytes": 9634,
+      "sha256": "8e2b5cd8f9e7a3248818eae3aab7538715f6399b5ab42381b29f84a40076eb2a"
+    },
+    "docs/dashboard-and-planning.md": {
+      "bytes": 4681,
+      "sha256": "cafbe2463ecd4d09e0da951157025d247c07c78fe6086b9d4e7f8ce7ec3b3757"
+    },
+    "docs/logbook-workflow.md": {
+      "bytes": 5273,
+      "sha256": "216520e3b305c48adf93ba5313f3b09bef86d8674107bf9d9cd9a6c709d19af1"
+    },
+    "docs/ranger-view.md": {
+      "bytes": 5436,
+      "sha256": "fe592e5a7dde352cb9979998b5cc9808881cb28da52bd857843501bbbe573b30"
+    },
+    "docs/screenshots/annual-vision.png": {
+      "bytes": 163340,
+      "sha256": "a42669ea40a572017decc545a63c4f750b13ce9e832b91464e365501522d0897"
+    },
+    "docs/screenshots/dashboard-desktop.png": {
+      "bytes": 547255,
+      "sha256": "d506ab3ad9932bcde1aa1687ad7ac7cd016196355c95de7928a0694124562303"
+    },
+    "docs/screenshots/dashboard-mobile.png": {
+      "bytes": 364743,
+      "sha256": "5a636554ed766a75ebf801a2ed7d6b221d4bfb04f0d3beada0e6b9f4dc97b303"
+    },
+    "docs/screenshots/growth-desktop.png": {
+      "bytes": 642555,
+      "sha256": "fef539d93738df02a2f463cc1a37b39768124bbe54a2ba7b20cbbc8bba9e1d82"
+    },
+    "docs/screenshots/login-desktop.png": {
+      "bytes": 87763,
+      "sha256": "7aa2e52538d47dc502f313c286a050ee9ec69d33b9b95b60bac1e951695f8b4e"
+    },
+    "docs/screenshots/meeting-archive.png": {
+      "bytes": 137852,
+      "sha256": "504dcbeb5a653570b953e65013e99b193e10807d267b8e29f2093366c1995d7c"
+    },
+    "docs/screenshots/menu-mobile.png": {
+      "bytes": 36405,
+      "sha256": "fcf8d181b9593d9919466adc4533a4ac4a3bd51c7da92fc506a3539d3627f223"
+    },
+    "docs/screenshots/planning-states.png": {
+      "bytes": 257943,
+      "sha256": "47fcbc0299ed2bd1c162abd73ac67a909a5c7ed130c76803201a0f60f64e33f7"
+    },
+    "docs/screenshots/ranger-dashboard-mobile.png": {
+      "bytes": 344926,
+      "sha256": "903da8d53cfb89345e681b0742d5c3bd5f86febfab19ec2c2f78befa5d1a9ed0"
+    },
+    "docs/screenshots/ranger-dashboard.png": {
+      "bytes": 364102,
+      "sha256": "f721827b32becd02d460fde0827ef6d041083c370d074a687d5bf79cdd8205e9"
+    },
+    "docs/screenshots/ranger-growth.png": {
+      "bytes": 628989,
+      "sha256": "6eef2875bfbea02b955d2e09419ed8b301045c57341e97c35808725bce7efe38"
+    },
+    "docs/screenshots/ranger-participation-mobile.png": {
+      "bytes": 93308,
+      "sha256": "bb1086c42ddf926a6f69f36dfec4dee83e3f23a4921b24c7379ebf82d53ce2b8"
+    },
+    "docs/screenshots/recipe-import.png": {
+      "bytes": 113553,
+      "sha256": "d6f036b244bbbb1cea3488696081b70da588f46465d938a95cda6dc213441044"
+    },
+    "docs/screenshots/v26/admin-without-map.png": {
+      "bytes": 440708,
+      "sha256": "482d85a650945c42570d6a24848609192a820a5620ade8210ab8adbb130f17ef"
+    },
+    "docs/screenshots/v26/expedition-1366x768.png": {
+      "bytes": 281239,
+      "sha256": "5876fcf521ff2edc06a0aedb2bfc5ce2eddf34b73202ba84b1c77a31173e1dc7"
+    },
+    "docs/screenshots/v26/expedition-1440x900.png": {
+      "bytes": 338492,
+      "sha256": "f3844ee04f1fdc4d98623aee5c8596a49591f69501cfc05c839b0360ee83bd98"
+    },
+    "docs/screenshots/v26/expedition-1920x1080.png": {
+      "bytes": 396506,
+      "sha256": "ccbafe1e49b07f99aaaae1822a0551b4a75884c7de1c8c6d01e845feac16de04"
+    },
+    "docs/screenshots/v26/expedition-320x568.png": {
+      "bytes": 72351,
+      "sha256": "f0d5ca9dd8b1c6f7921a25744ab559dd8fd29fb120d3788a45a2e7a85c22e703"
+    },
+    "docs/screenshots/v26/expedition-375x812.png": {
+      "bytes": 113054,
+      "sha256": "adb20bcc40c5535f2288e3d8bcde3616610c8570e0e2af70e800f44205bcad76"
+    },
+    "docs/screenshots/v26/expedition-390x844.png": {
+      "bytes": 119787,
+      "sha256": "d000956a21ae85b7405187d4d8460f7aa763e8b929c9d1eca3d9ec32f98ce3a1"
+    },
+    "docs/screenshots/v26/expedition-768x1024.png": {
+      "bytes": 296033,
+      "sha256": "e409dd70fe64d068c54cc7993e07b7fa57708de8771fef272ebd1426e64778ef"
+    },
+    "docs/screenshots/v26/expedition-844x390.png": {
+      "bytes": 76487,
+      "sha256": "c0810b6889763a112e8bc08f77a2e2964563f3440f1181aee8dc9e74ca9a3f75"
+    },
+    "docs/screenshots/v26/station-erkunder.png": {
+      "bytes": 135838,
+      "sha256": "d499aaecf25b8636425763714c65f8ed65aa0018357dc056c1db148083d4523f"
+    },
+    "docs/screenshots/v26/station-mobile-dialog.png": {
+      "bytes": 33611,
+      "sha256": "f590cf9f5adcd19f9741b7f6c7b5b7f9a2b5a5fe50277f4b8ab3779b8ecaa04a"
+    },
+    "docs/screenshots/v27/attendance-checkboxes.png": {
+      "bytes": 18568,
+      "sha256": "7c3f4e6940fcca565386986dfd5e299f2687dcc714a39fb91a006f5ab2127bb6"
+    },
+    "docs/screenshots/v27/growth-art-mobile.png": {
+      "bytes": 326388,
+      "sha256": "6739689618709407bf474f03912a5e30920c45fc64a1b0993c76b065e60af365"
+    },
+    "docs/screenshots/v27/knot-two-meetings.png": {
+      "bytes": 23359,
+      "sha256": "d87678142919011f633ce3e28b3ad606f8bce28c77e1fb5c0fe536e9903605b1"
+    },
+    "docs/screenshots/v27/leiter-dashboard-1440x900.png": {
+      "bytes": 592653,
+      "sha256": "ad7d5ef976225ed275ddd4e24a02474ad3e83cf8ab7c0de4f198e0c6de11fbc4"
+    },
+    "docs/screenshots/v27/leiter-dashboard-320x568.png": {
+      "bytes": 368386,
+      "sha256": "f6860380d27c2cc3da18bbfe64d5b1032decdba316aa6775a6cdeee3708da8ef"
+    },
+    "docs/screenshots/v27/leiter-growth-desktop.png": {
+      "bytes": 746265,
+      "sha256": "1a944123d43db3dde1c59043b1c4050423ee0d197b5c30ada623f09fcd82cfd7"
+    },
+    "docs/screenshots/v27/photo-slides.png": {
+      "bytes": 38589,
+      "sha256": "6556a78e064ca2beef02835b6a6ae585bed1df7be670b14b3757cc3eff1421be"
+    },
+    "docs/screenshots/v27/ranger-dashboard-1440x900.png": {
+      "bytes": 638781,
+      "sha256": "7e52ae615d0f0d16b9e0373a4c1a604403d6c16603137ae801926d0473feb896"
+    },
+    "docs/screenshots/v27/ranger-dashboard-320x568.png": {
+      "bytes": 425075,
+      "sha256": "e91b47e93ca8f4de3e10e9c9e0c4003b8e86296622799ef0900fed079f0ad6c1"
+    },
+    "docs/screenshots/v27/ranger-dashboard-390x844.png": {
+      "bytes": 498864,
+      "sha256": "59d1d37f64387208aefbaf9228f7011070df50e3f29cef0ecc1664d869a72cc4"
+    },
+    "docs/screenshots/v27/ranger-growth-desktop.png": {
+      "bytes": 738461,
+      "sha256": "ef61fc4c01b6ddae5030e2e9cfdea6b0f041cce6b666d91cf0c24eb869a434bf"
+    },
+    "docs/screenshots/v27/unsaved-mobile.png": {
+      "bytes": 17588,
+      "sha256": "bb6b30688bfd851a75531e2ca7496aeaded1ea7d0ceb5940643e38485a36161a"
+    },
+    "docs/screenshots/v28/action-impulse-desktop.png": {
+      "bytes": 352212,
+      "sha256": "5bbc0f63f32c2e034aa05dedda9868bdd514cf56925b6fc2537b9791dd4bdf0a"
+    },
+    "docs/screenshots/v28/chat-mobile.png": {
+      "bytes": 55388,
+      "sha256": "18288d37bbb3260360bf913d2a71a08ffb16632de0279e2b5c650e7b6bc4dc38"
+    },
+    "docs/screenshots/v28/growth-1440x900.png": {
+      "bytes": 532729,
+      "sha256": "47745c56f992967e931da8b3d530072f1a0708dcc7cb0d36613878904ca436cf"
+    },
+    "docs/screenshots/v28/growth-320x568.png": {
+      "bytes": 223236,
+      "sha256": "9db8303e0782102750e5e0ca10e451766628363e6cdc8df5efcbf66f43744d02"
+    },
+    "docs/screenshots/v28/growth-390x844.png": {
+      "bytes": 323626,
+      "sha256": "c11cdb733ae0c468b30b24aa75d2a0f08692d9c088994dcea51346653bda525e"
+    },
+    "docs/screenshots/v28/leader-dashboard-icons.png": {
+      "bytes": 604838,
+      "sha256": "893227d848d8d344d3eeebf24c0392f333c0a419309e51a78af1ae2feb15d89e"
+    },
+    "docs/screenshots/v28/messages-answered.png": {
+      "bytes": 130901,
+      "sha256": "107575d68bec317b15e5de45b2cdd997252b343fc9fc1fda2854ab7bc5aad699"
+    },
+    "docs/screenshots/v28/messages-open-question.png": {
+      "bytes": 131904,
+      "sha256": "4251f8cf886e9e6406c24726146b47e71e4a2b6c7c8a95f90a75629f47315687"
+    },
+    "docs/screenshots/v28/nature-creation-desktop.png": {
+      "bytes": 238456,
+      "sha256": "16eb1eadd7215cb2c4ec5503a694dfbf8b81158344aa4519032d957602662800"
+    },
+    "docs/screenshots/v29/adventure-map-1440.png": {
+      "bytes": 685901,
+      "sha256": "7f4387b978efb2fb1a56a7b1c9b05fc1b70ef0c378e7dbfb4f166b62bd561401"
+    },
+    "docs/screenshots/v29/adventure-map-320.png": {
+      "bytes": 298607,
+      "sha256": "813f428c14b120262ffaa4beb4737ec35aec8c9d187ab077b9bd21abc402e5a2"
+    },
+    "docs/screenshots/v29/adventure-map-390.png": {
+      "bytes": 370236,
+      "sha256": "51cbcc2e863094d782aa0e31a68872e6a7af53a94381b8ec0a796f4b11ed73d4"
+    },
+    "docs/screenshots/v29/adventure-map-768.png": {
+      "bytes": 405916,
+      "sha256": "e91aa2d15a814e01922f8a92156551034d8f64e40bbcc117ea28837f01403721"
+    },
+    "docs/screenshots/v29/adventure-map-desktop-viewport.png": {
+      "bytes": 499977,
+      "sha256": "b504f4789dadfcdc0e58fcadfd0268b2270177ab5c38c2d2430dd1ce131834ef"
+    },
+    "docs/screenshots/v29/challenge-mobile.png": {
+      "bytes": 54284,
+      "sha256": "832da167e43c1c57556a3479e264f0af4f5e2f0b01b676e1f2b0328dacbd4149"
+    },
+    "docs/screenshots/v29/growth-1440x900.png": {
+      "bytes": 534448,
+      "sha256": "f9853c3b3c89bccee9b426ea2300d9b02b014660c2e54f71708bb664100b2495"
+    },
+    "docs/screenshots/v29/growth-320x568.png": {
+      "bytes": 223236,
+      "sha256": "9db8303e0782102750e5e0ca10e451766628363e6cdc8df5efcbf66f43744d02"
+    },
+    "docs/screenshots/v29/growth-390x844.png": {
+      "bytes": 323626,
+      "sha256": "c11cdb733ae0c468b30b24aa75d2a0f08692d9c088994dcea51346653bda525e"
+    },
+    "docs/screenshots/v29/knowledge-ranger-1366x768.png": {
+      "bytes": 639889,
+      "sha256": "914845f24da938e53ddf456d79901f5d3748be73ee32443a964a7e5b23629019"
+    },
+    "docs/screenshots/v29/knowledge-ranger-1440x900.png": {
+      "bytes": 683124,
+      "sha256": "0e61f0c0cd01da1efeff56021b4826748d0ca2aa2f7b91287201258354c59102"
+    },
+    "docs/screenshots/v29/knowledge-ranger-1920x1080.png": {
+      "bytes": 1102233,
+      "sha256": "e4a5215e37455c659bfeb0b445a4840c8534740dbb4840dd2448de0a7bd33fff"
+    },
+    "docs/screenshots/v29/knowledge-ranger-320x568.png": {
+      "bytes": 298607,
+      "sha256": "813f428c14b120262ffaa4beb4737ec35aec8c9d187ab077b9bd21abc402e5a2"
+    },
+    "docs/screenshots/v29/knowledge-ranger-375x812.png": {
+      "bytes": 355437,
+      "sha256": "c2787a6b0e2aa8d51c74f7dbfbbe4457ea29d275c2a2341af8051286652e50c1"
+    },
+    "docs/screenshots/v29/knowledge-ranger-390x844.png": {
+      "bytes": 370236,
+      "sha256": "51cbcc2e863094d782aa0e31a68872e6a7af53a94381b8ec0a796f4b11ed73d4"
+    },
+    "docs/screenshots/v29/knowledge-ranger-768x1024.png": {
+      "bytes": 405916,
+      "sha256": "e91aa2d15a814e01922f8a92156551034d8f64e40bbcc117ea28837f01403721"
+    },
+    "docs/screenshots/v29/knowledge-ranger-844x390.png": {
+      "bytes": 444721,
+      "sha256": "36360bc9e4fc3f89466c5b3b6b02beb13038ad98e8fbb81ea0e6e7a1029d3955"
+    },
+    "docs/screenshots/v29/leader-dashboard-icons.png": {
+      "bytes": 735489,
+      "sha256": "d642170ceaf0d2050ab03f564c15fe9b926cfea5f88375d10ff6c39a9c58da7d"
+    },
+    "docs/screenshots/v29/leader-points-dashboard.png": {
+      "bytes": 326303,
+      "sha256": "eda6b2e7b972eabf919117e511e57212a6d148ecf6d640d564987920262ff2fd"
+    },
+    "docs/screenshots/v29/leiter-dashboard-1440x900.png": {
+      "bytes": 735489,
+      "sha256": "d642170ceaf0d2050ab03f564c15fe9b926cfea5f88375d10ff6c39a9c58da7d"
+    },
+    "docs/screenshots/v29/leiter-dashboard-320x568.png": {
+      "bytes": 319967,
+      "sha256": "00de6c27edebef453fc8845000f1cff5aa342f85db7bcd41f9aa82541483d1c5"
+    },
+    "docs/screenshots/v29/leiter-growth-desktop.png": {
+      "bytes": 534448,
+      "sha256": "f9853c3b3c89bccee9b426ea2300d9b02b014660c2e54f71708bb664100b2495"
+    },
+    "docs/screenshots/v29/logbook-task-1440.png": {
+      "bytes": 145103,
+      "sha256": "ebca3fb5078140b9e785fc55b26d926b776bd606517663f1de27a529205ccfdb"
+    },
+    "docs/screenshots/v29/logbook-task-390.png": {
+      "bytes": 44949,
+      "sha256": "6294f687f41fefe19c32c1b030f73f8d71be0ee2f2a80f63b1d2abd00883b06f"
+    },
+    "docs/screenshots/v29/ranger-dashboard-1440x900.png": {
+      "bytes": 744991,
+      "sha256": "207f469c6ad516ebc7a371ec274c1089990c36aed7f4880e81d71788db611653"
+    },
+    "docs/screenshots/v29/ranger-dashboard-320x568.png": {
+      "bytes": 565977,
+      "sha256": "d8cf1a5962b4eaa6514aea9f228f663998d4e035b5fa4010189e12d7aba8ac42"
+    },
+    "docs/screenshots/v29/ranger-dashboard-390x844.png": {
+      "bytes": 523705,
+      "sha256": "2606862eedd73184aeaccaddf06bf72393008708a637999d11dfb6df61d52e5c"
+    },
+    "docs/screenshots/v29/ranger-growth-desktop.png": {
+      "bytes": 526425,
+      "sha256": "8e26b99009b62a4a88fd6636f63bc1582f6a1a7de0f7ede46e1dcfd2a0ca2d63"
+    },
+    "docs/screenshots/v29/ranger-points-mobile.png": {
+      "bytes": 610432,
+      "sha256": "d144c8f981d1591091c16add3cd819c8ea728b50f66bf0abb27fede06462b324"
+    },
+    "docs/v26-baseline.json": {
+      "bytes": 15196,
+      "sha256": "1ed530cd942e304914c8b30c8b73e149086334a84268c441796186e5c30ac06c"
+    },
+    "docs/v26-build.json": {
+      "bytes": 820,
+      "sha256": "49450aa4bd0173293af6336e2e06225f3b3f032274001aa5e2486e28755d1c10"
+    },
+    "docs/v27-baseline.json": {
+      "bytes": 18818,
+      "sha256": "5fc28e1c2b9135d8f9f539be007ff6c48a13e19ad1ee6e042f893354ec3b5ca2"
+    },
+    "docs/v27-build.json": {
+      "bytes": 920,
+      "sha256": "c6be8cedfc60f3376576cf04059a59e049b51ea6d6016e87da6e6f3f8d534f7a"
+    },
+    "docs/v27-library-source.json": {
+      "bytes": 522,
+      "sha256": "680916b941f5b5f74ffe787c6926b41ceda19dcf03c20117df0b48745432875d"
+    },
+    "docs/v27-test-results.json": {
+      "bytes": 607,
+      "sha256": "c2b8d3793bdd72ce0cb3db04f297e17efe6618535a572e70ef2ad7e0100a820b"
+    },
+    "docs/v28-baseline.json": {
+      "bytes": 22990,
+      "sha256": "58f1a0002a7dd5276f9d957f8bf54901a9cae89fbf7eaaa5bef09f9275ddbf86"
+    },
+    "docs/v28-build.json": {
+      "bytes": 1366,
+      "sha256": "b4a2d04e0fbd35886d35792d586fc19dc21f5144add0c2bb9e9927e042265ea6"
+    },
+    "docs/v28-test-results.json": {
+      "bytes": 612,
+      "sha256": "d646ab21b268d479c19b793aec8a90b2705fd17fabd2da17a66518f46c2383ec"
+    },
+    "docs/v29-baseline.json": {
+      "bytes": 26912,
+      "sha256": "eb05e1a27e5a2527da5bed7bc49865c19931b84d6a690fb458e4a814d824d755"
+    },
+    "docs/v29-build.json": {
+      "bytes": 2444,
+      "sha256": "29ca8a0f424db0c9a8bd2ca4bf86f709fbe664ae0f0507cc3a90436d38df5af7"
+    },
+    "docs/v29-catalog-audit.json": {
+      "bytes": 29157,
+      "sha256": "fd3b25636b9387ce35820d49c71e2c5570dfdec53bd9135cc179978e912e506d"
+    },
+    "docs/v29-navigation-audit.json": {
+      "bytes": 742,
+      "sha256": "147bbd1a9e665896b330be0fd97620a1f1a6b3b07893cb4012a97f9f42a0f369"
+    },
+    "docs/v29-test-results.json": {
+      "bytes": 706,
+      "sha256": "710afbb6ecc03bac41324f9c7c1adafa660c5a8b1d7e5aef038ffc89fb0cff71"
+    },
+    "index.html": {
+      "bytes": 221010,
+      "sha256": "c29084b450fd0dd1fd1eeac4b5ff5bcf0afeeaf21283062f90b03b779636dafe"
+    },
+    "rangerhub-chat-transport.js": {
+      "bytes": 8522,
+      "sha256": "723c2aa35f049d8ce65452060b674e47f3dc1ca54cc5983c8206b42bc59e5156"
+    },
+    "rangerhub-demo-content.js": {
+      "bytes": 777,
+      "sha256": "c48ba013e4036099601748a2c56310f7d0490a0c241014955371ecc45f9606d8"
+    },
+    "rangerhub-design.css": {
+      "bytes": 14750,
+      "sha256": "027a85322f03aa8f2691e5d655b1761476149fd0440c98b87c4f3f9611fc97ef"
+    },
+    "rangerhub-expedition.css": {
+      "bytes": 12060,
+      "sha256": "efbe59795264561f7da26e55f6466440b65abe8cf1fbe3809833b3cbe89d451f"
+    },
+    "rangerhub-expedition.js": {
+      "bytes": 25084,
+      "sha256": "04c445b1438e440448885d4d541c3dcccc23d8d89621f9aa2b41513cb33acccd"
+    },
+    "rangerhub-knowledge-catalog.js": {
+      "bytes": 146855,
+      "sha256": "627244a1a52c5078aea4af5c95fd2abce4dbcba7c6ac37b4528925c648cf7c13"
+    },
+    "rangerhub-knowledge-map.js": {
+      "bytes": 7836,
+      "sha256": "ad6491f20c1046fee9589f6f3f4fad81af1e121d2343e92121dbbb93ff6889c0"
+    },
+    "rangerhub-knowledge-model.js": {
+      "bytes": 13407,
+      "sha256": "d915bcee5a03641136d99b672b23ee92534ee4e2ed2ba3b4febf0734dc7c5a3e"
+    },
+    "rangerhub-knowledge-transport.js": {
+      "bytes": 5264,
+      "sha256": "31ffb13721e398e7115f1c6f55da482ada404c0c7e0e8796b90d5442b380e941"
+    },
+    "rangerhub-knowledge.css": {
+      "bytes": 14540,
+      "sha256": "205b3281c3155d3aa2b7e046e116abe8a511c540b90d0bcf2b2692f4e744ddc6"
+    },
+    "rangerhub-knowledge.js": {
+      "bytes": 34425,
+      "sha256": "2ed5a13c716df7756ae5d2fb1683c3ab518791d0bd47b364c58d09a39676d153"
+    },
+    "rangerhub-leader-meetings.js": {
+      "bytes": 4631,
+      "sha256": "220e8367d7adca27040ed6554f9a92e18feae67eb950bfb82fee045c927c3a98"
+    },
+    "rangerhub-learning.js": {
+      "bytes": 11860,
+      "sha256": "09c920197e4042b02c905ffe0b14fc1c06899f2d7a95087887ead779b81826c3"
+    },
+    "rangerhub-library-v27.js": {
+      "bytes": 43093,
+      "sha256": "59331a1302d6ab6929923499330d65a395d03ac5196f73432476eead58c7545b"
+    },
+    "rangerhub-library-v28.js": {
+      "bytes": 31528,
+      "sha256": "800ac4df105b766ed851e83de2ee5e108be024a52548cb29948b12510ae5882d"
+    },
+    "rangerhub-logbook.css": {
+      "bytes": 8895,
+      "sha256": "ba72f8a1544f144f3f0a4158de55d874c82eb293b3d3905bcca3f3b8ce0fd54b"
+    },
+    "rangerhub-logbook.js": {
+      "bytes": 13025,
+      "sha256": "938d95a74b2d0f6751e0ff608ca422665d276605cab140785afad7329d499dc2"
+    },
+    "rangerhub-messages.js": {
+      "bytes": 14912,
+      "sha256": "c45d63f5624b4b49472c98a92d5f341392b451a6a3c89c7df8d8c39b0f894bc7"
+    },
+    "rangerhub-planning.js": {
+      "bytes": 32466,
+      "sha256": "de2b2c7a574a4283b9cfa99901df217c59bc98388283a923f56c3db146b0bda9"
+    },
+    "rangerhub-ranger-view.css": {
+      "bytes": 9718,
+      "sha256": "10b2ec4967451028108a75a45538605fff8b89f3add05c00e5dda926c79ce89c"
+    },
+    "rangerhub-ranger-view.js": {
+      "bytes": 16506,
+      "sha256": "cfdf8b245c4beea7933adfb61282f2a6a5c72cc68eb56b831f21db1aa37ca1d7"
+    },
+    "rangerhub-recipes.js": {
+      "bytes": 16228,
+      "sha256": "b88de3724f3b8a815d6316710497498b300b19fae262016767c90a65bea09c3f"
+    },
+    "rangerhub-v27.css": {
+      "bytes": 10567,
+      "sha256": "bd805ffee48b90c1c5cc47e45e3967799a163febee905e47d4a7bc59e39fba07"
+    },
+    "rangerhub-v27.js": {
+      "bytes": 48975,
+      "sha256": "d74b89f68ae18cb7e4fe99aaf4794193c0638b870e3960c7afe06d2e4f2780c0"
+    },
+    "rangerhub-v28.css": {
+      "bytes": 12303,
+      "sha256": "b51aff510904214f8d056cfa1e0318bfc99f8b50320b203e05c95ffb3807012b"
+    },
+    "rangerhub-v28.js": {
+      "bytes": 26817,
+      "sha256": "5afc1398608176d8ee1af6acccc9855eff1f2205f603fde5be5db5456d41f95e"
+    },
+    "tests/browser_case.py": {
+      "bytes": 6523,
+      "sha256": "edc9b91aaa2373415e6481cf0640ed26b92a5c258a53ccb7d63651d2c5bb84e7"
+    },
+    "tests/expedition_cases.py": {
+      "bytes": 19400,
+      "sha256": "50d9bf56e8f531898c3a74ad734a14038d73d71240ddd2878d8bf1054a38cd92"
+    },
+    "tests/run_knowledge_service.mjs": {
+      "bytes": 732,
+      "sha256": "fb275b09410ec1d196382eae75ea359e69be1ce0f09a3469ca1815bc477a6ad6"
+    },
+    "tests/test_complete_demo.py": {
+      "bytes": 4913,
+      "sha256": "3764775c4dee4dacb5cc0a699f271b3089524cc31a17b525aac80b3721604aae"
+    },
+    "tests/test_demo_content.py": {
+      "bytes": 3548,
+      "sha256": "44bf8f6b1471c39b76946adaed6b1f97fcef83eb6c783d1063980da78b2f29b4"
+    },
+    "tests/test_expedition.py": {
+      "bytes": 146,
+      "sha256": "64a94678cce3a8152f665a7381ee337815001589b415487095c3a84943819037"
+    },
+    "tests/test_logbook_workflow.py": {
+      "bytes": 12522,
+      "sha256": "d2b43aba75231b9a49ca83011f7dfcd9a6a5b34072ab1f9bffae3567c165a838"
+    },
+    "tests/test_planning_and_recipes.py": {
+      "bytes": 16880,
+      "sha256": "c7676d0da039c08da7a3078f91cd060a11fa3ec4fc779e26c632a5842726af75"
+    },
+    "tests/test_ranger_view.py": {
+      "bytes": 14268,
+      "sha256": "c9d28922c7a924b49fccd5a8dd0b01d1e4b54d2bc53e231dd105f6adb03ddd52"
+    },
+    "tests/test_session_reload.py": {
+      "bytes": 4239,
+      "sha256": "f75222179dac2b67f4bfa3bcf7091c89d46712337a10bbd3bb3f11f5bbefd115"
+    },
+    "tests/test_v27.py": {
+      "bytes": 118,
+      "sha256": "71ffef4405230b52979b668ee4757fb098108a95f9dbe0a57e18fbb6cbe4e8e9"
+    },
+    "tests/test_v28.py": {
+      "bytes": 118,
+      "sha256": "67c122638f92a673f974517a42a723d856706a1a0aec5c8a0aa5be5b5320a1c4"
+    },
+    "tests/test_v29.py": {
+      "bytes": 116,
+      "sha256": "225ee3eaa786ae708ba7b02119ef1631492549dc89f4c87c75d2ffb0d2ae400b"
+    },
+    "tests/v27_cases.py": {
+      "bytes": 28809,
+      "sha256": "0216d013726ec29ae29e73712573c27c798e948d9adfdc8d47e96e90058551f9"
+    },
+    "tests/v28_cases.py": {
+      "bytes": 20814,
+      "sha256": "9b4d2168b489088b5792712663ab89c15377172bded5130d253a7eed980205a7"
+    },
+    "tests/v29_cases.py": {
+      "bytes": 25735,
+      "sha256": "51eb056e30769bcefe7f06e43167563762bf0553e1fc948f6418c448861589ad"
+    },
+    "tools/build_demo_v26.py": {
+      "bytes": 1505,
+      "sha256": "3564bf34e67ebaaf9241ccf4568a8a09079df40183a9ea7b34dec006077fde6c"
+    },
+    "tools/build_demo_v27.py": {
+      "bytes": 1648,
+      "sha256": "59f98281222411cfb07dfad46e5f0bd1665cdd8805f6b7c8b992e9cad3af7ff9"
+    },
+    "tools/build_demo_v28.py": {
+      "bytes": 1906,
+      "sha256": "8d68a4b4a1fe3d20f786458c421a739acd5a1dc8b6fbbf0bd1c2097d641da55e"
+    },
+    "tools/build_demo_v29.py": {
+      "bytes": 1917,
+      "sha256": "b454bc35bc4bd6496743af3fc0cb350df5984a9712503bbab9f2210df38d37ce"
+    },
+    "tools/capture_knowledge.py": {
+      "bytes": 5873,
+      "sha256": "cf5a1d3310f78654aed81ab42d1953adc6a8f32c8542f6136771f96503b46045"
+    },
+    "tools/importers/package-lock.json": {
+      "bytes": 22628,
+      "sha256": "dd8ad5d5235259778a04048c6364d2226f4160b4380161788e320fc06e46359b"
+    },
+    "tools/importers/package.json": {
+      "bytes": 207,
+      "sha256": "bcf4cee003be60386c83bc55d5b3919fbae0f2ec2fa9d50dad747476d57853b1"
+    },
+    "tools/prepare_knowledge.py": {
+      "bytes": 5781,
+      "sha256": "d585f9218b1b60efa0d23e8a1670fd0b0c4e988f4a3c91061b52c0201fc6ed28"
+    },
+    "tools/prepare_library_v27.py": {
+      "bytes": 1180,
+      "sha256": "064e2ddce860128ec8ee133773a3cc10ef8c77185dddecd6b956a08831688614"
+    },
+    "tools/prepare_library_v28.py": {
+      "bytes": 28176,
+      "sha256": "c3bb597544d7ecb159a3e599778a7b6a7e271e530e8aa7f302f934e02f345587"
+    },
+    "vendor/README.md": {
+      "bytes": 927,
+      "sha256": "d3da08c9110aea389e919514f6a6090227cb286ea25057978c801af66e3c30ab"
+    },
+    "vendor/mammoth/LICENSE": {
+      "bytes": 1307,
+      "sha256": "6663bbd049205d38a496ccacb412a151980b444627d38de218b3b809aef330f1"
+    },
+    "vendor/mammoth/mammoth.browser.min.js": {
+      "bytes": 405060,
+      "sha256": "92914a3708cfdf1e62cb553d1856a7fedab21da83d8ee82845de2f897b368cab"
+    },
+    "vendor/manifest.json": {
+      "bytes": 6796,
+      "sha256": "a38312093f51eed4ef0ec0d6c377463fe620c966b205a6222ab3a2799ad752a8"
+    },
+    "vendor/ocr/LICENSE-core": {
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    "vendor/ocr/LICENSE-tesseract.md": {
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    "vendor/ocr/lang/README-deu.md": {
+      "bytes": 381,
+      "sha256": "db11100b63fc16eae02300fc6cebfb7d77a6689d9259df8ece7ae21dc9855ace"
+    },
+    "vendor/ocr/lang/README-eng.md": {
+      "bytes": 381,
+      "sha256": "adcb325473fe124291951a0a3d29fcb54b341828881570e45c42dc2a3a61a45d"
+    },
+    "vendor/ocr/lang/deu.traineddata.gz": {
+      "bytes": 1333102,
+      "sha256": "306c4280d0cbed46fbff727486bd43b92730181bae80f56941a091f363bdf28b"
+    },
+    "vendor/ocr/lang/eng.traineddata.gz": {
+      "bytes": 2952873,
+      "sha256": "45b4cb346724ac1774f1c36f42f182b887bcdb28ebe63e6fff90ac41f3fcff91"
+    },
+    "vendor/ocr/tesseract-core-lstm.wasm.js": {
+      "bytes": 3896484,
+      "sha256": "eef5f8b2f8e20e150680b20adaec4a60babafee3adbe8a94583c81fee46e8680"
+    },
+    "vendor/ocr/tesseract.min.js": {
+      "bytes": 62961,
+      "sha256": "000c27d9cd0def655f77b36c72a389c0ab13793aa31cb4d7aab56d09c0afbc7e"
+    },
+    "vendor/ocr/tesseract.min.js.LICENSE.txt": {
+      "bytes": 149,
+      "sha256": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2"
+    },
+    "vendor/ocr/worker.min.js": {
+      "bytes": 111307,
+      "sha256": "576b7df7e3393e137e51849357c9adb53fe7ac1bb69bfa06cf3d61520f182c6d"
+    },
+    "vendor/ocr/worker.min.js.LICENSE.txt": {
+      "bytes": 466,
+      "sha256": "45f54171aeaa1d10c0c1a66f374b7bba1f02472b1487fbe892eec04f840002ac"
+    },
+    "vendor/pdfjs/LICENSE": {
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    "vendor/pdfjs/pdf.mjs": {
+      "bytes": 474284,
+      "sha256": "3a88402882cfa3e7e72c2c9b5149f52f0f88baf1c5b62aa11a41abdbc2072440"
+    },
+    "vendor/pdfjs/pdf.renderer.mjs": {
+      "bytes": 121785,
+      "sha256": "51a99dd41ad3edb55716c13f03a8d8827990bbf00688431e70e303a1dbb9ed0d"
+    },
+    "vendor/pdfjs/pdf.worker.mjs": {
+      "bytes": 1271915,
+      "sha256": "1e64c8240e54735ec5913b37acd5134747799cb8c6bb3777c70adbc01232d2aa"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitDingbats.pfb": {
+      "bytes": 29513,
+      "sha256": "845c752392b6c914fb989c75a08b7792b88f542d2499042ef2889f8c814a16ed"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitFixed.pfb": {
+      "bytes": 17597,
+      "sha256": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitFixedBold.pfb": {
+      "bytes": 18055,
+      "sha256": "f1b7159702973f54fc86254ea38bcf3712b2a736eb3a0995751e9f4bb45ad603"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb": {
+      "bytes": 19151,
+      "sha256": "8a000945843bd31add06aee63bf9fd41b7578b4f3242a4b7cd46349ad9d24d4d"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitFixedItalic.pfb": {
+      "bytes": 18746,
+      "sha256": "5007faf8320fa1fcc08b8894b356ad976f60b992ba29ee5272578bbdebaf3876"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitSerif.pfb": {
+      "bytes": 19469,
+      "sha256": "4f57d2b9d884af8f907bf22df6019b52d86cbf6214fdbd02b1ae05472a543f35"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitSerifBold.pfb": {
+      "bytes": 19395,
+      "sha256": "0bdf4b04e964139818d51eda03d566ba999fc3ba2421b1c6c51f9dc969022e80"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitSerifBoldItalic.pfb": {
+      "bytes": 20733,
+      "sha256": "a406cac82583bf98175cb62c87ed5e95c45fbb34eece63a10b0a13e793cb2e10"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitSerifItalic.pfb": {
+      "bytes": 21227,
+      "sha256": "610ae0687198045c4db5d1a6650fd5e92536631706382eb8b72e38df578d0ae9"
+    },
+    "vendor/pdfjs/standard_fonts/FoxitSymbol.pfb": {
+      "bytes": 16729,
+      "sha256": "47967d055530e7357088a08403115425643ec2cdfd6201ba8af0fbd7116c1539"
+    },
+    "vendor/pdfjs/standard_fonts/LICENSE_FOXIT": {
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    "vendor/pdfjs/standard_fonts/LICENSE_LIBERATION": {
+      "bytes": 22154,
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    "vendor/pdfjs/standard_fonts/LiberationSans-Bold.ttf": {
+      "bytes": 137052,
+      "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc"
+    },
+    "vendor/pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf": {
+      "bytes": 135124,
+      "sha256": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d"
+    },
+    "vendor/pdfjs/standard_fonts/LiberationSans-Italic.ttf": {
+      "bytes": 162036,
+      "sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512"
+    },
+    "vendor/pdfjs/standard_fonts/LiberationSans-Regular.ttf": {
+      "bytes": 139512,
+      "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
+    },
+    "vendor/pdfjs/wasm/LICENSE_JBIG2": {
+      "bytes": 12862,
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    "vendor/pdfjs/wasm/LICENSE_OPENJPEG": {
+      "bytes": 2112,
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    "vendor/pdfjs/wasm/LICENSE_PDFJS_JBIG2": {
+      "bytes": 555,
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    "vendor/pdfjs/wasm/LICENSE_PDFJS_OPENJPEG": {
+      "bytes": 1285,
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    "vendor/pdfjs/wasm/LICENSE_PDFJS_QCMS": {
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    "vendor/pdfjs/wasm/LICENSE_PDFJS_QUICKJS": {
+      "bytes": 1075,
+      "sha256": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0"
+    },
+    "vendor/pdfjs/wasm/LICENSE_QCMS": {
+      "bytes": 1121,
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    "vendor/pdfjs/wasm/LICENSE_QUICKJS": {
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    "vendor/pdfjs/wasm/jbig2.wasm": {
+      "bytes": 103671,
+      "sha256": "466f45c2a61a698152fb5400c27e56ff2ceb73dcb71fde3fc366a502308eaab0"
+    },
+    "vendor/pdfjs/wasm/jbig2_nowasm_fallback.js": {
+      "bytes": 132439,
+      "sha256": "70150223396487e1ccfef7eac61fc780074ad7fcc9e843b702a8a3bc23107494"
+    },
+    "vendor/pdfjs/wasm/openjpeg.wasm": {
+      "bytes": 220817,
+      "sha256": "7ea4b2b04613370ad4e9c1162da750cc88b4b176eac0d0c164b3caff23fc0a46"
+    },
+    "vendor/pdfjs/wasm/openjpeg_nowasm_fallback.js": {
+      "bytes": 338458,
+      "sha256": "2855f1590e7fd7abbbf204cd13a5c09d30c92fe2c9313fb72b64aa763fe8b4f3"
+    },
+    "vendor/pdfjs/wasm/qcms_bg.wasm": {
+      "bytes": 96589,
+      "sha256": "663d86126d5f5fcb1c61490f94353e2a8375660b8c5498ab3ebab5a34b08800e"
+    },
+    "vendor/pdfjs/wasm/quickjs-eval.js": {
+      "bytes": 6232,
+      "sha256": "fe7930418e869791ce892567dbd0bc4698152b7e550b5cefa553992c56ddc325"
+    },
+    "vendor/pdfjs/wasm/quickjs-eval.wasm": {
+      "bytes": 469105,
+      "sha256": "7bcacc9f22cacf7e9b23866d2a6d1639693d40c7f144e41b7c69ed37ba9cbe8f"
+    }
+  }
+}
