@@ -31,6 +31,8 @@ class V27Cases:
         self.page.on('request', lambda r: self.requests.append(r.url))
         self.page.goto(self.url, wait_until='load')
         self.page.wait_for_function('window.RangerHub?.v27Ready === true')
+        if self.page.locator('meta[name=rangerhub-version]').get_attribute('content') == '28':
+            self.page.wait_for_function('window.RangerHub?.messagesReady === true')
 
     def external(self, route):
         url = urlparse(route.request.url)
@@ -285,7 +287,8 @@ class V27Cases:
         expect(self.page.locator('[data-observer-library]')).to_have_count(0)
 
     def test_layout_sizes_and_screenshots(self):
-        root=Path(__file__).resolve().parents[1]/'docs/screenshots/v27';root.mkdir(parents=True,exist_ok=True)
+        version=self.page.locator('meta[name=rangerhub-version]').get_attribute('content') or '27'
+        root=Path(__file__).resolve().parents[1]/f'docs/screenshots/v{version}';root.mkdir(parents=True,exist_ok=True)
         for role in ['Leiter','Ranger']:
             self.leader('Leiter') if role=='Leiter' else self.ranger()
             for width,height in [(1440,900),(1920,1080),(1366,768),(768,1024),(390,844),(375,812),(320,568),(844,390)]:
@@ -319,7 +322,7 @@ class V27Cases:
         self.assertIsNotNone(self.page.evaluate('id=>db.meetings.find(m=>m.id===id)||null',mid))
 
     def test_upgrade_from_v26_preserves_all_existing_values_and_active_session(self):
-        backup = 'RangerHub_Webapp_V26_Demo.html' if 'V27_Kompakt' not in self.url else 'RangerHub_Webapp_V26_Kompakt.html'
+        backup = 'RangerHub_Webapp_V26_Kompakt.html' if 'Kompakt' in self.url else 'RangerHub_Webapp_V26_Demo.html'
         self.page.goto(self.url.rsplit('/',1)[0]+'/'+backup)
         self.page.wait_for_function('window.RangerHub?.expeditionReady === true')
         self.page.evaluate("() => {localStorage.clear();sessionStorage.clear()}")

@@ -1,0 +1,46 @@
+{
+  "version": 28,
+  "passed": 94,
+  "failed": 0,
+  "browser": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "chat_mode": "demo",
+  "online_delivery_active": false,
+  "push_active": false,
+  "http_transport_contract_tested": true,
+  "webkit_tested": false,
+  "physical_devices_tested": false,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      812
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      844,
+      390
+    ]
+  ]
+}

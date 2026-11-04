@@ -4,7 +4,20 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## V27 – Wetter, Teilnahme und Stammleben
+## V28 – Vorschläge, Navigation und Demo-Nachrichten
+
+Neue Hauptdatei: [RangerHub_Webapp_V28_Demo.html](RangerHub_Webapp_V28_Demo.html). `index.html` öffnet V28. Vorversionen bleiben unverändert erhalten.
+
+Einheitliche Menü-Icons, 28 Naturphänomene mit Besonderheiten und Schöpfungsgedanken, 22 Planungsideen mit Impulsen, verbesserte Zurück-Schaltflächen, gleich ausgerichtete Stufenbeschriftungen und ein klar gekennzeichneter Demo-Chat.
+
+- [Übergabe](docs/V28-UEBERGABE.md)
+- [Testbericht](docs/V28-TESTBERICHT.md)
+- [Prüfsummen](docs/V28-SHA256SUMS)
+- [Vorbereitete Online-Anbindung und späteres Push](docs/V28-ONLINE-CHAT.md)
+
+Der Chat speichert im bestehenden Browserprofil. Geräteübergreifende Online-Zustellung und Push sind vorbereitet und noch nicht aktiviert. Der private Hauptbranch bleibt bis zur Prüfung unverändert.
+
+## Archiv V27 – Wetter, Teilnahme und Stammleben
 
 Neue Hauptdatei: [RangerHub_Webapp_V27_Demo.html](RangerHub_Webapp_V27_Demo.html). `index.html` öffnet V27. V25 und V26 bleiben unverändert erhalten.
 
@@ -16,7 +29,7 @@ Wetter am Stammort und am Treffpunkt, Geburtstage als Abschnitt 04, direkte Rang
 
 Der private Hauptbranch bleibt bis zur Prüfung unverändert. Die öffentliche Demo enthält weiterhin keine persönlichen Daten und keine gebündelten PDFs.
 
-## V26 – persönlicher Wachstumspfad als Expeditionskarte
+## Archiv V26 – persönlicher Wachstumspfad als Expeditionskarte
 
 Die Karte erscheint ausschließlich auf dem persönlichen Ranger-Dashboard,
 beispielsweise nach **Rangerstamm 01 → JB · Ranger**. Leiter, Stammleiter und
