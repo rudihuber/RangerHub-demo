@@ -31,8 +31,10 @@ class V27Cases:
         self.page.on('request', lambda r: self.requests.append(r.url))
         self.page.goto(self.url, wait_until='load')
         self.page.wait_for_function('window.RangerHub?.v27Ready === true')
-        if self.page.locator('meta[name=rangerhub-version]').get_attribute('content') == '28':
+        if self.page.locator('meta[name=rangerhub-version]').get_attribute('content') >= '28':
             self.page.wait_for_function('window.RangerHub?.messagesReady === true')
+        if self.page.locator('meta[name=rangerhub-version]').get_attribute('content') >= '29':
+            self.page.wait_for_function('window.RangerHub?.knowledgeReady === true')
 
     def external(self, route):
         url = urlparse(route.request.url)

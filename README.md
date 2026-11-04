@@ -4,7 +4,26 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## V28 – Vorschläge, Navigation und Demo-Nachrichten
+## Fachwissen – neue Abenteuerkarte
+
+Neuer Einstieg: [RangerHub_Webapp_V29_Demo.html](RangerHub_Webapp_V29_Demo.html); `index.html` öffnet diesen Stand. Die vollständige V28 bleibt unverändert erhalten.
+
+Fachwissen bietet eine eigenständige interaktive SVG-Abenteuerkarte mit sechs Regionen, 36 Quellthemen und 253 Hauptaufgaben. Inhalte öffnen erst auf Klick. Dashboard, offizielle Punkte, Rangliste, Leiterprüfung und freiwillige Challenges verwenden dieselben Datensätze. Vier unklare Quellwerte sind ausgewiesen, keine Punkte geraten.
+
+Die Vorschau ist ausdrücklich **Demo / nur lokale Daten**. Eine zentrale Anbindung ist mit persönlicher Rollenprüfung und SQLite-Transaktionen implementiert und mit getrennten Browserprofilen getestet; produktives Hosting und persönliche Server-Zugänge sind noch einzurichten.
+
+- [Übergabe und Datenmodell](docs/V29-UEBERGABE.md)
+- [Testbericht](docs/V29-TESTBERICHT.md)
+- [Quellkatalog-Audit](docs/v29-catalog-audit.json)
+- [Backend-Konfiguration](docs/V29-BACKEND.md)
+- [Prüfsummen](docs/V29-SHA256SUMS)
+- [Browser-Screenshots](docs/screenshots/v29/)
+
+Start: `python3 -m http.server 8000`, dann `index.html` öffnen. Die übrigen Dateien, `assets/` und `vendor/` gemeinsam bereitstellen. Tests: `python3 -m unittest discover -s tests -v`; zentraler Dienst: `node --test backend/test-knowledge-server.mjs` (Node 24).
+
+Der private Hauptbranch bleibt bis zur Abnahme unverändert. LocalStorage bleibt privat `rhv9`, Demo `rhv9-demo`. Keine bestehenden Aufgaben, Personen, Termine oder Originalassets werden gelöscht.
+
+## Archiv V28 – Vorschläge, Navigation und Demo-Nachrichten
 
 Neue Hauptdatei: [RangerHub_Webapp_V28_Demo.html](RangerHub_Webapp_V28_Demo.html). `index.html` öffnet V28. Vorversionen bleiben unverändert erhalten.
 

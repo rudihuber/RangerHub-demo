@@ -226,7 +226,8 @@ class V28Cases:
         self.assertTrue(all('stammId=clp-west' in r['url'] for r in seen))
 
     def test_icons_growth_alignment_back_controls_and_screenshots(self):
-        out=Path(__file__).resolve().parents[1]/'docs/screenshots/v28';out.mkdir(parents=True,exist_ok=True)
+        version=self.page.locator('meta[name=rangerhub-version]').get_attribute('content') or '28'
+        out=Path(__file__).resolve().parents[1]/f'docs/screenshots/v{version}';out.mkdir(parents=True,exist_ok=True)
         self.leader('Leiter')
         for width,height in [(1440,900),(1920,1080),(1366,768),(768,1024),(390,844),(375,812),(320,568),(844,390)]:
             with self.subTest(width=width,height=height):

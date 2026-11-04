@@ -215,6 +215,10 @@ class ExpeditionCases:
                 self.page.set_viewport_size({'width':width,'height':height})
                 self.page.evaluate("document.documentElement.style.scrollBehavior='auto';scrollTo(0,0);view='dash';render()")
                 self.page.wait_for_function('window.RangerHub?.expeditionReady === true')
+                # Fachwissen now intentionally precedes this existing dashboard map.
+                # Verify every station fits when the terrain itself is in view.
+                if width>=1024 and height>=768 and self.page.locator('[data-knowledge-dashboard]').count():
+                    self.page.locator('.expedition-landscape').scroll_into_view_if_needed()
                 metrics=self.page.evaluate("""() => {
                   const terrain=document.querySelector('.expedition-landscape').getBoundingClientRect();
                   const buttons=[...document.querySelectorAll('[data-exp-station]')].map(b=>{const r=b.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom}});
@@ -231,6 +235,7 @@ class ExpeditionCases:
                     for b in metrics['buttons'][i+1:]:
                         self.assertFalse(min(a['right'],b['right'])-max(a['x'],b['x'])>1 and min(a['bottom'],b['bottom'])-max(a['y'],b['y'])>1,'Station labels overlap')
                 if width<768 or (width<=1023 and height<=500):
+                    if self.page.locator('[data-knowledge-dashboard]').count():self.page.locator('.expedition-locate').click()
                     self.page.wait_for_function("document.querySelector('.expedition-marker').getBoundingClientRect().top>150&&document.querySelector('.expedition-marker').getBoundingClientRect().bottom<innerHeight")
 
     def test_touch_dialog_close_and_existing_logbook_above_mobile_navigation(self):
@@ -241,6 +246,7 @@ class ExpeditionCases:
                 self.page=context.new_page();self.page.on('pageerror',lambda error:self.errors.append(str(error)))
                 self.page.goto(self.url);self.page.wait_for_function('window.RangerHub?.expeditionReady === true')
                 self.choose_profile();self.progress_fixture(85,20)
+                if self.page.locator('[data-knowledge-dashboard]').count():self.page.locator('.expedition-locate').tap()
                 self.page.wait_for_function("document.querySelector('.expedition-marker').getBoundingClientRect().bottom<innerHeight")
                 self.page.locator('[data-exp-station="0"]').tap()
                 expect(self.page.locator('#box[role=dialog]')).to_be_visible()

@@ -1,3 +1,11 @@
 __pycache__/
 *.py[cod]
 node_modules/
+
+# Local backend data and personal credentials never belong in the website.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+backend/principals*.json
+backend/private/
+backend/.env

@@ -1,0 +1,1541 @@
+{
+  "categories": 3,
+  "topics": 36,
+  "tasks": 253,
+  "sourceParagraphs": 302,
+  "pointMentions": 250,
+  "sourceSha256": "c3ed7f0f4b5f20387b2b536fa7a59a4cdcb756e3ad42ac97c1e7a62190266cc0",
+  "issues": [
+    {
+      "taskId": "fw-A-05-p062",
+      "topic": "Gäste",
+      "paragraph": 62,
+      "reason": "Punkte fehlen in der Quelle."
+    },
+    {
+      "taskId": "fw-A-06-p078",
+      "topic": "Bürgerkunde",
+      "paragraph": 78,
+      "reason": "Punkte fehlen in der Quelle."
+    },
+    {
+      "taskId": "fw-A-11-p113",
+      "topic": "Geistlicher Dienst",
+      "paragraph": 113,
+      "reason": "Punkte fehlen in der Quelle."
+    },
+    {
+      "taskId": "fw-C-01-p275",
+      "topic": "Fitness",
+      "paragraph": 275,
+      "reason": "8 Punkte stehen ausschließlich bei der Alternative Sportabzeichen Silber; Trainingsziele sind nicht ausdrücklich bepunktet."
+    }
+  ],
+  "pointAudit": [
+    {
+      "paragraph": 8,
+      "taskId": "fw-A-01-p008",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 9,
+      "taskId": "fw-A-01-p009",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 10,
+      "taskId": "fw-A-01-p010",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 11,
+      "taskId": "fw-A-01-p011",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 12,
+      "taskId": "fw-A-01-p012",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 13,
+      "taskId": "fw-A-01-p013",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 14,
+      "taskId": "fw-A-01-p014",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 18,
+      "taskId": "fw-A-02-p018",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 19,
+      "taskId": "fw-A-02-p019",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 20,
+      "taskId": "fw-A-02-p020",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 21,
+      "taskId": "fw-A-02-p021",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 22,
+      "taskId": "fw-A-02-p022",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 23,
+      "taskId": "fw-A-02-p023",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 27,
+      "taskId": "fw-A-03-p027",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 28,
+      "taskId": "fw-A-03-p028",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 29,
+      "taskId": "fw-A-03-p029",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 30,
+      "taskId": "fw-A-03-p030",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 31,
+      "taskId": "fw-A-03-p031",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 32,
+      "taskId": "fw-A-03-p032",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 33,
+      "taskId": "fw-A-03-p033",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 36,
+      "taskId": "fw-A-04-p036",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 37,
+      "taskId": "fw-A-04-p037",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 38,
+      "taskId": "fw-A-04-p038",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 39,
+      "taskId": "fw-A-04-p039",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 40,
+      "taskId": "fw-A-04-p040",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 41,
+      "taskId": "fw-A-04-p041",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 42,
+      "taskId": "fw-A-04-p042",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 43,
+      "taskId": "fw-A-04-p043",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 46,
+      "taskId": "fw-A-05-p046",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 55,
+      "taskId": "fw-A-05-p055",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 61,
+      "taskId": "fw-A-05-p061",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 67,
+      "taskId": "fw-A-05-p067",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 70,
+      "taskId": "fw-A-06-p070",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 71,
+      "taskId": "fw-A-06-p071",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 72,
+      "taskId": "fw-A-06-p072",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 73,
+      "taskId": "fw-A-06-p073",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 74,
+      "taskId": "fw-A-06-p074",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 75,
+      "taskId": "fw-A-06-p075",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 76,
+      "taskId": "fw-A-06-p076",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 77,
+      "taskId": "fw-A-06-p077",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 80,
+      "taskId": "fw-A-07-p080",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 81,
+      "taskId": "fw-A-07-p081",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 82,
+      "taskId": "fw-A-07-p082",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 84,
+      "taskId": "fw-A-08-p084",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 85,
+      "taskId": "fw-A-08-p085",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 86,
+      "taskId": "fw-A-08-p086",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 87,
+      "taskId": "fw-A-08-p087",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 88,
+      "taskId": "fw-A-08-p088",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 89,
+      "taskId": "fw-A-08-p089",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 90,
+      "taskId": "fw-A-08-p090",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 92,
+      "taskId": "fw-A-09-p092",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 96,
+      "taskId": "fw-A-09-p096",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 97,
+      "taskId": "fw-A-09-p097",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 98,
+      "taskId": "fw-A-09-p098",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 99,
+      "taskId": "fw-A-09-p099",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 100,
+      "taskId": "fw-A-09-p100",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 102,
+      "taskId": "fw-A-10-p102",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 103,
+      "taskId": "fw-A-10-p103",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 104,
+      "taskId": "fw-A-10-p104",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 105,
+      "taskId": "fw-A-10-p105",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 106,
+      "taskId": "fw-A-10-p106",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 107,
+      "taskId": "fw-A-10-p107",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 108,
+      "taskId": "fw-A-10-p108",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 110,
+      "taskId": "fw-A-11-p110",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 111,
+      "taskId": "fw-A-11-p111",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 112,
+      "taskId": "fw-A-11-p112",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 118,
+      "taskId": "fw-A-11-p118",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 119,
+      "taskId": "fw-A-11-p119",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 120,
+      "taskId": "fw-A-11-p120",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 123,
+      "taskId": "fw-A-12-p123",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 124,
+      "taskId": "fw-A-12-p124",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 125,
+      "taskId": "fw-A-12-p125",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 126,
+      "taskId": "fw-A-12-p126",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 127,
+      "taskId": "fw-A-12-p127",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 128,
+      "taskId": "fw-A-12-p128",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 129,
+      "taskId": "fw-A-12-p129",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 132,
+      "taskId": "fw-B-01-p132",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 133,
+      "taskId": "fw-B-01-p133",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 134,
+      "taskId": "fw-B-01-p134",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 135,
+      "taskId": "fw-B-01-p135",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 136,
+      "taskId": "fw-B-01-p136",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 137,
+      "taskId": "fw-B-01-p137",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 138,
+      "taskId": "fw-B-01-p138",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 139,
+      "taskId": "fw-B-01-p139",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 142,
+      "taskId": "fw-B-02-p142",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 143,
+      "taskId": "fw-B-02-p143",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 144,
+      "taskId": "fw-B-02-p144",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 145,
+      "taskId": "fw-B-02-p145",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 146,
+      "taskId": "fw-B-02-p146",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 147,
+      "taskId": "fw-B-02-p147",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 148,
+      "taskId": "fw-B-02-p148",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 149,
+      "taskId": "fw-B-02-p149",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 150,
+      "taskId": "fw-B-02-p150",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 153,
+      "taskId": "fw-B-03-p153",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 154,
+      "taskId": "fw-B-03-p154",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 155,
+      "taskId": "fw-B-03-p155",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 156,
+      "taskId": "fw-B-03-p156",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 157,
+      "taskId": "fw-B-03-p157",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 158,
+      "taskId": "fw-B-03-p158",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 159,
+      "taskId": "fw-B-03-p159",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 162,
+      "taskId": "fw-B-04-p162",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 163,
+      "taskId": "fw-B-04-p163",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 164,
+      "taskId": "fw-B-04-p164",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 165,
+      "taskId": "fw-B-04-p165",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 166,
+      "taskId": "fw-B-04-p166",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 167,
+      "taskId": "fw-B-04-p167",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 168,
+      "taskId": "fw-B-04-p168",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 169,
+      "taskId": "fw-B-04-p169",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 170,
+      "taskId": "fw-B-04-p170",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 171,
+      "taskId": "fw-B-04-p171",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 172,
+      "taskId": "fw-B-04-p172",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 173,
+      "taskId": "fw-B-04-p173",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 174,
+      "taskId": "fw-B-04-p174",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 175,
+      "taskId": "fw-B-04-p175",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 176,
+      "taskId": "fw-B-04-p176",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 179,
+      "taskId": "fw-B-05-p179",
+      "value": 9,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 180,
+      "taskId": "fw-B-05-p180",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 181,
+      "taskId": "fw-B-05-p181",
+      "value": 7,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 182,
+      "taskId": "fw-B-05-p182",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 183,
+      "taskId": "fw-B-05-p183",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 184,
+      "taskId": "fw-B-05-p184",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 185,
+      "taskId": "fw-B-05-p185",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 188,
+      "taskId": "fw-B-06-p188",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 189,
+      "taskId": "fw-B-06-p189",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 190,
+      "taskId": "fw-B-06-p190",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 191,
+      "taskId": "fw-B-06-p191",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 192,
+      "taskId": "fw-B-06-p192",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 193,
+      "taskId": "fw-B-06-p193",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 194,
+      "taskId": "fw-B-06-p194",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 195,
+      "taskId": "fw-B-06-p195",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 196,
+      "taskId": "fw-B-06-p196",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 197,
+      "taskId": "fw-B-06-p197",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 200,
+      "taskId": "fw-B-07-p200",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 201,
+      "taskId": "fw-B-07-p201",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 202,
+      "taskId": "fw-B-07-p202",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 203,
+      "taskId": "fw-B-07-p203",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 204,
+      "taskId": "fw-B-07-p204",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 205,
+      "taskId": "fw-B-07-p205",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 206,
+      "taskId": "fw-B-07-p206",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 207,
+      "taskId": "fw-B-07-p207",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 210,
+      "taskId": "fw-B-08-p210",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 211,
+      "taskId": "fw-B-08-p211",
+      "value": 16,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 212,
+      "taskId": "fw-B-08-p212",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 213,
+      "taskId": "fw-B-08-p213",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 214,
+      "taskId": "fw-B-08-p214",
+      "value": 9,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 215,
+      "taskId": "fw-B-08-p215",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 216,
+      "taskId": "fw-B-08-p216",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 219,
+      "taskId": "fw-B-09-p219",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 220,
+      "taskId": "fw-B-09-p220",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 221,
+      "taskId": "fw-B-09-p221",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 222,
+      "taskId": "fw-B-09-p222",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 223,
+      "taskId": "fw-B-09-p223",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 224,
+      "taskId": "fw-B-09-p224",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 225,
+      "taskId": "fw-B-09-p225",
+      "value": 16,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 228,
+      "taskId": "fw-B-10-p228",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 229,
+      "taskId": "fw-B-10-p229",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 230,
+      "taskId": "fw-B-10-p230",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 233,
+      "taskId": "fw-B-11-p233",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 234,
+      "taskId": "fw-B-11-p234",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 235,
+      "taskId": "fw-B-11-p235",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 236,
+      "taskId": "fw-B-11-p236",
+      "value": 18,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 237,
+      "taskId": "fw-B-11-p237",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 238,
+      "taskId": "fw-B-11-p238",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 239,
+      "taskId": "fw-B-11-p239",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 240,
+      "taskId": "fw-B-11-p240",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 241,
+      "taskId": "fw-B-11-p241",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 242,
+      "taskId": "fw-B-11-p242",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 243,
+      "taskId": "fw-B-11-p243",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 244,
+      "taskId": "fw-B-11-p244",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 245,
+      "taskId": "fw-B-11-p245",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 249,
+      "taskId": "fw-B-12-p249",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 250,
+      "taskId": "fw-B-12-p250",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 251,
+      "taskId": "fw-B-12-p251",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 252,
+      "taskId": "fw-B-12-p252",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 253,
+      "taskId": "fw-B-12-p253",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 254,
+      "taskId": "fw-B-12-p254",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 272,
+      "taskId": "fw-C-01-p272",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 273,
+      "taskId": "fw-C-01-p273",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 274,
+      "taskId": "fw-C-01-p274",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 286,
+      "taskId": "fw-C-01-p275",
+      "value": 8,
+      "isSubItem": true
+    },
+    {
+      "paragraph": 287,
+      "taskId": "fw-C-01-p287",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 289,
+      "taskId": "fw-C-02-p289",
+      "value": 30,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 291,
+      "taskId": "fw-C-03-p291",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 292,
+      "taskId": "fw-C-03-p292",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 293,
+      "taskId": "fw-C-03-p293",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 294,
+      "taskId": "fw-C-03-p294",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 295,
+      "taskId": "fw-C-03-p295",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 297,
+      "taskId": "fw-C-04-p297",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 298,
+      "taskId": "fw-C-04-p298",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 305,
+      "taskId": "fw-C-04-p305",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 306,
+      "taskId": "fw-C-04-p306",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 307,
+      "taskId": "fw-C-04-p307",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 308,
+      "taskId": "fw-C-04-p308",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 309,
+      "taskId": "fw-C-04-p309",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 310,
+      "taskId": "fw-C-04-p310",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 311,
+      "taskId": "fw-C-04-p311",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 312,
+      "taskId": "fw-C-04-p312",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 315,
+      "taskId": "fw-C-05-p315",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 316,
+      "taskId": "fw-C-05-p316",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 317,
+      "taskId": "fw-C-05-p317",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 318,
+      "taskId": "fw-C-05-p318",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 319,
+      "taskId": "fw-C-05-p319",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 320,
+      "taskId": "fw-C-05-p320",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 321,
+      "taskId": "fw-C-05-p321",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 323,
+      "taskId": "fw-C-06-p323",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 324,
+      "taskId": "fw-C-06-p324",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 325,
+      "taskId": "fw-C-06-p325",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 326,
+      "taskId": "fw-C-06-p326",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 327,
+      "taskId": "fw-C-06-p327",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 330,
+      "taskId": "fw-C-07-p330",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 331,
+      "taskId": "fw-C-07-p331",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 332,
+      "taskId": "fw-C-07-p332",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 333,
+      "taskId": "fw-C-07-p333",
+      "value": 10,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 334,
+      "taskId": "fw-C-07-p334",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 335,
+      "taskId": "fw-C-07-p335",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 337,
+      "taskId": "fw-C-08-p337",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 345,
+      "taskId": "fw-C-08-p345",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 346,
+      "taskId": "fw-C-08-p346",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 347,
+      "taskId": "fw-C-08-p347",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 348,
+      "taskId": "fw-C-08-p348",
+      "value": 3,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 349,
+      "taskId": "fw-C-08-p349",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 350,
+      "taskId": "fw-C-08-p350",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 351,
+      "taskId": "fw-C-08-p351",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 353,
+      "taskId": "fw-C-09-p353",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 354,
+      "taskId": "fw-C-09-p354",
+      "value": 20,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 355,
+      "taskId": "fw-C-09-p355",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 356,
+      "taskId": "fw-C-09-p356",
+      "value": 5,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 357,
+      "taskId": "fw-C-09-p357",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 358,
+      "taskId": "fw-C-09-p358",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 360,
+      "taskId": "fw-C-10-p360",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 361,
+      "taskId": "fw-C-10-p361",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 362,
+      "taskId": "fw-C-10-p362",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 363,
+      "taskId": "fw-C-10-p363",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 364,
+      "taskId": "fw-C-10-p364",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 365,
+      "taskId": "fw-C-10-p365",
+      "value": 6,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 366,
+      "taskId": "fw-C-10-p366",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 367,
+      "taskId": "fw-C-10-p367",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 368,
+      "taskId": "fw-C-10-p368",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 369,
+      "taskId": "fw-C-10-p369",
+      "value": 15,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 370,
+      "taskId": "fw-C-10-p370",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 372,
+      "taskId": "fw-C-11-p372",
+      "value": 30,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 374,
+      "taskId": "fw-C-12-p374",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 375,
+      "taskId": "fw-C-12-p375",
+      "value": 8,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 376,
+      "taskId": "fw-C-12-p376",
+      "value": 2,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 377,
+      "taskId": "fw-C-12-p377",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 378,
+      "taskId": "fw-C-12-p378",
+      "value": 12,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 379,
+      "taskId": "fw-C-12-p379",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 380,
+      "taskId": "fw-C-12-p380",
+      "value": 4,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 381,
+      "taskId": "fw-C-12-p381",
+      "value": 1,
+      "isSubItem": false
+    },
+    {
+      "paragraph": 382,
+      "taskId": "fw-C-12-p382",
+      "value": 2,
+      "isSubItem": false
+    }
+  ],
+  "notes": [
+    "Original DOCX/PDF files were not separately available; no comparison claimed.",
+    "Fitness 275–286 grouped as one task; 8 points apply only to its documented alternative.",
+    "No maximum score calculated from raw point mentions."
+  ]
+}

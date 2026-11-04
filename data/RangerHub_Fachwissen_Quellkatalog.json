@@ -1,0 +1,2871 @@
+{
+  "name": "RangerHub Fachwissen – Quellkatalog",
+  "schemaVersion": "1.0",
+  "source": {
+    "canonical": "Fachwissen_Logbuch.docx",
+    "secondary": "Logbuch Ausgabe(2).pdf",
+    "inspirationOnly": "Royal Rangers_Logbuch.pdf"
+  },
+  "guidance": [
+    "Vollständige wortgetreue Abschnitts- und Absatzdaten aus der DOCX-Quelle.",
+    "Punktangaben sind aus jedem Absatz extrahiert, aber manche Absätze sind Unterpunkte und nicht eigenständige Aufgaben.",
+    "Aufgaben logisch aus Absätzen gruppieren: Aufgabentext und Unterpunkte zusammenhalten; keine Punkte für Unterpunkte doppelt zählen.",
+    "Fehlende Punktangaben offen kennzeichnen und nur mit Leiterfreigabe bepunktbar machen.",
+    "Quellkategorien A/B/C unverändert behalten; Kartenregionen dürfen zusätzliche rein visuelle Gruppierungen sein."
+  ],
+  "stats": {
+    "categories": 3,
+    "topics": 36,
+    "pointMentions": 250
+  },
+  "categories": [
+    {
+      "id": "A",
+      "title": "Kategorie A - Christliches Leben und die Gesellschaft, Kunst und Kultur",
+      "topics": [
+        {
+          "id": "A-01",
+          "title": "Bilder",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 6,
+              "text": "Hinweis: Verwende für die Fotoaufgaben eine Kamera mit manuellen Einstellungsoptionen für Belichtungszeit, Brennweite und Blende. Empfohlen wird, sich mithilfe der Bedienungsanleitung mit den Steuerelementen der Kamera vertraut zu machen. Versuche, ein Stativ zu bekommen oder auszuleihen, um sicherzustellen, dass deine Fotos von Anfang an nicht verwackeln.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 8,
+              "text": "1. \tErläutere den Prozess der traditionellen Filmentwicklung. Was passiert mit dem Film in der Kamera und welche Schritte folgen dann in der Dunkelkammer? (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 9,
+              "text": "2. \tBeschreibe, wie bei einer Aufnahme mit einer Digitalkamera das digitale Bild entsteht. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 10,
+              "text": "3. \tErläutere die Unterschiede zwischen den derzeit gebräuchlichen Kameratypen wie Spiegelreflex- und Kompaktkameras. Welche Vor- und Nachteile sind jeweils damit verbunden? (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 11,
+              "text": "4. \tErläutere die folgenden Begriffe in eigenen Worten: Blendeneinstellung, Belichtungszeit, Brennweite, Schärfentiefe, Lichtempfindlichkeit (ISO), Lichtstärke des Objektivs, Portraiteinstellung, Makroeinstellung, Polfilter, UV-Filter und Farbfilter. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 12,
+              "text": "5. \tFotografiere ein Motiv mit verschiedenen Kameraeinstellungen und achte dabei auf einen ausgewogenen Bildaufbau, der Vordergrund, Bildmitte und Hintergrund einschließt. Variiere die Einstellungen, um unterschiedliche Belichtungen und Tiefenschärfe zu erzielen. Dokumentiere dabei alle Einstellungsdaten deiner Fotoserie. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 13,
+              "text": "6. \tErstelle eine Fotoserie zu einem Thema aus dem Bereich der Rangers, wie zum Beispiel Feuermachen. Nutze diese Fotos, um eine Präsentation, ein Fotobuch oder ein ähnliches Projekt zu erstellen. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 14,
+              "text": "7. \tSetze deine Übungen mit Kleinserien fort, indem du dich auf Schnappschüsse, Porträtaufnahmen, Selbstporträts mit Selbstauslöser, Landschaftsaufnahmen, Nachtaufnahmen, Gegenlichtaufnahmen, Makroaufnahmen mit und ohne Blitz, Doppelbelichtung und das Fotografieren mit verschiedenen Filtern konzentrierst. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-02",
+          "title": "Videos",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 18,
+              "text": "1. \tLerne die grundlegenden technischen Funktionen einer Videokamera, indem du die Bedienungsanleitung studierst. Übe die Verwendung eines Stativs, um sanfte Zooms, geschmeidigen Schwenks sowie das fließende Ein- und Ausblenden (falls diese Funktion verfügbar ist) zu meistern. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 19,
+              "text": "2. \tErkläre die Begriffe Lichtstärke, Brennweite, Blende, Schärfentiefe und Makroeinstellung. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 20,
+              "text": "3. \tErstelle einen 10 Minuten langen Stummfilm. Vorher musst du hierfür ein Drehbuch und ein Skript erstellen. Verwende dafür ein Fachbuch oder schaue im Internet nach. Das Thema darfst du dir frei aussuchen – Hauptsache etwas von den Rangern. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 21,
+              "text": "4. \tErstelle einen 10 Minuten langen Tonfilm. Vorher musst du hierfür ein Drehbuch und ein Skript erstellen. Verwende dafür ein Fachbuch oder schaue im Internet nach. Das Thema darfst du dir frei aussuchen – Hauptsache etwas von den Rangern. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 22,
+              "text": "5. \tPraktiziere das Hinzufügen von Musik zu deinem stummen Film durch Nachvertonung. Achte dabei auf die harmonische Abstimmung der Musik mit den Szenen deines Films und auf saubere Übergänge zwischen den Musikstücken. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 23,
+              "text": "6. \tProduziere eine Filmreportage über eine größere Veranstaltung in deiner Gemeinde oder innerhalb der Rangers. Versuche, einen zweiten Kameramann hinzuzuziehen, um wichtige Szenen aus verschiedenen Blickwinkeln aufzunehmen. Bearbeite das Filmmaterial zu einer maximal 15-minütigen Reportage und vervollständige deine Arbeit durch Nachvertonung, das Hinzufügen von Titeln, Kommentaren und einem Abspann. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-03",
+          "title": "Musik",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 27,
+              "text": "1. \tNimm für mindestens 6 Monate an musikalischen Aktivitäten teil, wie zum Beispiel dem Kinderchor, einer Gesangsgruppe, oder begleite eine Gruppe mit deinem Instrument. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 28,
+              "text": "2. \tEigne dir die Grundlagen der Notenlehre an, damit du in der Lage bist, die Noten eines Liedes zu lesen und die musikalischen Symbole zu verstehen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 29,
+              "text": "3. \tEigne dir die Fähigkeit an, 10 verschiedene Instrumente allein durch das Gehör zu erkennen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 30,
+              "text": "4. \tSuche geeignete Lieder aus und führe eine Gruppe mindestens 3-mal im Singen an (zum Beispiel zu Beginn des Rangertreffens). (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 31,
+              "text": "5. \tWähle drei deiner persönlichen Lieblingslieder aus und Teile etwas über ihre Bedeutung, ihre Ursprünge sowie die Komponisten dieser Lieder mit. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 32,
+              "text": "6. \tNenne mindestens 3 Bibelstellen, die vom Gesang und von Instrumenten handeln. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 33,
+              "text": "7. \tGestalte einen eigenen Team-Song oder einen musikalischen Kreativbeitrag und präsentiere ihn vor deinem Stamm. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-04",
+          "title": "Medien",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 36,
+              "text": "1.    Engagiere dich über einen Zeitraum von 6 Monaten kontinuierlich in einem Redaktionsteam für die Stammzeitung, den Gemeindebrief oder die Homepage. Verfasse dabei mindestens drei eigene Artikel, Reportagen oder andere Beiträge. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 37,
+              "text": "2. \tRecherchiere über christliche Radiosender und Medien, die in deiner Region empfangen werden können. Notiere die Frequenzen, Sendezeiten und die Kontaktadressen der Redaktionen. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 38,
+              "text": "3. \tInformiere dich über verschiedene christliche Publikationen, indem du 15 Ausgaben unterschiedlicher christlicher Veröffentlichungen in unserem Land sammelst, sei es Zeitungen, Zeitschriften, Rundbriefe oder Ähnliches. Erstelle einen Ordner, um diese Belegexemplare zu organisieren. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 39,
+              "text": "4. \tPlane einen Besuch (möglicherweise zusammen mit anderen Rangern) im Redaktionsbüro deiner Tageszeitung nach vorheriger Anmeldung. Nutze diese Gelegenheit, um mehr über die Arbeitsweise in einer Redaktion zu erfahren. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 40,
+              "text": "5. \tBesuche eine Druckerei oder einen Grafikdesigner und informiere dich über die Abläufe und Techniken. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 41,
+              "text": "6. \tSetze dich an einen Computer und arbeite mit einem Design- oder Layout-Programm. Erstelle mindestens einen Artikel mit einem individuellen Layout und einer speziellen Überschrift. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 42,
+              "text": "7. \tVerfasse gemeinsam mit deinem Teamleiter einen Leserbrief an die Tageszeitung. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 43,
+              "text": "8. \tFühre ein Interview mit einer faszinierenden Persönlichkeit zu einem bestimmten Thema, indem du einen vorbereiteten Fragenkatalog verwendest. Besprich das Thema sowie die Fragen im Vorfeld mit deinem Teamleiter. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-05",
+          "title": "Gäste",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 46,
+              "text": "1. \tInformiere dich über die Kunst des Gästebewirtens, sodass du folgende Fragen im Detail beantworten und demonstrieren kannst. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 47,
+              "text": "a. \tWie wird das Besteck für einfache und mehrgängige Menüs richtig gedeckt?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 48,
+              "text": "b. \tWie wird das Geschirr für mehrgängige Menüs angeordnet?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 49,
+              "text": "c.  \tWo sollten die Salatteller platziert werden?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 50,
+              "text": "d. \tWie und wo werden Gläser gedeckt, wenn die Getränkewahl der Gäste noch unbekannt ist?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 51,
+              "text": "e. \tMit welchen festlichen Details kann ein Tisch geschmückt werden?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 52,
+              "text": "f.  \tWo kann der von den Gästen möglicherweise mitgebrachte Blumenstrauß platziert werden?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 53,
+              "text": "g. \tWelche Reihenfolge muss beim Bedienen beachtet werden?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 54,
+              "text": "h. \tVon welcher Seite sollten Platten gereicht werden, wenn die Gäste sich selbst bedienen, und von welcher Seite werden Getränke eingeschenkt?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 55,
+              "text": "2. \tInformiere dich über den formellen und informellen Umgang mit Gästen an, damit du die folgenden Fragen im Detail beantworten und praktisch umsetzen kannst. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 56,
+              "text": "a.     Wie begrüßt man Gäste angemessen?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 57,
+              "text": "b. \tWie geht man mit den Garderoben der Gäste um?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 58,
+              "text": "c.  \tWas ist Smalltalk? Nenne einige Möglichkeiten, wie man ein Gespräch durch Smalltalk beginnen kann. Welche Themen sind geeignet, und welche eher nicht?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 14,
+              "sourceParagraphIndex": 59,
+              "text": "d. \tWie vermittelt man seinem Gast das Gefühl, willkommen zu sein?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 15,
+              "sourceParagraphIndex": 60,
+              "text": "e. \tWas ist bei der Verabschiedung von Gästen zu beachten?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 16,
+              "sourceParagraphIndex": 61,
+              "text": "3. \tFalte Servietten in mindestens 4 verschiedenen Stilen und präsentiere die Ergebnisse deinem Teamleiter. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 17,
+              "sourceParagraphIndex": 62,
+              "text": "4. \tOrganisiere eine Einladung mit mindestens 4 Personen (außer dir) zum Frühstück, Kaffee, Abendessen oder einem besonderen Rangers-Treffen:",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 18,
+              "sourceParagraphIndex": 63,
+              "text": "a. \tGestalte ansprechende Einladungen und verteile sie an die entsprechenden Personen.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 19,
+              "sourceParagraphIndex": 64,
+              "text": "b. \tDecke den Tisch festlich ein, passend zur Art der Einladung und den servierten Speisen. Denke dabei an Servietten, eventuelle Tischkärtchen und andere Tischdekorationen.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 20,
+              "sourceParagraphIndex": 65,
+              "text": "c.  \tBiete unbedingt etwas Selbstgemachtes an, wie zum Beispiel selbstgebackene Brötchen oder Müsli zum Frühstück, hausgemachten Kuchen oder Torte zum Kaffee oder dekorative kalte oder warme Platten zum Abendessen.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 21,
+              "sourceParagraphIndex": 66,
+              "text": "d. \tSpüle das Geschirr und reinige den Raum erst, nachdem deine Gäste gegangen sind.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 22,
+              "sourceParagraphIndex": 67,
+              "text": "5. \tSuche mindestens vier Stellen in der Bibel heraus, die Tischmanieren oder Begrüßungssitten beschreiben. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-06",
+          "title": "Bürgerkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 70,
+              "text": "1. \tMarkiere die wichtigen Orte in deinem Dorf, deiner Stadt oder, bei größeren Städten, in deinem Stadtteil auf einem Stadtplan: Feuerwehr, Polizei, Schulen, Kirchen, Stadthalle und Rathaus. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 71,
+              "text": "2. \tErstelle von Hand farbige Zeichnungen deiner Nationalflagge, der Flagge deines Bundeslandes und der Flagge deiner Stadt. Erkläre dabei ihre Bedeutung. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 72,
+              "text": "3. \tErläutere anhand von drei Beispielen, wie ein Ranger zu einem vorbildlichen Bürger seiner Stadt oder seines Landes werden kann. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 73,
+              "text": "4. \tWie lautet das Gesetz, das die Grundrechte der Bürger sichert? Erläutere Artikel 1 dieses Gesetzes. 2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 74,
+              "text": "5. \tNenne 5 bedeutende Politiker und ihre Titel. Wähle einen dieser Politiker aus und verfolge über einen Zeitraum von 2 Wochen seine Aktivitäten in Zeitungen und in anderen Medien. Dokumentiere die wichtigsten Ereignisse, Orte und Daten schriftlich. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 75,
+              "text": "6. \tWer ist der Bundestagsabgeordnete, der deine Stadt oder deinen Bezirk repräsentiert? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 76,
+              "text": "7. \tGestalte eine Präsentation für deine Rangergruppe über die Geschichte deines Dorfes oder deiner Stadt. Diese Aufgabe kann auch von zwei Personen gemeinsam bearbeitet werden. Schließe dabei die folgenden Informationen ein: Gründung, erste Erwähnung des Stadtnamens in historischen Aufzeichnungen, bedeutende Ereignisse und herausragende Persönlichkeiten der Stadt. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 77,
+              "text": "8. \tNimm an einer öffentlichen Sitzung des Gemeinderates, Stadtrates oder eines Gerichts in deiner (Kreis-)Stadt teil. Mache Notizen zu den besprochenen Themen sowie den wichtigsten Argumenten und Aussagen, die während der Sitzung vorgebracht werden. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 78,
+              "text": "9. \tNenne zwei Bibelstellen, die unsere Verantwortung gegenüber der Regierung und Obrigkeit ansprechen, und erkläre ihre Bedeutung.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-07",
+          "title": "FECG-Rangers",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 80,
+              "text": "1. \tNimm schriftlich Kontakt zu einem Ranger aus einer anderen Gemeinde auf. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 81,
+              "text": "2. \tHalte über 6 Monate schriftlichen Kontakt zu einem Ranger aus einer anderen Gemeinde (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 82,
+              "text": "3. \tTriff dich mit einem Ranger aus einer anderen Gemeinde. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-08",
+          "title": "Die Bibel",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 84,
+              "text": "1. \tErläutere die Entstehung der Bibel und zitiere dabei zwei Bibelstellen. Gib außerdem zwei Gründe an, warum die Bibel nicht frei erfunden sein kann. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 85,
+              "text": "2. \tGib anhand von Bibelversen einige Gründe an, warum die Bibel auch heute noch nützlich sein kann. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 86,
+              "text": "3. \tErkläre, worauf man achten sollte, wenn man einen Bibeltext liest und versucht, ihn auf die heutige Zeit anzuwenden. Welche möglichen Fehler können bei der Auslegung der Bibel gemacht werden? (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 87,
+              "text": "4. \tLerne die 66 Bücher in der Reihenfolge der Bibel auswendig. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 88,
+              "text": "5. \tErläutere die Bedeutung der folgenden Begriffe und zitiere jeweils entsprechende Bibelstellen: Gnade, Buße, Glaube, Wiedergeburt, Heiligung und Wiederkunft Jesu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 89,
+              "text": "6. \tErläutere, wie jemand zum Christen wird und welche Verantwortung er als Christ trägt. Beziehe dabei die Themen Benehmen, Treue, Opferbereitschaft und Zeugenschaft mit ein. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 90,
+              "text": "7. \tGestalte drei Andachten zu Bibelversen, die für dich besonders bedeutsam sind, und halte sie schriftlich fest. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-09",
+          "title": "Biblische Ereignisse",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 92,
+              "text": "1. \tBeantworte die folgenden Fragen zu den großen Weltreichen des Altertums. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 93,
+              "text": "a. \tWie heißen diese Weltreiche?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 94,
+              "text": "b. \tWie groß war die Ausdehnung der Weltreiche?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 95,
+              "text": "c.  \tAuf welche Art und Weise wurden die Weltreiche mächtig und wie wurden sie zerschlagen?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 96,
+              "text": "2. \tErstelle eine Zusammenfassung über die Geschichte des jüdischen Volkes von Abraham bis zum Ende des Alten Testaments. Notiere dabei die bedeutendsten historischen Ereignisse, erstelle eine Tabelle aller Könige von Israel und Juda und beschreibe, wie das Volk zu verschiedenen Zeiten in Beziehung zu Gott stand. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 97,
+              "text": "3. \tWie und wann entstand das römische Reich? (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 98,
+              "text": "4. \tVisualisiere die Ausdehnung des Römischen Reiches während seiner Hochphase anhand einer Karte. Markiere den Zeitpunkt, an dem es seine größte Ausdehnung erreichte, und erkläre, warum es sich danach nicht weiter ausdehnen konnte. Untersuche die Ursachen und den Verlauf des Reichsverfalls. Abschließend, welche Lehren können wir aus diesem historischen Ereignis ziehen? (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 99,
+              "text": "5. \tWas hat das Christentum mit dem Römischen Reich zu tun? Welchen Einfluss hatte es auf das Christentum und seine Verbreitung? Zähle Kaiser, Statthalter und Regenten über Israel auf, die zur Zeit Jesu und der ersten Gemeinde lebten. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 100,
+              "text": "6. \tGib einen knappen Überblick darüber, was mit den Christen und der Verbreitung der christlichen Botschaft zwischen den Jahren 60 und 400 n. Chr. geschah. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-10",
+          "title": "Gemeinde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 102,
+              "text": "1. \tVerfasse einen Bericht oder erstelle eine Präsentation über die Geschichte unserer Gemeinde. Dabei sollten Informationen wie die Gründung, die Pastoren, Abbildungen früherer Gebäude und Veranstaltungen sowie andere relevante Details enthalten sein. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 103,
+              "text": "2. \tErkläre, was die Merkmale der ersten Gemeinde in Jerusalem (Apostelgeschichte 2) waren. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 104,
+              "text": "3. \tErläutere, wie und wann die Bewegung der Pfingstler entstanden ist. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 105,
+              "text": "4. \tWie wird man Mitglied in unserer Gemeinde? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 106,
+              "text": "5. \tWarum ist es wichtig Mitglied der Gemeinde zu sein? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 107,
+              "text": "6. \tWas versteht man unter dem ‚Leib Jesu‘? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 108,
+              "text": "7. \tArbeite in den Ferien mindestens drei Tage freiwillig in der Gemeinde mit, um mehr über das Gemeindeleben zu erfahren. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-11",
+          "title": "Geistlicher Dienst",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 110,
+              "text": "1. \tRecherchiere über verschiedene christliche Hilfsorganisationen in deiner Gemeinde und Umgebung. Notiere ihre Namen und die Bereiche, in denen sie tätig sind. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 111,
+              "text": "2. \tReflektiere darüber, warum es wichtig ist, sich in Hilfsdiensten zu engagieren und weshalb sie für Jesus selbst von großer Bedeutung waren. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 112,
+              "text": "3. \tEngagiere dich aktiv bei einer Hilfsaktion (z.B. Packen von Hilfsgütern in der Missionshalle) (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 113,
+              "text": "4. \tErstelle eine Liste mit verschiedenen Möglichkeiten des vollzeitlichen Dienstes. Führe zwei Interviews mit Christen, die im vollzeitlichen Dienst tätig sind, wie z.B. Pastoren, Missionaren, Evangelisten oder Bibelschullehrern, und verfasse einen Bericht darüber. In diesem Bericht sollten folgende Aspekte berücksichtigt werden:",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 114,
+              "text": "a. \tIst der Dienst zufriedenstellend und bereichernd?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 115,
+              "text": "b. \tWelche Schulausbildung und praktische Erfahrung werden für diesen Dienst benötigt?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 116,
+              "text": "c.  \tWelche Opfer erfordert der Dienst?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 117,
+              "text": "d. \tWie haben die interviewten Personen ihre Berufung zum Dienst empfangen?",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 118,
+              "text": "5. \tFühre ein Interview mit einem ehrenamtlichen Mitarbeiter im Christlichen Dienst durch. Erörtere mit der Person, wie man nebenberuflich Christus und der Gemeinde dienen kann. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 119,
+              "text": "6. \tErkläre, warum es für Christen wichtig ist, anderen von Jesus zu erzählen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 120,
+              "text": "7. \tSei in der Lage zu erklären, wie man Christ wird, indem du die zentralen Bibelstellen auswendig lernst: Johannes 1,12; 3,16; Römer 3,23; 1. Johannes 1,9. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "A-12",
+          "title": "Missionsarbeit",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 123,
+              "text": "1. \tInformiere dich über die Missionsarbeit in unserer Gemeinde bei einem Pastor oder einem Missionsarbeiter. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 124,
+              "text": "2. \tRecherchiere Informationen zu drei Missionsprojekten in unserer Gemeinde (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 125,
+              "text": "3. \tMarkiere auf einer Karte die dir bekannten Missionseinsätze (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 126,
+              "text": "4. \tErfasse die Grundlagen der wichtigsten Weltreligionen, einschließlich des Islam, Buddhismus, Hinduismus und Naturreligionen, und erkläre ihre Unterschiede zum Christentum. Präsentiere diese Informationen deinem Leiter oder Team. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 127,
+              "text": "5. \tLass dich von Gott für ein bestimmtes Land oder eine spezifische Bevölkerungsgruppe bewegen. Widme dich in den nächsten drei Monaten regelmäßig dem Gebet für dieses Land oder diese Gruppe. Suche nach anderen Personen oder Organisationen, die ebenfalls Interesse daran haben, sowie nach Menschen aus diesem Land, die möglicherweise in deiner Nähe leben. Halte dich über aktuelle Entwicklungen in diesem Land auf dem Laufenden. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 128,
+              "text": "6. \tErkläre, warum Missionsarbeit auch heute noch so wichtig ist. Belege dies mit Bibelversen. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 129,
+              "text": "7. \tHalte einen kurzen Vortrag vor dem Rangergruppe zu einem Missionseinsatz in einem Land. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Kategorie B - Rangers in der Natur",
+      "topics": [
+        {
+          "id": "B-01",
+          "title": "Astronomie",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 132,
+              "text": "Zeige sieben Sternbilder am Himmel. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 133,
+              "text": "Beschreibe, warum Sterne funkeln. (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 134,
+              "text": "Beschreibe die Begriffe Milchstraße, Planet, Stern, Komet, Meteor und Satellit.            (2Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 135,
+              "text": "Zähle die Planeten unseres Sonnensystems mit ihrer Größe auf. Skizziere sie, um die Größenverhältnisse deutlich zu machen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 136,
+              "text": "Beschreibe, was ein Lichtjahr ist. Gib in Lichtjahren an, wie weit der nächste Stern von der Erde entfernt ist. (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 137,
+              "text": "Mache ein Besuch im Planetarium. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 138,
+              "text": "Beobachte regelmäßig ca. 6 Monate den Sternenhimmel und erläutere die Unterschiede im Jahresverlauf. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 139,
+              "text": "Erkläre den Unterschied von Astronomie und Astrologie. Erläutere, was die Bibel über Astrologie sagt. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-02",
+          "title": "Wetterkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 142,
+              "text": "Beschreibe wie Luftdruck entsteht und wie er gemessen wird. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 143,
+              "text": "Beschreibe wie Wind entsteht und was die Beaufort- Skala ist. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 144,
+              "text": "Nenne die unterschiedlichen Wolkenarten (hohe, mittlere und tiefe) und erkläre, wie sie entstehen. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 145,
+              "text": "Nenne die unterschiedlichen Arten von Niederschlag und erkläre, wie sie entstehen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 146,
+              "text": "Lese und interpretiere eine Prognosekarte vom Deutschen Wetterdienst und stelle selbst eine Prognose. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 147,
+              "text": "Beobachte eine Woche lang das Wetter. Notiere Temperatur, Luftdruck, Windrichtung, Windstärke, Tau, Frost, Regen, Schnee und Wolkenarten. Vergleiche das Wetter jeweils mit der Prognose vom Vortag und nenne die Unterschiede. Schreibe einen Bericht über diese Woche. Füge dabei die Prognosen und deine Beobachtungen von jeweils einem Tag zusammen und zeige die Unterschiede auf. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 148,
+              "text": "Lies das Wetter am Himmel ab. Nenne drei Zeichen für schönes und drei Zeichen für schlechtes Wetter. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 149,
+              "text": "Beschreibe die jeweiligen Ursachen von Fata Morgana, Regenbogen, Nordlichter, Blitz, Donner, Hagel, Graupel, Regen, Wirbelsturm und Föhn. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 150,
+              "text": "Lies Matthäus 8, 23-27. Erkläre was das für jede Art von Wetter bedeutet und was für eine Bedeutung es für dich hat. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-03",
+          "title": "Vogelkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 153,
+              "text": "Beobachte in der Natur Vögel und notiere 10 von ihnen. Beschreibe die Merkmale, die sie voneinander unterscheiden (Aussehen, Flugbild und Vogelstimme). Nenne Name, Umgebung und Datum der Beobachtung. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 154,
+              "text": "Nenne und beschreibe fünf Vögel, die für die Landwirtschaft und den Ostanbau nützlich sind, indem sie Schädlinge wie Ratten, Mäuse, Raupen oder Insekten ausmerzen. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 155,
+              "text": "Wähle eine Vogelart aus und baue für ihn einen Nistkasten. Beschreibe was beim Bau und der Anbringung wichtig ist. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 156,
+              "text": "Baue ein Vogelfutterhäuschen und lege eine Vogeltränke an. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 157,
+              "text": "Mache einen Besuch in einem Vogelpark, einem Gehege, einem naturwissenschaftlichen Museum oder eine vogelkundliche Exkursion beim Naturschtzbund Deutschland. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 158,
+              "text": "Erkläre, wie Vogelarten vor dem Aussterben geschützt werden können. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 159,
+              "text": "Erkläre Jesus Aussage aus Matthäus 6,26: „Sehet die Vögel unter dem Himmel an: sie säen nicht, sie ernten nicht, sie sammeln nicht in die Scheunen; und euer himmlischer Vater nährt sie doch. Seid ihr denn nicht viel mehr denn sie?“ (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-04",
+          "title": "Naturkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 162,
+              "text": "Wandere durch ein Freigelände wie Wiese, Moor, Heide oder Waldgebiet. Notiere die Pflanzen, Bäume, Tiere, Vögel und Insekten, die du dort vorfindest und schreibe ihre besonderen Erkennungszeichen auf. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 163,
+              "text": "Wähle drei verschiedene Samen aus und säe sie in einem Blumentopf oder im Freiland aus. Beobachte die Entwicklung der Pflanzen zehn Wochen lang und halte es schriftlich fest. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 164,
+              "text": "Suche und trockne zehn verschieden Blätter. Ordne sie dem richtigen Baum oder Strauch zu. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 165,
+              "text": "Sammle zehn verschiedene Samen und ordne sie den richtigen Bäumen oder Pflanzen zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 166,
+              "text": "Sammle sechs verschiedene Holzarten und ordne sie dem richtigen Baum zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 167,
+              "text": "Suche Zeichnungen von drei verschieden Fischarten und nenne ihre Lebensräume und besondere Merkmale. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 168,
+              "text": "Suche Zeichnungen von drei verschieden Froscharten oder drei verschiedenen Reptilien und nenne ihre Lebensräume und besonderen Merkmale. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 169,
+              "text": "Gehe in die freie Natur und suche nach Spuren und Hinweisen von fünf Tierarten. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 170,
+              "text": "Fertige eine Sammlung von zehn verschiedenen Insekten aus der Natur oder als Bild an. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 171,
+              "text": "Beschreibe je drei Arten von Pilzen, die giftig, die ungenießbar und die essbar sind.(3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 172,
+              "text": "Fertige eine Sammlung von sieben verschiedenen Seemuscheln an. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 173,
+              "text": "Fertige eine Sammlung von zehn verschiedenen getrockneten Blumen an. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 174,
+              "text": "Wähle drei giftige Pflanzenarten aus und beschreibe, woran man sie erkennt und warum sie gefährlich sind. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 14,
+              "sourceParagraphIndex": 175,
+              "text": "Frage einen Förster nach der Bedeutung, Pflege und Nutzung des Waldes und notiere die wichtigsten Punkte. Frage nach, ob du ihn auf einem seiner Waldgänge begleiten darfst. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 15,
+              "sourceParagraphIndex": 176,
+              "text": "Erkläre anhand Hiobs Aussage aus Hiob 12, 7-10 was du durch die Natur lernen kannst. „Frage doch das Vieh, das wird dich’s lehren, und die Vögel unter dem Himmel, die werden dir’s sagen, oder die Sträucher der Erde, die werden dich’s lehren, und die Fische im Meer werden dir’s erzählen. Wer erkennte nicht an dem allen, dass des HERRN Hand das gemacht hat, dass in seiner Hand ist die Seele von allem, was lebt, in seiner Hand auch der Geist im Leib eines jeden Menschen?“ (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-05",
+          "title": "Tierkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 179,
+              "text": "Mache vier Erkundungsausflügen in unterschiedlichen Wald- und Wiesengebieten. Notiere die Ortsangaben und die Tiere, die du beobachten kannst. Beschreibe ihr Verhalten. Als Alternative kannst du auch einen Jäger fragen, ob du ihn auf seiner Pirsch begleiten darfst. (9 Punkte)",
+              "pointMentions": [
+                9
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 180,
+              "text": "Mache ein Besuch in einem naturkundlichen Museum oder in einem zoologischen Garten. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 181,
+              "text": "Suche Informationen, Bilder und Skizzen von zehn Säugetieren, die in Europa zu Hause sind. Erstelle dazu eine Präsentation und stelle sie deiner Rangergruppe vor.   (7 Punkte)",
+              "pointMentions": [
+                7
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 182,
+              "text": "Besuche für einen Tag ein Bauernhof, ein Pferdehof oder bei einem Schäfer und lass dir dabei wichtige Grundlagen der Tierhaltung und Tierzucht erklären. Hilf bei den Arbeiten, wie füttern und Stall ausmisten mit. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 183,
+              "text": "Mache von vier verschiedenen Tierspuren Gipsabdrücke. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 184,
+              "text": "Gib drei Tierarten aus Europa an, die vom Aussterben bedroht sind und nenne Gegenmaßnahmen, um sie davor zu bewahren. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 185,
+              "text": "Erkläre, mithilfe von Johannes 10, 2-5, warum die Schafe dem Hirten vertrauen und folgen: „Der aber zur Tür hineingeht, der ist der Hirte der Schafe. Dem macht der Türhüter auf, und die Schafe hören seine Stimme; und er ruft seine Schafe mit Namen und führt sie hinaus. Wenn er alle seine Schafe hinausgelassen hat, geht er vor ihnen her, und die Schafe folgen ihm nach; denn sie kennen seine Stimme. Einem Fremden aber folgen sie nicht nach, sondern fliehen vor ihm; denn sie kennen die Stimme der Fremden nicht.“ Erläutere, was es für dich und Gott bedeutet. (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-06",
+          "title": "Waldläufer",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 188,
+              "text": "Mache Provainttaschen aus Leinensäcken für einen Gürtel, worin du Pulverproviant, Nüsse, Dörrobst und Pemmikan verstauen kannst. Bereite die Inhalte selbst zu. Dabei sollst du selbst Nüsse sammeln, Dörrobst aus selbst gesammelten Früchten dörren, Mehl mahlen, Pemmikan aus Griebenschmalz und Trockenfleisch kneten. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 189,
+              "text": "Entzünde ein Feuer mit einem Trapper- Feuerzeug, Eisen und einem Feuerstein. Zeige wie du es ohne Streichhölzer entzünden kannst. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 190,
+              "text": "Fertige aus verkohltem Baumwollstoff (Char Cloth) einen Zunder an. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 191,
+              "text": "Baue eine Unterkunft mit dem Material, das du in deiner Umgebung findest. Richte dir ein Schlafplatz aus Naturmaterialien ein und verbringe dort eine Nacht.\t      (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 192,
+              "text": "Reinige und filtere verschmutztes Wasser mit einfachen Mitteln, wie Gewebe, Plastikflasche, Sand, Steine und Kohle. Erkläre, warum gefiltertes Wasser auch abgekocht werden muss. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 193,
+              "text": "Mache eine Liste mit zehn Grünpflanzen, fünf Wurzeln und zehn Beeren. Lerne so viel über ihre Art, dass du sie in der Natur erkennen kannst und deren Standort vermuten kannst. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 194,
+              "text": "Bringe Wasser zum Kochen. Nutze dafür das Siedesteinverfahren oder eine ähnliche Einrichtung und gebrauche kein herkömmliches Kochgeschirr. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 195,
+              "text": "Mache ein Nahrungsmittel aus der Natur, wie Kompott aus Wildbeeren, Brot aus Kastanienmehl, Brennnesselgemüse, Huflattichtee oder Gänseblümchensalat. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 196,
+              "text": "Zeige die Himmelsrichtungen ohne Hilfe der Himmelskörper. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 197,
+              "text": "Nenne alle bekannten Waldläuferzeichen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-07",
+          "title": "Winterkunde",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 200,
+              "text": "Erkläre die Vor- und Nachteile dieser Winterunterkünfte: Schneehöhle, Schneeunterstand, Iglu, Feuerkhote und Tipi. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 201,
+              "text": "Baue eine Winterunterkunft und schlafe zwei Nächte im Winter unter Aufsicht eines Erwachsenen darin. Richte eine rauchfreie Zeltheizung her und schlafe auf eingegrabenen, heißen Steinen oder ähnliches. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 202,
+              "text": "Erläutere, was eine Unterkühlung ist, welche Symptome sie aufweist und wie man sie mit Erste Hilfe Maßnahmen behandelt. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 203,
+              "text": "Erläutere, was eine Erfrierung ist, wie man eine Erfrierung I., II., III. Grades erkennt und wie man sie vorbeugen kann. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 204,
+              "text": "Erläutere, was Schützengrabenfüße (Fußbrand) und Schneeblindheit ist und wie man es vermeiden kann. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 205,
+              "text": "Erläutere, wie man mit Hilfe von Feuer, Rauch, Leuchtkugeln oder einem Spiegel ordnungsgemäß in einem verschneiten Gebiet Notsignale geben kann. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 206,
+              "text": "Mache ein Ausrüstungspäckchen fertig, mit dem man ein Winterausflug im Notfall überleben kann. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 207,
+              "text": "Schreibe eine Bekleidungsliste für einen Winterausflug und beachte, dass Schnee, Graupelschauer und Regen auftreten können. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-08",
+          "title": "Zeltbau",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 210,
+              "text": "Mache eine Liste über Bauformen aus Schwarzware, von Kröte bis Jurte und nenne die verwendeten Materialien. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 211,
+              "text": "Helfe beim Bau von vier unterschiedlichen Zeltformen. Eine davon soll eine zusammenhängende Formation wie Zeltburg oder Zeltschloss sein. (16 Punkte)",
+              "pointMentions": [
+                16
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 212,
+              "text": "Mache aus Zeltstoff entweder einen Zeltsack, Säcke für Heringe und Kleinteile, einen Sack für Gestänge oder eine Bodenplane. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 213,
+              "text": "Helfe beim Bau eines eigenen Zeltes mit, z. B. bei einem selbstgemalten Tipi.              (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 214,
+              "text": "Lerne, wie du eine dichte Doppelnaht herstellst, eine Öse einbringst, ein Zelt imprägnierst und wie die Pflege und richtige Lagerung eines Zeltes funktioniert. (9 Punkte)",
+              "pointMentions": [
+                9
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 215,
+              "text": "Bereite eine Präsentation für deine Rangergruppe vor und erzähle ihnen von den Zeltformen ausländischer Nomadenvölker, wie Beduinen, Lappen, Indianer und Mongolen. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 216,
+              "text": "Erläutere, mit welchem Handwerk Paulus sein Geld verdient und warum (1. Korinther 9, 1-18). (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-09",
+          "title": "Lagerbau",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 219,
+              "text": "Lerne alle Knoten und Bünde, die für den Lagerbau notwendig sind. Erläutere warum du welche Knoten wann benutzen musst. (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 220,
+              "text": "Erkläre mit Hilfe eines Fachmanns oder eines Buches über technische Mechanik und Statik was Stütz- oder Spannweite, Hebelgesetz, Kräftedreieck, Statik und konstruktive Sicherheit bedeutet. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 221,
+              "text": "Erläutere den Zusammenhang von Gleichgewicht und Klippsicherheit, warum die meisten stabilen Bauwerke aus Bauholz als Dreiecksstabwerke gebaut werden und weshalb Diagnoalverstrebungen bei einem stabilen Bauwerk generell erforderlich sind. Sieh dir eine Stahl- oder Holzbalkenbrücke und einen Hochspannungsmast an.   (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 222,
+              "text": "Zeige die Kräftezerlegung am Kräftedreieck. (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 223,
+              "text": "Zeichne für ein Camp ein Lagerbauwerk, wie ein Lagerturm oder ein Lagertor. Messe alle Teile, markiere die notwendigen Bünde und schreibe auf einer Liste, welche Materialien benötigt werden (Art, Länge, Durchmesser bei Holz). Lass dir von deinem Rangerleiter eine Tabelle mit Standardabmessungen geben und entnehme ihr den erforderlichen Holzdurchmesser. Die Konstruktion gibt dein Rangerleiter dir frei. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 224,
+              "text": "Errechne, wie viele Ranger gleichzeitig dein Bauwerk betreten können. Es wird 70kg pro Person angenommen. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 225,
+              "text": "Helfe beim Beschaffen, Bereitstellen und Aufbau deines eigen entwickelten Bauwerks mit. (16 Punkte)",
+              "pointMentions": [
+                16
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-10",
+          "title": "Feuerbohren",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 228,
+              "text": "Suche dir eine gute Anleitung zum Feuerbohren und jemanden, der es beherrscht.     (1 Punkte)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 229,
+              "text": "Organisiere dir ein Bohrbrett, Bohrstäbe, Bogen und Sehnen und Hartholzgegenlager. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 230,
+              "text": "Suche Informationen über bewährte Zunderspezialitäten, wie Feuerschwamm, verkohlter Baumwollstoff (Char Cloth), Bovistpilze, Borkenkäfermehl, Bärlappsporen, zerrieben austrocknete Vogelnester und abgestorbene Weidenkätzchen. Versuche mit einem leeren Feuerzeug oder einem Trapper- Feuerzeug und selbstgesammelten Zunder durch Funkenschlagen zum Glimmen zu bringen. Probiere verschiedene Zundermischungen aus. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-11",
+          "title": "Campkochen",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 233,
+              "text": "Stelle einen Speiseplan für eine Unternehmung von mindestens 3 Tagen zusammen. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 234,
+              "text": "Erstelle eine Liste der Lebensmittel, die für ein Team mit 8 Personen benötigt werden. Diese Aufstellung sollte auch den entsprechenden Geldbetrag enthalten, der für den Einkauf der Lebensmittel berechnet werden muss. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 235,
+              "text": "Erstelle eine Aufzählung sämtlicher Küchenutensilien, die für die Zubereitung der geplanten Mahlzeiten erforderlich sind. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 236,
+              "text": "Bereite sechs verschiedene Mahlzeiten über offener Flamme zu und setze dabei mindestens drei verschiedene Zubereitungsmethoden ein (z.B. Schmoren, Garen, Backen, Braten etc.). (18 Punkte)",
+              "pointMentions": [
+                18
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 237,
+              "text": "Suche nach einem geeigneten Rezept für eine Mahlzeit mit Mehl (z.B. Pfannenkuchen, Kaiserschmarren etc.) und bereite es zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 238,
+              "text": "Suche nach einem geeigneten Rezept für einen Eintopf und bereite es zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 239,
+              "text": "Suche nach einem geeigneten Rezept für ein Fleischgericht und bereite es zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 240,
+              "text": "Suche nach einem geeigneten Rezept für ein Brot- oder Kuchenrezept und bereite es zu. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 241,
+              "text": "Suche nach einem geeigneten Rezept für ein Getränk (z.B. Tee oder Limonade) und bereite es zu. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 242,
+              "text": "Zeige deinem Stamm, wie Lebensmittel richtig gelagert werden und für einen Transport verwahrt werden (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 243,
+              "text": "Erläutere, warum es wichtig ist, bei der Lagerung von Lebensmittel auf die Hygiene zu achten. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 244,
+              "text": "Weshalb ist es wichtig, bei der Handhabung von Lebensmitteln auf die eigene Gesundheit zu achten? Informiere dich über die Bestimmungen des Infektionsschutzgesetzes (IfSG) in den Paragrafen 42 und 43. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 245,
+              "text": "Teilnahme an einer Unterweisung gemäß § 43 des Infektionsschutzgesetzes (Gesundheitszeugnis) beim Gesundheitsamt deines Landkreises oder deiner Stadt. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        },
+        {
+          "id": "B-12",
+          "title": "Naturschutz",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 249,
+              "text": "Die drei grundlegenden Elemente für das Leben sind Boden, Luft und Wasser. Leider werden sie durch verschiedene Substanzen verschmutzt. Erkläre in eigenen Worten die Begriffe pH-Wert und Nitratgehalt. Führe Untersuchungen an Trinkwasser, Flusswasser und Regenwasser durch, um den pH-Wert und den Nitratgehalt mithilfe von handelsüblichen Teststreifen zu bestimmen, die beispielsweise in der Apotheke oder im Zoofachhandel erhältlich sind. Vergleiche die Messwerte der verschiedenen Proben miteinander und ziehe daraus Schlussfolgerungen. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 250,
+              "text": "Definiere die Begriffe CO, CO2, SO2, Ruß, Feinstaub und Ozon und liste die Hauptquellen für diese Luftschadstoffe auf. Überwache die Messergebnisse von der Luftmessstation in der Nähe deines Wohnortes über einen Zeitraum von vier Wochen. Du kannst die Daten aus der Tageszeitung oder dem Internet entnehmen. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 251,
+              "text": "Entnehme Bodenproben aus verschiedenen Bereichen wie Wald, Wiesen, Acker und Straßenrand. Analysiere die Proben hinsichtlich ihrer pH-Werte und Nitratgehalte, wie unter Punkt 1 beschrieben. Identifiziere Pflanzen, die Aufschluss darüber geben können, ob ein Boden sauer oder basisch ist. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 252,
+              "text": "Analysiere den Verbrauch von Trinkwasser, Strom, Energie für die Heizung und den Kraftstoffverbrauch des Autos für ein Jahr in deinem Haushalt. Dies kann auch rückwirkend geschehen. Erstelle eine Liste von Möglichkeiten zur Einsparung und diskutiere sie mit deinen Familienmitgliedern. Überlegt gemeinsam, wie die Müllmenge in eurem Haushalt reduziert werden kann. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 253,
+              "text": "Entwickle gemeinsam mit einem Team aus deinem Stamm ein Umwelt- und Naturschutzprojekt. Eine mögliche Aufgabe könnte die Übernahme der Verantwortung für die Reinigung eines Abschnitts eines Baches sein. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "List Paragraph"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 254,
+              "text": "Der Mensch wurde als Verwalter über die Schöpfung eingesetzt (1. Mose 1,28). Welche Auswirkungen hat dies auf seine Beziehung zur Umwelt? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "List Paragraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Kategorie C - Sport und Gesundheit",
+      "topics": [
+        {
+          "id": "C-01",
+          "title": "Fitness",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 272,
+              "text": "Untersuche die Bestandteile von 15 Lebensmitteln, die du regelmäßig konsumierst. Analysiere die Gehalte an Fett, Eiweiß, Kohlenhydraten, Ballaststoffen und Vitaminen sowie den Energiegehalt pro 100 Gramm (in Joule oder Kalorien). (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 273,
+              "text": "Entwerfe einen ausgewogenen Ernährungsplan für eine Woche, der eine ausgewogene Verteilung der genannten Nährstoffklassen gewährleistet. Reduziere den Zuckergehalt in deinem Speiseplan. Erkläre, warum Vollkornbrot gesünder ist als Weißbrot, ungeschälter Reis gesünder als geschälter Reis und rohe Karotten, Zwiebeln, Äpfel usw. gesünder sind als gekochte. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 274,
+              "text": "Schlafgewohnheiten: Nach einem Sprichwort von Benjamin Franklin lautet die Weisheit: \"Früh zu Bett gehen und früh aufstehen macht den Menschen gesund, wohlhabend und weise!\" Lord Baden-Powell, der Gründer der Pfadfinderbewegung, betont: \"Als echter Pfadfinder verpasst du keine Gelegenheit im Freien zu schlafen, und zumindest schläfst du stets bei geöffnetem Fenster!\" Deine Herausforderung besteht nun darin, für 6 Wochen nach diesen beiden Leitsätzen zu leben. Während dieser Zeit legst du dich rechtzeitig schlafen, stehst früher als üblich auf, um auf 8-9 Stunden Schlaf zu kommen. Jeden Morgen betreibst du eine Fitnessübung, wie beispielsweise einen Waldlauf oder Jogging, nimmst eine kurze warme Dusche mit anschließender kalter Abreibung und schließt idealerweise deine persönliche Andacht direkt daran an. Du wirst erstaunt sein, wie positiv sich diese Veränderungen nach 6 Wochen auf dein Wohlbefinden auswirken können. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 275,
+              "text": "Trainiere so lange, bis du die folgenden sportlichen Ziele erreichst:",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 276,
+              "text": "Für Jungen:",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 277,
+              "text": "20 Liegestütze",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 278,
+              "text": "7 Klimmzüge",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 279,
+              "text": "30 Kniebeugen",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 280,
+              "text": "1000 Meter in 4:30 Minuten laufen",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 281,
+              "text": "Für Mädchen:",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 282,
+              "text": "15 Liegestütze",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 283,
+              "text": "5 Klimmzüge",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 284,
+              "text": "25 Kniebeugen",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 14,
+              "sourceParagraphIndex": 285,
+              "text": "1000 Meter in 5 Minuten laufen",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 15,
+              "sourceParagraphIndex": 286,
+              "text": "Alternativ dazu besteht die Möglichkeit, das Deutsche Sportabzeichen (Jugendsportabzeichen) in der Silber-Kategorie zu erlangen. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 16,
+              "sourceParagraphIndex": 287,
+              "text": "Betrachte den Bibelvers 1. Korinther 6,12-20. Beachte, dass Gott dir einen Körper geschenkt hat, den du verantwortungsvoll pflegen sollst. Teile deine Überlegungen zu Vers 19 mit. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-02",
+          "title": "Rettungsschwimmer",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 289,
+              "text": "Mache den offiziellen Rettungsschwimmerschein und lege die Prüfung erfolgreich ab. (30 Punkte)",
+              "pointMentions": [
+                30
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-03",
+          "title": "Erste Hilfe",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 291,
+              "text": "Absolviere einen Erste-Hilfe-Kurs und beende diesen erfolgreich (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 292,
+              "text": "Erstelle einen Erste-Hilfe Koffer mit allen benötigten Inhalten für deinen Ranger Stamm. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 293,
+              "text": "Beschreibe in eigenen Worten die Position und Aufgaben der folgenden Organe: Herz, Niere, Leber, Lunge und Darm. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 294,
+              "text": "Organisiere und leite ein Stammtreffen, bei dem du die grundlegenden lebensrettenden Maßnahmen demonstrierst und erklärst, darunter das Überprüfen des Bewusstseins, das Absetzen eines Notrufs, die Kontrolle der Atmung und das Anwenden der stabilen Seitenlage. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 295,
+              "text": "Erkläre das Gleichnis vom barmherzigen Samariter in Lukas 10,30-37. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-04",
+          "title": "Kanu",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 297,
+              "text": "Schwimme 100 m und nutze dabei folgende Schwimmstile: Brustschwimmen, Kraulschwimmen, Rückenschwimmen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 298,
+              "text": "Erläutere mindestens vier Begriffe aus dem Bereich des Bootsbaus: (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 299,
+              "text": "Persenning",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 300,
+              "text": "Kielsprung",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 301,
+              "text": "Dollboard",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 302,
+              "text": "Freibord",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 303,
+              "text": "Süllrand",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 304,
+              "text": "Trimmung",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 305,
+              "text": "Der Begriff \"Kanu\" umfasst verschiedene Bootstypen, darunter Kanadier und Kajak. Erkläre die Unterschiede zwischen diesen Booten, erläutere ihre Vor- und Nachteile sowie die Einsatzgebiete dieser Wasserfahrzeuge. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 306,
+              "text": "Präsentiere die korrekten Verfahren für das Ein- und Aussteigen, das Starten und Stoppen sowie das Festmachen des Kanus. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 307,
+              "text": "Beschreibe 2 Gefahren beim Kanufahren auf Flüssen und 2 Gefahren beim Kanufahren auf Seen, die das Kanu zum Kentern bringen könnten. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 308,
+              "text": "Schreibe die Sicherheitsregeln für das Kanufahren auf (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 309,
+              "text": "Zeige die nachfolgenden Paddelschläge: Bogenschlag, J-Schlag, Drehschlag. Zeige, wie ein schneller Seitenwechsel des Paddels durchgeführt wird und erkläre den Einstieg in ein Kehrwasser. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 14,
+              "sourceParagraphIndex": 310,
+              "text": "Teilnahme an einer Kanutour, die mindestens 10 Stunden dauert. Diese Anforderung muss separat von der Kanutour-Aufgabe für die Bronze- oder Silberlilie abgeschlossen werden. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 15,
+              "sourceParagraphIndex": 311,
+              "text": "Nenne 3 Umweltregeln, die man beim Kanufahren beachten muss. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 16,
+              "sourceParagraphIndex": 312,
+              "text": "Lies Matthäus 8,23-27 und erkläre, welchen Fehler die Jünger während ihrer Bootsfahrt begingen und wie sich dies auf deine Perspektive in Bezug auf Kanutouren auswirken könnte. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-05",
+          "title": "Fahrrad",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 315,
+              "text": "Zerlege ein Fahrrad, säubere die Komponenten und setze es anschließend wieder zusammen. Repariere dabei die defekten Teile und ersetze bei Bedarf Bremsbeläge, Bremszüge, Beleuchtungselemente usw. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 316,
+              "text": "Welche Teile machen ein Fahrrad verkehrssicher? Nenne alle Teile. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 317,
+              "text": "Beschreibe die grundlegenden Verkehrsregeln für Radfahrer, einschließlich der Nutzung von Radwegen und Straßen, Fahrtrichtung und dem Verhalten gegenüber Fußgängern. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 318,
+              "text": "Repariere eine Reifenpanne (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 319,
+              "text": "Unternimm drei Fahrradtouren mit einem Freund oder einer Freundin. Jede Tour sollte eine Mindestlänge von 30 Kilometern haben. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 320,
+              "text": "Plane eine Fahrradtour für einen ganzen Tag mit deinem Ranger Stamm. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 321,
+              "text": "Nenne 3 Fahrradtypen und erkläre sie. Gehe dabei auch auf die Vor- und Nachteile ein. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-06",
+          "title": "Motor",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 323,
+              "text": "Sei in der Lage, verschiedene Teile eines Motors zu identifizieren und ihre Funktionen direkt am Motor zu erklären. Dazu gehört das Motorgehäuse, der Zylinderkopf, der Kolben, die Kurbelwelle, die Nockenwelle, der Vergaser bzw. die Einspritzpumpe, der Zündverteiler, die Zündkerzen, die Benzinpumpe, die Wasserpumpe, der Luftfilter, der Generator, der Anlasser und der Turbolader. Zusätzlich erkläre, wo sich bei einem Fahrzeug die Lambdasonde befindet. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 324,
+              "text": "Untersuche bei einem Fahrzeug (einschließlich Mofa, Moped, Motorrad, Rasenmäher oder Traktor) den Ölstand, den Stand der Bremsflüssigkeit, den Kühlwasserpegel, die Spannung der Keilriemen, den Zustand der Zündkerzen, der Zylinderkopfdichtung und des Luftfilters. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 325,
+              "text": "Repariere oder ersetze defekte oder abgenutzte Teile und reinige den Motor. Stelle bei Mofa, Moped oder Motorrad sicher, dass die Ketten optimal gespannt sind und eine einwandfreie Schmierung der Kette sowie der beweglichen Teile wie Ritzel, Gaszug, Gangschalthebel, usw. gewährleistet ist. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 326,
+              "text": "Vergleiche bei drei Fahrzeugen deiner Wahl (einen Viertakt-Ottomotor, einen Dieselmotor und einen Zweitaktmotor) die folgenden Eigenschaften: Takt, Hubraum, Bohrung, Hub, Verdichtung, Drehmomentverlauf, maximales Drehmoment, Literleistung, Gemischaufbereitung und Verbrauch des jeweiligen Fahrzeugs. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 327,
+              "text": "Informiere dich über die verschiedenen \"Alternativen Antriebe\" und erläutere ihre Vor- und Nachteile im Vergleich zu herkömmlichen Antriebsarten. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-07",
+          "title": "Hobby",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 330,
+              "text": "Baue einen Werkzeugkasten aus Holz (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 331,
+              "text": "Baue ein Vogelhaus aus Holz (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 332,
+              "text": "Bastle ein Modellflugzeug mit deinen eigenen Ideen oder nach einem Modellplan. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 333,
+              "text": "Bastle ein Modellboot mit deinen eigenen Ideen oder nach einem Modellplan. (10 Punkte)",
+              "pointMentions": [
+                10
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 334,
+              "text": "Sammle 20 Objekte derselben Art, beispielsweise 20 französische Briefmarken oder 20 ausländische Münzen. Präsentiere sie angemessen, zum Beispiel in einem Album, bestimme sie schriftlich und zeige sie während eines Stammtreffs oder eines Elternabends. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 335,
+              "text": "Bastle einen Drachen an. Der Drachen sollte natürlich flugfähig sein und nicht als Bausatz erworben, sondern selbstständig hergestellt werden. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-08",
+          "title": "Handarbeiten",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 337,
+              "text": "Stricke ein Musterläppchen mit einer Breite von mindestens 15 cm, verwendet dabei 4er Nadeln. Befolge die folgenden Anweisungen sorgfältig (ohne Fehler): (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 338,
+              "text": "Stricke 8 Reihen im Rippenmuster (ausschließlich rechte Maschen).",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 339,
+              "text": "Arbeite 8 Reihen im Bündchenmuster (abwechselnd eine Masche rechts, eine Masche links).",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 340,
+              "text": "Stricke 8 Reihen im Perlmuster (abwechselnd eine Masche rechts, eine Masche links, in der nächsten Reihe versetzt).",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 341,
+              "text": "Integriere im einfachen Zopfmuster mindestens 3 Überkreuzungen.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 342,
+              "text": "Stricke 3 Reihen im Schachbrettmuster, bestehend aus 3 Kästchen in der Höhe.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 343,
+              "text": "Füge in das letzte Stück deines Musterläppchens 2 Reihen mit Noppen ein, so dass die Noppen in den beiden Reihen versetzt sind.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 344,
+              "text": "Beende die Arbeit durch Abketten.",
+              "pointMentions": [],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 345,
+              "text": "Stricke etwas Brauchbares wie zum Beispiel: Socken, Schal, Babykappen etc. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 346,
+              "text": "Erstelle auf einem einfarbigen Stoff ein Muster, das die folgenden Handstiche beinhaltet: Stielstich, Saumstich, Heftstich und Kreuzstich. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 347,
+              "text": "Sticke ein Bild auf eine Kissenhülle, oder auf einen Topflappen (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 12,
+              "sourceParagraphIndex": 348,
+              "text": "Nähe per Hand einen Saum an ein Kleidungsstück (3 Punkte)",
+              "pointMentions": [
+                3
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 13,
+              "sourceParagraphIndex": 349,
+              "text": "Nähe per Hand ein Knopfloch. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 14,
+              "sourceParagraphIndex": 350,
+              "text": "Vergrößere ein Musterblatt auf DIN A4 mit dem Kopierer und versuche nun, mit der Nähmaschine den Vorzeichnungen möglichst präzise zu folgen. Übe so lange, bis ein zufriedenstellendes Ergebnis erreicht ist. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 15,
+              "sourceParagraphIndex": 351,
+              "text": "Nähe mit einer Nähmaschine eine Kissenhülle oder eine Tischdecke. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-09",
+          "title": "Bogenschießen",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 353,
+              "text": "Nenne 3 verschiedene Bogentypen und erkläre sie. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 354,
+              "text": "Baue einen leistungsstarken Bogen, wie beispielsweise einen zerlegbaren Bogen mit Recurve-Wurfarmen. Bauanleitungen erhältst du von deinem Rangerleiter. (20 Punkte)",
+              "pointMentions": [
+                20
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 355,
+              "text": "Erkläre die Schießtechnik und verfasse eine Anleitung für den Gebrauch deines Bogens. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 356,
+              "text": "Baue dir eine eigene Zielscheibe. (5 Punkte)",
+              "pointMentions": [
+                5
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 357,
+              "text": "Formuliere die Sicherheitsregeln, die während der Bogenschießturnieren gelten, und erkläre diese. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 358,
+              "text": "Veranstalte ein kleines Turnier in deinem Team oder Stamm. Stelle sicher, dass die Regeln eingehalten werden. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-10",
+          "title": "Kochen",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 360,
+              "text": "Wähle ein Kochrezept aus, beispielsweise für Suppe, Kartoffeln, frisches Gemüse, Pudding, Grieß- oder Reisbrei, Kompott oder Teigwaren, und bereite ein Gericht zu. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 361,
+              "text": "Wähle ein Kochrezept aus, bei dem man etwas Dampfgaren muss (z.B. Reis oder Kartoffeln) und bereite ein Gericht zu. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 362,
+              "text": "Suche ein Bratrezept, zum Beispiel für Fleisch, Fisch oder Eier, und setze es um. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 363,
+              "text": "Suche ein Backrezept (Kuchen oder Gebäck) und backe etwas. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 364,
+              "text": "Wähle ein Rezept für einen Salat aus und mache den Salat (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 365,
+              "text": "Bereite während eines Teamtreffs unter Aufsicht deines Teamleiters ein Menü mit Vorspeise, Hauptgericht und Nachspeise zu. Es sollen keine Fertiggerichte verwendet werden. (6 Punkte)",
+              "pointMentions": [
+                6
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 366,
+              "text": "Beschreibe mit eigenen Worten die gängigen Begriffe aus Kochbüchern: Backen, Binden, Braten, Dämpfen, Dünsten, Grillen, Kochen, Schmoren. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 367,
+              "text": "Beschreibe, in welchen Lebensmitteln die folgenden Nährstoffe vorkommen und wie man sie kombinieren kann, um eine ausgewogene und gesunde Ernährung zu erreichen: Eiweiß, Fett, Kohlenhydrate, Vitamine und Mineralstoffe. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 368,
+              "text": "Gib Beispiele für Lebensmittel, die natürliche Ballaststoffe enthalten. Welchen Nutzen haben sie? (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 10,
+              "sourceParagraphIndex": 369,
+              "text": "Unterstütze über einen Zeitraum von drei Monaten mehrmals pro Woche bei der Zubereitung der Mahlzeiten für deine Familie. (15 Punkte)",
+              "pointMentions": [
+                15
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 11,
+              "sourceParagraphIndex": 370,
+              "text": "Erkläre, welche Maßnahmen bei der Lagerung und Zubereitung von Lebensmitteln zu berücksichtigen sind, um den Vitamingehalt nicht zu beeinträchtigen. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-11",
+          "title": "Angeln",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 372,
+              "text": "Mache einen Angelschein und absolviere erfolgreich die Prüfung. (30 Punkte)",
+              "pointMentions": [
+                30
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "C-12",
+          "title": "Garten",
+          "sourceParagraphs": [
+            {
+              "order": 1,
+              "sourceParagraphIndex": 374,
+              "text": "Zeige die Vorbereitung des Bodens für das Pflanzen oder Aussäen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 2,
+              "sourceParagraphIndex": 375,
+              "text": "Baue in einem Garten mindestens sechs verschiedene Gemüsearten an. Pflanze jeweils mindestens fünf Pflanzen einer Gemüseart, zum Beispiel fünf Blumenkohl, fünf Tomaten, fünf Lauch, fünf Sellerie, usw. (8 Punkte)",
+              "pointMentions": [
+                8
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 3,
+              "sourceParagraphIndex": 376,
+              "text": "Beschreibe die Gartenwerkzeuge, die für dein Gemüse benötigt werden, erkläre wann und wie sie verwendet werden sollten und diskutiere, ob und wie sie gewartet werden müssen. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 4,
+              "sourceParagraphIndex": 377,
+              "text": "Erkläre, wie man seinen Garten vor Schäden durch Insekten, Schädlingsbefall und Pflanzenkrankheiten schützen kann. Diskutiere dabei die Vor- und Nachteile sowohl von künstlichen als auch von natürlichen Mitteln. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 5,
+              "sourceParagraphIndex": 378,
+              "text": "Halte über einen Zeitraum von drei Monaten Aufzeichnungen über das Wachstum und die allgemeine Entwicklung deiner Gemüsepflanzen. Dokumentiere zusätzlich den finanziellen Einsatz und die investierten Arbeitsstunden in deinen Garten. (12 Punkte)",
+              "pointMentions": [
+                12
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 6,
+              "sourceParagraphIndex": 379,
+              "text": "Ernte und koche einige der Gemüsesorten, die du angepflanzt hast. Biete deiner Familie oder deinem Team eine Kostprobe davon an. (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 7,
+              "sourceParagraphIndex": 380,
+              "text": "Lege einen Kompostplatz für die Gartenabfälle an. Falls bereits ein Kompost im Garten vorhanden ist, erkläre detailliert, worauf geachtet werden sollte, um das Kompostieren erfolgreich zu gestalten. Wie kann man sich vor Ungeziefer, beispielsweise Ratten, schützen? (4 Punkte)",
+              "pointMentions": [
+                4
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 8,
+              "sourceParagraphIndex": 381,
+              "text": "Beschreibe die richtige Pflege des Bodens unmittelbar nach der Erntezeit. (1 Punkt)",
+              "pointMentions": [
+                1
+              ],
+              "paragraphStyle": "Normal"
+            },
+            {
+              "order": 9,
+              "sourceParagraphIndex": 382,
+              "text": "Beschreibe in eigenen Worten, wie man Gemüse für den späteren Verzehr konservieren kann, beispielsweise durch Einkochen, Einfrieren usw. Gehe dabei die jeweiligen Vor- und Nachteile dieser Methoden ein. (2 Punkte)",
+              "pointMentions": [
+                2
+              ],
+              "paragraphStyle": "Normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

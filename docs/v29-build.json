@@ -1,0 +1,70 @@
+{
+  "version": 29,
+  "files": {
+    "RangerHub_Webapp_V28_Demo.html": {
+      "bytes": 220625,
+      "sha256": "cd867e9a67af99a1f5b6e5bf3e153623d8029d2d138f17854b6d0f6f5bd8ae38"
+    },
+    "index.html": {
+      "bytes": 221010,
+      "sha256": "c29084b450fd0dd1fd1eeac4b5ff5bcf0afeeaf21283062f90b03b779636dafe"
+    },
+    "RangerHub_Webapp_V29_Demo.html": {
+      "bytes": 221010,
+      "sha256": "c29084b450fd0dd1fd1eeac4b5ff5bcf0afeeaf21283062f90b03b779636dafe"
+    },
+    "rangerhub-knowledge-catalog.js": {
+      "bytes": 146855,
+      "sha256": "627244a1a52c5078aea4af5c95fd2abce4dbcba7c6ac37b4528925c648cf7c13"
+    },
+    "rangerhub-knowledge-model.js": {
+      "bytes": 13407,
+      "sha256": "d915bcee5a03641136d99b672b23ee92534ee4e2ed2ba3b4febf0734dc7c5a3e"
+    },
+    "rangerhub-knowledge-transport.js": {
+      "bytes": 5264,
+      "sha256": "31ffb13721e398e7115f1c6f55da482ada404c0c7e0e8796b90d5442b380e941"
+    },
+    "rangerhub-knowledge-map.js": {
+      "bytes": 7836,
+      "sha256": "ad6491f20c1046fee9589f6f3f4fad81af1e121d2343e92121dbbb93ff6889c0"
+    },
+    "rangerhub-knowledge.js": {
+      "bytes": 34425,
+      "sha256": "2ed5a13c716df7756ae5d2fb1683c3ab518791d0bd47b364c58d09a39676d153"
+    },
+    "rangerhub-knowledge.css": {
+      "bytes": 14540,
+      "sha256": "205b3281c3155d3aa2b7e046e116abe8a511c540b90d0bcf2b2692f4e744ddc6"
+    },
+    "data/RangerHub_Fachwissen_Quellkatalog.json": {
+      "bytes": 120319,
+      "sha256": "c3ed7f0f4b5f20387b2b536fa7a59a4cdcb756e3ad42ac97c1e7a62190266cc0"
+    },
+    "data/knowledge-normalized.json": {
+      "bytes": 146750,
+      "sha256": "be8f1c89bcc14b093cf12717c79191670e9501bec307e382b788574ebd8bf741"
+    },
+    "backend/knowledge-server.mjs": {
+      "bytes": 10803,
+      "sha256": "f8a287b8eeeff91c1f81c6421245a466dcd8544fb2a237d46c02332648b94ad2"
+    },
+    "backend/import-existing.mjs": {
+      "bytes": 1208,
+      "sha256": "f8f6e7713ded5df03bdfe6cb5206061a3976b401ad162accd36f19e006cea4ab"
+    },
+    "tools/prepare_knowledge.py": {
+      "bytes": 5781,
+      "sha256": "d585f9218b1b60efa0d23e8a1670fd0b0c4e988f4a3c91061b52c0201fc6ed28"
+    },
+    "tools/build_demo_v29.py": {
+      "bytes": 1917,
+      "sha256": "b454bc35bc4bd6496743af3fc0cb350df5984a9712503bbab9f2210df38d37ce"
+    },
+    "tools/capture_knowledge.py": {
+      "bytes": 5873,
+      "sha256": "cf5a1d3310f78654aed81ab42d1953adc6a8f32c8542f6136771f96503b46045"
+    }
+  },
+  "bundled_pdfs": 0
+}
