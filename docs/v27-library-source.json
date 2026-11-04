@@ -1,0 +1,19 @@
+{
+  "file": "RangerHub_Aktionsbibliothek_Daten.json",
+  "bytes": 178478,
+  "sha256": "df7af959ef52d64df3f30bfa72cab61419452df7b8cb20fe953546103a51b09f",
+  "included_actions": 55,
+  "included_recipes": 17,
+  "excluded_source_sections": [
+    "events",
+    "quiz",
+    "ranger_eigenschaften",
+    "meta"
+  ],
+  "excluded_fields": [
+    "event_ids",
+    "source_dates",
+    "owners"
+  ],
+  "reason": "Only reusable actions and recipes were requested; historical dates and personal planning notes do not become app events."
+}

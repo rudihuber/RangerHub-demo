@@ -1,0 +1,30 @@
+{
+  "version": 27,
+  "files": {
+    "RangerHub_Webapp_V26_Demo.html": {
+      "bytes": 220103,
+      "sha256": "98fd6423cc59e22cdf80a45e11c13331396da5a8ec5edfe9a8390cd59cd4c714"
+    },
+    "RangerHub_Webapp_V27_Demo.html": {
+      "bytes": 220282,
+      "sha256": "775ce433813809864c6270da52635df92d2c3a6d9012e57f88c9b4b4bc74029c"
+    },
+    "index.html": {
+      "bytes": 220282,
+      "sha256": "775ce433813809864c6270da52635df92d2c3a6d9012e57f88c9b4b4bc74029c"
+    },
+    "rangerhub-library-v27.js": {
+      "bytes": 43093,
+      "sha256": "59331a1302d6ab6929923499330d65a395d03ac5196f73432476eead58c7545b"
+    },
+    "rangerhub-v27.js": {
+      "bytes": 48975,
+      "sha256": "d74b89f68ae18cb7e4fe99aaf4794193c0638b870e3960c7afe06d2e4f2780c0"
+    },
+    "rangerhub-v27.css": {
+      "bytes": 10567,
+      "sha256": "bd805ffee48b90c1c5cc47e45e3967799a163febee905e47d4a7bc59e39fba07"
+    }
+  },
+  "bundled_pdfs": 0
+}

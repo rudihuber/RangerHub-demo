@@ -26,8 +26,7 @@ class CompleteDemoTests(BrowserCase):
             self.page.locator(".observerTopicsImg").evaluate("img=>getComputedStyle(img).objectFit"),
             "cover",
         )
-        for label in ["Grundlagen", "Wandern", "Camp", "Leiter"]:
-            expect(self.page.locator(".observerThemes")).to_contain_text(label)
+        expect(self.page.locator(".observerThemes")).to_have_count(0)
         expect(self.page.get_by_role("button", name="PDF herunterladen", exact=True)).to_have_count(0)
         self.assertNotIn("Demo-Platzhalter", self.page.locator("main").inner_text())
         self.page.set_viewport_size({"width": 390, "height": 844})

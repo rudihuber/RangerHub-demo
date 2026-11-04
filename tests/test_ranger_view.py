@@ -65,7 +65,8 @@ class RangerViewTests(BrowserCase):
         for secret in ['Geheimes Naturthema','Interne Aktion','Interner Impuls','Internes Essen']:
             expect(self.page.locator('#main')).not_to_contain_text(secret)
         expect(self.page.locator('.ranger-meeting')).to_contain_text('Hamburg')
-        expect(self.page.locator('.ranger-meeting button')).to_have_count(0)
+        expect(self.page.locator('.ranger-meeting button')).to_have_count(1)
+        expect(self.page.locator('.ranger-meeting button')).to_have_text('Für dieses Treffen abmelden')
         self.page.evaluate('openRangerMeeting(504)')
         expect(self.page.locator('#box')).to_contain_text('Hamburg')
         expect(self.page.locator('#box .bigCancel')).to_have_count(0)

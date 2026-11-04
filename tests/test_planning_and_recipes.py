@@ -187,7 +187,7 @@ class PlanningAndRecipeTests(BrowserCase):
         form.get_by_role("button", name="Planung speichern", exact=True).click()
         self.reload()
         self.nav("Rezepte")
-        expect(self.page.locator(".recipe-entry")).to_contain_text("Kartoffelsuppe")
+        expect(self.page.locator(".recipe-entry").filter(has_text="Kartoffelsuppe")).to_have_count(1)
         self.nav("Meine Aufgaben")
         expect(self.page.get_by_role("checkbox", name="500 g Kartoffeln besorgt", exact=True)).to_be_visible()
 
@@ -235,7 +235,8 @@ class PlanningAndRecipeTests(BrowserCase):
         form.get_by_role("button", name="Rezept speichern", exact=True).click()
         self.page.locator("#v24-stamm-switch").select_option("meppen")
         self.nav("Rezepte")
-        expect(self.page.locator(".recipe-entry")).to_have_count(0)
+        expect(self.page.locator(".recipe-entry").filter(has_text="Kartoffelsuppe")).to_have_count(0)
+        self.assertGreaterEqual(self.page.locator(".recipe-entry").count(), 17)
         self.page.locator("#v24-stamm-switch").select_option("clp-west")
         self.nav("Benutzer wechseln")
         self.login("JB", "Ranger")

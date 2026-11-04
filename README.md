@@ -4,6 +4,18 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
+## V27 – Wetter, Teilnahme und Stammleben
+
+Neue Hauptdatei: [RangerHub_Webapp_V27_Demo.html](RangerHub_Webapp_V27_Demo.html). `index.html` öffnet V27. V25 und V26 bleiben unverändert erhalten.
+
+Wetter am Stammort und am Treffpunkt, Geburtstage als Abschnitt 04, direkte Ranger-Abmeldung und Anwesenheitsquote, Anwesenheit per Häkchen, Bestätigungsnachweise und zwei Treffen für neue Knotenabschlüsse, bis zu vier Fotos je Treffen sowie 55 Aktionsvorlagen und 17 Rezepte.
+
+- [Übergabe und Datenmodell](docs/V27-UEBERGABE.md)
+- [Testbericht und Grenzen](docs/V27-TESTBERICHT.md)
+- [SHA-256-Prüfsummen](docs/V27-SHA256SUMS)
+
+Der private Hauptbranch bleibt bis zur Prüfung unverändert. Die öffentliche Demo enthält weiterhin keine persönlichen Daten und keine gebündelten PDFs.
+
 ## V26 – persönlicher Wachstumspfad als Expeditionskarte
 
 Die Karte erscheint ausschließlich auf dem persönlichen Ranger-Dashboard,

@@ -73,7 +73,7 @@ class BrowserCase(unittest.TestCase):
         self.assertEqual(response.status, 200)
         # Decompression/document.write finishes after the outer document's load.
         self.page.locator(".v24-loginChoice").wait_for()
-        self.page.wait_for_function("window.RangerHub?.rangerViewReady === true")
+        self.page.wait_for_function("window.RangerHub?.v27Ready === true")
 
     def tearDown(self):
         self.assertEqual(self.errors, [], "Uncaught application JavaScript errors")

@@ -31,7 +31,7 @@ class LogbookWorkflowTests(BrowserCase):
         expect(self.page.locator('#main')).to_contain_text('Rezepte')
         self.page.get_by_role('button', name='RangerHub · Zum Dashboard', exact=True).click()
         expect(self.page.locator('.dash-editorial')).to_be_visible()
-        expect(self.page.locator('.current-weather')).to_be_visible()
+        expect(self.page.locator('[data-v27-current-weather]')).to_be_visible()
         self.nav('Wachstumspfad')
         expect(self.page.locator('.growth-stage')).to_have_count(5)
         self.assertTrue(self.page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'))
@@ -39,13 +39,15 @@ class LogbookWorkflowTests(BrowserCase):
     def test_weather_success_and_unavailable(self):
         self.page.route('https://api.open-meteo.com/**', lambda route: route.fulfill(json={'current': {'temperature_2m': 13.4, 'weather_code': 3, 'wind_speed_10m': 8.2}}))
         self.page.reload()
-        expect(self.page.locator('[data-current-weather]')).to_contain_text('13 °C · Bewölkt · Wind 8 km/h')
+        expect(self.page.locator('[data-v27-current-weather]')).to_contain_text('Bewölkt')
+        expect(self.page.locator('[data-v27-current-weather] strong')).to_have_text('13°')
+        expect(self.page.locator('[data-v27-current-weather]')).to_contain_text('8 km/h')
         self.login()
-        expect(self.page.locator('.dash-editorial [data-current-weather]')).to_contain_text('13 °C')
+        expect(self.page.locator('.dash-editorial [data-v27-current-weather] strong')).to_have_text('13°')
         self.page.unroute('https://api.open-meteo.com/**')
         self.page.route('https://api.open-meteo.com/**', lambda route: route.fulfill(status=503, body='Unavailable'))
         self.page.reload()
-        expect(self.page.locator('[data-current-weather]')).to_contain_text('Wetter gerade nicht verfügbar.')
+        expect(self.page.locator('[data-v27-current-weather]')).to_contain_text('Wetter gerade nicht verfügbar')
 
     def test_growth_colors_text_and_complete_catalog_survive_reload(self):
         self.login()
