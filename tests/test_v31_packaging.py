@@ -4,7 +4,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class V31PackagingTests(unittest.TestCase):
     def test_actual_demo_references_new_feature_and_keeps_demo_storage_isolated(self):
         s=(ROOT/'index.html').read_text();self.assertEqual(s,(ROOT/'RangerHub_Webapp_V31_Demo.html').read_text())
-        for f in ['rangerhub-bible-catalog.js','rangerhub-bible-model.js','rangerhub-bible-views.js','rangerhub-knowledge-v31.js','rangerhub-bible.css']:self.assertIn(f+'?v=31-1',s)
+        for f in ['rangerhub-bible-catalog.js','rangerhub-bible-model.js','rangerhub-bible-views.js','rangerhub-knowledge-v31.js','rangerhub-bible.css']:self.assertIn(f+'?v=31-2',s)
         self.assertNotIn('src="rangerhub-knowledge-v30.js?',s);self.assertNotIn('data:application/pdf',s);self.assertIn("localStorage.getItem('rhv9-demo')",s);self.assertFalse(list(ROOT.glob('*Kompakt.html')))
     def test_checksums_original_v30_and_canonical_upload(self):
         b=json.loads((ROOT/'docs/v31-baseline.json').read_text())

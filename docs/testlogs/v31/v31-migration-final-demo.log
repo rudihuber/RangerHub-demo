@@ -1,0 +1,9 @@
+test_schema_395_migration_keeps_read_flags_and_normal_points_without_double_credit (test_bible_v31.BibleTests.test_schema_395_migration_keeps_read_flags_and_normal_points_without_double_credit) ... ok
+test_online_two_devices_same_ranger_and_readonly_leader_share_mark_and_undo (test_bible_v31.BibleTests.test_online_two_devices_same_ranger_and_readonly_leader_share_mark_and_undo) ... ok
+test_actual_demo_references_new_feature_and_keeps_demo_storage_isolated (test_v31_packaging.V31PackagingTests.test_actual_demo_references_new_feature_and_keeps_demo_storage_isolated) ... ok
+test_checksums_original_v30_and_canonical_upload (test_v31_packaging.V31PackagingTests.test_checksums_original_v30_and_canonical_upload) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.811s
+
+OK

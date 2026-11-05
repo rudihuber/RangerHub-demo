@@ -22,6 +22,7 @@
  function reverse(s,e,at,uid,extra={}){s.ledger.push({id:uid(),type:'bible-reversal',source:'bible_reading',rangerId:e.rangerId,taskId:e.taskId,bookId:e.bookId||e.taskId,points:-e.points,reversalOf:e.id,at,by:e.rangerId,...extra});}
  function migrate(old){
   const s=base.migrate(old),existing=s.bibleReading;
+  if(s.ledger.some(e=>e.source==='bible_reading'&&!book(e.bookId||e.taskId)&&['credit','bible-credit'].includes(e.type)&&!s.ledger.some(r=>r.reversalOf===e.id)))fail('Eine ältere Bibellese-Buchung ist keinem kanonischen Buch zugeordnet. Bitte zuerst die gesicherte Migration prüfen; es werden keine zusätzlichen Punkte gebucht.');
   if(existing?.catalogVersion===B.catalogVersion){checkReading(s);return s;}
   if(existing&&(![undefined,1,2].includes(existing.schema)||existing.catalogVersion&&!/395/.test(existing.catalogVersion)))fail('Dieser ältere Bibellese-Stand benötigt eine geprüfte Zuordnung. Es wurden keine Daten zurückgesetzt.');
   const legacy=existing||s.bibleProgress,reading=empty(),at=new Date().toISOString(),uid=()=>crypto.randomUUID(),explicit=new Map();

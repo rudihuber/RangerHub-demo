@@ -6,8 +6,9 @@ Stand: 5. November 2026. Geprüft wurden die neue private kompakte HTML-Datei un
 
 - Vollständige Demo-Abnahme: **102/102 Browser-/Integritätsprüfungen bestanden**.
 - Vollständige private HTML-Abnahme: **98/98 Browser-/Integritätsprüfungen bestanden**.
-- Backend: **44/44 Servertests bestanden** – 19 neue Bibellese-/Migrationstests und 25 unveränderte Fachwissen-Regeltests.
+- Backend: **45/45 Servertests bestanden** – 20 neue Bibellese-/Migrationstests und 25 unveränderte Fachwissen-Regeltests.
 - Danach nochmals die vollständigen neuen Bibellese- und Verpackungsprüfungen für die letzte Schriftanpassung sowie eine zusätzliche echte Touch-Prüfung der schnellen Rücknahme: Demo **17/17**, private HTML **18/18** bestanden.
+- Zusätzliche Schlussprüfung der alten Sammelbuchungen und des echten Mehrgeräte-Ablaufs: Demo **4/4**, private HTML **5/5** bestanden.
 - Alle **272 privaten** und **316 Demo-Dateien** im vollständigen Vorversionsbackup SHA-256-verifiziert. Die vorhandenen V30-Screenshots bleiben unverändert; neue Bilder liegen ausschließlich unter `docs/screenshots/v31/`.
 - Neue kompakte HTML unter 25 MB; alle 17 ursprünglichen Asset-Referenzen einschließlich 12 PDF-Referenzen und sämtliche anderen bisherigen Inline-Skripte unverändert. Neue Funktion direkt in der ausgelieferten HTML eingebunden, kein Reparaturskript nötig. Die öffentliche Demo enthält weiterhin keine PDFs und ausschließlich ihre bisherigen fiktiven Profile.
 
@@ -28,7 +29,7 @@ Aktueller vollständiger Befehl: `python tools/check_v31.py`. Zusätzliche Schlu
 | 9. Übrige Punkte erhalten | Echte normale Aufgabe durch Leiter bestätigt, danach Bibelmarkierung/Rücknahme: ursprüngliche Gutschrift bytegleich erhalten; Gesamtstand wechselt beispielsweise 5 → 15 → 5. Profil, Dashboard und Rangliste stimmen überein. |
 | 10. Serverrechte | Fremde Ranger-ID, vorgegebene Punkte/Rolle/Nachweise, falsche Bücher und nichtboolesche Zustände abgewiesen. Leiter/Stammleiter/Admin können keine fremden Lesemarkierungen ändern. Stammes-/Teamgrenzen und gleichlautende IDs in verschiedenen Stämmen geprüft. |
 | 11. Persistenz | Reload mit aktiver Sitzung, Profilwechsel, Stammwechsel, Buch-Direktlink und erneutes Online-Anmelden auf unabhängigen Browser-Speichern erhalten den Zustand. Kein weißer Bildschirm; kein stiller lokaler Fallback bei Onlinefehlern. |
-| 12. 395er-Migration | Im realen V30-Stand keine solche Funktion vorhanden. Zusätzlich vollständige 395er-Fixture mit 66 Markierungen über SQLite-Neustart auf exakt 240 migriert, Markierungen/Versionen behalten, wiederholter Start ohne weitere Awards. Teilzustände und offene alte Buchprüfungen separat geprüft; keine stillen Lesebestätigungen. |
+| 12. 395er-Migration | Im realen V30-Stand keine solche Funktion vorhanden. Zusätzlich vollständige 395er-Fixture mit 66 Markierungen über SQLite-Neustart auf exakt 240 migriert, Markierungen/Versionen behalten, wiederholter Start ohne weitere Awards. Teilzustände und offene alte Buchprüfungen separat geprüft; unzugeordnete alte Sammelgutschriften werden ohne Doppelzählung sicher abgewiesen; keine stillen Lesebestätigungen. |
 | 13. Responsive und zugänglich | Desktop, iPad und Smartphone einschließlich 320 px/Querformat, Suche, Statusfilter, Tastaturbedienung, Fokus, ARIA-Lesestatus, Farb- und Textunterscheidung, reduzierte Bewegung und Touchziele ≥44×44 px geprüft. Keine horizontale Seitenrolle. |
 
 ## Bestehende Funktionen und Integrität

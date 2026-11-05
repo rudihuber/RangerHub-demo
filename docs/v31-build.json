@@ -7,19 +7,19 @@
     },
     "index.html": {
       "bytes": 221629,
-      "sha256": "4c574e4977815f4630fbbb29bbb70cad440b0bf903d82691051be0330b254d8b"
+      "sha256": "1209a47b0ca0501109853d4940ba4df07e024db9ab8b8034c0913b57589be933"
     },
     "RangerHub_Webapp_V31_Demo.html": {
       "bytes": 221629,
-      "sha256": "4c574e4977815f4630fbbb29bbb70cad440b0bf903d82691051be0330b254d8b"
+      "sha256": "1209a47b0ca0501109853d4940ba4df07e024db9ab8b8034c0913b57589be933"
     },
     "rangerhub-bible-catalog.js": {
       "bytes": 7024,
       "sha256": "62afa8d2a00fc33d748945fcc41573579a1e38f23988010bdc66d9bb133d0e81"
     },
     "rangerhub-bible-model.js": {
-      "bytes": 9136,
-      "sha256": "af07cc8b77f99ca0e59f0e334cf76c42c82008c2573060929c10e57091375604"
+      "bytes": 9470,
+      "sha256": "bc96a0666ced488253b58d9191888bbd69adff43f52f8941ef70405e92d22c0d"
     },
     "rangerhub-bible-views.js": {
       "bytes": 8854,
