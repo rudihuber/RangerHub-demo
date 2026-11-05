@@ -1,0 +1,301 @@
+{
+  "version": 31,
+  "engine": "Chromium / Playwright",
+  "physicalSafariTested": false,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      812
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "files": [
+    {
+      "file": "AT-1366x768.png",
+      "sha256": "35c68afb9f1b00000ca3a7600c33ec130ebd0a7d7057cf4fbffa6f9d3ed5d0c4"
+    },
+    {
+      "file": "AT-1440x900.png",
+      "sha256": "7602066c98838627cedcff1251594043acd1549a866a5c364cdcf94aa8dbcd25"
+    },
+    {
+      "file": "AT-1920x1080.png",
+      "sha256": "14a2b4061f52285e3c680c478ef37efbaa1a55fbf386cc3234b70bb40f23f124"
+    },
+    {
+      "file": "AT-320x568.png",
+      "sha256": "d4ce1ec56e458236d082beed583df6b32dc9fccba9bfdcbddd86e8f2798a23bc"
+    },
+    {
+      "file": "AT-375x812.png",
+      "sha256": "a1c15480c2d8446f1afe6c24a2aad46e8d6b6c60b53d373ed08a62d31ba5fa5d"
+    },
+    {
+      "file": "AT-390x844.png",
+      "sha256": "6c0b2841d18d3c861379936b723526956139aa607bcbcf6610349818cc129b00"
+    },
+    {
+      "file": "AT-768x1024.png",
+      "sha256": "2c3b39354359ce13722478b3454adc9dffefbe295798e303410fbddf2d4b3c38"
+    },
+    {
+      "file": "AT-844x390.png",
+      "sha256": "e9089ed0497db2c86fc78c1d81b8a04bb9e15f8a72d865413b645685982ec46f"
+    },
+    {
+      "file": "NT-1366x768.png",
+      "sha256": "4439ad37b0e0c6f9bcab8e16d81cae3be5470fa78899d0238098116b7fe6f513"
+    },
+    {
+      "file": "NT-1440x900.png",
+      "sha256": "f138a188f726638c29cd868831d17d2d92cfe915509bbc3fb949dd1ab1854605"
+    },
+    {
+      "file": "NT-1920x1080.png",
+      "sha256": "6ced11741471c0f18a973c14f78f496e5a8aff367136ff7095e5e7bef9bc273d"
+    },
+    {
+      "file": "NT-320x568.png",
+      "sha256": "00059903da7b26eb3f268cf71fe0bb0e7af118d0baf54db5427f13e9eabe8267"
+    },
+    {
+      "file": "NT-375x812.png",
+      "sha256": "6e71795d9f67d3b64a4e2cb8a9a5ef4c7f486040683467b1ffd21cbc09de0ca3"
+    },
+    {
+      "file": "NT-390x844.png",
+      "sha256": "428bc6413c7b4c40d466585ff010c89c1966ba1194fc698dc2498b4a9a49fadb"
+    },
+    {
+      "file": "NT-768x1024.png",
+      "sha256": "51b8b98e56514fe7df58ba7e35f4286828ec92698acb85479986b300380c673c"
+    },
+    {
+      "file": "NT-844x390.png",
+      "sha256": "167bf2be3fd14975055c15edbe4da39ff975d79e98fc46a063ebd568ce858f69"
+    },
+    {
+      "file": "book-1440x900.png",
+      "sha256": "7de1c915db7eb4967c9f681455130a5275a5707ee0c994e23ec3bfabcd94977c"
+    },
+    {
+      "file": "book-320x568.png",
+      "sha256": "dddaaf13c1a18e6418824200a32572a15c861b5b6507935ef8af3e8cc8aded8d"
+    },
+    {
+      "file": "book-390x844.png",
+      "sha256": "152b35df57caeeee979f3d96fceaecb9ea7c9d4eb3b15205f12dada5093a7636"
+    },
+    {
+      "file": "book-768x1024.png",
+      "sha256": "d601fe97b6a082c91fd6b95e70649e05f2c19558e019db2e64a4584ee9ee8810"
+    },
+    {
+      "file": "dashboard-1366x768.png",
+      "sha256": "75e7118841a17beaaba9a6572323c6d96842216001204cab267609a688155497"
+    },
+    {
+      "file": "dashboard-1440x900.png",
+      "sha256": "5e8058bf615d299022be587ef5b03d04d2ec8f69e481e250f65059cf3dd380a2"
+    },
+    {
+      "file": "dashboard-1920x1080.png",
+      "sha256": "8bfe37389b05707829abbe60450e3da21bd054ae949b013bfccc8908e26c9af9"
+    },
+    {
+      "file": "dashboard-320x568.png",
+      "sha256": "a3254f14ed5d36525fac2e3ef6f7f5bb128062f54155394117adb95d01ed29a4"
+    },
+    {
+      "file": "dashboard-375x812.png",
+      "sha256": "0ba8d82f2b6190b1070d9e5bda777dff2632c6cc04d21fe19ef69f24b83520ca"
+    },
+    {
+      "file": "dashboard-390x844.png",
+      "sha256": "706bcff666c1a1712562ccd9807d2fe987b41f5f3cbd3a4f62da98fb20288ead"
+    },
+    {
+      "file": "dashboard-768x1024.png",
+      "sha256": "58ec2743c22ffa0f54f278e25a4a758ec82cb06e98eb5a7719b018d02fb47a1d"
+    },
+    {
+      "file": "dashboard-844x390.png",
+      "sha256": "532ffebd65409cfe37c9db3eaea605fb98f6d1fa369afe23e3626470fb39275a"
+    },
+    {
+      "file": "dashboard-confirmed-podium-desktop.png",
+      "sha256": "d0a30460c9aeefb9ba12eaea367f07766511733ee3326c1ec00412ed7123edd0"
+    },
+    {
+      "file": "dashboard-confirmed-podium-phone.png",
+      "sha256": "aad9fd02ba6d60cbfaae149ccdae1df82fe54f40fcfd3878d05ea8f6f2b79ff0"
+    },
+    {
+      "file": "exam-center-1440x900.png",
+      "sha256": "2bc87b6d4a0c5d90af940232b8c37fbefe05389fabd5e7509fbe0df55f6291d3"
+    },
+    {
+      "file": "exam-center-320x568.png",
+      "sha256": "c5bc89f70f2c8ace160f27ceae978277af9d3fe1b2f01b58990a2ee5e52f9a5d"
+    },
+    {
+      "file": "exam-center-390x844.png",
+      "sha256": "ba3e39fb9aaf8be3cf4548781cc78bca00efcfdf78d2ed6e8a324950df0fe38f"
+    },
+    {
+      "file": "exam-center-768x1024.png",
+      "sha256": "6e442bf20dadbfb6fbe498de47084368a05a5ec805396b234408eb4a5994aefd"
+    },
+    {
+      "file": "growth-1440x900.png",
+      "sha256": "1c72c2e36a29fca2a691bdd12ed624cc394d621c7f0c557c78d84ec8237f40be"
+    },
+    {
+      "file": "growth-320x568.png",
+      "sha256": "aa9358455a98f3f4869c0fa04face0639f5c21960952cb407735154899eb506a"
+    },
+    {
+      "file": "growth-390x844.png",
+      "sha256": "c11cdb733ae0c468b30b24aa75d2a0f08692d9c088994dcea51346653bda525e"
+    },
+    {
+      "file": "leader-dashboard-icons.png",
+      "sha256": "e97e9436ca2ed2f495881ee544806fc318db0be54125bede6cd5e454ffe04d25"
+    },
+    {
+      "file": "leiter-dashboard-1440x900.png",
+      "sha256": "e97e9436ca2ed2f495881ee544806fc318db0be54125bede6cd5e454ffe04d25"
+    },
+    {
+      "file": "leiter-dashboard-320x568.png",
+      "sha256": "c4704bd158a7b1d758f6696a587bbc580aa2f80818084ca0fb74fd35a7403c76"
+    },
+    {
+      "file": "leiter-growth-desktop.png",
+      "sha256": "1c72c2e36a29fca2a691bdd12ed624cc394d621c7f0c557c78d84ec8237f40be"
+    },
+    {
+      "file": "library-1366x768.png",
+      "sha256": "eaa14a6f9257feb24485b7bd5ad62822854084944437d7915dc75008eb0a7ee3"
+    },
+    {
+      "file": "library-1440x900.png",
+      "sha256": "34b49e1ef0c24745256ed7db8c627a0a910e707df2f1b9b3257314268f37ef36"
+    },
+    {
+      "file": "library-1920x1080.png",
+      "sha256": "e30ccfb98621ff102b5c5b3f9b90b937eafca744b227cdc3c51d3f9eef2e726c"
+    },
+    {
+      "file": "library-320x568.png",
+      "sha256": "db72284d82f576af105600478292290a5eda02d812255a5130a77ec88c66c577"
+    },
+    {
+      "file": "library-375x812.png",
+      "sha256": "ec548d3605c0ec8251bb83e1e6ddaf13cf2352602ee70a936ed3f1be867704a6"
+    },
+    {
+      "file": "library-390x844.png",
+      "sha256": "a2364e5cab9a58275c9568878b114631549ba6e5b97479df83908dadb1eca47b"
+    },
+    {
+      "file": "library-768x1024.png",
+      "sha256": "85984b761b38c89adec431bd1937a409a32a6cbf13aeaa582571d642c30b63ac"
+    },
+    {
+      "file": "library-844x390.png",
+      "sha256": "d24929a5db0deee606d7a41098bcbb5dd7dc7a08e0cd329c1f097bf768b87a48"
+    },
+    {
+      "file": "overworld-1366x768.png",
+      "sha256": "ce32ea9eae8fd46467a9b70fafa05329409e38bb543b5237488712d4653d9833"
+    },
+    {
+      "file": "overworld-1440x900.png",
+      "sha256": "b8a1cfce7c854159d00ebc4d2990576eb74ec222cdc33574f5f156b3fcb8d48c"
+    },
+    {
+      "file": "overworld-1920x1080.png",
+      "sha256": "96d8bfec47a0eb4f86c224525c7fab2367f991d5888cff8f58c10f162b57cee4"
+    },
+    {
+      "file": "overworld-320x568.png",
+      "sha256": "d84ef359345ff2ce6255346b013e1eb9a85b84857f45d11ad874d0ca5a44a7d1"
+    },
+    {
+      "file": "overworld-375x812.png",
+      "sha256": "8670571922d1c34e9fca251d97c09100597a4faed8b932b12c192e8b3079871e"
+    },
+    {
+      "file": "overworld-390x844.png",
+      "sha256": "cf6b5c5277a04926fb0223a8fe487b130dea4e036f50a3011a1eb23ffb0e8ff2"
+    },
+    {
+      "file": "overworld-768x1024.png",
+      "sha256": "55c1783dde9f2c33c4dfe1ee365f38a7adf36de5bd1faee1f6ee94f4c6b58b10"
+    },
+    {
+      "file": "overworld-844x390.png",
+      "sha256": "36fd05201ed26b7740acd52c148f4ac180dd11434129a4bead4c068f13ad9acc"
+    },
+    {
+      "file": "ranger-dashboard-1440x900.png",
+      "sha256": "ced78b804975e5bcc081ced38b6c429a9ff5021abd3f239236e5aa88cc2f057f"
+    },
+    {
+      "file": "ranger-dashboard-320x568.png",
+      "sha256": "ab581ded15ad83629cd9e9b624fa5b3ff1d3c71af4af89504f5411fceea05b71"
+    },
+    {
+      "file": "ranger-dashboard-390x844.png",
+      "sha256": "cdf212f70798362863572fd7f0f93b165521f25105b7ba24bbbaa662570fc7e8"
+    },
+    {
+      "file": "ranger-growth-desktop.png",
+      "sha256": "8e26b99009b62a4a88fd6636f63bc1582f6a1a7de0f7ede46e1dcfd2a0ca2d63"
+    },
+    {
+      "file": "ranking-phone.png",
+      "sha256": "ec29a186888ab4be0003808b4c26edda4fdb2e6c4d357051c790e8d3cd2dd791"
+    },
+    {
+      "file": "touch-read-320x568.png",
+      "sha256": "7b8f6e0977810efd03ff3726e9488bbe03aaf3776646a97172d01afbe2f9ca49"
+    },
+    {
+      "file": "touch-read-390x844.png",
+      "sha256": "6e111ed79d257c6e22670ca57842f1f5045b408f26d0ab96c4d4d9454a2ec183"
+    },
+    {
+      "file": "touch-read-768x1024.png",
+      "sha256": "24ae1a5ebd036486bbf106c1b40f2a512ca2eeca8827d28f61f8a0da735a3ca3"
+    }
+  ]
+}

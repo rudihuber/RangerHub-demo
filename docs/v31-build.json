@@ -1,0 +1,54 @@
+{
+  "version": 31,
+  "files": {
+    "RangerHub_Webapp_V30_Demo.html": {
+      "bytes": 221380,
+      "sha256": "379eae2d2eb18773e8a95e55a403bd3d31b54be6ed8a51b69cbe15c4cc3fb05a"
+    },
+    "index.html": {
+      "bytes": 221629,
+      "sha256": "4c574e4977815f4630fbbb29bbb70cad440b0bf903d82691051be0330b254d8b"
+    },
+    "RangerHub_Webapp_V31_Demo.html": {
+      "bytes": 221629,
+      "sha256": "4c574e4977815f4630fbbb29bbb70cad440b0bf903d82691051be0330b254d8b"
+    },
+    "rangerhub-bible-catalog.js": {
+      "bytes": 7024,
+      "sha256": "62afa8d2a00fc33d748945fcc41573579a1e38f23988010bdc66d9bb133d0e81"
+    },
+    "rangerhub-bible-model.js": {
+      "bytes": 9136,
+      "sha256": "af07cc8b77f99ca0e59f0e334cf76c42c82008c2573060929c10e57091375604"
+    },
+    "rangerhub-bible-views.js": {
+      "bytes": 8854,
+      "sha256": "891b30aa0720c809a1dfda2cf0859ff73b7b53c2a22809982ee4397cdcb224d2"
+    },
+    "rangerhub-knowledge-v31.js": {
+      "bytes": 40678,
+      "sha256": "e6f3327645bbb4b824022c4b6c872e74df84ea7fae6087b14786178a10a7b2e7"
+    },
+    "rangerhub-bible.css": {
+      "bytes": 9235,
+      "sha256": "b7c44d30f30d00a8d467cd174d38795fe63d4f318e282621748d6c760625a156"
+    },
+    "data/RangerHub_Bibellesen_66_Buecher_240_Punkte.json": {
+      "bytes": 10645,
+      "sha256": "ea4f106082ca515d57efc74c93f0020d0f5ad6bed43942df0452fed11d88685f"
+    },
+    "backend/knowledge-server.mjs": {
+      "bytes": 18995,
+      "sha256": "f30cee5a06ea5aab7bd3cfd4ced705cbcf1f595b17f2501df0a0dc47e7b054ed"
+    },
+    "rangerhub-knowledge-model-v30.js": {
+      "bytes": 16392,
+      "sha256": "2604cbc50a0528da53455f8ffca708b12b456fd77bbe0d808181c50e744ae0c7"
+    },
+    "rangerhub-knowledge-transport-v30.js": {
+      "bytes": 6766,
+      "sha256": "4dbddfc75600bde7eea31288cd928fd7f40394dfcae363eb049596f12dacc6ce"
+    }
+  },
+  "bundledPDFs": 0
+}

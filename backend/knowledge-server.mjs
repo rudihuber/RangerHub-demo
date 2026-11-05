@@ -17,6 +17,8 @@ export function loadModel(root=ROOT){
  const context=vm.createContext({window:{RangerHubKnowledgeCatalog:catalog},structuredClone,crypto:{randomUUID}});
  vm.runInContext(readFileSync(resolve(root,'rangerhub-knowledge-catalog-v30.js'),'utf8'),context,{timeout:1000});
  vm.runInContext(readFileSync(resolve(root,'rangerhub-knowledge-model-v30.js'),'utf8'),context,{timeout:1000});
+ vm.runInContext(readFileSync(resolve(root,'rangerhub-bible-catalog.js'),'utf8'),context,{timeout:1000});
+ vm.runInContext(readFileSync(resolve(root,'rangerhub-bible-model.js'),'utf8'),context,{timeout:1000});
  return {model:context.window.RHKnowledgeModel,catalog,catalogModel:context.window.RHKnowledgeCatalogV30};
 }
 export function openDatabase(path){
@@ -31,7 +33,8 @@ export function openDatabase(path){
  db.exec(`CREATE TABLE IF NOT EXISTS knowledge_global_catalog(id INTEGER PRIMARY KEY CHECK(id=1),data_json TEXT NOT NULL);
  CREATE TABLE IF NOT EXISTS knowledge_exams(id TEXT PRIMARY KEY,stamm_id TEXT NOT NULL,ranger_id TEXT NOT NULL,meeting_id TEXT NOT NULL,task_id TEXT NOT NULL,status TEXT NOT NULL,exam_json TEXT NOT NULL);
  CREATE UNIQUE INDEX IF NOT EXISTS knowledge_exam_unique ON knowledge_exams(stamm_id,ranger_id,meeting_id,task_id) WHERE status IN ('registered','passed','failed','no_show');
- CREATE TABLE IF NOT EXISTS knowledge_active_credits(stamm_id TEXT NOT NULL,ranger_id TEXT NOT NULL,task_id TEXT NOT NULL,credit_id TEXT NOT NULL UNIQUE,PRIMARY KEY(stamm_id,ranger_id,task_id));`);
+ CREATE TABLE IF NOT EXISTS knowledge_active_credits(stamm_id TEXT NOT NULL,ranger_id TEXT NOT NULL,task_id TEXT NOT NULL,credit_id TEXT NOT NULL UNIQUE,PRIMARY KEY(stamm_id,ranger_id,task_id));
+ CREATE TABLE IF NOT EXISTS knowledge_bible_reading(stamm_id TEXT NOT NULL,ranger_id TEXT NOT NULL,book_id TEXT NOT NULL,is_read INTEGER NOT NULL CHECK(is_read IN (0,1)),version INTEGER NOT NULL CHECK(version>=0),updated_at TEXT,PRIMARY KEY(stamm_id,ranger_id,book_id));`);
  return db;
 }
 export function importExisting(db,exported,model,{includeVerifiedKnowledge=false}={}){
@@ -52,10 +55,8 @@ export function importExisting(db,exported,model,{includeVerifiedKnowledge=false
    if(!previous&&s.knowledge&&!includeVerifiedKnowledge)throw Error('Existing local knowledge requires operator audit and explicit includeVerifiedKnowledge; nothing was reset.');
    const state=model.migrate(previous?JSON.parse(previous.state_json):(s.knowledge??model.initial()));model.check(state);
    db.prepare('INSERT INTO knowledge_stamms(id,people_json,state_json) VALUES(?,?,?) ON CONFLICT(id) DO UPDATE SET people_json=excluded.people_json').run(id,JSON.stringify(people),JSON.stringify(state));
-   if(!previous){
-    for(const e of state.ledger)appendLedger(db,id,e);
-
-   }
+   if(!previous){for(const e of state.ledger)appendLedger(db,id,e);}
+   else for(const e of state.ledger.slice(JSON.parse(previous.state_json).ledger.length))appendLedger(db,id,e);
    if(!previous||!JSON.parse(previous.calendar_json||'[]').length)db.prepare('UPDATE knowledge_stamms SET calendar_json=? WHERE id=?').run(JSON.stringify((s.meetings||[]).map(m=>({...calendarItem(m,1),cancelledRangerIds:(s.cancellations||[]).filter(c=>String(c.meetingId)===String(m.id)&&c.kind==='rangers').map(c=>c.personId)}))),id);
    db.prepare('UPDATE knowledge_stamms SET state_json=? WHERE id=?').run(JSON.stringify(state),id);
    project(db,id,state,model);
@@ -65,6 +66,7 @@ export function importExisting(db,exported,model,{includeVerifiedKnowledge=false
 }
 function calendarItem(m,revision){return {id:m.id,date:m.date,start:m.start||'',end:m.end||'',place:m.place||'',theme:m.theme||'Rangertreffen',cancelled:!!(m.cancelled||m.archived||m.deleted||['cancelled','abgesagt','ausgefallen'].includes(String(m.status||'').toLowerCase())),teamIds:m.teamIds||m.teams||(m.team?[m.team]:[]),rangerIds:m.rangerIds||[],cancelledRangerIds:m.cancelledRangerIds||[],_knowledgeRevision:revision};}
 function project(db,tribe,s,model){
+ for(const [rid,books] of Object.entries(s.bibleReading?.records||{}))for(const [bookId,r] of Object.entries(books))db.prepare('INSERT INTO knowledge_bible_reading VALUES(?,?,?,?,?,?) ON CONFLICT(stamm_id,ranger_id,book_id) DO UPDATE SET is_read=excluded.is_read,version=excluded.version,updated_at=excluded.updated_at').run(tribe,rid,bookId,Number(r.isRead),r.version,r.updatedAt);
  for(const e of s.exams)db.prepare('INSERT INTO knowledge_exams VALUES(?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET meeting_id=excluded.meeting_id,status=excluded.status,exam_json=excluded.exam_json').run(e.id,tribe,String(e.rangerId),String(e.meetingId),e.taskId,e.status,JSON.stringify(e));
  db.prepare('DELETE FROM knowledge_active_credits WHERE stamm_id=?').run(tribe);
  for(const c of model.credits(s))db.prepare('INSERT INTO knowledge_active_credits VALUES(?,?,?,?)').run(tribe,String(c.rangerId),c.taskId,c.id);
@@ -78,7 +80,7 @@ export function createKnowledgeService({db,principals,origin,root=ROOT}){
  const {model,catalog,catalogModel}=loadModel(root),rates=new Map();
  db.exec('BEGIN IMMEDIATE');
  try{if(!db.prepare('SELECT id FROM knowledge_global_catalog WHERE id=1').get())db.prepare('INSERT INTO knowledge_global_catalog VALUES(1,?)').run(JSON.stringify(catalogModel.emptyLayer()));
- for(const row of db.prepare('SELECT id,state_json,calendar_json FROM knowledge_stamms').all()){const state=model.migrate(JSON.parse(row.state_json));model.syncCancellations(state,JSON.parse(row.calendar_json),new Date().toISOString());db.prepare('UPDATE knowledge_stamms SET state_json=? WHERE id=?').run(JSON.stringify(state),row.id);project(db,row.id,state,model);}db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}
+ for(const row of db.prepare('SELECT id,state_json,calendar_json FROM knowledge_stamms').all()){const previous=JSON.parse(row.state_json),state=model.migrate(previous);for(const e of state.ledger.slice(previous.ledger.length))appendLedger(db,row.id,e);model.syncCancellations(state,JSON.parse(row.calendar_json),new Date().toISOString());db.prepare('UPDATE knowledge_stamms SET state_json=? WHERE id=?').run(JSON.stringify(state),row.id);project(db,row.id,state,model);}db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}
  const getGlobal=()=>JSON.parse(db.prepare('SELECT data_json FROM knowledge_global_catalog WHERE id=1').get().data_json);
  const same=(a,b)=>String(a)===String(b);
  const getTribe=id=>{const row=db.prepare('SELECT * FROM knowledge_stamms WHERE id=?').get(id);return row?{people:JSON.parse(row.people_json),state:JSON.parse(row.state_json),meetings:JSON.parse(row.calendar_json)}:null;};
@@ -90,10 +92,10 @@ export function createKnowledgeService({db,principals,origin,root=ROOT}){
   const admin=p.kind==='leaders'&&member?.role==='Admin';
   if(!member||p.kind==='leaders'&&!['Admin','Stammleiter','Leiter'].includes(member.role)||p.kind==='rangers'&&member.knowledgeEligible===false||tribe!==p.homeStammId&&!admin||!getTribe(tribe))throw Object.assign(Error('Kein Zugriff auf diesen Stamm.'),{status:403});
   const a={...p,role:member.role||'Ranger',teamIds:member.teamIds||[],stammId:tribe,leader:p.kind==='leaders',key:`${tribe}:${p.homeStammId}:${p.kind}:${p.id}`};delete a.tokenHash;
-  const now=Date.now(),old=rates.get(a.key);if(!old||old.until<now)rates.set(a.key,{until:now+60000,count:1});else if(++old.count>120)throw Object.assign(Error('Bitte kurz warten und erneut versuchen.'),{status:429});
-  if(rates.size>10000)for(const [key,value] of rates)if(value.until<now)rates.delete(key);
+  if(req.method!=='POST')rate(a);
   return a;
  }
+ function rate(a,bible=false){const key=a.key+(bible?':reading':''),now=Date.now(),old=rates.get(key);if(!old||old.until<now)rates.set(key,{until:now+60000,count:1});else if(++old.count>(bible?600:120))throw Object.assign(Error('Bitte kurz warten und erneut versuchen.'),{status:429});if(rates.size>10000)for(const [key,value] of rates)if(value.until<now)rates.delete(key);}
  async function handler(req,res){
   const cors=req.headers.origin===origin?{'Access-Control-Allow-Origin':origin,'Vary':'Origin'}:{};
   const send=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'",...cors});res.end(JSON.stringify(data));};
@@ -112,7 +114,10 @@ export function createKnowledgeService({db,principals,origin,root=ROOT}){
     req.setEncoding('utf8');
     let raw='';for await(const chunk of req){raw+=chunk;if(Buffer.byteLength(raw)>131072)return send(413,{error:'Auftrag zu groß.'});}
     let cmd;try{cmd=JSON.parse(raw);}catch{return send(400,{error:'Ungültiges JSON.'});}
-    if(!cmd||!['register-exam','withdraw-exam','reassign-exam','grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change','participation-change'].includes(cmd.type)||!cmd.payload||Array.isArray(cmd.payload)||!/^[-\w]{8,100}$/.test(cmd.requestId||''))return send(400,{error:'Ungültiger Fachwissen-Auftrag.'});
+    if(!cmd||!['set-bible-read','register-exam','withdraw-exam','reassign-exam','grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change','participation-change'].includes(cmd.type)||!cmd.payload||Array.isArray(cmd.payload)||!/^[-\w]{8,100}$/.test(cmd.requestId||''))return send(400,{error:'Ungültiger Fachwissen-Auftrag.'});
+    if(cmd.type==='set-bible-read'&&a.leader)return send(403,{error:'Die Ranger verwalten ihren eigenen Lesefortschritt selbst.'});
+    // Reading has its own burst protection; undo never consumes an examination/API write quota.
+    if(cmd.type!=='set-bible-read'||cmd.payload.isRead!==false)rate(a,cmd.type==='set-bible-read');
     if(['register-exam','reassign-exam'].includes(cmd.type)&&Object.keys(cmd.payload).some(k=>!['taskId','meetingId','examId','pointOption'].includes(k)))return send(400,{error:'Prüfungsanmeldungen enthalten keine digitalen Nachweise oder vorgegebenen Punkte.'});
     if(['grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change'].includes(cmd.type)&&!a.leader)return send(403,{error:'Nur die Leitung darf diese Aktion bestätigen.'});
     db.exec('BEGIN IMMEDIATE');

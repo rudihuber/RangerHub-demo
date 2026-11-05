@@ -4,7 +4,22 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Fachwissen – interaktive Unterwelten und persönliche Prüfungen
+## Bibelbibliothek und persönliche Bibelreise
+
+Aktuelle App: [RangerHub_Webapp_V31_Demo.html](RangerHub_Webapp_V31_Demo.html), ebenfalls über `index.html`. Die unveränderte V30 bleibt erhalten.
+
+66 kanonische Bibelbücher in interaktiven AT-/NT-Regalen: selbstständig als vollständig gelesen markieren, ohne Leiterprüfung, und jederzeit wieder zurücknehmen. Genau 240 zusätzliche Punkte (AT 187, NT 53). Profil, Fachwissen-Gesamtstand und Rangliste verwenden dieselben aktuellen Buchungen. Die bisherigen Fachwissen-Aufgaben und das Limit von drei normalen Prüfungen je Treffen bleiben erhalten.
+
+- [Übergabe und Datenmodell](docs/V31-UEBERGABE.md)
+- [Testbericht und Screenshots](docs/V31-TESTBERICHT.md)
+- [Online-Anbindung / offene Einrichtung](docs/V31-BACKEND.md)
+- [SHA-256](docs/V31-SHA256SUMS), [unveränderte Vorversion](docs/v31-baseline.json)
+
+Start: `python3 -m http.server 8000`, dann `index.html` öffnen. `assets/` und `vendor/` gemeinsam mitliefern. Aktuelle vollständige Tests: `python tools/check_v31.py` mit Playwright/Chromium und Node 24.
+
+Die öffentliche Vorschau bleibt lokal; eine gemeinsame persönliche Online-Anbindung ist implementiert und mit getrennten Browserprofilen geprüft, aber noch nicht produktiv konfiguriert. Privater `main` bleibt bis zur Abnahme unverändert. Speicher bleibt privat `rhv9`, Demo getrennt `rhv9-demo`.
+
+## Archiv V30 – interaktive Unterwelten und persönliche Prüfungen
 
 Aktueller Einstieg: [RangerHub_Webapp_V30_Demo.html](RangerHub_Webapp_V30_Demo.html), auch über `index.html`. V29 bleibt unverändert archiviert.
 

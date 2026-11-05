@@ -54,6 +54,7 @@ class V30Cases:
             expect(self.page.locator('.kw-location')).to_have_count(len(topics))
             for t in topics:
                 self.page.locator('[data-kw-action=location][data-kw-value="'+t['locationId']+'"]').click()
+                if t['id']=='A-08' and self.page.locator('.bible-library').count():self.page.locator('[data-kw-action=topic][data-kw-value=A-08]').click()
                 expect(self.page.locator('#kw-sheet-title')).to_have_text(t['title'])
                 tasks=[x for x in catalog['tasks'] if x['topicId']==t['id'] and x['visible']]
                 expect(self.page.locator('.kw-task-row')).to_have_count(len(tasks));seen.append(t['id'])
@@ -201,7 +202,7 @@ class V30Cases:
                 a=other.bounding_box();self.assertFalse(min(a['x']+a['width'],b['x']+b['width'])-max(a['x'],b['x'])>1 and min(a['y']+a['height'],b['y']+b['height'])-max(a['y'],b['y'])>1,'Overlapping map places')
 
     def test_screenshots_all_sizes_all_subworlds_dashboard_and_reduced_motion(self):
-        self.choose();out=Path(__file__).resolve().parents[1]/'docs/screenshots/v30';out.mkdir(parents=True,exist_ok=True)
+        self.choose();out=Path(__file__).resolve().parents[1]/('docs/screenshots/v'+(self.page.locator('meta[name=rangerhub-version]').get_attribute('content') or '30'));out.mkdir(parents=True,exist_ok=True)
         self.page.emulate_media(reduced_motion='reduce')
         for w,h in SIZES:
             self.page.set_viewport_size({'width':w,'height':h});self.page.evaluate("view='dash';render()")
@@ -220,7 +221,7 @@ class V30Cases:
             self.page.locator('.kw-location').first.focus();self.assertNotEqual(self.page.locator(':focus').evaluate('e=>getComputedStyle(e).outlineStyle'),'none')
 
     def test_true_touch_mobile_sheet_back_close_and_registration(self):
-        out=Path(__file__).resolve().parents[1]/'docs/screenshots/v30';out.mkdir(parents=True,exist_ok=True)
+        out=Path(__file__).resolve().parents[1]/('docs/screenshots/v'+(self.page.locator('meta[name=rangerhub-version]').get_attribute('content') or '30'));out.mkdir(parents=True,exist_ok=True)
         for w,h in [(320,568),(390,844),(768,1024)]:
             ctx=self.browser.new_context(viewport={'width':w,'height':h},is_mobile=w<768,has_touch=True,locale='de-DE');ctx.route('https://**/*',lambda r:r.abort())
             try:
@@ -283,7 +284,7 @@ class V30Cases:
         for index in range(3):
             rid=self.choose(index);ids.append(rid);s=self.snapshot();m=m or s['nextMeeting']['id'];t=next(t for t in s['catalog']['tasks'] if t['visible'] and t.get('points')==[5,4,2][index]);tasks.append(t['id']);self.assertTrue(self.book(t['id'],m)['ok'])
         self.leader('Leiter');self.past(m);self.page.evaluate('RangerHub.openKnowledge("exams")');self.page.locator('[data-exam-filter=meetingId]').select_option(str(m))
-        out=Path(__file__).resolve().parents[1]/'docs/screenshots/v30';out.mkdir(parents=True,exist_ok=True)
+        out=Path(__file__).resolve().parents[1]/('docs/screenshots/v'+(self.page.locator('meta[name=rangerhub-version]').get_attribute('content') or '30'));out.mkdir(parents=True,exist_ok=True)
         for w,h in [(1440,900),(390,844),(320,568),(768,1024)]:
             self.page.set_viewport_size({'width':w,'height':h});self.page.screenshot(path=str(out/f'exam-center-{w}x{h}.png'),full_page=True);self.assertLessEqual(self.page.evaluate('document.documentElement.scrollWidth'),w)
             for b in self.page.locator('.kw-grade-actions button').all():self.assertGreaterEqual(b.bounding_box()['height'],44)
