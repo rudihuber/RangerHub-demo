@@ -4,9 +4,24 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Bibelbibliothek und persönliche Bibelreise
+## Aktueller Stand V32 – Ranger-Wissen und geordnetes Dashboard
 
-Aktuelle App: [RangerHub_Webapp_V31_Demo.html](RangerHub_Webapp_V31_Demo.html), ebenfalls über `index.html`. Die unveränderte V30 bleibt erhalten.
+App direkt öffnen: [RangerHub_Webapp_V32_Demo.html](RangerHub_Webapp_V32_Demo.html), ebenfalls über `index.html`. Unveränderte Vorversion: V31. Öffentliche Browser-Vorschau: https://rudihuber.github.io/RangerHub-demo/ .
+
+**Ranger-Wissen:** fünf Gruppen, 16 echte Logbuch-Module, 76 interaktive Erklärungen. Drei Startthemen sichtbar; Admin/Stammleitung geben die übrigen Themen mit echten Schiebeschaltern frei. Globale Standards und Anpassungen des eigenen Stammes bleiben getrennt. Ranger sehen ausschließlich veröffentlichte Themen; Ranger-Wissen vergibt keine Punkte.
+
+**Bibelreise:** eigener Hauptreiter, alle 66 Bücher / 240 Punkte erhalten. Gelesene Bücher dunkel, offene hell. Selbst markieren und zurücknehmen bleiben unverändert. **Dashboard:** Treffen → Anwesenheit → kompakte Expedition + Fachwissen → Bibelreise → zwei getrennte Ranglisten → Geburtstage. Login ohne Wetterabrufe.
+
+- [Übergabe und Bedienung](docs/V32-UEBERGABE.md)
+- [Testbericht und Screenshots](docs/V32-TESTBERICHT.md)
+- [Serverrechte / noch offene Online-Einrichtung](docs/V32-BACKEND.md)
+- [SHA-256](docs/V32-SHA256SUMS) und [vollständige Vorversions-Baseline](docs/v32-baseline.json)
+
+Start: `python3 -m http.server 8000`, dann `index.html` öffnen. Aktuelle Tests: `python tools/check_v32.py` (Playwright/Chromium, Node 24). Privater Speicher unverändert `rhv9`, Demo unverändert getrennt `rhv9-demo`. Keine Nutzer-, Stamm-, Aufgaben- oder Punktedaten zurückgesetzt. Die gemeinsame Serveranbindung ist implementiert und lokal getestet; die veröffentlichte Demo bleibt ohne produktive Serverkonfiguration lokal. Privater `main` bleibt bis zur Abnahme unverändert.
+
+## Archiv V31 – Bibelbibliothek und persönliche Bibelreise
+
+Archivierte App: [RangerHub_Webapp_V31_Demo.html](RangerHub_Webapp_V31_Demo.html), ebenfalls über `index.html`. Die unveränderte V30 bleibt erhalten.
 
 66 kanonische Bibelbücher in interaktiven AT-/NT-Regalen: selbstständig als vollständig gelesen markieren, ohne Leiterprüfung, und jederzeit wieder zurücknehmen. Genau 240 zusätzliche Punkte (AT 187, NT 53). Profil, Fachwissen-Gesamtstand und Rangliste verwenden dieselben aktuellen Buchungen. Die bisherigen Fachwissen-Aufgaben und das Limit von drei normalen Prüfungen je Treffen bleiben erhalten.
 

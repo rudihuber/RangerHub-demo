@@ -1,0 +1,27 @@
+{
+  "version": 32,
+  "browser": {
+    "private": {
+      "passed": 106,
+      "failed": 0,
+      "seconds": 391.12
+    },
+    "demo": {
+      "passed": 111,
+      "failed": 0,
+      "seconds": 249.761
+    }
+  },
+  "server": {
+    "passed": 55,
+    "failed": 0,
+    "run_in_each_checkout": true
+  },
+  "backup_files": {
+    "private": 364,
+    "demo": 409
+  },
+  "engine": "Chromium",
+  "webkit_installed": false,
+  "portable_bytes": 24859295
+}

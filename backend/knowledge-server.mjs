@@ -19,6 +19,7 @@ export function loadModel(root=ROOT){
  vm.runInContext(readFileSync(resolve(root,'rangerhub-knowledge-model-v30.js'),'utf8'),context,{timeout:1000});
  vm.runInContext(readFileSync(resolve(root,'rangerhub-bible-catalog.js'),'utf8'),context,{timeout:1000});
  vm.runInContext(readFileSync(resolve(root,'rangerhub-bible-model.js'),'utf8'),context,{timeout:1000});
+ for(const file of ['rangerhub-wisdom-catalog.js','rangerhub-wisdom-model.js'])vm.runInContext(readFileSync(resolve(root,file),'utf8'),context,{timeout:1000});
  return {model:context.window.RHKnowledgeModel,catalog,catalogModel:context.window.RHKnowledgeCatalogV30};
 }
 export function openDatabase(path){
@@ -114,12 +115,12 @@ export function createKnowledgeService({db,principals,origin,root=ROOT}){
     req.setEncoding('utf8');
     let raw='';for await(const chunk of req){raw+=chunk;if(Buffer.byteLength(raw)>131072)return send(413,{error:'Auftrag zu groß.'});}
     let cmd;try{cmd=JSON.parse(raw);}catch{return send(400,{error:'Ungültiges JSON.'});}
-    if(!cmd||!['set-bible-read','register-exam','withdraw-exam','reassign-exam','grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change','participation-change'].includes(cmd.type)||!cmd.payload||Array.isArray(cmd.payload)||!/^[-\w]{8,100}$/.test(cmd.requestId||''))return send(400,{error:'Ungültiger Fachwissen-Auftrag.'});
+    if(!cmd||!['wisdom-change','set-bible-read','register-exam','withdraw-exam','reassign-exam','grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change','participation-change'].includes(cmd.type)||!cmd.payload||Array.isArray(cmd.payload)||!/^[-\w]{8,100}$/.test(cmd.requestId||''))return send(400,{error:'Ungültiger Fachwissen-Auftrag.'});
     if(cmd.type==='set-bible-read'&&a.leader)return send(403,{error:'Die Ranger verwalten ihren eigenen Lesefortschritt selbst.'});
     // Reading has its own burst protection; undo never consumes an examination/API write quota.
     if(cmd.type!=='set-bible-read'||cmd.payload.isRead!==false)rate(a,cmd.type==='set-bible-read');
     if(['register-exam','reassign-exam'].includes(cmd.type)&&Object.keys(cmd.payload).some(k=>!['taskId','meetingId','examId','pointOption'].includes(k)))return send(400,{error:'Prüfungsanmeldungen enthalten keine digitalen Nachweise oder vorgegebenen Punkte.'});
-    if(['grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change'].includes(cmd.type)&&!a.leader)return send(403,{error:'Nur die Leitung darf diese Aktion bestätigen.'});
+    if(['wisdom-change','grade-exam','correct-exam','correct-legacy-credit','catalog-change','set-editor-permission','calendar-change'].includes(cmd.type)&&!a.leader)return send(403,{error:'Nur die Leitung darf diese Aktion bestätigen.'});
     db.exec('BEGIN IMMEDIATE');
     try{
      const commandHash=digest(JSON.stringify({type:cmd.type,payload:cmd.payload}));
@@ -142,8 +143,8 @@ export function createKnowledgeService({db,principals,origin,root=ROOT}){
       m.cancelledRangerIds=(m.cancelledRangerIds||[]).filter(id=>String(id)!==String(a.id));if(cmd.payload.cancelled)m.cancelledRangerIds.push(a.id);
       m._knowledgeRevision++;db.prepare('UPDATE knowledge_stamms SET calendar_json=? WHERE id=?').run(JSON.stringify(data.meetings),tribe);
      }else model.apply(data.state,{...data.people,meetings:data.meetings},a,global,cmd.type,cmd.payload,new Date().toISOString(),randomUUID);
-     if(cmd.type==='catalog-change'&&cmd.payload.scope==='global'){
-      for(const other of db.prepare('SELECT state_json FROM knowledge_stamms').all())catalogModel.validate(catalogModel.effective(global,model.migrate(JSON.parse(other.state_json)).content));
+     if(['catalog-change','wisdom-change'].includes(cmd.type)&&cmd.payload.scope==='global'){
+      for(const other of db.prepare('SELECT state_json FROM knowledge_stamms').all()){const state=model.migrate(JSON.parse(other.state_json));catalogModel.validate(catalogModel.effective(global,state.content));model.validateWisdomGlobal(global,state);}
       db.prepare('UPDATE knowledge_global_catalog SET data_json=? WHERE id=1').run(JSON.stringify(global));
      }
      project(db,tribe,data.state,model);
