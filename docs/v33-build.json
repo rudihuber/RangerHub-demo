@@ -2,12 +2,12 @@
   "version": 33,
   "files": {
     "index.html": {
-      "bytes": 222398,
-      "sha256": "120a702a487b07ac9ee24c84fe6c97b088081624edd1526882be2d1517d29f2b"
+      "bytes": 222445,
+      "sha256": "fd8ae5d8bf45f0016d3d09b7d48a5eb6a423f7e084f5c4b2b3a2f9dcfbd7c8ef"
     },
     "RangerHub_Webapp_V33_Demo.html": {
-      "bytes": 222398,
-      "sha256": "120a702a487b07ac9ee24c84fe6c97b088081624edd1526882be2d1517d29f2b"
+      "bytes": 222445,
+      "sha256": "fd8ae5d8bf45f0016d3d09b7d48a5eb6a423f7e084f5c4b2b3a2f9dcfbd7c8ef"
     },
     "rangerhub-bible-chapters-v33.js": {
       "bytes": 5500,
@@ -26,12 +26,12 @@
       "sha256": "88b097d75c2d420df406aa97e951c5197f66a74ae183ab15fcfce20cc36dc3d0"
     },
     "rangerhub-dashboard-v33.js": {
-      "bytes": 39935,
-      "sha256": "08bfda0ede0ec75fadfd52ba7dca0a7de332db1d142f36e4a37a49a84163708b"
+      "bytes": 42266,
+      "sha256": "50329d11c57b3565d028ea11df22dcf0adf954a8d472a32665dcb8a05f4067db"
     },
     "rangerhub-navigation-v33.js": {
-      "bytes": 17305,
-      "sha256": "c1f75d28a0d63e159e8ff03ca41bea72455b716fb5de20b3dc586833edd182c4"
+      "bytes": 17378,
+      "sha256": "a0160f63b8ee6550e70002142a3af156031ee5ca8e19606f27c862e64a1a1bf5"
     },
     "rangerhub-knowledge-v33.js": {
       "bytes": 45972,
@@ -46,8 +46,8 @@
       "sha256": "d8ddc9e55b9198462d88b833033a04dccbd4f4134c32d2443fb43dd689e108c5"
     },
     "rangerhub-dashboard-v33.css": {
-      "bytes": 27589,
-      "sha256": "bad5174df6a62b5bee43d9d5253f331c768f1f2ef3a44484d77a45235b2f6aa0"
+      "bytes": 28037,
+      "sha256": "17ab1638197cd8d7255348dd0ad79b68b2c3ffec656041438e29b623942262bf"
     },
     "rangerhub-navigation-v33.css": {
       "bytes": 9811,

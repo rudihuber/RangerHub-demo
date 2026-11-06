@@ -4,14 +4,16 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Aktueller Stand V33 – Leiter-Cockpit und Originalbibliothek
+## Aktueller Stand V33.1 – überprüfte Korrektur
+
+Nachprüfung des vollständigen Auftrags: Dashboard-Buchhaken, mobile Sortierung, Aufgaben-Zuordnung/-Status, Geburtstage und Veröffentlichung korrigiert. [Befunde und Nachprüfung](docs/V33.1-NACHPRUEFUNG.md).
 
 App öffnen: [RangerHub_Webapp_V33_Demo.html](RangerHub_Webapp_V33_Demo.html) oder `index.html`. [Öffentliche Browser-Demo](https://rudihuber.github.io/RangerHub-demo/?v=33).
 
 Neue Rollen-Navigation, Leiter-Arbeitszentrale mit echten Planungsaufgaben und Quoten, Ranger-Dashboard mit allen fünf Stufen und 66 Buchrücken. Die Bibelreise enthält 1.189 einzeln markierbare Kapitel bei unveränderten 240 Buchpunkten. Ranger-Bibliothek verwendet ausschließlich Texte und 43 Originalgrafiken aus der neu gelieferten Logbuch-Ausgabe(4); vorhandene Bearbeitungen und Freigaben bleiben erhalten.
 
 - [Übergabe, Datenquellen und Sicherung](docs/V33-UEBERGABE.md)
-- [Tests und Desktop-/Mobil-Screenshots](docs/V33-TESTBERICHT.md)
+- [Aktuelle Nachprüfung, Tests und Screenshots](docs/V33.1-NACHPRUEFUNG.md)
 - [Originalgrafiken und Quellzuordnung](docs/V33-BIBLIOTHEK-QUELLEN.md)
 - [Backend und noch offene Produktiveinrichtung](docs/V33-BACKEND.md)
 - [SHA-256](docs/V33-SHA256SUMS) und [unveränderte V32-Baseline](docs/v33-baseline.json)

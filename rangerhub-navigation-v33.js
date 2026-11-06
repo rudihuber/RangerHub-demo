@@ -149,6 +149,7 @@
   }
   drawer(side,nav);updateActive(nav,u,config);RH.navigationV33Ready=true;
  };
+ RH.refreshNavigationV33=()=>{if(latest)RH.mountNavigationV33(latest);};
  document.addEventListener('keydown',event=>{if(event.key==='Escape')closeDrawer(true);},true);
  document.addEventListener('click',event=>{if(!event.target.closest('.side'))closeDrawer();});
  window.addEventListener('storage',event=>{if(event.key!==storageKey)return;remembered.clear();if(latest?.actor&&root.querySelector('.rh33-navigation'))RH.mountNavigationV33(latest);});

@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess,sys,os
 root=Path(__file__).resolve().parents[1]
 entry='RangerHub_Webapp_V33_Kompakt.html' if (root/'RangerHub_Webapp_V33_Kompakt.html').exists() else 'RangerHub_Webapp_V33_Demo.html'
-modules=['test_v33']
+modules=['test_v33','test_v33_review']
 if (root/'tests/test_v33_packaging.py').exists():modules+=['test_v33_packaging']
 if (root/'tests/test_v33_regressions.py').exists():modules+=['test_v33_regressions']
 modules+=['test_v26_roles'] if 'Kompakt' in entry else []

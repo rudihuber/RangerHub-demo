@@ -8,11 +8,12 @@ PAIRS=[('rangerhub-wisdom-catalog.js','rangerhub-wisdom-catalog-v33.js'),('range
 def build():
  source=ROOT/'RangerHub_Webapp_V32_Demo.html';raw=source.read_bytes();baseline=json.loads((ROOT/'docs/v33-baseline.json').read_text());assert hashlib.sha256(raw).hexdigest()==baseline['files'][source.name]['sha256']
  html=raw.decode().replace('<meta name="rangerhub-version" content="32">','<meta name="rangerhub-version" content="33">')
+ html=html.replace('<meta name="rangerhub-version" content="33">','<meta name="rangerhub-version" content="33"><meta name="rangerhub-revision" content="33.1">')
  for before,after in PAIRS:
-  html,n=re.subn(r'<script src="'+re.escape(before)+r'\?v=[^"]+"></script>',f'<script src="{after}?v=33-1"></script>',html);assert n==1,before
- token='<script src="rangerhub-bible-model.js?v=31-2"></script>';assert token in html;html=html.replace(token,token+'\n<script src="rangerhub-bible-chapters-v33.js?v=33-1"></script>',1)
- token='<script src="rangerhub-knowledge-v33.js?v=33-1"></script>';html=html.replace(token,'<script src="rangerhub-navigation-v33.js?v=33-1"></script>\n'+token,1)
- html=html.replace('</head>','\n'.join(f'<link rel="stylesheet" href="{name}?v=33-1" data-rangerhub-v33>' for name in CSS)+'\n</head>',1)
+  html,n=re.subn(r'<script src="'+re.escape(before)+r'\?v=[^"]+"></script>',f'<script src="{after}?v=33-2"></script>',html);assert n==1,before
+ token='<script src="rangerhub-bible-model.js?v=31-2"></script>';assert token in html;html=html.replace(token,token+'\n<script src="rangerhub-bible-chapters-v33.js?v=33-2"></script>',1)
+ token='<script src="rangerhub-knowledge-v33.js?v=33-2"></script>';html=html.replace(token,'<script src="rangerhub-navigation-v33.js?v=33-2"></script>\n'+token,1)
+ html=html.replace('</head>','\n'.join(f'<link rel="stylesheet" href="{name}?v=33-2" data-rangerhub-v33>' for name in CSS)+'\n</head>',1)
  assert 'data:application/pdf' not in html and "localStorage.getItem('rhv9-demo')" in html
  for name in ['index.html','RangerHub_Webapp_V33_Demo.html']:
   path=ROOT/name;temporary=path.with_name(path.name+'.building');temporary.write_text(html);temporary.replace(path)

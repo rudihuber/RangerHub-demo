@@ -70,7 +70,7 @@ class V33Packaging(unittest.TestCase):
             for name in new:self.assertTrue((ROOT/name).read_text() in self.html,name)
         else:
             for name in changed:self.assertNotIn('src="'+name+'?',self.html)
-            for name in new:self.assertIn('src="'+name+'?v=33-1"',self.html)
+            for name in new:self.assertIn('src="'+name+'?v=33-2"',self.html)
 
     def test_catalog_keeps_stable_ids_and_no_internal_page_fields(self):
         old=json.loads((ROOT/'data/ranger-wissen-content.json').read_text())

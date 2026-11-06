@@ -1,0 +1,222 @@
+test_bible_direct_checkbox_is_separate_from_details_and_partial_undo_is_exact (test_v33.V33Tests.test_bible_direct_checkbox_is_separate_from_details_and_partial_undo_is_exact) ... ok
+test_chapter_updates_reject_other_profiles_and_keep_three_exam_places (test_v33.V33Tests.test_chapter_updates_reject_other_profiles_and_keep_three_exam_places) ... ok
+test_desktop_phone_tablet_layout_touch_targets_round_ring_and_screenshots (test_v33.V33Tests.test_desktop_phone_tablet_layout_touch_targets_round_ring_and_screenshots) ... ok
+test_exact_role_navigation_groups_and_direct_route_guards (test_v33.V33Tests.test_exact_role_navigation_groups_and_direct_route_guards) ... ok
+test_last_chapter_awards_only_book_value_and_removing_one_reverses_once (test_v33.V33Tests.test_last_chapter_awards_only_book_value_and_removing_one_reverses_once) ... ok
+test_leader_attendance_real_relevance_personal_mean_and_dynamic_roster (test_v33.V33Tests.test_leader_attendance_real_relevance_personal_mean_and_dynamic_roster) ... ok
+test_leader_dashboard_exact_workflow_order_nearest_event_and_real_agenda (test_v33.V33Tests.test_leader_dashboard_exact_workflow_order_nearest_event_and_real_agenda) ... ok
+test_leader_growth_and_statistics_all_rangers_use_separate_real_sources (test_v33.V33Tests.test_leader_growth_and_statistics_all_rangers_use_separate_real_sources) ... ok
+test_leader_own_tasks_deduplicate_and_save_same_grocery_and_leader_action (test_v33.V33Tests.test_leader_own_tasks_deduplicate_and_save_same_grocery_and_leader_action) ... ok
+test_legacy_v32_book_marks_migrate_without_awards_or_profile_changes (test_v33.V33Tests.test_legacy_v32_book_marks_migrate_without_awards_or_profile_changes) ... ok
+test_library_existing_local_edits_and_release_switches_survive_source_upgrade (test_v33.V33Tests.test_library_existing_local_edits_and_release_switches_survive_source_upgrade) ... ok
+test_login_network_is_weather_free_and_session_reload_preserves_ranger_points (test_v33.V33Tests.test_login_network_is_weather_free_and_session_reload_preserves_ranger_points) ... ok
+test_navigation_accordion_and_active_parent_persist_without_second_key (test_v33.V33Tests.test_navigation_accordion_and_active_parent_persist_without_second_key) ... ok
+test_online_chapters_sync_two_independent_devices_and_readonly_leader (test_v33.V33Tests.test_online_chapters_sync_two_independent_devices_and_readonly_leader) ... ok
+test_original_only_library_has_sixteen_real_modules_and_no_page_metadata (test_v33.V33Tests.test_original_only_library_has_sixteen_real_modules_and_no_page_metadata) ... ok
+test_ranger_five_stations_all_66_dashboard_books_and_no_section_numbers (test_v33.V33Tests.test_ranger_five_stations_all_66_dashboard_books_and_no_section_numbers) ... ok
+test_dashboard_book_checkbox_keeps_partial_progress_and_updates_points (test_v33_review.V33Review.test_dashboard_book_checkbox_keeps_partial_progress_and_updates_points) ... ok
+test_mobile_statistics_sorting_is_visible_and_operable (test_v33_review.V33Review.test_mobile_statistics_sorting_is_visible_and_operable) ... ok
+test_explicit_grocery_owner_is_independent_of_food_owner (test_v33_review.V33Review.test_explicit_grocery_owner_is_independent_of_food_owner) ... ok
+test_disabled_action_is_distinguished_from_planned_action (test_v33_review.V33Review.test_disabled_action_is_distinguished_from_planned_action) ... ok
+test_original_text_doings_are_not_replaced_with_placeholder (test_v33_review.V33Review.test_original_text_doings_are_not_replaced_with_placeholder) ... ok
+test_clock_refresh_does_not_replace_unchanged_dashboard (test_v33_review.V33Review.test_clock_refresh_does_not_replace_unchanged_dashboard) ... ok
+test_task_badge_updates_immediately_after_completion (test_v33_review.V33Review.test_task_badge_updates_immediately_after_completion) ... ok
+test_editing_leader_agenda_preserves_completed_action_and_identity (test_v33_review.V33Review.test_editing_leader_agenda_preserves_completed_action_and_identity) ... ok
+test_next_birthday_is_shown_even_when_more_than_thirty_days_away (test_v33_review.V33Review.test_next_birthday_is_shown_even_when_more_than_thirty_days_away) ... ok
+test_all_43_referenced_originals_are_present_and_verified (test_v33_packaging.V33Packaging.test_all_43_referenced_originals_are_present_and_verified) ... ok
+test_catalog_keeps_stable_ids_and_no_internal_page_fields (test_v33_packaging.V33Packaging.test_catalog_keeps_stable_ids_and_no_internal_page_fields) ... ok
+test_full_pre_edit_backup_is_complete_and_lossless (test_v33_packaging.V33Packaging.test_full_pre_edit_backup_is_complete_and_lossless) ... ok
+test_live_entry_and_original_embedded_assets (test_v33_packaging.V33Packaging.test_live_entry_and_original_embedded_assets) ... ok
+test_new_layers_replace_only_the_intended_v32_layers (test_v33_packaging.V33Packaging.test_new_layers_replace_only_the_intended_v32_layers) ... ok
+test_original_pixels_and_precise_source_crops_are_lossless (test_v33_packaging.V33Packaging.test_original_pixels_and_precise_source_crops_are_lossless) ... skipped 'Source PDF is retained only in private delivery.'
+test_shipping_checksums_and_unchanged_historical_files (test_v33_packaging.V33Packaging.test_shipping_checksums_and_unchanged_historical_files) ... ok
+test_standalone_has_identical_new_and_legacy_asset_bytes (test_v33_packaging.V33Packaging.test_standalone_has_identical_new_and_legacy_asset_bytes) ... skipped 'Public demo uses referenced assets without a portable private file.'
+test_all_viewports_touch_targets_no_overflow_and_screenshots (test_v33_regressions.Bible.test_all_viewports_touch_targets_no_overflow_and_screenshots) ... ok
+test_canonical_json_and_runtime_catalog_match_exactly (test_v33_regressions.Bible.test_canonical_json_and_runtime_catalog_match_exactly) ... ok
+test_dashboard_profile_ranking_and_both_existing_maps_share_the_combined_total (test_v33_regressions.Bible.test_dashboard_profile_ranking_and_both_existing_maps_share_the_combined_total) ... ok
+test_detail_click_and_cancel_do_not_award_then_mark_undo_and_remark_are_exact (test_v33_regressions.Bible.test_detail_click_and_cancel_do_not_award_then_mark_undo_and_remark_are_exact) ... ok
+test_leader_library_is_read_only_and_ordinary_three_exam_places_are_unchanged (test_v33_regressions.Bible.test_leader_library_is_read_only_and_ordinary_three_exam_places_are_unchanged) ... ok
+test_library_opens_deliberately_and_all_66_book_details_keep_canonical_order (test_v33_regressions.Bible.test_library_opens_deliberately_and_all_66_book_details_keep_canonical_order) ... ok
+test_mobile_quick_undo_is_touchable_inside_the_native_book_dialog (test_v33_regressions.Bible.test_mobile_quick_undo_is_touchable_inside_the_native_book_dialog) ... ok
+test_name_search_status_filters_and_native_keyboard (test_v33_regressions.Bible.test_name_search_status_filters_and_native_keyboard) ... ok
+test_online_two_devices_same_ranger_and_readonly_leader_share_mark_and_undo (test_v33_regressions.Bible.test_online_two_devices_same_ranger_and_readonly_leader_share_mark_and_undo) ... ok
+test_quick_undo_and_permanent_undo_both_work_without_reason_or_leader (test_v33_regressions.Bible.test_quick_undo_and_permanent_undo_both_work_without_reason_or_leader) ... ok
+test_reload_session_and_switch_between_rangers_never_leak_or_erase_reading (test_v33_regressions.Bible.test_reload_session_and_switch_between_rangers_never_leak_or_erase_reading) ... ok
+test_schema_395_migration_keeps_read_flags_and_normal_points_without_double_credit (test_v33_regressions.Bible.test_schema_395_migration_keeps_read_flags_and_normal_points_without_double_credit) ... ok
+test_scroll_position_browser_back_direct_link_and_reload (test_v33_regressions.Bible.test_scroll_position_browser_back_direct_link_and_reload) ... ok
+test_storage_failure_keeps_existing_marks_and_reports_failure (test_v33_regressions.Bible.test_storage_failure_keeps_existing_marks_and_reports_failure) ... ok
+test_true_touch_confirmation_cancel_mark_and_undo_on_iphone_and_ipad (test_v33_regressions.Bible.test_true_touch_confirmation_cancel_mark_and_undo_on_iphone_and_ipad) ... ok
+test_actual_v29_upgrade_preserves_verified_points_and_active_session (test_v33_regressions.Fachwissen.test_actual_v29_upgrade_preserves_verified_points_and_active_session) ... ok
+test_all_36_locations_open_only_the_chosen_topic_and_task (test_v33_regressions.Fachwissen.test_all_36_locations_open_only_the_chosen_topic_and_task) ... ok
+test_browser_back_deep_link_reload_and_mobile_focus (test_v33_regressions.Fachwissen.test_browser_back_deep_link_reload_and_mobile_focus) ... ok
+test_cancelled_meeting_keeps_registration_and_can_be_reassigned (test_v33_regressions.Fachwissen.test_cancelled_meeting_keeps_registration_and_can_be_reassigned) ... ok
+test_catalog_has_all_source_paragraphs_points_and_exact_examples (test_v33_regressions.Fachwissen.test_catalog_has_all_source_paragraphs_points_and_exact_examples) ... ok
+test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state (test_v33_regressions.Fachwissen.test_cross_tab_concurrent_limit_and_unrelated_save_preserve_latest_state) ... ok
+test_editor_creates_each_entity_and_moves_task_in_real_forms (test_v33_regressions.Fachwissen.test_editor_creates_each_entity_and_moves_task_in_real_forms) ... ok
+test_editor_text_points_subitems_original_and_local_reset (test_v33_regressions.Fachwissen.test_editor_text_points_subitems_original_and_local_reset) ... ok
+test_http_failure_does_not_silently_save_locally (test_v33_regressions.Fachwissen.test_http_failure_does_not_silently_save_locally) ... ok
+test_leader_pass_fail_no_show_history_and_ranking (test_v33_regressions.Fachwissen.test_leader_pass_fail_no_show_history_and_ranking) ... ok
+test_migration_preserves_old_points_profiles_and_archives_legacy_data (test_v33_regressions.Fachwissen.test_migration_preserves_old_points_profiles_and_archives_legacy_data) ... ok
+test_no_meeting_no_uploads_and_old_workflows_disabled (test_v33_regressions.Fachwissen.test_no_meeting_no_uploads_and_old_workflows_disabled) ... ok
+test_online_server_three_independent_browser_storages_complete_exam_flow (test_v33_regressions.Fachwissen.test_online_server_three_independent_browser_storages_complete_exam_flow) ... ok
+test_quota_failure_does_not_erase_existing_storage (test_v33_regressions.Fachwissen.test_quota_failure_does_not_erase_existing_storage) ... ok
+test_registration_preview_three_slots_withdrawal_and_reload (test_v33_regressions.Fachwissen.test_registration_preview_three_slots_withdrawal_and_reload) ... ok
+test_roles_stamm_switch_global_local_and_dirty_editor_guard (test_v33_regressions.Fachwissen.test_roles_stamm_switch_global_local_and_dirty_editor_guard) ... ok
+test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots (test_v33_regressions.Fachwissen.test_three_confirmed_rangers_real_podium_and_phone_exam_center_screenshots) ... ok
+test_true_touch_mobile_sheet_back_close_and_registration (test_v33_regressions.Fachwissen.test_true_touch_mobile_sheet_back_close_and_registration) ... ok
+test_curved_marker_motion_threshold_notice_and_reduced_motion (test_v33_regressions.Growth.test_curved_marker_motion_threshold_notice_and_reduced_motion) ... ok
+test_early_following_progress_survives_promotion_and_reload (test_v33_regressions.Growth.test_early_following_progress_survives_promotion_and_reload) ... ok
+test_exact_thresholds_bonus_tasks_and_official_promotion (test_v33_regressions.Growth.test_exact_thresholds_bonus_tasks_and_official_promotion) ... ok
+test_existing_leader_checkbox_updates_the_same_ranger_progress (test_v33_regressions.Growth.test_existing_leader_checkbox_updates_the_same_ranger_progress) ... ok
+test_existing_pdf_assets_are_accessible_when_present (test_v33_regressions.Growth.test_existing_pdf_assets_are_accessible_when_present) ... ok
+test_locked_stations_accessible_details_keyboard_and_focus_return (test_v33_regressions.Growth.test_locked_stations_accessible_details_keyboard_and_focus_return) ... ok
+test_marker_positions_are_based_on_existing_stage_completion (test_v33_regressions.Growth.test_marker_positions_are_based_on_existing_stage_completion) ... ok
+test_read_only_map_does_not_change_people_shared_content_or_progress (test_v33_regressions.Growth.test_read_only_map_does_not_change_people_shared_content_or_progress) ... ok
+test_stages_without_tasks_never_complete_or_unlock_the_next_stage (test_v33_regressions.Growth.test_stages_without_tasks_never_complete_or_unlock_the_next_stage) ... ok
+test_stamm_switch_and_colliding_person_ids_do_not_mix_progress (test_v33_regressions.Growth.test_stamm_switch_and_colliding_person_ids_do_not_mix_progress) ... ok
+test_touch_dialog_close_and_existing_logbook_above_mobile_navigation (test_v33_regressions.Growth.test_touch_dialog_close_and_existing_logbook_above_mobile_navigation) ... ok
+test_unlocked_stations_open_existing_tasks_and_logbook_and_return (test_v33_regressions.Growth.test_unlocked_stations_open_existing_tasks_and_logbook_and_return) ... ok
+test_viewports_touch_targets_no_overlap_or_horizontal_overflow (test_v33_regressions.Growth.test_viewports_touch_targets_no_overlap_or_horizontal_overflow) ... ok
+test_action_and_impulse_planning_does_not_create_fictitious_dates (test_v33_regressions.MessagesAndLibraries.test_action_and_impulse_planning_does_not_create_fictitious_dates) ... ok
+test_action_linked_impulse_can_be_selected_and_customized (test_v33_regressions.MessagesAndLibraries.test_action_linked_impulse_can_be_selected_and_customized) ... ok
+test_chat_followup_reopens_question_and_survives_reload (test_v33_regressions.MessagesAndLibraries.test_chat_followup_reopens_question_and_survives_reload) ... ok
+test_chat_own_ranger_only_and_cross_stamm_protection (test_v33_regressions.MessagesAndLibraries.test_chat_own_ranger_only_and_cross_stamm_protection) ... ok
+test_chat_question_reply_bold_status_checkmark_and_read_receipts (test_v33_regressions.MessagesAndLibraries.test_chat_question_reply_bold_status_checkmark_and_read_receipts) ... ok
+test_chat_quota_errors_do_not_claim_delivery_or_erase_data (test_v33_regressions.MessagesAndLibraries.test_chat_quota_errors_do_not_claim_delivery_or_erase_data) ... ok
+test_chat_text_is_escaped_and_push_is_only_prepared (test_v33_regressions.MessagesAndLibraries.test_chat_text_is_escaped_and_push_is_only_prepared) ... ok
+test_icons_growth_alignment_back_controls_and_screenshots (test_v33_regressions.MessagesAndLibraries.test_icons_growth_alignment_back_controls_and_screenshots) ... ok
+test_nature_and_action_catalogs_are_additive_complete_and_private (test_v33_regressions.MessagesAndLibraries.test_nature_and_action_catalogs_are_additive_complete_and_private) ... ok
+test_nature_edit_permissions_and_stamm_separation (test_v33_regressions.MessagesAndLibraries.test_nature_edit_permissions_and_stamm_separation) ... ok
+test_nature_library_plan_into_existing_meeting_and_dirty_guard (test_v33_regressions.MessagesAndLibraries.test_nature_library_plan_into_existing_meeting_and_dirty_guard) ... ok
+test_nature_picker_saves_snapshot_and_required_leader_is_not_invented (test_v33_regressions.MessagesAndLibraries.test_nature_picker_saves_snapshot_and_required_leader_is_not_invented) ... ok
+test_prepared_http_adapter_uses_personal_token_and_rejects_forbidden (test_v33_regressions.MessagesAndLibraries.test_prepared_http_adapter_uses_personal_token_and_rejects_forbidden) ... ok
+test_previous_ranger_profile_and_team_screen_can_be_restored (test_v33_regressions.MessagesAndLibraries.test_previous_ranger_profile_and_team_screen_can_be_restored) ... ok
+test_same_browser_tabs_receive_replies_without_losing_a_draft (test_v33_regressions.MessagesAndLibraries.test_same_browser_tabs_receive_replies_without_losing_a_draft) ... ok
+test_touch_back_and_chat_at_small_phone_sizes (test_v33_regressions.MessagesAndLibraries.test_touch_back_and_chat_at_small_phone_sizes) ... ok
+test_untouched_form_is_not_marked_dirty_by_new_picker_controls (test_v33_regressions.MessagesAndLibraries.test_untouched_form_is_not_marked_dirty_by_new_picker_controls) ... ok
+test_v27_upgrade_keeps_existing_people_progress_and_library_edits (test_v33_regressions.MessagesAndLibraries.test_v27_upgrade_keeps_existing_people_progress_and_library_edits) ... ok
+test_attendance_checkboxes_cancellations_and_explicit_save (test_v33_regressions.Planning.test_attendance_checkboxes_cancellations_and_explicit_save) ... ok
+test_catalog_import_deduplicates_preserves_and_enforces_delete_roles (test_v33_regressions.Planning.test_catalog_import_deduplicates_preserves_and_enforces_delete_roles) ... ok
+test_confirmation_has_date_leader_reload_and_role_protection (test_v33_regressions.Planning.test_confirmation_has_date_leader_reload_and_role_protection) ... ok
+test_forecast_limits_and_network_failure_are_honest (test_v33_regressions.Planning.test_forecast_limits_and_network_failure_are_honest) ... ok
+test_invalid_plan_stays_open_when_save_requested (test_v33_regressions.Planning.test_invalid_plan_stays_open_when_save_requested) ... ok
+test_knots_require_two_distinct_meeting_days_and_keep_legacy (test_v33_regressions.Planning.test_knots_require_two_distinct_meeting_days_and_keep_legacy) ... ok
+test_mobile_touch_planning_attendance_and_dashboard_cancellation (test_v33_regressions.Planning.test_mobile_touch_planning_attendance_and_dashboard_cancellation) ... ok
+test_observer_extra_content_leader_only_and_no_duplicate_labels (test_v33_regressions.Planning.test_observer_extra_content_leader_only_and_no_duplicate_labels) ... ok
+test_photos_save_reload_slides_and_quota_rollback (test_v33_regressions.Planning.test_photos_save_reload_slides_and_quota_rollback) ... ok
+test_planning_close_warns_continue_discard_and_save (test_v33_regressions.Planning.test_planning_close_warns_continue_discard_and_save) ... ok
+test_planning_guard_escape_backdrop_navigation_and_stamm_switch (test_v33_regressions.Planning.test_planning_guard_escape_backdrop_navigation_and_stamm_switch) ... ok
+test_ranger_dashboard_cancellation_and_attendance_encouragement (test_v33_regressions.Planning.test_ranger_dashboard_cancellation_and_attendance_encouragement) ... ok
+test_recipe_roundtrip_keeps_planning_guard_and_photo_draft (test_v33_regressions.Planning.test_recipe_roundtrip_keeps_planning_guard_and_photo_draft) ... ok
+test_recipe_selection_still_fills_checklist (test_v33_regressions.Planning.test_recipe_selection_still_fills_checklist) ... ok
+test_stamm_confirmation_and_photo_isolation (test_v33_regressions.Planning.test_stamm_confirmation_and_photo_isolation) ... ok
+test_upgrade_from_v26_preserves_all_existing_values_and_active_session (test_v33_regressions.Planning.test_upgrade_from_v26_preserves_all_existing_values_and_active_session) ... ok
+test_weather_town_postcode_and_detailed_current (test_v33_regressions.Planning.test_weather_town_postcode_and_detailed_current) ... ok
+
+----------------------------------------------------------------------
+Ran 114 tests in 266.648s
+
+OK (skipped=2)
+✔ 16 module and 76 hotspot identities and initial release flags survive source correction (1.996828ms)
+✔ 43 checked original files are used; motto retains its own source typography (12.944223ms)
+✔ old edits, publication flags and custom entries remain authoritative without state mutation (11.414034ms)
+✔ all module views use original images or exact motto typography and original source text (4.958872ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 36.541116
+✔ Ranger hierarchy is exactly adventure, participation and reference, with no staff lists (1.301461ms)
+✔ Leader cockpit is always a fixed group; secondary groups use accordions (1.167153ms)
+✔ Admin and Stammleiter retain both permitted editors, regular leaders do not gain them (0.247215ms)
+✔ Ranger direct staff views are blocked while all ordinary personal views work (0.247606ms)
+✔ Editor and examination URL guards reuse exact existing rights (0.199535ms)
+✔ Missing identity and leader personal expedition routes are rejected (0.100278ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8.533621
+✔ canonical 66-book catalog contains AT 929 + NT 260 = 1189 chapters without changing points (74.86082ms)
+✔ 3/50 Genesis chapters are 6 percent with no points or examination slots (60.481187ms)
+✔ whole-book check covers all chapters; undo restores the exact existing 3/50 plan (104.1651ms)
+✔ finishing last individual chapter grants one book credit; undo and retry reverse only once (219.232119ms)
+✔ editing one chapter of explicit full coverage materializes the other chapters, removes credit (75.928266ms)
+✔ old read flags migrate as full coverage without records, duplicate journal entries or version changes (23.105497ms)
+✔ all 66 directly marked books cover exactly 1189 chapters and 240 points; undo yields zero (854.577508ms)
+✔ chapter duplicates and simultaneous devices use version checks and command idempotency (73.54014ms)
+✔ chapter privacy, role protection and stamms are enforced on the server (70.901593ms)
+✔ invalid chapters, foreign identities and forged points fail without modifying the source (24.536901ms)
+✔ ordinary Fachwissen credits and all three examination slots remain independent (109.636009ms)
+✔ chapter plans persist in the existing canonical SQLite JSON and keep active credit projection correct (32.313044ms)
+✔ server restart retains partial undo state and never re-awards an existing complete book (67.373543ms)
+✔ team-scoped leaders receive chapter statistics only for their authorized ranger team (32.225354ms)
+✔ canonical dataset has exactly 66 stable books in order and totals 187 + 53 = 240 (28.790803ms)
+✔ reading starts at zero, book catalog adds 240 to actual active Fachwissen maximum (74.31306ms)
+✔ mark, undo and mark again grant exactly the book value and preserve the normal journal (236.255201ms)
+✔ all 66 marks yield exactly 240, undoing all yields exactly zero and never fills exam slots (797.624991ms)
+✔ duplicate simultaneous devices and idempotency keys create only one active reading credit (50.963712ms)
+✔ an old queued mark cannot resurrect a subsequently withdrawn mark (57.703801ms)
+✔ a new mark after undo needs the current version; redundant explicit states are harmless (55.768569ms)
+✔ rangers cannot supply another identity, points, attachments, invalid book or ambiguous toggle (37.668322ms)
+✔ leaders, stammleiter and admins may inspect but cannot mark or remove ranger reading (40.248371ms)
+✔ ranger details and team-restricted leader details do not leak other reading records (57.180724ms)
+✔ same user IDs in different stamms keep reading and totals separate (33.650108ms)
+✔ all three ordinary examinations remain available and the fourth stays blocked after Bible marks (136.002631ms)
+✔ maxima respect actual local catalog changes and the Bible catalog stays immutable (121.058395ms)
+✔ existing V30 users, roles, ledger and exam payloads survive idempotent extension (21.792559ms)
+✔ legacy 395-style marks and points migrate once without double counting ordinary points (13.38198ms)
+✔ old pending Bible examinations stay open reading, do not award points or occupy slots (11.028845ms)
+✔ SQLite restart and verified reimport preserve book versions and do not append a second award (20.274167ms)
+✔ complete legacy 395-point SQLite data becomes exactly 240 reading points once, keeping all 66 marks (50.163487ms)
+✔ legacy book exams cannot be rated or consume slots after the reading migration (18.449272ms)
+✔ an unassigned old aggregate Bible credit is never silently added to the new 240 points (17.677964ms)
+✔ server identity, tribe permissions, disabled old workflows and no evidence fields (120.966484ms)
+✔ three slots are transactional across categories and four simultaneous clients (148.597905ms)
+✔ duplicate booking and request replay create one registration (86.510216ms)
+✔ withdraw before the meeting frees a slot, but reviewed attempts still consume slots (122.407236ms)
+✔ grading is in-person and concurrent leaders cannot double-grade or double-credit (80.120566ms)
+✔ failed and no-show attempts award no points and can be retried later (142.804566ms)
+✔ cancellation keeps history and explicit replacement checks its own three-slot limit (94.745361ms)
+✔ only matching real calendar meetings can be used; cancelled participation is respected (56.141218ms)
+✔ local editor, stammleiter and global admin layers remain separated (250.685013ms)
+✔ editor permissions can be withdrawn; malicious global role fields never grant access (65.597961ms)
+✔ point edits and archival never rewrite earned points or booked requirement versions (259.154929ms)
+✔ result correction needs stammleiter authority, a reason and a matching reversal (96.424461ms)
+✔ all 36 source topics keep one location, and custom regions/places/topics/tasks are editable (223.348677ms)
+✔ legacy points and evidence survive once in a closed archive and never enter active exam payloads (19.8701ms)
+✔ team-scoped leader cannot inspect or grade another team and ranger cannot forge a target (114.32673ms)
+✔ server refuses digital evidence and forged points, and calendar uses compare-and-swap (51.439947ms)
+✔ unknown source points need an audited clarification and fitness keeps its exact original option (153.087019ms)
+✔ a cancelled registration cannot be moved into a full replacement meeting (124.728495ms)
+✔ custom task without a short title, subitem revisions and stale editor writes are handled (88.909945ms)
+✔ verified imports preserve global layers and reject unaudited local knowledge without changing the DB (30.593805ms)
+✔ existing SQLite schema-one state upgrades at server restart without changing ledger or private archive (26.039039ms)
+✔ matching team meetings are selected and cancelled meeting details remain in personal history (95.621495ms)
+✔ custom local entries remain editable after creation and global arena title can change (157.539072ms)
+✔ same ranger IDs in different stamms never share credits or examinations (75.843691ms)
+✔ cancelled duplicate attempt cannot be reassigned after the task has been passed elsewhere (86.345678ms)
+✔ 16 Ausgabe(4) source modules, 5 groups, exact original passages and 3 initial publications (100.671756ms)
+✔ hidden module bodies cannot leak through ranger snapshots or search filters (79.749699ms)
+✔ ordinary leaders and rangers cannot publish, including with forged role or delegated FW rights (64.511699ms)
+✔ stammleiter publishes locally, persisted across reads and other devices; Meppen unchanged (107.78779ms)
+✔ admin global defaults and local overrides are separate, even when switching stamms (111.915926ms)
+✔ stale parallel publications are rejected with CAS; same command replay stays idempotent (37.926092ms)
+✔ group, module and hotspot creation, ordering, edit, archive and restore preserve points and people (145.406628ms)
+✔ publication history stores scope, revision and author, preview obeys current publications (90.792765ms)
+✔ no-op read/migrate never initializes new records or awards Ranger-Wissen points (52.911579ms)
+✔ invalid hierarchy, duplicate IDs, HTML fields, and invalid scope fail without data loss (26.2155ms)
+ℹ tests 69
+ℹ suites 0
+ℹ pass 69
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2874.350526

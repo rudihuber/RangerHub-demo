@@ -76,44 +76,44 @@
     "sha256": "a97a14481a41fef6441d7b94f49e271f7720dca7d1649f82ab234bba6dd57d98"
   },
   "docs/screenshots/v33/dashboard-1366x768.png": {
-    "bytes": 911384,
-    "sha256": "c7aeceac0e120d491a5d9ba744c795451d4534786819989f8a8da8e75eda689b"
+    "bytes": 913485,
+    "sha256": "da38d59877672ff607860ed25181c148d43060a4e5790d72e2b7f6dea1281527"
   },
   "docs/screenshots/v33/dashboard-1440x900.png": {
-    "bytes": 937925,
-    "sha256": "84313a6da727ef3f2044e5a38b0d7f389caf453178a4a22b5129e3ca7fb54a69"
+    "bytes": 940354,
+    "sha256": "12476b90a6175f6d57887b703e75644e5a47b140f8062aaaca27b3d515e04f5e"
   },
   "docs/screenshots/v33/dashboard-1920x1080.png": {
-    "bytes": 1069693,
-    "sha256": "8d7aac2f5fc7470ccfeab63ff1a57c01dd974506b5ec7daa5c7715793913b3dd"
+    "bytes": 1071792,
+    "sha256": "96ac72ea75fbb40e443c1682dfb37fb876c05ed161f4b6f479b283cc380c28fc"
   },
   "docs/screenshots/v33/dashboard-320x568.png": {
-    "bytes": 405861,
-    "sha256": "714f0980b02ab01daf54145bc03a93c1fd8c71173be8b7027e1e448145f1eb76"
+    "bytes": 324929,
+    "sha256": "f62cc2d059ef8b651efb6a4b9ee21c3bc1200b1020d2fae359f6bd489bb66f98"
   },
   "docs/screenshots/v33/dashboard-375x812.png": {
-    "bytes": 347003,
-    "sha256": "8b3c248320205bbb47b5b95f62fac0690088b93e675f71f0f5bd40fb56c7e0a4"
+    "bytes": 445084,
+    "sha256": "b698737e517dc3dd7597d72783ffcc136bb2c32ccd7640bab9700339f06541a1"
   },
   "docs/screenshots/v33/dashboard-390x844.png": {
-    "bytes": 351270,
-    "sha256": "7040cb49b201a0b4ef42146e316dd13778283710419eec123571a34deb2c6fe6"
+    "bytes": 454366,
+    "sha256": "4337febace6b8197dd78437edb689edf70ca981d1050618e7fc131d422593c8e"
   },
   "docs/screenshots/v33/dashboard-768x1024.png": {
-    "bytes": 495730,
-    "sha256": "7d21a9baa852532cffc67630835d51e18b78bbe99e81dcbe2c44e0567d55fb61"
+    "bytes": 497686,
+    "sha256": "5ec48d526f6e7c350ac555afc12d01be9a26e74167538284d3c532bccfbd95da"
   },
   "docs/screenshots/v33/dashboard-844x390.png": {
-    "bytes": 527404,
-    "sha256": "c4b8658c252a558759eb1c0843b4758622fade9d6324bfeb13f23ef0524dc081"
+    "bytes": 529202,
+    "sha256": "728970e8fad260f187deeabecf0c7e65964f9ff8418c631db52e17795b1e97ce"
   },
   "docs/screenshots/v33/dashboard-confirmed-podium-desktop.png": {
-    "bytes": 696632,
-    "sha256": "b544b6270b0eb679a8faceb19416751f9ec8f36ef28ab77a36199d732c3db81f"
+    "bytes": 699078,
+    "sha256": "735a3c904497f997baa6752032fca5d552120194219f524abaf094afcfa035c2"
   },
   "docs/screenshots/v33/dashboard-confirmed-podium-phone.png": {
-    "bytes": 346752,
-    "sha256": "b8c846b3b454456811d48b86a0b0b2954fc5b58647f5dc47620f119db1b6b4cc"
+    "bytes": 444538,
+    "sha256": "a62aad46c65b09b04f5a779348c95ed668ce16597e924ee6a220de55acf51c39"
   },
   "docs/screenshots/v33/exam-center-1440x900.png": {
     "bytes": 302662,
@@ -144,40 +144,40 @@
     "sha256": "17fc210b5e9570b8be256d6295f23986219d5d023e0ddac50f28a42d87a3a98f"
   },
   "docs/screenshots/v33/leader-dashboard-icons.png": {
-    "bytes": 422967,
-    "sha256": "231759d84698db1c3f68a4b678c5d42d2e4b98f097d6342b5973fd40a0cbac23"
+    "bytes": 425390,
+    "sha256": "bc7770bd3aa3be25df8546ad16a1751730347ae147def256f356ffa2f7a95efc"
   },
   "docs/screenshots/v33/leaders-dashboard-1366x768.png": {
-    "bytes": 412130,
-    "sha256": "51138d8d2be612abc221ed4500cd96cde8910c2268fbc17ddeee09c2b294526d"
+    "bytes": 414122,
+    "sha256": "240f99f91659e7b60a158d83116a5edbc00a01533d52aab9f4f10f3845643e63"
   },
   "docs/screenshots/v33/leaders-dashboard-1440x900.png": {
-    "bytes": 420132,
-    "sha256": "865463dacd4dbbdea66fbf05ba245d62eb43b6fea83de84e9198ca38a8c3ad3b"
+    "bytes": 422547,
+    "sha256": "d6c4a592b3b926541d7f59f12e4661f27b4c5c5ef9cdaec27eb1f9fbeefe1bd6"
   },
   "docs/screenshots/v33/leaders-dashboard-1920x1080.png": {
-    "bytes": 468011,
-    "sha256": "23ae3f68e7999e65814667e411a3f0a91b1d81d3a5accd60d6933fd79a15b48d"
+    "bytes": 469950,
+    "sha256": "d16e267440bc9b2d1780d9c15564c623a9f01377110ac5b29353212695d03de5"
   },
   "docs/screenshots/v33/leaders-dashboard-320x568.png": {
-    "bytes": 469734,
-    "sha256": "ff2aaae4da0b3636bcecb1664c52ea04648ad63684ef995af1637bd8f4cf96b6"
+    "bytes": 480865,
+    "sha256": "dc62a4c5141e65a1896006bf142c2717e6b0bae067d85654d8082268309f3a00"
   },
   "docs/screenshots/v33/leaders-dashboard-375x812.png": {
-    "bytes": 348051,
-    "sha256": "2ef16da858a56bbf7bcb4c88b990d7f01a5c15a9a8d3bc43765dee63a35f900b"
+    "bytes": 530860,
+    "sha256": "6b77a2c0052b143e2f31c7c4559caf424c01449dccb960fe85cc24a77ef0600c"
   },
   "docs/screenshots/v33/leaders-dashboard-390x844.png": {
-    "bytes": 540090,
-    "sha256": "ff5ea31d8bc6dee28dfdd9301531562431bfedbcaa5b3f3336d7c608dcd45c64"
+    "bytes": 365997,
+    "sha256": "4da0d4ee19dcefd0e6821bfab259de9103f78c05f1f05a98cab777d6d7b2757b"
   },
   "docs/screenshots/v33/leaders-dashboard-768x1024.png": {
-    "bytes": 367010,
-    "sha256": "0b3846cd9fcb24edf625750be9d93f5e98606e7188516a88fed5de61dd6c99e8"
+    "bytes": 368964,
+    "sha256": "81f1cb5526defbccddc56ee77e913b8293064f3c1105e4441ed9603ea52a2a18"
   },
   "docs/screenshots/v33/leaders-dashboard-844x390.png": {
-    "bytes": 384255,
-    "sha256": "9214a0e799b49a35901a613d702c0d61953b27cc53f7d53a15b6866e52bee308"
+    "bytes": 386177,
+    "sha256": "f32c3db6defe5ed0a274260f43bb909c6ef9a470395ff2d6d942400644563575"
   },
   "docs/screenshots/v33/library-1366x768.png": {
     "bytes": 541911,
@@ -252,48 +252,48 @@
     "sha256": "228d5f23f92903becdfe759abfe35a3715503a50909989fdd5950bd13276ded9"
   },
   "docs/screenshots/v33/rangers-dashboard-1366x768.png": {
-    "bytes": 906688,
-    "sha256": "214845068caf3d4d96043ff9202eff23b362afbfecce6cdafb2dd789c90d27c7"
+    "bytes": 908579,
+    "sha256": "347c2733dbc5ce9e9f76306c83f0cbb934cca5ef1080f2dd79a6ac867ca75426"
   },
   "docs/screenshots/v33/rangers-dashboard-1440x900.png": {
-    "bytes": 931833,
-    "sha256": "816ee30c9439534a2a6add4d21a2daab1878afde515b240035a131ccad65e567"
+    "bytes": 934273,
+    "sha256": "e35b52ae41d8631b6711074c736753b09873a2406c8ea0159ca71cae55a1a443"
   },
   "docs/screenshots/v33/rangers-dashboard-1920x1080.png": {
-    "bytes": 1064085,
-    "sha256": "c4d2c20a94371b6e53af06ff84dda2bf58c2faea0ccd8094e3afeed3082c0a14"
+    "bytes": 1066186,
+    "sha256": "73570b0e480e07dd0a09603f2d310966da8ff853b3843ed24b64059da9ff5054"
   },
   "docs/screenshots/v33/rangers-dashboard-320x568.png": {
-    "bytes": 404546,
-    "sha256": "4abddd67142659779e332d89ec71c23ec9a5735d387d2715d5d73fdd389a2e35"
+    "bytes": 323521,
+    "sha256": "c5ebfdb32cbf95b8a62f733c8e97f47c34a225fd94d592c2338d0fedab1e64ea"
   },
   "docs/screenshots/v33/rangers-dashboard-375x812.png": {
-    "bytes": 345552,
-    "sha256": "6e90ccc95ab1f493446342f1150b25d7a5581adf760ecbe9bdbbda42aabdf325"
+    "bytes": 443705,
+    "sha256": "3470f03eb19463498ba20c3b52a8769386987c29dff869ef17e76eac685b7fe4"
   },
   "docs/screenshots/v33/rangers-dashboard-390x844.png": {
-    "bytes": 349841,
-    "sha256": "adbf089d29ffca894560424498641ddfa1109a79afbcb63ea9850295941c4ad8"
+    "bytes": 453013,
+    "sha256": "4e85f17a9106e7c69908182714268c18f23b53ee152b53beefef8a89be639b26"
   },
   "docs/screenshots/v33/rangers-dashboard-768x1024.png": {
-    "bytes": 492357,
-    "sha256": "72052f721ffe01784400ee5247fa381d7ea14b4a122497e86f737f57127c4ca9"
+    "bytes": 494288,
+    "sha256": "b6fe9b3eb9ed4bbc992b6d52b5852c0c6a3239aee08892e09eb6c912284cc58f"
   },
   "docs/screenshots/v33/rangers-dashboard-844x390.png": {
-    "bytes": 524115,
-    "sha256": "867f73368885786d436bd9b83400ca742cb150bb7086ab0656e85144bf5c74f1"
+    "bytes": 526057,
+    "sha256": "269d27d842a0425b37313a05ee5048fba26bafbbd20c85040dfc85ab989137ee"
   },
   "docs/screenshots/v33/ranking-phone.png": {
     "bytes": 140015,
     "sha256": "ac6c03a423e7db58d2019bef02f95313bcb16903d81be5111f7bbdcd654faa82"
   },
   "docs/screenshots/v33/touch-read-320x568.png": {
-    "bytes": 37265,
-    "sha256": "287d2a5d0469a65863d350e79a1858682f7cc7ffe10f0ed3df055a7724425bd6"
+    "bytes": 35195,
+    "sha256": "1efbadf554b287d8f372ab74976b392401a58a332d8845c21a91ad64232e9ea4"
   },
   "docs/screenshots/v33/touch-read-390x844.png": {
-    "bytes": 45201,
-    "sha256": "331f0a202dec3d8cff053a3c7e989bdd008d2993229708fd777e08aeeae9416c"
+    "bytes": 47477,
+    "sha256": "d63676e2366a4a4958015520ffc992ac2b22acf324d7738357475643ba651073"
   },
   "docs/screenshots/v33/touch-read-768x1024.png": {
     "bytes": 100314,
@@ -310,5 +310,21 @@
   "docs/screenshots/v33/touch-registration-768x1024.png": {
     "bytes": 111571,
     "sha256": "e47767416fec5eaea025288157e50256abed8cd4b9b3f8de601e3f11d019f061"
+  },
+  "docs/screenshots/v33-review/dashboard-buch-abgeschlossen.png": {
+    "bytes": 118890,
+    "sha256": "e080241021b2cb14aa7de9c3a48dc513dfe94c48c5cb3200e94c0fb9ce9c065a"
+  },
+  "docs/screenshots/v33-review/dashboard-teilstand-wiederhergestellt.png": {
+    "bytes": 116820,
+    "sha256": "f1d472860afae4df08d7e41e04291f4ae2c4aa216504af76f57b0501d000a6a2"
+  },
+  "docs/screenshots/v33-review/leiter-desktop.png": {
+    "bytes": 661935,
+    "sha256": "786f82909f6fa02c9ace1f227d01e51bb144a694b8ac1c396e93a5e49c4a2692"
+  },
+  "docs/screenshots/v33-review/statistik-sortierung-mobil.png": {
+    "bytes": 85054,
+    "sha256": "c302da87962fb2634149ee22e165ff8009e91a072a7d382d9e93087d582100ce"
   }
 }

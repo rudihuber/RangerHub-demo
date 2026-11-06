@@ -22,7 +22,7 @@ In der Bibelreise öffnet der Buchkörper den Kapitelplan. Drei Kapitel in 1. Mo
 | Anwesenheit | Tatsächlich erfasste `ANWESEND`, `ABWESEND`, `ENTSCHULDIGT` in relevanten, bereits begonnenen und nicht abgesagten Ranger-Treffen. Entschuldigte zählen wie bisher im Nenner. Ranger-Durchschnitt = arithmetisches Mittel der ungerundeten Einzelquoten mit Nenner. Ohne Erfassung erscheint „—“. |
 | Wachstum | Vorhandenes `v24Count` für alle fünf Stufen einschließlich bestehender Aufgaben/Bonusregeln; kein 100-%-Wert bei 0/0. Profile bleiben die vorhandenen Profile. |
 | Punkte und Kapitel | Bestehendes bestätigtes Fachwissen-/Bibeljournal; Kapitelabdeckung aus den Buchdatensätzen. Rangliste und Bücher-/Kapitelwerte verwenden denselben Stand. Leiter erhalten nur für ihre berechtigten Ranger Kapitelstatistiken. |
-| Geburtstage | Bestehende aktive Personen mit hinterlegtem Datum, chronologisch für die nächsten 30 Tage, unter Beachtung des berechtigten Ranger-Bereichs. |
+| Geburtstage | Bestehende aktive Personen mit hinterlegtem Datum, chronologisch die fünf nächsten Geburtstage, unter Beachtung des berechtigten Ranger-Bereichs. |
 
 V31 ist im Repository als unveränderte Anwendung verfügbar. Planungsfelder und Schreibwege wurden aus der tatsächlich vorhandenen Implementierung übernommen. Es wurde keine zweite Aufgaben-, Rollen- oder Punktedatenbank eingeführt.
 
