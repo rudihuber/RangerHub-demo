@@ -1,0 +1,9 @@
+test_all_historic_files_preserved_and_build_hashes_match (test_v34_packaging.V34Packaging.test_all_historic_files_preserved_and_build_hashes_match) ... ok
+test_complete_before_edit_backup (test_v34_packaging.V34Packaging.test_complete_before_edit_backup) ... ok
+test_live_entry_storage_and_original_sources (test_v34_packaging.V34Packaging.test_live_entry_storage_and_original_sources) ... ok
+test_only_intended_inline_scripts_replaced_and_standalone_images_identical (test_v34_packaging.V34Packaging.test_only_intended_inline_scripts_replaced_and_standalone_images_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.302s
+
+OK

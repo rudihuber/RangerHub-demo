@@ -4,7 +4,21 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Aktueller Stand V33.1 – überprüfte Korrektur
+## Aktueller Stand V34 – kompaktes Dashboard und geordnete Vorlagen
+
+App öffnen: [RangerHub_Webapp_V34_Demo.html](RangerHub_Webapp_V34_Demo.html) oder `index.html`. [Öffentliche Browser-Demo](https://rudihuber.github.io/RangerHub-demo/?v=34).
+
+Originales Rangers-Wappen dauerhaft neben Ranger Hub; Bildmarkierungen in der Ranger-Bibliothek ausblendbar; Geburtstage untereinander. Naturphänomene alphabetisch und ohne Bibelstelle/Gesprächsfrage. Naturphänomene, Aktionen und Impulse erscheinen zwei Kalenderjahre nach der letzten Verwendung wieder als Vorlage. Rezepte haben Kategorien, Suche und Kategorieauswahl im Editor.
+
+Die Expedition zeigt alle fünf Stufen direkt im Bild. Kleinere Fachwissen-Labels und Buchrücken gelten für Mobil und Desktop. Die Dashboard-Bücher wechseln beim erneuten Aufrufen und über „Bücher wechseln“; Lesestand und vollständige Bibelbibliothek bleiben erhalten.
+
+- [Änderungen, Bedienung und Nachweise](docs/V34-UEBERGABE.md)
+- [Tests und Screenshots](docs/V34-TESTBERICHT.md)
+- [SHA-256](docs/V34-SHA256SUMS) und [gesicherte V33.1-Baseline](docs/v34-baseline.json)
+
+Start: `python -m http.server 8000`, danach `index.html`. `assets/` und `vendor/` mit ausliefern. Tests: `python tools/check_v34.py`. Speicher bleibt privat `rhv9`, Demo `rhv9-demo`. Die Demo speichert weiterhin im jeweiligen Browser; die produktive gemeinsame API ist unverändert nicht konfiguriert. Privater `main` bleibt bis zur Abnahme unverändert.
+
+## Archiv V33.1 – überprüfte Korrektur
 
 Nachprüfung des vollständigen Auftrags: Dashboard-Buchhaken, mobile Sortierung, Aufgaben-Zuordnung/-Status, Geburtstage und Veröffentlichung korrigiert. [Befunde und Nachprüfung](docs/V33.1-NACHPRUEFUNG.md).
 
