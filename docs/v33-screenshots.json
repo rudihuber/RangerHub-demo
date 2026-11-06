@@ -1,0 +1,314 @@
+{
+  "docs/screenshots/v33/AT-1366x768.png": {
+    "bytes": 879232,
+    "sha256": "5d3365dc8318b9858ae5bb8059cd2dc52e0335c95d7a7eff7fe0f5cca42bfd2e"
+  },
+  "docs/screenshots/v33/AT-1440x900.png": {
+    "bytes": 887792,
+    "sha256": "76d910e324201a7069c5db49ea307b6608d5cafdc17d838574475977467d2ae3"
+  },
+  "docs/screenshots/v33/AT-1920x1080.png": {
+    "bytes": 916680,
+    "sha256": "c4edf35d91d7c1891167ff0f70b9d2e5e2a307c151ee00261f47978578a6d929"
+  },
+  "docs/screenshots/v33/AT-320x568.png": {
+    "bytes": 592326,
+    "sha256": "8e516750a301ce32e8aef44bc4318a40aeaa2feeae301b5b89fd223fccd97b09"
+  },
+  "docs/screenshots/v33/AT-375x812.png": {
+    "bytes": 616738,
+    "sha256": "30a5d8ef07c0f0d964f6f84735c61ab359c048f9249415b8fe1c1fe420b07548"
+  },
+  "docs/screenshots/v33/AT-390x844.png": {
+    "bytes": 648743,
+    "sha256": "9dac7b3a241bce7974a579fb33df1e158893512b1ff9fd533c275924bc4fbb07"
+  },
+  "docs/screenshots/v33/AT-768x1024.png": {
+    "bytes": 644382,
+    "sha256": "40c1e5a1cb8bbb3f99f9c35648979cad8b6c368e37f7df565332fa21d5714861"
+  },
+  "docs/screenshots/v33/AT-844x390.png": {
+    "bytes": 656927,
+    "sha256": "ac26f08de6a15e3407ff4adfcfbe232b673782945bf78fe1e0c990fc7db24ff2"
+  },
+  "docs/screenshots/v33/NT-1366x768.png": {
+    "bytes": 720460,
+    "sha256": "904384c243b052a4b9596ae059610542812b903e57302d125bc0a9676b49ef11"
+  },
+  "docs/screenshots/v33/NT-1440x900.png": {
+    "bytes": 726251,
+    "sha256": "68c2a336670d4ecf661a44b7e340557984560721518ac81749f30b2322a6a0f0"
+  },
+  "docs/screenshots/v33/NT-1920x1080.png": {
+    "bytes": 658919,
+    "sha256": "608c5b993e28f1014aaf21bd1f4273e66b800e762520ea150ecf0ba1ecb7e7dd"
+  },
+  "docs/screenshots/v33/NT-320x568.png": {
+    "bytes": 412495,
+    "sha256": "7016588f303d496efe711ac58347d6652ab7514146972b18c8cd79ca18548382"
+  },
+  "docs/screenshots/v33/NT-375x812.png": {
+    "bytes": 503421,
+    "sha256": "d0ec993a3f34a764d6c67ddbbe3f9e81fab33c2f625c90d5713acb8d65c125e1"
+  },
+  "docs/screenshots/v33/NT-390x844.png": {
+    "bytes": 526748,
+    "sha256": "947f85e75f5ea6e86f053cafa9ec0927c786ffd477af0efcc850d8d38bba2110"
+  },
+  "docs/screenshots/v33/NT-768x1024.png": {
+    "bytes": 528001,
+    "sha256": "44a0716d00329788ebb12147e9598788b0a96dc3e3e47671ee2e476eb81cdbe7"
+  },
+  "docs/screenshots/v33/NT-844x390.png": {
+    "bytes": 539748,
+    "sha256": "fae3bb84cc772be2ed87a3c1db892d9a002bc3a82fd2ab4b6b94148f55219df0"
+  },
+  "docs/screenshots/v33/bible-AT-desktop.png": {
+    "bytes": 886718,
+    "sha256": "fd57d747edf4c91b4ecc124b4b81417f23651e9b5baa351993c2b62c1bbba5eb"
+  },
+  "docs/screenshots/v33/bible-chapters-6percent-desktop.png": {
+    "bytes": 179656,
+    "sha256": "2aa06776aadbecc348a2fa483f530f7437c69a8a31a2c51d672b2e48bbe27fa0"
+  },
+  "docs/screenshots/v33/bible-chapters-6percent-phone.png": {
+    "bytes": 46375,
+    "sha256": "a97a14481a41fef6441d7b94f49e271f7720dca7d1649f82ab234bba6dd57d98"
+  },
+  "docs/screenshots/v33/dashboard-1366x768.png": {
+    "bytes": 911384,
+    "sha256": "c7aeceac0e120d491a5d9ba744c795451d4534786819989f8a8da8e75eda689b"
+  },
+  "docs/screenshots/v33/dashboard-1440x900.png": {
+    "bytes": 937925,
+    "sha256": "84313a6da727ef3f2044e5a38b0d7f389caf453178a4a22b5129e3ca7fb54a69"
+  },
+  "docs/screenshots/v33/dashboard-1920x1080.png": {
+    "bytes": 1069693,
+    "sha256": "8d7aac2f5fc7470ccfeab63ff1a57c01dd974506b5ec7daa5c7715793913b3dd"
+  },
+  "docs/screenshots/v33/dashboard-320x568.png": {
+    "bytes": 405861,
+    "sha256": "714f0980b02ab01daf54145bc03a93c1fd8c71173be8b7027e1e448145f1eb76"
+  },
+  "docs/screenshots/v33/dashboard-375x812.png": {
+    "bytes": 347003,
+    "sha256": "8b3c248320205bbb47b5b95f62fac0690088b93e675f71f0f5bd40fb56c7e0a4"
+  },
+  "docs/screenshots/v33/dashboard-390x844.png": {
+    "bytes": 351270,
+    "sha256": "7040cb49b201a0b4ef42146e316dd13778283710419eec123571a34deb2c6fe6"
+  },
+  "docs/screenshots/v33/dashboard-768x1024.png": {
+    "bytes": 495730,
+    "sha256": "7d21a9baa852532cffc67630835d51e18b78bbe99e81dcbe2c44e0567d55fb61"
+  },
+  "docs/screenshots/v33/dashboard-844x390.png": {
+    "bytes": 527404,
+    "sha256": "c4b8658c252a558759eb1c0843b4758622fade9d6324bfeb13f23ef0524dc081"
+  },
+  "docs/screenshots/v33/dashboard-confirmed-podium-desktop.png": {
+    "bytes": 696632,
+    "sha256": "b544b6270b0eb679a8faceb19416751f9ec8f36ef28ab77a36199d732c3db81f"
+  },
+  "docs/screenshots/v33/dashboard-confirmed-podium-phone.png": {
+    "bytes": 346752,
+    "sha256": "b8c846b3b454456811d48b86a0b0b2954fc5b58647f5dc47620f119db1b6b4cc"
+  },
+  "docs/screenshots/v33/exam-center-1440x900.png": {
+    "bytes": 302662,
+    "sha256": "9047e36d24dcd43f2db0f950a7e21ace5ac38728673cb05ec38f3af9f5eb630a"
+  },
+  "docs/screenshots/v33/exam-center-320x568.png": {
+    "bytes": 183133,
+    "sha256": "b3bd23cb90da10861da5fed51eea4729638ba34f83b13c4cd218ff3deb52b9df"
+  },
+  "docs/screenshots/v33/exam-center-390x844.png": {
+    "bytes": 198440,
+    "sha256": "48ccdc26d2951e7ae13d7ace278c730695736ee8bd72bf8be4393422b7f195bd"
+  },
+  "docs/screenshots/v33/exam-center-768x1024.png": {
+    "bytes": 310353,
+    "sha256": "acb3f46b9f491c703219360b103d3eb59aaf80ddc3d47cab35ddc962b0070388"
+  },
+  "docs/screenshots/v33/growth-1440x900.png": {
+    "bytes": 535003,
+    "sha256": "6a88476dd1e448df037dcf12d7907b56f9e0f533fc2d53a1ea725820cf5a810d"
+  },
+  "docs/screenshots/v33/growth-320x568.png": {
+    "bytes": 222825,
+    "sha256": "d214afd68190934f83ed06402b5e1eece30b7737659b0cfd45cad4ab1ae265dc"
+  },
+  "docs/screenshots/v33/growth-390x844.png": {
+    "bytes": 323820,
+    "sha256": "17fc210b5e9570b8be256d6295f23986219d5d023e0ddac50f28a42d87a3a98f"
+  },
+  "docs/screenshots/v33/leader-dashboard-icons.png": {
+    "bytes": 422967,
+    "sha256": "231759d84698db1c3f68a4b678c5d42d2e4b98f097d6342b5973fd40a0cbac23"
+  },
+  "docs/screenshots/v33/leaders-dashboard-1366x768.png": {
+    "bytes": 412130,
+    "sha256": "51138d8d2be612abc221ed4500cd96cde8910c2268fbc17ddeee09c2b294526d"
+  },
+  "docs/screenshots/v33/leaders-dashboard-1440x900.png": {
+    "bytes": 420132,
+    "sha256": "865463dacd4dbbdea66fbf05ba245d62eb43b6fea83de84e9198ca38a8c3ad3b"
+  },
+  "docs/screenshots/v33/leaders-dashboard-1920x1080.png": {
+    "bytes": 468011,
+    "sha256": "23ae3f68e7999e65814667e411a3f0a91b1d81d3a5accd60d6933fd79a15b48d"
+  },
+  "docs/screenshots/v33/leaders-dashboard-320x568.png": {
+    "bytes": 469734,
+    "sha256": "ff2aaae4da0b3636bcecb1664c52ea04648ad63684ef995af1637bd8f4cf96b6"
+  },
+  "docs/screenshots/v33/leaders-dashboard-375x812.png": {
+    "bytes": 348051,
+    "sha256": "2ef16da858a56bbf7bcb4c88b990d7f01a5c15a9a8d3bc43765dee63a35f900b"
+  },
+  "docs/screenshots/v33/leaders-dashboard-390x844.png": {
+    "bytes": 540090,
+    "sha256": "ff5ea31d8bc6dee28dfdd9301531562431bfedbcaa5b3f3336d7c608dcd45c64"
+  },
+  "docs/screenshots/v33/leaders-dashboard-768x1024.png": {
+    "bytes": 367010,
+    "sha256": "0b3846cd9fcb24edf625750be9d93f5e98606e7188516a88fed5de61dd6c99e8"
+  },
+  "docs/screenshots/v33/leaders-dashboard-844x390.png": {
+    "bytes": 384255,
+    "sha256": "9214a0e799b49a35901a613d702c0d61953b27cc53f7d53a15b6866e52bee308"
+  },
+  "docs/screenshots/v33/library-1366x768.png": {
+    "bytes": 541911,
+    "sha256": "f01e8cdcacefdeee0e9158f6a0a7823bd2304a699c960ac7964272781f47d9fc"
+  },
+  "docs/screenshots/v33/library-1440x900.png": {
+    "bytes": 666312,
+    "sha256": "8f885b1b3c5861afc15552fa40b130dd17e9d3af1944fffdea5a588b83415d8e"
+  },
+  "docs/screenshots/v33/library-1920x1080.png": {
+    "bytes": 869344,
+    "sha256": "b0240a7b932dfff5921d04e704941224951e94284197a0623cdf7edc7b463608"
+  },
+  "docs/screenshots/v33/library-320x568.png": {
+    "bytes": 298196,
+    "sha256": "dd4540e69cc1ca5b96dda2dd674ed809d43b14db238c3e070ad826bca532dcdf"
+  },
+  "docs/screenshots/v33/library-375x812.png": {
+    "bytes": 292141,
+    "sha256": "288614ad71beb8b90ebaadb85adcaa31f9dc732b7a16bbcd0e7bf801ca227ee5"
+  },
+  "docs/screenshots/v33/library-390x844.png": {
+    "bytes": 292916,
+    "sha256": "0c9e6727d217dddfec353e42d780bac9a083ba5ac3f96792101f4af352d1bc14"
+  },
+  "docs/screenshots/v33/library-768x1024.png": {
+    "bytes": 344279,
+    "sha256": "acdf940f7b41ee579e3ff6ca6c787012609765c349915a5380d7c20d51643101"
+  },
+  "docs/screenshots/v33/library-844x390.png": {
+    "bytes": 417359,
+    "sha256": "f6eed49b916ea6d02522237eab8220f1fbccd97a5acffd433f76b79b03fdba22"
+  },
+  "docs/screenshots/v33/library-eigenschaften-desktop.png": {
+    "bytes": 446100,
+    "sha256": "9bff41d3dfe469b877307771e0941e8b26d0512a2084b08901dbf933219eb6de"
+  },
+  "docs/screenshots/v33/library-emblem-desktop.png": {
+    "bytes": 375057,
+    "sha256": "d4bc810d16ad1ea196fe514f733d872a0f83fa2b3c1c36f8246348b28b5526e3"
+  },
+  "docs/screenshots/v33/library-gruss-desktop.png": {
+    "bytes": 357606,
+    "sha256": "3580c7ab3ada9f37bc72eb7b865cdd85e270e60f1b8f0a18b14e782d0299a3d5"
+  },
+  "docs/screenshots/v33/library-gruss-phone.png": {
+    "bytes": 272302,
+    "sha256": "b850fddce886e237f3b5d6994e0ef31e824e11058e30b6407ab495685175d89e"
+  },
+  "docs/screenshots/v33/library-kluft-desktop.png": {
+    "bytes": 448149,
+    "sha256": "adc7da51bf6e1740ce5a9c9277db0b8c60917b8a335746164e7aeb79e534e865"
+  },
+  "docs/screenshots/v33/library-lilie-desktop.png": {
+    "bytes": 284643,
+    "sha256": "094b29cc8baa6f4215d880224d03654af5b4449546c4233e8f1faeb55f4536ed"
+  },
+  "docs/screenshots/v33/library-motto-desktop.png": {
+    "bytes": 252843,
+    "sha256": "65b62dc019e16b99e259656802e2f3cef1b8fe7a0b294247d28992a97b046ef6"
+  },
+  "docs/screenshots/v33/library-schlaufen-desktop.png": {
+    "bytes": 418974,
+    "sha256": "277a8a5347e29a6013d14c82e3d256ea8aaba8934ae6fdebef440f4d78ab3f58"
+  },
+  "docs/screenshots/v33/library-teamhelfer-desktop.png": {
+    "bytes": 522749,
+    "sha256": "e100771d206f0ffec7a82a7e9e0d30222d316aa6cc9caa248d6aa0d642b6aab4"
+  },
+  "docs/screenshots/v33/navigation-leader-phone.png": {
+    "bytes": 40081,
+    "sha256": "228d5f23f92903becdfe759abfe35a3715503a50909989fdd5950bd13276ded9"
+  },
+  "docs/screenshots/v33/rangers-dashboard-1366x768.png": {
+    "bytes": 906688,
+    "sha256": "214845068caf3d4d96043ff9202eff23b362afbfecce6cdafb2dd789c90d27c7"
+  },
+  "docs/screenshots/v33/rangers-dashboard-1440x900.png": {
+    "bytes": 931833,
+    "sha256": "816ee30c9439534a2a6add4d21a2daab1878afde515b240035a131ccad65e567"
+  },
+  "docs/screenshots/v33/rangers-dashboard-1920x1080.png": {
+    "bytes": 1064085,
+    "sha256": "c4d2c20a94371b6e53af06ff84dda2bf58c2faea0ccd8094e3afeed3082c0a14"
+  },
+  "docs/screenshots/v33/rangers-dashboard-320x568.png": {
+    "bytes": 404546,
+    "sha256": "4abddd67142659779e332d89ec71c23ec9a5735d387d2715d5d73fdd389a2e35"
+  },
+  "docs/screenshots/v33/rangers-dashboard-375x812.png": {
+    "bytes": 345552,
+    "sha256": "6e90ccc95ab1f493446342f1150b25d7a5581adf760ecbe9bdbbda42aabdf325"
+  },
+  "docs/screenshots/v33/rangers-dashboard-390x844.png": {
+    "bytes": 349841,
+    "sha256": "adbf089d29ffca894560424498641ddfa1109a79afbcb63ea9850295941c4ad8"
+  },
+  "docs/screenshots/v33/rangers-dashboard-768x1024.png": {
+    "bytes": 492357,
+    "sha256": "72052f721ffe01784400ee5247fa381d7ea14b4a122497e86f737f57127c4ca9"
+  },
+  "docs/screenshots/v33/rangers-dashboard-844x390.png": {
+    "bytes": 524115,
+    "sha256": "867f73368885786d436bd9b83400ca742cb150bb7086ab0656e85144bf5c74f1"
+  },
+  "docs/screenshots/v33/ranking-phone.png": {
+    "bytes": 140015,
+    "sha256": "ac6c03a423e7db58d2019bef02f95313bcb16903d81be5111f7bbdcd654faa82"
+  },
+  "docs/screenshots/v33/touch-read-320x568.png": {
+    "bytes": 37265,
+    "sha256": "287d2a5d0469a65863d350e79a1858682f7cc7ffe10f0ed3df055a7724425bd6"
+  },
+  "docs/screenshots/v33/touch-read-390x844.png": {
+    "bytes": 45201,
+    "sha256": "331f0a202dec3d8cff053a3c7e989bdd008d2993229708fd777e08aeeae9416c"
+  },
+  "docs/screenshots/v33/touch-read-768x1024.png": {
+    "bytes": 100314,
+    "sha256": "eb13b56cae42354ddb87218c2737173a7b2d082e8262887d3b27f693678ee0f4"
+  },
+  "docs/screenshots/v33/touch-registration-320x568.png": {
+    "bytes": 39450,
+    "sha256": "784c25e653bef1fb5e02dce8b12b7bebf10c8c204efd02cb35e0d6af2d8aa3e4"
+  },
+  "docs/screenshots/v33/touch-registration-390x844.png": {
+    "bytes": 62211,
+    "sha256": "b97799c94ff1787f20ef816ea41196538b4de1e5cc07db665a4fce89da84d036"
+  },
+  "docs/screenshots/v33/touch-registration-768x1024.png": {
+    "bytes": 111571,
+    "sha256": "e47767416fec5eaea025288157e50256abed8cd4b9b3f8de601e3f11d019f061"
+  }
+}

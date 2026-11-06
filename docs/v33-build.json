@@ -1,0 +1,243 @@
+{
+  "version": 33,
+  "files": {
+    "index.html": {
+      "bytes": 222398,
+      "sha256": "120a702a487b07ac9ee24c84fe6c97b088081624edd1526882be2d1517d29f2b"
+    },
+    "RangerHub_Webapp_V33_Demo.html": {
+      "bytes": 222398,
+      "sha256": "120a702a487b07ac9ee24c84fe6c97b088081624edd1526882be2d1517d29f2b"
+    },
+    "rangerhub-bible-chapters-v33.js": {
+      "bytes": 5500,
+      "sha256": "7cf14976ba45dc546c5d8c130f7917cefcdc822d5d73250ae733144dbb1134a8"
+    },
+    "rangerhub-wisdom-catalog-v33.js": {
+      "bytes": 53810,
+      "sha256": "71b116c0a383ef8a87224748f0602c4058b69955328c1c562134a772508cb9ca"
+    },
+    "rangerhub-bible-views-v33.js": {
+      "bytes": 13170,
+      "sha256": "ae787785b5842411e32888ae56f32fc61164c7d92f171202dc019041535d97ce"
+    },
+    "rangerhub-wisdom-views-v33.js": {
+      "bytes": 12855,
+      "sha256": "88b097d75c2d420df406aa97e951c5197f66a74ae183ab15fcfce20cc36dc3d0"
+    },
+    "rangerhub-dashboard-v33.js": {
+      "bytes": 39935,
+      "sha256": "08bfda0ede0ec75fadfd52ba7dca0a7de332db1d142f36e4a37a49a84163708b"
+    },
+    "rangerhub-navigation-v33.js": {
+      "bytes": 17305,
+      "sha256": "c1f75d28a0d63e159e8ff03ca41bea72455b716fb5de20b3dc586833edd182c4"
+    },
+    "rangerhub-knowledge-v33.js": {
+      "bytes": 45972,
+      "sha256": "980e73704419a6d866ebe3f9f07f2a8e432eaa2a79ddfbfeac016a26dd0c1d4f"
+    },
+    "rangerhub-bible-v33.css": {
+      "bytes": 4095,
+      "sha256": "6117455e9b6133d5ee0a9807e2e4ed548c5787f058abda4c202e4cf1d1b3909f"
+    },
+    "rangerhub-wisdom-v33.css": {
+      "bytes": 9070,
+      "sha256": "d8ddc9e55b9198462d88b833033a04dccbd4f4134c32d2443fb43dd689e108c5"
+    },
+    "rangerhub-dashboard-v33.css": {
+      "bytes": 27589,
+      "sha256": "bad5174df6a62b5bee43d9d5253f331c768f1f2ef3a44484d77a45235b2f6aa0"
+    },
+    "rangerhub-navigation-v33.css": {
+      "bytes": 9811,
+      "sha256": "6466f3639438d7e8b16007c0aa707701fd6ca36e0103ed460a708510126ab8c0"
+    },
+    "data/ranger-wissen-content-v33.json": {
+      "bytes": 51297,
+      "sha256": "b817f5506e0e95a5912462ff079308fd640b0da79bff13be30114715eba22df2"
+    },
+    "data/library-source-map-v33.json": {
+      "bytes": 145444,
+      "sha256": "d5784125d49aced251073657d688bf14377f8d0d44bb72bebd9f6b99f13c5d75"
+    },
+    "backend/knowledge-server.mjs": {
+      "bytes": 19498,
+      "sha256": "796017ae7b636552542d20d00173052b31fe5514a12667de6357fbf7da584195"
+    },
+    "assets/ranger-library/lb4-0101e8164ee2.webp": {
+      "bytes": 116966,
+      "sha256": "37b9f67d887f194723938c3f03b503dfba477a99965cee4427216f3af58bea28"
+    },
+    "assets/ranger-library/lb4-0dd46107faeb.webp": {
+      "bytes": 7556,
+      "sha256": "f0eab0bcd99c90fb50dfc48723dfe30b6e3444f64326c357e00a1d785ddcdb35"
+    },
+    "assets/ranger-library/lb4-0debd67cb2de.webp": {
+      "bytes": 43448,
+      "sha256": "6cf7376a2f484e9bbf0c4172750ccd6f4910c008b9bb15891ec375680c101c65"
+    },
+    "assets/ranger-library/lb4-0f15ed77bc13.webp": {
+      "bytes": 14464,
+      "sha256": "c695d8767a6e95398d9891d987507a590eb635b9024c10d3f139240795bf4833"
+    },
+    "assets/ranger-library/lb4-119716e37b19.webp": {
+      "bytes": 23394,
+      "sha256": "7ec6847ffc2d433c83b55e68fd35da7652320925ab8b1409cc305f838e6414ba"
+    },
+    "assets/ranger-library/lb4-133d75ce3432.webp": {
+      "bytes": 44502,
+      "sha256": "9666a61ef3e559cc5cd1431a3e13733d6c94fe89136a815d2164f09117fd67fa"
+    },
+    "assets/ranger-library/lb4-1a65d81eab70.webp": {
+      "bytes": 39912,
+      "sha256": "bfd89a527e9e940fce8483759521bd3428b301eba62d341242d7b71e7ab3b1db"
+    },
+    "assets/ranger-library/lb4-1a817b686ad0.webp": {
+      "bytes": 719802,
+      "sha256": "186cf6e58929a3c85a93f85e3f4013787122e6c41c8f3eb42c2f1e97d0bf55f6"
+    },
+    "assets/ranger-library/lb4-240217571aa9.webp": {
+      "bytes": 311522,
+      "sha256": "40e7a16782c3c87b7e5d67e503638ffe1ad2f1998aeaabf3ee4ab695ae4473b1"
+    },
+    "assets/ranger-library/lb4-2c02f432f4be.webp": {
+      "bytes": 189522,
+      "sha256": "76d7de9fa643f40cc69ebbb98c7ddc5213e1facbe4da2acc42abf9a001361d46"
+    },
+    "assets/ranger-library/lb4-2fc2db0f6470.webp": {
+      "bytes": 10352,
+      "sha256": "66bf20b4d52b3d3499a84968f845024cbc5ab4ce65ddd680d6ce245a107c524b"
+    },
+    "assets/ranger-library/lb4-347c08ad5458.webp": {
+      "bytes": 778574,
+      "sha256": "e37a74aab06cd4b6c50a493d948c545b787d45069d52c8330adfa173fa6e4148"
+    },
+    "assets/ranger-library/lb4-35d08f17cb8b.webp": {
+      "bytes": 44452,
+      "sha256": "d31666d03670ce7f4cbeb0e309685e79208a942c76e7948ecbc24ab11c1b146d"
+    },
+    "assets/ranger-library/lb4-3f7eae6cb451.webp": {
+      "bytes": 214788,
+      "sha256": "6e573b5c7bf7baf00a74e0d4affe07daa1a7466e8598b27beb8570fc4adee395"
+    },
+    "assets/ranger-library/lb4-401bcdba8ab1.webp": {
+      "bytes": 396986,
+      "sha256": "18a3843146f4cffa9bf921b58cefa9fa8cb394c6e0b18c70b5a98c89404581e2"
+    },
+    "assets/ranger-library/lb4-485360d5e55e.webp": {
+      "bytes": 37876,
+      "sha256": "b9099c22fc6e9740460689675356cedeaca15d83f98f1a570daef742df20b151"
+    },
+    "assets/ranger-library/lb4-4b4c01636d5f.webp": {
+      "bytes": 144734,
+      "sha256": "530e7dc47d511a1849aebc9e13d3b1a25d6853b6a8589b65953b21ded3347a2d"
+    },
+    "assets/ranger-library/lb4-4d07b3d50394.webp": {
+      "bytes": 7984,
+      "sha256": "b02603b15bc3e54b2ca0270ccbeceeab3e9478ae0b786309c761b684f2c0b0a3"
+    },
+    "assets/ranger-library/lb4-51536b0cf4e2.webp": {
+      "bytes": 259676,
+      "sha256": "a55b080e4a0c2ebd43a7deb434cf9309b9483d9c20b993dfdc518a386a694780"
+    },
+    "assets/ranger-library/lb4-5acbad2f129e.webp": {
+      "bytes": 41622,
+      "sha256": "a0dad4e28bb7c430123da957c908e3c5fcadb046b321fc602141a1ebc4e2b3b1"
+    },
+    "assets/ranger-library/lb4-5ef8b1f8166c.webp": {
+      "bytes": 14952,
+      "sha256": "88fb90edad9895bcb2332e5e76b43611b3e2429f8fa0dc1a69455105df5c6c7d"
+    },
+    "assets/ranger-library/lb4-69acb08cba0b.webp": {
+      "bytes": 353254,
+      "sha256": "26ed715e86926ff379f0bf39771932160bb88a94a8eaf584445e129ab1ba78eb"
+    },
+    "assets/ranger-library/lb4-6d7d07430474.webp": {
+      "bytes": 6050,
+      "sha256": "d832e381235e9593020d838edb6a4c73bab7b7af604056829ab90d04101ca703"
+    },
+    "assets/ranger-library/lb4-75555611fbd6.webp": {
+      "bytes": 54096,
+      "sha256": "8ef8d1e5c6e9f232daa42a21837ec1d3ed0ea858b1e7b5f03d4eaa77213e0faa"
+    },
+    "assets/ranger-library/lb4-7ed8c971745c.webp": {
+      "bytes": 73124,
+      "sha256": "f5072845e43cd857c87ecd1566c23a2e2e0283502a1760f2f6e241b7a3d4e50a"
+    },
+    "assets/ranger-library/lb4-82e97b364c19.webp": {
+      "bytes": 37640,
+      "sha256": "718219fca28fd52fa972da1e5b13419fe5878607927e4702d69be7046e92653a"
+    },
+    "assets/ranger-library/lb4-83e1ce65c94e.webp": {
+      "bytes": 388056,
+      "sha256": "7fa9948d1a685a9a68cd7f50698a657c0f7a31fbf5c969e01d504e532123a5de"
+    },
+    "assets/ranger-library/lb4-8c2c090313d8.webp": {
+      "bytes": 140486,
+      "sha256": "0a4655443085c3666c0c5dc0aef7b91c2e7a5702a13a582cc96f401397d6e1f4"
+    },
+    "assets/ranger-library/lb4-aa701e9c5207.webp": {
+      "bytes": 315666,
+      "sha256": "b47ceaf35e5be8c2585eec33bd764a34c23440f65a702390682fd9fc8ce3d92b"
+    },
+    "assets/ranger-library/lb4-b254bfb29f23.webp": {
+      "bytes": 41442,
+      "sha256": "d3bcf84c8f5bec265ab3fa9c108c316be83ad0a689b3a8d79be8350dad70f7c6"
+    },
+    "assets/ranger-library/lb4-b614e847b228.webp": {
+      "bytes": 84870,
+      "sha256": "b0247ad02f527e6888316320f9cc791023ce9ed3368e16035c92dba6b5bf3900"
+    },
+    "assets/ranger-library/lb4-bd3c55c2d0b2.webp": {
+      "bytes": 19222,
+      "sha256": "12401fa0d2f5ee666b2f1b634674be43a0e445ca72989d049d71421316a48e68"
+    },
+    "assets/ranger-library/lb4-bffe925a33ea.webp": {
+      "bytes": 43604,
+      "sha256": "e84a90198d7bd4bae6f83baaed99f71f741b30345454d400fbff0659f449394c"
+    },
+    "assets/ranger-library/lb4-c3456da94df4.webp": {
+      "bytes": 54322,
+      "sha256": "6ef6607a5ea44738a03aba00e8fc7987d396cc8f6b19017edce2f2f8ba11a1d0"
+    },
+    "assets/ranger-library/lb4-c371c35beb4b.webp": {
+      "bytes": 359888,
+      "sha256": "13872fa31002d57c9e07ca6b40ac9ac1ad0c0938525f762c2d3493e582ee83ef"
+    },
+    "assets/ranger-library/lb4-c689756b8c3a.webp": {
+      "bytes": 24292,
+      "sha256": "58aaa8ae8c3da3de87ad0b4c7a457ae15020b216365c0e135b22b52e2e1a2336"
+    },
+    "assets/ranger-library/lb4-c6d7aedab690.webp": {
+      "bytes": 84622,
+      "sha256": "6f609ab44694c7fa0e20a62a79013fff100c5bdea7ea5309324157141ec7cf53"
+    },
+    "assets/ranger-library/lb4-d65f9dd76ebb.webp": {
+      "bytes": 250108,
+      "sha256": "d450174771beaa592e59e55865f03c3740321abb3d38eedc8da39afce3304e7c"
+    },
+    "assets/ranger-library/lb4-e2949dc89172.webp": {
+      "bytes": 25852,
+      "sha256": "dc3dc37225cfeb351a1c14fd6c5acfc43ad80364af6c1e67fd7bd87a861fa485"
+    },
+    "assets/ranger-library/lb4-ef677cc7cda1.webp": {
+      "bytes": 283348,
+      "sha256": "93f5a10f9f2db292f11755cf630ba86674d5a8197df8022261d3b910cb61e0cc"
+    },
+    "assets/ranger-library/lb4-f1e14b1bd407.webp": {
+      "bytes": 7622,
+      "sha256": "f17d3a7be6c2e7688f9bb94a34a13707faaf5ab1138ce27238ef90d123042555"
+    },
+    "assets/ranger-library/lb4-f3cf33f3cba0.webp": {
+      "bytes": 49004,
+      "sha256": "4b2d1a75d813068a22da61a62dfd59b84546c338d319e4105a6ff7ba54ac2e95"
+    },
+    "assets/ranger-library/lb4-f5e52930f3ef.webp": {
+      "bytes": 342430,
+      "sha256": "133f9f772d685b0fd6cfd3480a7deb2d79d8eb1f5ef1a43d7dacb62fb6b28e90"
+    }
+  },
+  "bundledPDFs": 0,
+  "source_original_images": 43
+}

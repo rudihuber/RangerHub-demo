@@ -4,7 +4,21 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Aktueller Stand V32 – Ranger-Wissen und geordnetes Dashboard
+## Aktueller Stand V33 – Leiter-Cockpit und Originalbibliothek
+
+App öffnen: [RangerHub_Webapp_V33_Demo.html](RangerHub_Webapp_V33_Demo.html) oder `index.html`. [Öffentliche Browser-Demo](https://rudihuber.github.io/RangerHub-demo/?v=33).
+
+Neue Rollen-Navigation, Leiter-Arbeitszentrale mit echten Planungsaufgaben und Quoten, Ranger-Dashboard mit allen fünf Stufen und 66 Buchrücken. Die Bibelreise enthält 1.189 einzeln markierbare Kapitel bei unveränderten 240 Buchpunkten. Ranger-Bibliothek verwendet ausschließlich Texte und 43 Originalgrafiken aus der neu gelieferten Logbuch-Ausgabe(4); vorhandene Bearbeitungen und Freigaben bleiben erhalten.
+
+- [Übergabe, Datenquellen und Sicherung](docs/V33-UEBERGABE.md)
+- [Tests und Desktop-/Mobil-Screenshots](docs/V33-TESTBERICHT.md)
+- [Originalgrafiken und Quellzuordnung](docs/V33-BIBLIOTHEK-QUELLEN.md)
+- [Backend und noch offene Produktiveinrichtung](docs/V33-BACKEND.md)
+- [SHA-256](docs/V33-SHA256SUMS) und [unveränderte V32-Baseline](docs/v33-baseline.json)
+
+Start: `python -m http.server 8000`, danach `index.html`. `assets/` und `vendor/` mit ausliefern. Aktuelle Tests: `python tools/check_v33.py` mit Playwright/Chromium und Node 24. Bestehender Speicher bleibt privat `rhv9`, Demo `rhv9-demo`. Die öffentliche Demo speichert weiterhin lokal im Browserprofil; die gemeinsame API ist getestet, aber nicht produktiv konfiguriert. Der private `main` bleibt bis zur Abnahme unverändert.
+
+## Archiv V32 – Ranger-Wissen und geordnetes Dashboard
 
 App direkt öffnen: [RangerHub_Webapp_V32_Demo.html](RangerHub_Webapp_V32_Demo.html), ebenfalls über `index.html`. Unveränderte Vorversion: V31. Öffentliche Browser-Vorschau: https://rudihuber.github.io/RangerHub-demo/ .
 

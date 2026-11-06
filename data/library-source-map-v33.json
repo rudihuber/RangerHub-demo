@@ -1,0 +1,4284 @@
+{
+  "source": "Logbuch Ausgabe(4).pdf",
+  "manifest_declared_full_pdf_sha256": "8bf79683d14998ffc0ea35451c48598c89198e0789e66dd128595c247d5b0b1c",
+  "uploaded_subset_sha256": "a3ba40194e3e1356af9e070ffb9f04bad3c012b13ebcd858c84975a393da9d30",
+  "note": "Full PDF is not uploaded separately: full-source hash is the supplied manifest declaration. Every asset is independently derived from the uploaded 11-page original subset; xref renumbering is mapped by page, dimensions and positions.",
+  "assets": [
+    {
+      "key": "lb4-1a817b686ad0",
+      "file": "assets/ranger-library/lb4-1a817b686ad0.webp",
+      "original_manifest_file": "pdf_04_originalbild_960.webp",
+      "kind": "embedded-original",
+      "pdf_page": 4,
+      "printed_pages": "6-7",
+      "bytes": 719802,
+      "sha256": "186cf6e58929a3c85a93f85e3f4013787122e6c41c8f3eb42c2f1e97d0bf55f6",
+      "original_xref": 960,
+      "subset_xref": 22,
+      "raw_pixel_sha256": "ac2823dfa2867a3a356f12b71030eebff7ccd0fbd3d2ee07561a17a41035d65c",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          -1.040863037109375,
+          231.40188598632812,
+          228.01019287109375,
+          483.1531677246094
+        ]
+      ]
+    },
+    {
+      "key": "lb4-8c2c090313d8",
+      "file": "assets/ranger-library/lb4-8c2c090313d8.webp",
+      "original_manifest_file": "pdf_04_originalbild_961.webp",
+      "kind": "embedded-original",
+      "pdf_page": 4,
+      "printed_pages": "6-7",
+      "bytes": 140486,
+      "sha256": "0a4655443085c3666c0c5dc0aef7b91c2e7a5702a13a582cc96f401397d6e1f4",
+      "original_xref": 961,
+      "subset_xref": 24,
+      "raw_pixel_sha256": "862de39767b1b3263e435e13c072650557c3c2ff5df521015662d9fc0a5cf251",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          647.3184814453125,
+          153.54373168945312,
+          801.1035766601562,
+          335.2333984375
+        ]
+      ]
+    },
+    {
+      "key": "lb4-c6d7aedab690",
+      "file": "assets/ranger-library/lb4-c6d7aedab690.webp",
+      "original_manifest_file": "pdf_05_originalbild_963.webp",
+      "kind": "embedded-original",
+      "pdf_page": 5,
+      "printed_pages": "8-9",
+      "bytes": 84622,
+      "sha256": "6f609ab44694c7fa0e20a62a79013fff100c5bdea7ea5309324157141ec7cf53",
+      "original_xref": 963,
+      "subset_xref": 34,
+      "raw_pixel_sha256": "02439a51e6f858465365951309e98b2b9b5741bb4a4110d33b80a4a7a875c56e",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          48.35089111328125,
+          470.02349853515625,
+          121.23101043701172,
+          542.9036254882812
+        ]
+      ]
+    },
+    {
+      "key": "lb4-7ed8c971745c",
+      "file": "assets/ranger-library/lb4-7ed8c971745c.webp",
+      "original_manifest_file": "pdf_05_originalbild_964.webp",
+      "kind": "embedded-original",
+      "pdf_page": 5,
+      "printed_pages": "8-9",
+      "bytes": 73124,
+      "sha256": "f5072845e43cd857c87ecd1566c23a2e2e0283502a1760f2f6e241b7a3d4e50a",
+      "original_xref": 964,
+      "subset_xref": 35,
+      "raw_pixel_sha256": "08a5c0570f2b6e830178c393ae78f909b88324371eedaf0081041fd1717b08f5",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          297.0695495605469,
+          489.90087890625,
+          361.037841796875,
+          553.8692016601562
+        ]
+      ]
+    },
+    {
+      "key": "lb4-3f7eae6cb451",
+      "file": "assets/ranger-library/lb4-3f7eae6cb451.webp",
+      "original_manifest_file": "pdf_05_originalbild_965.webp",
+      "kind": "embedded-original",
+      "pdf_page": 5,
+      "printed_pages": "8-9",
+      "bytes": 214788,
+      "sha256": "6e573b5c7bf7baf00a74e0d4affe07daa1a7466e8598b27beb8570fc4adee395",
+      "original_xref": 965,
+      "subset_xref": 36,
+      "raw_pixel_sha256": "4d6a8cadd3daf29a2218c3fbdd164a71a96eecf29eeea00256397b99e9344266",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          286.2819519042969,
+          149.68527221679688,
+          383.7083740234375,
+          313.7806396484375
+        ]
+      ]
+    },
+    {
+      "key": "lb4-aa701e9c5207",
+      "file": "assets/ranger-library/lb4-aa701e9c5207.webp",
+      "original_manifest_file": "pdf_08_originalbild_909.webp",
+      "kind": "embedded-original",
+      "pdf_page": 8,
+      "printed_pages": "14-15",
+      "bytes": 315666,
+      "sha256": "b47ceaf35e5be8c2585eec33bd764a34c23440f65a702390682fd9fc8ce3d92b",
+      "original_xref": 909,
+      "subset_xref": 47,
+      "raw_pixel_sha256": "cdcae3eb8541c44b9c1f5a6587dad4ac9c90d8bb045d8c03221f952f687cfb40",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          114.1866226196289,
+          279.48052978515625,
+          255.21481323242188,
+          565.2384643554688
+        ]
+      ]
+    },
+    {
+      "key": "lb4-c371c35beb4b",
+      "file": "assets/ranger-library/lb4-c371c35beb4b.webp",
+      "original_manifest_file": "pdf_09_originalbild_912.webp",
+      "kind": "embedded-original",
+      "pdf_page": 9,
+      "printed_pages": "16-17",
+      "bytes": 359888,
+      "sha256": "13872fa31002d57c9e07ca6b40ac9ac1ad0c0938525f762c2d3493e582ee83ef",
+      "original_xref": 912,
+      "subset_xref": 58,
+      "raw_pixel_sha256": "cdd59ff28275aa73f6f5ad5c83383b0357d934bb7dc96a843cac064af3d3c31b",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          35.59751510620117,
+          158.66970825195312,
+          389.5479736328125,
+          515.6846923828125
+        ]
+      ]
+    },
+    {
+      "key": "lb4-e2949dc89172",
+      "file": "assets/ranger-library/lb4-e2949dc89172.webp",
+      "original_manifest_file": "pdf_09_originalbild_913.webp",
+      "kind": "embedded-original",
+      "pdf_page": 9,
+      "printed_pages": "16-17",
+      "bytes": 25852,
+      "sha256": "dc3dc37225cfeb351a1c14fd6c5acfc43ad80364af6c1e67fd7bd87a861fa485",
+      "original_xref": 913,
+      "subset_xref": 61,
+      "raw_pixel_sha256": "7e7901794cce1b37fa8b7b189a2acefbcd052d7c041b0f626cec1f1035c62aff",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          308.0060729980469,
+          374.7889709472656,
+          347.8073425292969,
+          424.70477294921875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-bffe925a33ea",
+      "file": "assets/ranger-library/lb4-bffe925a33ea.webp",
+      "original_manifest_file": "pdf_10_originalbild_916.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 43604,
+      "sha256": "e84a90198d7bd4bae6f83baaed99f71f741b30345454d400fbff0659f449394c",
+      "original_xref": 916,
+      "subset_xref": 65,
+      "raw_pixel_sha256": "3b5c96671eb5827f29cac85901769bff61b08b82c0dacb1ec25e0abfc3426a0c",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          35.08012390136719,
+          150.70602416992188,
+          144.92919921875,
+          190.303955078125
+        ]
+      ]
+    },
+    {
+      "key": "lb4-75555611fbd6",
+      "file": "assets/ranger-library/lb4-75555611fbd6.webp",
+      "original_manifest_file": "pdf_10_originalbild_917.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 54096,
+      "sha256": "8ef8d1e5c6e9f232daa42a21837ec1d3ed0ea858b1e7b5f03d4eaa77213e0faa",
+      "original_xref": 917,
+      "subset_xref": 67,
+      "raw_pixel_sha256": "025265f590ed6adfe5e4f819da50c23d28c5b9596c6246e875934c92054f67f1",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          154.8380889892578,
+          150.64218139648438,
+          264.70660400390625,
+          190.223876953125
+        ]
+      ]
+    },
+    {
+      "key": "lb4-c3456da94df4",
+      "file": "assets/ranger-library/lb4-c3456da94df4.webp",
+      "original_manifest_file": "pdf_10_originalbild_918.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 54322,
+      "sha256": "6ef6607a5ea44738a03aba00e8fc7987d396cc8f6b19017edce2f2f8ba11a1d0",
+      "original_xref": 918,
+      "subset_xref": 68,
+      "raw_pixel_sha256": "918e368fd18d21a1809d4b1c6eef95122832cb5a2a861f3c4508732665d1e989",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          274.70068359375,
+          150.68438720703125,
+          384.5451354980469,
+          190.27215576171875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-0debd67cb2de",
+      "file": "assets/ranger-library/lb4-0debd67cb2de.webp",
+      "original_manifest_file": "pdf_10_originalbild_919.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 43448,
+      "sha256": "6cf7376a2f484e9bbf0c4172750ccd6f4910c008b9bb15891ec375680c101c65",
+      "original_xref": 919,
+      "subset_xref": 69,
+      "raw_pixel_sha256": "6d6087d6d73d28487fb9677d57b43f9617651dd9bd16331341b6defafe6a1c9d",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          35.1187744140625,
+          266.9352111816406,
+          144.87905883789062,
+          306.50885009765625
+        ]
+      ]
+    },
+    {
+      "key": "lb4-1a65d81eab70",
+      "file": "assets/ranger-library/lb4-1a65d81eab70.webp",
+      "original_manifest_file": "pdf_10_originalbild_920.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 39912,
+      "sha256": "bfd89a527e9e940fce8483759521bd3428b301eba62d341242d7b71e7ab3b1db",
+      "original_xref": 920,
+      "subset_xref": 70,
+      "raw_pixel_sha256": "7a8b4e8ccb4167bc8cdb2bf06aab2244ff0ffed0d91cd2ebee834b3f9451b46a",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          274.6556091308594,
+          266.92041015625,
+          384.61517333984375,
+          306.55438232421875
+        ],
+        [
+          154.75009155273438,
+          267.4306640625,
+          264.70965576171875,
+          307.06463623046875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-b254bfb29f23",
+      "file": "assets/ranger-library/lb4-b254bfb29f23.webp",
+      "original_manifest_file": "pdf_10_originalbild_921.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 41442,
+      "sha256": "d3bcf84c8f5bec265ab3fa9c108c316be83ad0a689b3a8d79be8350dad70f7c6",
+      "original_xref": 921,
+      "subset_xref": 71,
+      "raw_pixel_sha256": "2590abe0d07b1303d3eac7171517a7363791a7f00c41eae4ff85fb0dd25996b4",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          35.138282775878906,
+          447.7784729003906,
+          144.8773956298828,
+          487.36767578125
+        ]
+      ]
+    },
+    {
+      "key": "lb4-485360d5e55e",
+      "file": "assets/ranger-library/lb4-485360d5e55e.webp",
+      "original_manifest_file": "pdf_10_originalbild_922.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 37876,
+      "sha256": "b9099c22fc6e9740460689675356cedeaca15d83f98f1a570daef742df20b151",
+      "original_xref": 922,
+      "subset_xref": 72,
+      "raw_pixel_sha256": "fbeb9b5ee4e7d3f97989673b668e8b141adeb7484d30f202a8a7114212081f5a",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          154.7623291015625,
+          447.58392333984375,
+          264.71234130859375,
+          487.3983154296875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-5acbad2f129e",
+      "file": "assets/ranger-library/lb4-5acbad2f129e.webp",
+      "original_manifest_file": "pdf_10_originalbild_923.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 41622,
+      "sha256": "a0dad4e28bb7c430123da957c908e3c5fcadb046b321fc602141a1ebc4e2b3b1",
+      "original_xref": 923,
+      "subset_xref": 73,
+      "raw_pixel_sha256": "bee121744785d0a3b0db5a353a26e926cd23e076e3053548301c6ef927c6d23a",
+      "rotation_ccw": 90,
+      "subset_image_rects": [
+        [
+          274.68121337890625,
+          447.76336669921875,
+          384.5467529296875,
+          487.3485107421875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-d65f9dd76ebb",
+      "file": "assets/ranger-library/lb4-d65f9dd76ebb.webp",
+      "original_manifest_file": "pdf_10_originalbild_924.webp",
+      "kind": "embedded-original",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 250108,
+      "sha256": "d450174771beaa592e59e55865f03c3740321abb3d38eedc8da39afce3304e7c",
+      "original_xref": 924,
+      "subset_xref": 74,
+      "raw_pixel_sha256": "a831155c70e2612048815f2af5dc03b4688522da7d1e9c4509d97801e190ff4f",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          453.9759521484375,
+          258.6600646972656,
+          802.37744140625,
+          561.0462646484375
+        ]
+      ]
+    },
+    {
+      "key": "lb4-119716e37b19",
+      "file": "assets/ranger-library/lb4-119716e37b19.webp",
+      "original_manifest_file": "pdf_11_originalbild_871.webp",
+      "kind": "embedded-original",
+      "pdf_page": 11,
+      "printed_pages": "20-21",
+      "bytes": 23394,
+      "sha256": "7ec6847ffc2d433c83b55e68fd35da7652320925ab8b1409cc305f838e6414ba",
+      "original_xref": 871,
+      "subset_xref": 81,
+      "raw_pixel_sha256": "93a88069bff50fc1f247df9683abc0e6ac30fc38a2515f0402c1f627cf005c3e",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          36.928680419921875,
+          225.82284545898438,
+          382.7901306152344,
+          422.8766784667969
+        ]
+      ]
+    },
+    {
+      "key": "lb4-69acb08cba0b",
+      "file": "assets/ranger-library/lb4-69acb08cba0b.webp",
+      "original_manifest_file": "pdf_12_originalbild_874.webp",
+      "kind": "embedded-original",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 353254,
+      "sha256": "26ed715e86926ff379f0bf39771932160bb88a94a8eaf584445e129ab1ba78eb",
+      "original_xref": 874,
+      "subset_xref": 85,
+      "raw_pixel_sha256": "00f9cba3d8de08327e8a165443376b8cf4b04a524244a443d8ae3ca45e109013",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          36.132408142089844,
+          253.25701904296875,
+          201.23721313476562,
+          338.3291931152344
+        ]
+      ]
+    },
+    {
+      "key": "lb4-240217571aa9",
+      "file": "assets/ranger-library/lb4-240217571aa9.webp",
+      "original_manifest_file": "pdf_12_originalbild_875.webp",
+      "kind": "embedded-original",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 311522,
+      "sha256": "40e7a16782c3c87b7e5d67e503638ffe1ad2f1998aeaabf3ee4ab695ae4473b1",
+      "original_xref": 875,
+      "subset_xref": 86,
+      "raw_pixel_sha256": "6b02f762a764762d60b0fc3fcafc826127b0ac4f7c59e23612c159857ba0d81a",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          218.7152557373047,
+          253.20135498046875,
+          384.2802429199219,
+          337.84832763671875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-f5e52930f3ef",
+      "file": "assets/ranger-library/lb4-f5e52930f3ef.webp",
+      "original_manifest_file": "pdf_12_originalbild_876.webp",
+      "kind": "embedded-original",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 342430,
+      "sha256": "133f9f772d685b0fd6cfd3480a7deb2d79d8eb1f5ef1a43d7dacb62fb6b28e90",
+      "original_xref": 876,
+      "subset_xref": 87,
+      "raw_pixel_sha256": "eb49f502adc31a86d2cb72262f1bd45020bd4df0c393b3dc7d594372609bc705",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          36.50181579589844,
+          410.17364501953125,
+          201.99415588378906,
+          502.5414733886719
+        ]
+      ]
+    },
+    {
+      "key": "lb4-83e1ce65c94e",
+      "file": "assets/ranger-library/lb4-83e1ce65c94e.webp",
+      "original_manifest_file": "pdf_12_originalbild_877.webp",
+      "kind": "embedded-original",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 388056,
+      "sha256": "7fa9948d1a685a9a68cd7f50698a657c0f7a31fbf5c969e01d504e532123a5de",
+      "original_xref": 877,
+      "subset_xref": 88,
+      "raw_pixel_sha256": "448c3825dc6890ce9d9cce52885623d15a68fe3d751f50a786e4791a32c1a639",
+      "rotation_ccw": 0,
+      "subset_image_rects": [
+        [
+          214.67478942871094,
+          403.40264892578125,
+          389.80950927734375,
+          505.00750732421875
+        ]
+      ]
+    },
+    {
+      "key": "lb4-b614e847b228",
+      "file": "assets/ranger-library/lb4-b614e847b228.webp",
+      "original_manifest_file": "emblem_symbol_kreuz_feuer_kompass.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 4,
+      "printed_pages": "6-7",
+      "bytes": 84870,
+      "sha256": "b0247ad02f527e6888316320f9cc791023ce9ed3368e16035c92dba6b5bf3900",
+      "crop_bbox": [
+        627,
+        145,
+        813,
+        338
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "0d08ad55bbb32d13e5d215dd77aa73820b139ae2ebe21ea165fa7f1464505a9a"
+    },
+    {
+      "key": "lb4-82e97b364c19",
+      "file": "assets/ranger-library/lb4-82e97b364c19.webp",
+      "original_manifest_file": "pfadfinderlilie_originalzeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 5,
+      "printed_pages": "8-9",
+      "bytes": 37640,
+      "sha256": "718219fca28fd52fa972da1e5b13419fe5878607927e4702d69be7046e92653a",
+      "crop_bbox": [
+        497,
+        123,
+        750,
+        382
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "8aebcaded32d1050c347ebd2ec70e8bfce6220d1150780b04401fe31e86cd9a8"
+    },
+    {
+      "key": "lb4-bd3c55c2d0b2",
+      "file": "assets/ranger-library/lb4-bd3c55c2d0b2.webp",
+      "original_manifest_file": "ranger_wachsam_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 19222,
+      "sha256": "12401fa0d2f5ee666b2f1b634674be43a0e445ca72989d049d71421316a48e68",
+      "crop_bbox": [
+        287,
+        149,
+        387,
+        272
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "59f6f194c3125c6d9bcd597e5ea8cebb59e3fb545cb65ae4dc406c27b789adbb"
+    },
+    {
+      "key": "lb4-2fc2db0f6470",
+      "file": "assets/ranger-library/lb4-2fc2db0f6470.webp",
+      "original_manifest_file": "ranger_rein_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 10352,
+      "sha256": "66bf20b4d52b3d3499a84968f845024cbc5ab4ce65ddd680d6ce245a107c524b",
+      "crop_bbox": [
+        43,
+        275,
+        137,
+        365
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "13c9b6a29d00c0e24835deda4f2e6aaa088105c0d08100ef62ef90e8292cb5b9"
+    },
+    {
+      "key": "lb4-5ef8b1f8166c",
+      "file": "assets/ranger-library/lb4-5ef8b1f8166c.webp",
+      "original_manifest_file": "ranger_ehrlich_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 14952,
+      "sha256": "88fb90edad9895bcb2332e5e76b43611b3e2429f8fa0dc1a69455105df5c6c7d",
+      "crop_bbox": [
+        285,
+        372,
+        383,
+        482
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "b30f44a9879c818a6c8f431d5bf667973c61162d39ad979a9be4054ec4187407"
+    },
+    {
+      "key": "lb4-0f15ed77bc13",
+      "file": "assets/ranger-library/lb4-0f15ed77bc13.webp",
+      "original_manifest_file": "ranger_tapfer_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 14464,
+      "sha256": "c695d8767a6e95398d9891d987507a590eb635b9024c10d3f139240795bf4833",
+      "crop_bbox": [
+        44,
+        466,
+        142,
+        566
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "222089b28607fedb55f2b6e6bfae14c12481d4d01dd99598bbfc19bb614046fc"
+    },
+    {
+      "key": "lb4-6d7d07430474",
+      "file": "assets/ranger-library/lb4-6d7d07430474.webp",
+      "original_manifest_file": "ranger_treu_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 6050,
+      "sha256": "d832e381235e9593020d838edb6a4c73bab7b7af604056829ab90d04101ca703",
+      "crop_bbox": [
+        658,
+        54,
+        806,
+        124
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "8056766d28acf3fb717c7c1f8d76034191c5ff6f37715c7735893185114e4538"
+    },
+    {
+      "key": "lb4-4d07b3d50394",
+      "file": "assets/ranger-library/lb4-4d07b3d50394.webp",
+      "original_manifest_file": "ranger_hoeflich_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 7984,
+      "sha256": "b02603b15bc3e54b2ca0270ccbeceeab3e9478ae0b786309c761b684f2c0b0a3",
+      "crop_bbox": [
+        462,
+        166,
+        610,
+        248
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "0c96c5174a89845ea16a68b29ee750c71e63adb28bf5ea24882626b7f9d4e19c"
+    },
+    {
+      "key": "lb4-f3cf33f3cba0",
+      "file": "assets/ranger-library/lb4-f3cf33f3cba0.webp",
+      "original_manifest_file": "ranger_gehorsam_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 49004,
+      "sha256": "4b2d1a75d813068a22da61a62dfd59b84546c338d319e4105a6ff7ba54ac2e95",
+      "crop_bbox": [
+        629,
+        283,
+        807,
+        441
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "2b4edb9dc3994dae9b240c2b5e59cf16f8b44cbc1d0e019543376fc8ea155add"
+    },
+    {
+      "key": "lb4-0dd46107faeb",
+      "file": "assets/ranger-library/lb4-0dd46107faeb.webp",
+      "original_manifest_file": "ranger_geistlich_zeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 6,
+      "printed_pages": "10-11",
+      "bytes": 7556,
+      "sha256": "f0eab0bcd99c90fb50dfc48723dfe30b6e3444f64326c357e00a1d785ddcdb35",
+      "crop_bbox": [
+        466,
+        454,
+        548,
+        573
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "2531246395502c125a8cd88ba56280cc51abb3e5c9951f102a16e02dd726debe"
+    },
+    {
+      "key": "lb4-133d75ce3432",
+      "file": "assets/ranger-library/lb4-133d75ce3432.webp",
+      "original_manifest_file": "goldene_regel_illustration.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 7,
+      "printed_pages": "12-13",
+      "bytes": 44502,
+      "sha256": "9666a61ef3e559cc5cd1431a3e13733d6c94fe89136a815d2164f09117fd67fa",
+      "crop_bbox": [
+        247,
+        334,
+        406,
+        568
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "c8710b58fb232e8b167d47a297e524326b0d6534e8bd897238ad6e9ae416d182"
+    },
+    {
+      "key": "lb4-4b4c01636d5f",
+      "file": "assets/ranger-library/lb4-4b4c01636d5f.webp",
+      "original_manifest_file": "gruessende_hand.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 8,
+      "printed_pages": "14-15",
+      "bytes": 144734,
+      "sha256": "530e7dc47d511a1849aebc9e13d3b1a25d6853b6a8589b65953b21ded3347a2d",
+      "crop_bbox": [
+        108,
+        282,
+        255,
+        562
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "5ad33d9542e93d79d3b94572e7f35311335f872d12f10c2ad8fd0b3c79af20a0"
+    },
+    {
+      "key": "lb4-401bcdba8ab1",
+      "file": "assets/ranger-library/lb4-401bcdba8ab1.webp",
+      "original_manifest_file": "pfadfinder_kluft.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 9,
+      "printed_pages": "16-17",
+      "bytes": 396986,
+      "sha256": "18a3843146f4cffa9bf921b58cefa9fa8cb394c6e0b18c70b5a98c89404581e2",
+      "crop_bbox": [
+        38,
+        153,
+        391,
+        519
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "40ac019ba9e0a282452ef1d51e8ffead629787c74962494aa00c3aa84eb0c83d"
+    },
+    {
+      "key": "lb4-ef677cc7cda1",
+      "file": "assets/ranger-library/lb4-ef677cc7cda1.webp",
+      "original_manifest_file": "schlaufen_originalfoto.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 283348,
+      "sha256": "93f5a10f9f2db292f11755cf630ba86674d5a8197df8022261d3b910cb61e0cc",
+      "crop_bbox": [
+        35,
+        141,
+        393,
+        492
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "2253180c16200591efbdc34b3b2fb1980eb3f4160174d3f226b7b82264deaf27"
+    },
+    {
+      "key": "lb4-51536b0cf4e2",
+      "file": "assets/ranger-library/lb4-51536b0cf4e2.webp",
+      "original_manifest_file": "kluft_platzierung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 10,
+      "printed_pages": "18-19",
+      "bytes": 259676,
+      "sha256": "a55b080e4a0c2ebd43a7deb434cf9309b9483d9c20b993dfdc518a386a694780",
+      "crop_bbox": [
+        452,
+        255,
+        809,
+        564
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "b036a37eaafd5a4dff310edbef9944c63b8e5ded235ac901c31b0bcab2778046"
+    },
+    {
+      "key": "lb4-2c02f432f4be",
+      "file": "assets/ranger-library/lb4-2c02f432f4be.webp",
+      "original_manifest_file": "team_seil_illustration.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 11,
+      "printed_pages": "20-21",
+      "bytes": 189522,
+      "sha256": "76d7de9fa643f40cc69ebbb98c7ddc5213e1facbe4da2acc42abf9a001361d46",
+      "crop_bbox": [
+        37,
+        222,
+        390,
+        419
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "b7a3a1f31123fa89867f52b2f73ea8b6df3d3f264aab2cd0e098aaeae1101ca4"
+    },
+    {
+      "key": "lb4-347c08ad5458",
+      "file": "assets/ranger-library/lb4-347c08ad5458.webp",
+      "original_manifest_file": "team_kampf_illustration.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 778574,
+      "sha256": "e37a74aab06cd4b6c50a493d948c545b787d45069d52c8330adfa173fa6e4148",
+      "crop_bbox": [
+        38,
+        248,
+        389,
+        509
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "536c5c6d4575ee8a0807934512d320f65360292a3ce6ea950aa34acc43dfccd9"
+    },
+    {
+      "key": "lb4-c689756b8c3a",
+      "file": "assets/ranger-library/lb4-c689756b8c3a.webp",
+      "original_manifest_file": "team_name_illustration.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 12,
+      "printed_pages": "22-23",
+      "bytes": 24292,
+      "sha256": "58aaa8ae8c3da3de87ad0b4c7a457ae15020b216365c0e135b22b52e2e1a2336",
+      "crop_bbox": [
+        630,
+        331,
+        809,
+        548
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "fc77f3578272d06d3fba4595327201c69492aa7d05e0f555b61ff5d8e996c2d7"
+    },
+    {
+      "key": "lb4-35d08f17cb8b",
+      "file": "assets/ranger-library/lb4-35d08f17cb8b.webp",
+      "original_manifest_file": "team_banner_originalzeichnung.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 13,
+      "printed_pages": "24-25",
+      "bytes": 44452,
+      "sha256": "d31666d03670ce7f4cbeb0e309685e79208a942c76e7948ecbc24ab11c1b146d",
+      "crop_bbox": [
+        615,
+        126,
+        803,
+        560
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "1590168060f3cc106bb49bb2dfc1f9c02d3cada3df2cb25d925a124b83dd127f"
+    },
+    {
+      "key": "lb4-0101e8164ee2",
+      "file": "assets/ranger-library/lb4-0101e8164ee2.webp",
+      "original_manifest_file": "appell_illustration.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 14,
+      "printed_pages": "26-27",
+      "bytes": 116966,
+      "sha256": "37b9f67d887f194723938c3f03b503dfba477a99965cee4427216f3af58bea28",
+      "crop_bbox": [
+        30,
+        273,
+        394,
+        506
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "bf96d99bdc16913dfdd73b74a66205def8b14eaea1701286208686d68760aab6"
+    },
+    {
+      "key": "lb4-f1e14b1bd407",
+      "file": "assets/ranger-library/lb4-f1e14b1bd407.webp",
+      "original_manifest_file": "stammposten_nr_symbol.webp",
+      "kind": "original-crop-vector-or-image",
+      "pdf_page": 14,
+      "printed_pages": "26-27",
+      "bytes": 7622,
+      "sha256": "f17d3a7be6c2e7688f9bb94a34a13707faaf5ab1138ce27238ef90d123042555",
+      "crop_bbox": [
+        713,
+        129,
+        797,
+        248
+      ],
+      "render_scale": 3,
+      "raw_pixel_sha256": "4dfc2ec73494f51cd2f3e96de50d64aab73297b479734ba0b21d9294a0d76c50"
+    }
+  ],
+  "module_assets": {
+    "start": {
+      "hero": "lb4-1a817b686ad0",
+      "hotspots": {
+        "start-1": "lb4-1a817b686ad0",
+        "start-2": "lb4-8c2c090313d8",
+        "start-3": "lb4-1a817b686ad0",
+        "start-4": "lb4-8c2c090313d8"
+      },
+      "gallery": [
+        "lb4-1a817b686ad0",
+        "lb4-8c2c090313d8"
+      ]
+    },
+    "emblem": {
+      "hero": "lb4-8c2c090313d8",
+      "hotspots": {
+        "emblem-1": "lb4-8c2c090313d8",
+        "emblem-2": "lb4-8c2c090313d8",
+        "emblem-3": "lb4-8c2c090313d8"
+      },
+      "gallery": [
+        "lb4-8c2c090313d8",
+        "lb4-b614e847b228",
+        "lb4-e2949dc89172"
+      ]
+    },
+    "lilie": {
+      "hero": "lb4-82e97b364c19",
+      "hotspots": {
+        "lilie-1": "lb4-82e97b364c19",
+        "lilie-2": "lb4-82e97b364c19",
+        "lilie-3": "lb4-82e97b364c19",
+        "lilie-4": "lb4-82e97b364c19"
+      },
+      "gallery": [
+        "lb4-82e97b364c19",
+        "lb4-3f7eae6cb451",
+        "lb4-c6d7aedab690",
+        "lb4-7ed8c971745c"
+      ]
+    },
+    "eigenschaften": {
+      "hero": "lb4-bd3c55c2d0b2",
+      "hotspots": {
+        "eigenschaften-1": "lb4-bd3c55c2d0b2",
+        "eigenschaften-2": "lb4-2fc2db0f6470",
+        "eigenschaften-3": "lb4-5ef8b1f8166c",
+        "eigenschaften-4": "lb4-0f15ed77bc13",
+        "eigenschaften-5": "lb4-6d7d07430474",
+        "eigenschaften-6": "lb4-4d07b3d50394",
+        "eigenschaften-7": "lb4-f3cf33f3cba0",
+        "eigenschaften-8": "lb4-0dd46107faeb"
+      },
+      "gallery": [
+        "lb4-bd3c55c2d0b2",
+        "lb4-2fc2db0f6470",
+        "lb4-5ef8b1f8166c",
+        "lb4-0f15ed77bc13",
+        "lb4-6d7d07430474",
+        "lb4-4d07b3d50394",
+        "lb4-f3cf33f3cba0",
+        "lb4-0dd46107faeb"
+      ]
+    },
+    "goldene-regel": {
+      "hero": "lb4-133d75ce3432",
+      "hotspots": {
+        "goldene-regel-1": "lb4-133d75ce3432",
+        "goldene-regel-2": "lb4-133d75ce3432",
+        "goldene-regel-3": "lb4-133d75ce3432"
+      },
+      "gallery": [
+        "lb4-133d75ce3432"
+      ]
+    },
+    "motto": {
+      "hero": null,
+      "hotspots": {
+        "motto-1": null,
+        "motto-2": null,
+        "motto-3": null,
+        "motto-4": null,
+        "motto-5": null
+      },
+      "gallery": []
+    },
+    "gruss": {
+      "hero": "lb4-aa701e9c5207",
+      "hotspots": {
+        "gruss-1": "lb4-aa701e9c5207",
+        "gruss-2": "lb4-aa701e9c5207",
+        "gruss-3": "lb4-aa701e9c5207",
+        "gruss-4": "lb4-aa701e9c5207"
+      },
+      "gallery": [
+        "lb4-aa701e9c5207",
+        "lb4-4b4c01636d5f"
+      ]
+    },
+    "ausruestung": {
+      "hero": "lb4-1a817b686ad0",
+      "hotspots": {
+        "ausruestung-1": "lb4-1a817b686ad0",
+        "ausruestung-2": "lb4-1a817b686ad0",
+        "ausruestung-3": "lb4-1a817b686ad0",
+        "ausruestung-4": "lb4-1a817b686ad0",
+        "ausruestung-5": "lb4-1a817b686ad0"
+      },
+      "gallery": [
+        "lb4-1a817b686ad0",
+        "lb4-c371c35beb4b"
+      ]
+    },
+    "kluft": {
+      "hero": "lb4-c371c35beb4b",
+      "hotspots": {
+        "kluft-1": "lb4-c371c35beb4b",
+        "kluft-2": "lb4-d65f9dd76ebb",
+        "kluft-3": "lb4-ef677cc7cda1",
+        "kluft-4": "lb4-c371c35beb4b",
+        "kluft-5": "lb4-d65f9dd76ebb"
+      },
+      "gallery": [
+        "lb4-c371c35beb4b",
+        "lb4-401bcdba8ab1",
+        "lb4-d65f9dd76ebb",
+        "lb4-51536b0cf4e2",
+        "lb4-e2949dc89172"
+      ]
+    },
+    "schlaufen": {
+      "hero": "lb4-ef677cc7cda1",
+      "hotspots": {
+        "schlaufen-1": "lb4-bffe925a33ea",
+        "schlaufen-2": "lb4-75555611fbd6",
+        "schlaufen-3": "lb4-c3456da94df4",
+        "schlaufen-4": "lb4-0debd67cb2de",
+        "schlaufen-5": "lb4-1a65d81eab70",
+        "schlaufen-6": "lb4-1a65d81eab70",
+        "schlaufen-7": "lb4-b254bfb29f23",
+        "schlaufen-8": "lb4-485360d5e55e",
+        "schlaufen-9": "lb4-5acbad2f129e",
+        "schlaufen-10": "lb4-ef677cc7cda1"
+      },
+      "gallery": [
+        "lb4-ef677cc7cda1",
+        "lb4-bffe925a33ea",
+        "lb4-75555611fbd6",
+        "lb4-c3456da94df4",
+        "lb4-0debd67cb2de",
+        "lb4-1a65d81eab70",
+        "lb4-b254bfb29f23",
+        "lb4-485360d5e55e",
+        "lb4-5acbad2f129e"
+      ]
+    },
+    "team": {
+      "hero": "lb4-2c02f432f4be",
+      "hotspots": {
+        "team-1": "lb4-83e1ce65c94e",
+        "team-2": "lb4-83e1ce65c94e",
+        "team-3": "lb4-83e1ce65c94e",
+        "team-4": "lb4-83e1ce65c94e",
+        "team-5": "lb4-2c02f432f4be",
+        "team-6": "lb4-83e1ce65c94e"
+      },
+      "gallery": [
+        "lb4-119716e37b19",
+        "lb4-2c02f432f4be",
+        "lb4-83e1ce65c94e"
+      ]
+    },
+    "teamhelfer": {
+      "hero": "lb4-347c08ad5458",
+      "hotspots": {
+        "teamhelfer-1": "lb4-69acb08cba0b",
+        "teamhelfer-2": "lb4-240217571aa9",
+        "teamhelfer-3": "lb4-f5e52930f3ef"
+      },
+      "gallery": [
+        "lb4-69acb08cba0b",
+        "lb4-240217571aa9",
+        "lb4-f5e52930f3ef",
+        "lb4-83e1ce65c94e",
+        "lb4-347c08ad5458"
+      ]
+    },
+    "teamname": {
+      "hero": "lb4-c689756b8c3a",
+      "hotspots": {
+        "teamname-1": "lb4-c689756b8c3a",
+        "teamname-2": "lb4-c689756b8c3a",
+        "teamname-3": "lb4-c689756b8c3a"
+      },
+      "gallery": [
+        "lb4-c689756b8c3a"
+      ]
+    },
+    "banner": {
+      "hero": "lb4-35d08f17cb8b",
+      "hotspots": {
+        "banner-1": "lb4-35d08f17cb8b",
+        "banner-2": "lb4-35d08f17cb8b",
+        "banner-3": "lb4-35d08f17cb8b",
+        "banner-4": "lb4-35d08f17cb8b",
+        "banner-5": "lb4-35d08f17cb8b"
+      },
+      "gallery": [
+        "lb4-35d08f17cb8b"
+      ]
+    },
+    "appell": {
+      "hero": "lb4-0101e8164ee2",
+      "hotspots": {
+        "appell-1": "lb4-0101e8164ee2",
+        "appell-2": "lb4-0101e8164ee2",
+        "appell-3": "lb4-0101e8164ee2",
+        "appell-4": "lb4-0101e8164ee2"
+      },
+      "gallery": [
+        "lb4-0101e8164ee2"
+      ]
+    },
+    "stammposten": {
+      "hero": "lb4-f1e14b1bd407",
+      "hotspots": {
+        "stammposten-1": "lb4-f1e14b1bd407",
+        "stammposten-2": "lb4-0101e8164ee2",
+        "stammposten-3": "lb4-f1e14b1bd407",
+        "stammposten-4": "lb4-f1e14b1bd407"
+      },
+      "gallery": [
+        "lb4-f1e14b1bd407"
+      ]
+    }
+  },
+  "text_passages": [
+    {
+      "module": "start",
+      "hotspot": "start-1",
+      "quote": "Jeder kann ein Ranger werden! Dafür brauchst du nur an den Treffen eines Stammes teilnehmen. Nach mindestens vier Besuchen und mit der unterschriebenen Einverständniserklärung deiner Eltern wirst du offizielles Mitglied und kannst regelmäßig dabei sein.",
+      "source_blocks": [
+        [
+          4,
+          1
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "start",
+      "hotspot": "start-2",
+      "quote": "Sobald du die wichtigsten Werte und Grundlagen der Rangers kennengelernt hast, darfst du die vollständige Kluft mit Halstuch, Stammnummer und Emblem tragen. Dein Teamleiter, Stammleiter und deine Ranger-Freunde helfen dir dabei, alles Wichtige zu lernen. Mit deinem Logbuch und etwas Übung wirst du schon bald Folgendes erklären können:\n\nDie Bedeutung der Symbole auf dem Rangers-Emblem.\n\nDen Lebensweg eines Rangers erklären.\n\nDie Regeln der Rangers und die Bedeutung.\n\nDas Motto der Rangers und seine Aussage.",
+      "source_blocks": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "start",
+      "hotspot": "start-3",
+      "quote": "Nach mindestens vier Besuchen und mit der unterschriebenen Einverständniserklärung deiner Eltern wirst du offizielles Mitglied und kannst regelmäßig dabei sein.",
+      "source_blocks": [
+        [
+          4,
+          1
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "start",
+      "hotspot": "start-4",
+      "quote": "Das Emblem ist ein besonderes Abzeichen, das Eigentum des Stammes bleibt. Es zu erhalten bedeutet nicht nur, dass du die Werte der Rangers verstanden hast, sondern auch, dass du bereit bist, sie im Alltag zu leben. Mit dem Emblem auf deinem linken Arm ist deine Kluft komplett. Dazu bekommst du dein persönliches Logbuch – und damit beginnt dein Abenteuer als Ranger!",
+      "source_blocks": [
+        [
+          4,
+          8
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "start",
+      "introduction": "Jeder kann ein Ranger werden! Dafür brauchst du nur an den Treffen eines Stammes teilnehmen. Nach mindestens vier Besuchen und mit der unterschriebenen Einverständniserklärung deiner Eltern wirst du offizielles Mitglied und kannst regelmäßig dabei sein.",
+      "source_blocks": [
+        [
+          4,
+          1
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "emblem",
+      "hotspot": "emblem-1",
+      "quote": "Wie Pflanzen, die dem Licht entgegenwachsen, befindest auch du dich auf einem Weg des Wachstums. Deine Richtung ist entscheidend – es geht nach oben, Schritt für Schritt bergauf. Dein Ziel ist der Gipfel, und dort erkennst du bereits das Gipfelkreuz. Das Kreuz bedeutet für die Rangers die Errettung durch Jesus Tod am Kreuz und es steht sinnbildlich für das höchste Wachstumsziel, das wir als Rangers anstreben: immer näher zu unserem Herrn Jesus Christus zu kommen, vom Ihm zu lernen und somit Jesus ähnlicher werden.",
+      "source_blocks": [
+        [
+          4,
+          12
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "emblem",
+      "hotspot": "emblem-2",
+      "quote": "Das Feuer ist aus dem Pfadfinderalltag nicht weg zu denken. Rangers stinken auch nicht nach Feuer, sondern riechen nach Abendteuer. Als Pfadfinder nutzen wir das Feuer, um Essen zu kochen, uns aufzuwärmen und drumherum die Abende zu verbringen. Das Feuer symbolisiert auch die Wärme und Nähe Gottes durch den heiligen Geist der als Tröster und Führsprecher in unserem Alltag teilnehmen möchte.",
+      "source_blocks": [
+        [
+          4,
+          14
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "emblem",
+      "hotspot": "emblem-3",
+      "quote": "Der Kompass zeigt uns beim Pfadfinden die richtige Richtung und hilft uns, den Weg nicht zu verlieren. Für uns Rangers steht er aber auch sinnbildlich für die Bibel: Sie zeigt uns den Weg zu Gott und gibt Orientierung, wenn wir nicht weiterwissen.\n\nWie ein Kompass uns sicher durchs Gelände führt, hilft uns die Bibel, gute Entscheidungen zu treffen und auf dem richtigen Glaubensweg zu bleiben. Sie erinnert uns daran, dass Jesus der Weg, die Wahrheit und das Leben ist.",
+      "source_blocks": [
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          17
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "emblem",
+      "introduction": "Mit der Verleihung des Ranger-Emblems erhältst du mehr als nur ein Abzeichen, es ist ein Zeichen unserer Werte und Überzeugungen. Jedes Symbol auf diesem Emblem trägt eine besondere Bedeutung, die für uns Ranger sehr wichtig sind und die du kennen solltest.",
+      "source_blocks": [
+        [
+          4,
+          10
+        ]
+      ],
+      "asset_key": "lb4-8c2c090313d8"
+    },
+    {
+      "module": "lilie",
+      "hotspot": "lilie-1",
+      "quote": "3. DREI BLATTER DER LILIE Diese repräsentieren die drei Grundprinzipien der „Rangers“.\n\nPFLICHT GEGENÜBER GOTT UND DEM LAND (geistliche und patriotische Verpflichtungen)\n\nPFLICHT GEGENÜBER ANDEREN (Hilfeleistung und Dienst an der Gemeinschaft und anderen)\n\nPFLICHT GEGENÜBER SICH SELBST (Entwicklung und Verantwortung für das eigene Handeln)",
+      "source_blocks": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "asset_key": "lb4-82e97b364c19"
+    },
+    {
+      "module": "lilie",
+      "hotspot": "lilie-2",
+      "quote": "4. MITTLERE SPITZE DER LILIE Sie symbolisiert den Nordstern, der die Pfadfinder daran erinnert, stets ihren moralischen Kompass nach den Maßstäben der Bibel zu folgen und die Eigenschaften der Rangers zu leben.\n\n2. WEGWEISER UND NAVIGATION Die Lilie ähnelt der Form eines Kompasses oder einer Windrose und symbolisiert somit Orientierung und Richtung. Dies steht sinnbildlich für die Pfadfinder, die den richtigen Weg an Hand der Bibel im Leben finden und anderen dabei helfen sollen, diesen Weg ebenfalls zu\n\nfinden.",
+      "source_blocks": [
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "asset_key": "lb4-82e97b364c19"
+    },
+    {
+      "module": "lilie",
+      "hotspot": "lilie-3",
+      "quote": "5. DIE SEITLICHEN SPITZEN DER LILIE Die seitlichen Spitzen der Lilie: Sie stehen für das Ausleben der Ranger- Eigenschaften und die Bereitschaft der Pfadfinder, anderen zu helfen.\n\n1. TRADITION UND GESCHICHTE Die Lilie ist ein altes Symbol, das in verschiedenen Kulturen und Kontexten verwendet wurde. In der Pfadfinderbewegung wurde sie von Lord Robert Baden-Powell, dem Gründer der Bewegung, übernommen. Sie erschien erstmals auf den Abzeichen der Scouts in den frühen 1900er Jahren.",
+      "source_blocks": [
+        [
+          5,
+          11
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "asset_key": "lb4-82e97b364c19"
+    },
+    {
+      "module": "lilie",
+      "hotspot": "lilie-4",
+      "quote": "6. DAS BAND DAS DIE SPITZEN DER LILIE VERBINDET Es steht für die Einheit und Gemeinschaft der Rangers in der Gemeinde.\n\nInsgesamt repräsentiert die Pfadfinderlilie die Kernwerte und Ideale der Pfadfinderbewegung, wie ...\n\nGEMEINSCHAFT\n\nHILFSBEREITSCHAFT\n\nORIENTIERUNG\n\nMORALISCHE REINHEIT",
+      "source_blocks": [
+        [
+          5,
+          17
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          16
+        ]
+      ],
+      "asset_key": "lb4-82e97b364c19"
+    },
+    {
+      "module": "lilie",
+      "introduction": "Die Pfadfinderlilie hat mehrere Bedeutungen, die eng mit den Grundsätzen und Zielen der Pfadfinder verknüpft sind:",
+      "source_blocks": [
+        [
+          5,
+          2
+        ]
+      ],
+      "asset_key": "lb4-82e97b364c19"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-1",
+      "quote": "Aufmerksamkeit ist eine wichtige Eigenschaft eines Rangers. Besonders auf dem Camp, wenn du Nachtwache hältst, verlassen sich deine Teamkameraden darauf, dass du wach bleibst und Gefahren erkennst. Doch Wachsamkeit gehört nicht nur ins Lager. Auch im Alltag hilft sie dir, Situationen richtig einzuschätzen und Gefahren frühzeitig zu erkennen. Trainiere deine Sinne – Hören, Sehen, Riechen, Schmecken und Tasten – und du wirst entdecken, wie viel dir bewusst wird, was anderen verborgen bleibt.",
+      "source_blocks": [
+        [
+          6,
+          3
+        ]
+      ],
+      "asset_key": "lb4-bd3c55c2d0b2"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-2",
+      "quote": "Rein zu leben heißt, Gott zu ehren – mit deinem Körper, deinen Gedanken und deinem Herzen. Nicht nur Schmutz auf der Haut macht unrein, auch negative Einflüsse wie schlechte Filme oder verletzende Worte wirken auf dein Inneres. Achte darauf, was du ansiehst, anhörst und sagst. Wenn du dich innerlich unwohl fühlst, sprich mit deinem Teamleiter – er kann dir helfen, wieder in Einklang mit Gott zu kommen.",
+      "source_blocks": [
+        [
+          6,
+          5
+        ]
+      ],
+      "asset_key": "lb4-2fc2db0f6470"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-3",
+      "quote": "„Ehrlichkeit zahlt sich aus“ – alles, was wir verschweigen, kommt früher oder später ans Licht. Auch kleine Lügen können langfristig Probleme bringen. Ehrlich zu sein erfordert manchmal Mut, zum Beispiel wenn du einen Fehler gemacht hast und zu den Betroffenen gehen musst, um ihn zu korrigieren. Wer Verantwortung übernimmt und die Wahrheit sagt, gewinnt Vertrauen und Respekt.",
+      "source_blocks": [
+        [
+          6,
+          7
+        ]
+      ],
+      "asset_key": "lb4-5ef8b1f8166c"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-4",
+      "quote": "Tapfer zu sein bedeutet nicht nur, sich Gefahren zu stellen, sondern auch, Konflikten mutig zu begegnen und den ersten Schritt auf andere zuzugehen, selbst wenn man glaubt, sie müssten ihn machen. Ehrlichkeit und Mut gehören zusammen: Wer tapfer ist, sagt die Wahrheit und handelt verantwortungsvoll, auch wenn es nicht einfach ist.",
+      "source_blocks": [
+        [
+          6,
+          9
+        ]
+      ],
+      "asset_key": "lb4-0f15ed77bc13"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-5",
+      "quote": "Wahre Freundschaft zeigt sich mit der Zeit. Geduld hilft dir, zu erkennen, wer verlässlich ist. In deinem Team und bei deinem Teamleiter wirst du Freunde finden, auf die du dich verlassen kannst. Doch selbst die besten Freunde können einmal enttäuschen. Es gibt nur einen Freund, der niemals enttäuscht: Jesus. Er sagt: „Wer in den kleinen Dingen treu ist, ist auch in großen treu“ (Lukas 16,10).",
+      "source_blocks": [
+        [
+          6,
+          11
+        ]
+      ],
+      "asset_key": "lb4-6d7d07430474"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-6",
+      "quote": "Höflichkeit zeigt Respekt und lässt andere dich ernst nehmen. Besonders Eltern und ältere Menschen verdienen unsere Rücksicht. Freundlichkeit fällt auf: Mädchen achten oft mehr darauf, wie respektvoll ein Junge sich verhält, als auf coole Sprüche oder Witze. Wer freundlich und aufmerksam ist, gewinnt Sympathie und Vertrauen.",
+      "source_blocks": [
+        [
+          6,
+          13
+        ]
+      ],
+      "asset_key": "lb4-4d07b3d50394"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-7",
+      "quote": "Gehorsam bedeutet, auf Gottes Stimme zu hören und seinem Wort zu folgen – aber auch, Respekt vor Eltern, Lehrern und Leitern zu zeigen. Wer bereit ist, zuzuhören und Regeln zu befolgen, wird später selbst eher Verantwortung übernehmen können. Dein Team und dein Stamm sind perfekte Übungsplätze, um zuzuhören, Rücksicht zu nehmen und verantwortungsvoll zu handeln.",
+      "source_blocks": [
+        [
+          6,
+          15
+        ]
+      ],
+      "asset_key": "lb4-f3cf33f3cba0"
+    },
+    {
+      "module": "eigenschaften",
+      "hotspot": "eigenschaften-8",
+      "quote": "Geistlich zu leben betrifft jeden von uns, denn wir bestehen nicht nur aus Körper, sondern auch aus Seele und Geist. So wie dein Körper Nahrung braucht, braucht auch dein Geist „Futter“. Beten, in der Bibel lesen oder Gottesdienste besuchen hilft dir, innerlich zu wachsen. Je mehr du auf Gottes Stimme hörst, desto stärker wirst du in deinem Glauben und in deinem Leben.",
+      "source_blocks": [
+        [
+          6,
+          17
+        ]
+      ],
+      "asset_key": "lb4-0dd46107faeb"
+    },
+    {
+      "module": "eigenschaften",
+      "introduction": "Wir Rangers möchten diese Regeln mit Gottes Hilfe befolgen. Aus eigener Kraft schaffen wir das nicht immer, denn nur einer hat sie vollkommen gelebt – Jesus Christus. Mit seiner Unterstützung können auch wir lernen, gute und treue Pfadfinder zu sein.",
+      "source_blocks": [
+        [
+          6,
+          1
+        ]
+      ],
+      "asset_key": "lb4-bd3c55c2d0b2"
+    },
+    {
+      "module": "goldene-regel",
+      "hotspot": "goldene-regel-1",
+      "quote": "Erinnere dich an die Goldene Regel, die Jesus gelehrt hat: „Liebe deinen Nächsten wie dich selbst.“",
+      "source_blocks": [
+        [
+          7,
+          9
+        ]
+      ],
+      "asset_key": "lb4-133d75ce3432"
+    },
+    {
+      "module": "goldene-regel",
+      "hotspot": "goldene-regel-2",
+      "quote": "Das bedeutet: den anderen wertzuschätzen, ihn zu respektieren und ihm zu helfen.",
+      "source_blocks": [
+        [
+          7,
+          9
+        ]
+      ],
+      "asset_key": "lb4-133d75ce3432"
+    },
+    {
+      "module": "goldene-regel",
+      "hotspot": "goldene-regel-3",
+      "quote": "Wenn ihr das lernt, werdet ihr als Team unschlagbar.",
+      "source_blocks": [
+        [
+          7,
+          9
+        ]
+      ],
+      "asset_key": "lb4-133d75ce3432"
+    },
+    {
+      "module": "goldene-regel",
+      "introduction": "„Liebe deinen Nächsten wie dich selbst.“",
+      "source_blocks": [
+        [
+          7,
+          9
+        ]
+      ],
+      "asset_key": "lb4-133d75ce3432"
+    },
+    {
+      "module": "motto",
+      "hotspot": "motto-1",
+      "quote": "EIN RANGER IST STETS BEREIT\n\nzu helfen und im Notfall Leben zu retten,",
+      "source_blocks": [
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          20
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "motto",
+      "hotspot": "motto-2",
+      "quote": "EIN RANGER IST STETS BEREIT\n\nVerantwortung zu tragen und sich der Ordnung unterzuordnen,\n\neinfach zu leben, zu teilen und großzügig zu geben,",
+      "source_blocks": [
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          7,
+          18
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "motto",
+      "hotspot": "motto-3",
+      "quote": "EIN RANGER IST STETS BEREIT\n\nsich auch in schwierigen Situationen fröhlich und mutig einzubringen,\n\nalle Menschen als von Gott geschaffene und geliebte Wesen zu sehen und zu achten,",
+      "source_blocks": [
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          7,
+          19
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "motto",
+      "hotspot": "motto-4",
+      "quote": "EIN RANGER IST STETS BEREIT\n\nmit ganzem Herzen zu beten und mit vollem Einsatz zu arbeiten.",
+      "source_blocks": [
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          21
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "motto",
+      "hotspot": "motto-5",
+      "quote": "EIN RANGER IST STETS BEREIT\n\ndie Schöpfung im Auftrag Gottes zu bewahren,",
+      "source_blocks": [
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          15
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "motto",
+      "introduction": "Dieses Motto verbindet alle Rangers – und auch viele andere Pfadfindergruppen auf der ganzen Welt.",
+      "source_blocks": [
+        [
+          7,
+          12
+        ]
+      ],
+      "asset_key": null
+    },
+    {
+      "module": "gruss",
+      "hotspot": "gruss-1",
+      "quote": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet.",
+      "source_blocks": [
+        [
+          8,
+          1
+        ]
+      ],
+      "asset_key": "lb4-aa701e9c5207"
+    },
+    {
+      "module": "gruss",
+      "hotspot": "gruss-2",
+      "quote": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet. Die drei ausgestreckten Finger stehen als Zeichen für die Verpflichtung gegenüber\n\n1. Gott",
+      "source_blocks": [
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "asset_key": "lb4-aa701e9c5207"
+    },
+    {
+      "module": "gruss",
+      "hotspot": "gruss-3",
+      "quote": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet. Die drei ausgestreckten Finger stehen als Zeichen für die Verpflichtung gegenüber\n\n2. den Mitmenschen und",
+      "source_blocks": [
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          2
+        ]
+      ],
+      "asset_key": "lb4-aa701e9c5207"
+    },
+    {
+      "module": "gruss",
+      "hotspot": "gruss-4",
+      "quote": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet. Die drei ausgestreckten Finger stehen als Zeichen für die Verpflichtung gegenüber\n\n3. den Rangers Regeln sowie der Goldenen Regel",
+      "source_blocks": [
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "asset_key": "lb4-aa701e9c5207"
+    },
+    {
+      "module": "gruss",
+      "introduction": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet. Die drei ausgestreckten Finger stehen als Zeichen für die Verpflichtung gegenüber",
+      "source_blocks": [
+        [
+          8,
+          1
+        ]
+      ],
+      "asset_key": "lb4-aa701e9c5207"
+    },
+    {
+      "module": "ausruestung",
+      "hotspot": "ausruestung-1",
+      "quote": "Als Pfadfinder bist du viel draußen unterwegs – bei jedem Wetter. Deshalb solltest du immer so ausgestattet sein, dass du auch auf spontane Aktionen im Gelände vorbereitet bist.\n\nstabiles, wetterfestes Schuhwerk",
+      "source_blocks": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "ausruestung",
+      "hotspot": "ausruestung-2",
+      "quote": "Als Pfadfinder bist du viel draußen unterwegs – bei jedem Wetter. Deshalb solltest du immer so ausgestattet sein, dass du auch auf spontane Aktionen im Gelände vorbereitet bist.\n\neine strapazierfähige Hose",
+      "source_blocks": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "ausruestung",
+      "hotspot": "ausruestung-3",
+      "quote": "Als Pfadfinder bist du viel draußen unterwegs – bei jedem Wetter. Deshalb solltest du immer so ausgestattet sein, dass du auch auf spontane Aktionen im Gelände vorbereitet bist.\n\nein Regenschutz.",
+      "source_blocks": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "ausruestung",
+      "hotspot": "ausruestung-4",
+      "quote": "Im Winter bietet sich zusätzlich das Rangers-Sweatshirt an, im Sommer oder beim Sport verschiedene Rangers-T-Shirts. Zur Grundausstattung gehört außerdem eine Kopfbedeckung, die dich sowohl vor Sonne als auch vor Regen schützt – sei es ein Pfadfinderhut oder eine einfache Cap.",
+      "source_blocks": [
+        [
+          8,
+          12
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "ausruestung",
+      "hotspot": "ausruestung-5",
+      "quote": "Alle deine persönlichen Ausrüstungsgegenstände verdienen sorgfältige Pflege. Halte sie sauber und ordentlich, so sorgst du nicht nur dafür, dass sie lange halten, sondern präsentierst auch dich selbst und deinen Stamm in einem guten Licht.\n\nDie gemeinsame Kluft zeigt, dass es bei uns nicht auf die modischsten Outfits ankommt – entscheidend ist die Persönlichkeit des Einzelnen. Außerdem ist die Kluft ein praktisches und robustes Kleidungsstück, das dich bei den meisten Unternehmungen bestens begleitet.",
+      "source_blocks": [
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "ausruestung",
+      "introduction": "Sobald du offiziell ein Ranger bist und in den Stamm aufgenommen wurdest, darfst du die Pfadfinderkluft der Rangers tragen. Sie ist ein sichtbares Zeichen deiner Zugehörigkeit zur weltweiten Gemeinschaft der Rangers.",
+      "source_blocks": [
+        [
+          8,
+          6
+        ]
+      ],
+      "asset_key": "lb4-1a817b686ad0"
+    },
+    {
+      "module": "kluft",
+      "hotspot": "kluft-1",
+      "quote": "Das Emblem trägst du am linken Ärmel deines Fahrtenhemds, etwa 3 cm unter der Schulternaht. Es zeigt, dass du ein Ranger bist.\n\nRangersemblem: Die Breite der drei Fingerspitzen, des Trägers/in, unter der Ärmelnaht.",
+      "source_blocks": [
+        [
+          9,
+          17
+        ],
+        [
+          10,
+          17
+        ]
+      ],
+      "asset_key": "lb4-c371c35beb4b"
+    },
+    {
+      "module": "kluft",
+      "hotspot": "kluft-2",
+      "quote": "Auf dem rechten Ärmel wird zuerst der Ortsname aufgenäht, etwa 2 cm unterhalb der Schulternaht. Die Stammnummer folgt direkt darunter, ebenfalls mit 2 cm Abstand. Sie zeigt, zu welchem Stammposten du gehörst. Jeder Stammposten in Deutschland hat eine eigene Nummer.\n\nStädtename: Die Breite der zwei Fingerspitzen, des Trägers/in, unter der Ärmelnaht\n\nStammnummer: ZweifingerspitzenBreite unter dem Städtenamen.",
+      "source_blocks": [
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          19
+        ]
+      ],
+      "asset_key": "lb4-d65f9dd76ebb"
+    },
+    {
+      "module": "kluft",
+      "hotspot": "kluft-3",
+      "quote": "Die anderen Bänder zeigen den Stufenpfad. Andere Pfadfinder stellen den Wachstumspfad oft durch Aufnäher dar. Als Ranger wirst du bei jeder Stufe die du auf dem Wachstumspfad erreichst mehrere Dinge aus dem Pfadfinderbereich lernen und die-\n\nse dann in deinem Logbuch von deinem Gruppen oder Teamleiter abhacken lassen. Wenn du dann alle Aufgaben oder Lehrinhalte der Stufe erledigt hast, bekommst du die dafür vorgesehene farbliche Schulterschlaufe.",
+      "source_blocks": [
+        [
+          10,
+          15
+        ],
+        [
+          10,
+          16
+        ]
+      ],
+      "asset_key": "lb4-ef677cc7cda1"
+    },
+    {
+      "module": "kluft",
+      "hotspot": "kluft-4",
+      "quote": "Nach jedem Camp gibt es einen Aufnäher als Erinnerung an das Campthema. Diesen trägst du auf der rechten Brusttasche deines Fahrtenhemds.",
+      "source_blocks": [
+        [
+          9,
+          13
+        ]
+      ],
+      "asset_key": "lb4-c371c35beb4b"
+    },
+    {
+      "module": "kluft",
+      "hotspot": "kluft-5",
+      "quote": "Rangersschriftzug- bzw. Namenschild: 1cm über der Brusttasche.\n\nNamenschild (Nur bei Rangerleiter/in)",
+      "source_blocks": [
+        [
+          10,
+          17
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "asset_key": "lb4-d65f9dd76ebb"
+    },
+    {
+      "module": "kluft",
+      "introduction": "Auf deiner Kluft zeigen Aufnäher und farbige Schlaufen nicht nur Zugehörigkeit – sie erzählen auch deine Geschichte als Ranger. Jeder Aufnäher und jede Schlaufe hat eine besondere Bedeutung.",
+      "source_blocks": [
+        [
+          9,
+          2
+        ]
+      ],
+      "asset_key": "lb4-c371c35beb4b"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-1",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nOrange: Ranger 6 bis 8 Jahre",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        "visual-orange"
+      ],
+      "asset_key": "lb4-bffe925a33ea"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-2",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nGelb: Ranger 9 bis 11 Jahre",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        "visual-yellow"
+      ],
+      "asset_key": "lb4-75555611fbd6"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-3",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nBlau: Ranger 12 bis 13 Jahre",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        "visual-blue"
+      ],
+      "asset_key": "lb4-c3456da94df4"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-4",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nWeiß: Ranger 14 bis 15 Jahre",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        "visual-white"
+      ],
+      "asset_key": "lb4-0debd67cb2de"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-5",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nHalbe grüne Schlaufe hat ein Leiter-Helfer, der noch in der Ausbildung und Probezeit ist.",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          8
+        ]
+      ],
+      "asset_key": "lb4-1a65d81eab70"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-6",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nGanze grüne Schlaufe hat ein Teamleiter.",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          9
+        ]
+      ],
+      "asset_key": "lb4-1a65d81eab70"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-7",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nSchwarze Schlaufe hat ein Gruppenleiter.",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "asset_key": "lb4-b254bfb29f23"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-8",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nSilberne Schlaufe hat der Regionalleiter.",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "asset_key": "lb4-485360d5e55e"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-9",
+      "quote": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.\n\nBronzene Schlaufe hat der Stammleiter.",
+      "source_blocks": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "asset_key": "lb4-5acbad2f129e"
+    },
+    {
+      "module": "schlaufen",
+      "hotspot": "schlaufen-10",
+      "quote": "Dann gibt es noch einzelne schmalere Schlaufen die schon eher Bänder darstellen. Besonders sticht das rote Band hervor das einige Ranger am äußeren Rand der Schulterlaufe tragen. Diese rote Schlaufe zeigt, dass dieser Rangerteilnehmer die Werkzeugprüfung bestanden hat und somit Messer, Säge, Axt und Beil nutzen darf. Das ist dann für alle Leiter\n\nauch aus anderen Gruppen sichtbar, wenn ein Ranger die aufgezählten Werkzeuge nutzt. Die anderen Bänder zeigen den Stufenpfad. Andere Pfadfinder stellen den Wachstumspfad oft durch Aufnäher dar. Als Ranger wirst du bei jeder Stufe die du auf dem Wachstumspfad erreichst mehrere Dinge aus dem Pfadfinderbereich lernen und die-\n\nse dann in deinem Logbuch von deinem Gruppen oder Teamleiter abhacken lassen. Wenn du dann alle Aufgaben oder Lehrinhalte der Stufe erledigt hast, bekommst du die dafür vorgesehene farbliche Schulterschlaufe.",
+      "source_blocks": [
+        [
+          10,
+          14
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          10,
+          16
+        ]
+      ],
+      "asset_key": "lb4-ef677cc7cda1"
+    },
+    {
+      "module": "schlaufen",
+      "introduction": "Wie du bei der oben dargestellten Kluft sehen konntest, gibt es unterschiedliche Farben, Breiten und Reihenfolgen an Schulterlaufen.\n\nDie Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.",
+      "source_blocks": [
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          2
+        ]
+      ],
+      "asset_key": "lb4-ef677cc7cda1"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-1",
+      "quote": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.\n\nDarum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.\n\nSehr hilfreich sind Pläne, damit jeder weiß, wann er dran ist. So braucht niemand Angst zu haben, überfordert zu werden. Ein typischer Aufgabenplan für ein Ranger-Camp könnte so aussehen:",
+      "source_blocks": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          11,
+          13
+        ]
+      ],
+      "asset_key": "lb4-83e1ce65c94e"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-2",
+      "quote": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.\n\nDarum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.\n\nSehr hilfreich sind Pläne, damit jeder weiß, wann er dran ist. So braucht niemand Angst zu haben, überfordert zu werden. Ein typischer Aufgabenplan für ein Ranger-Camp könnte so aussehen:",
+      "source_blocks": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "asset_key": "lb4-83e1ce65c94e"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-3",
+      "quote": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.\n\nDarum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.",
+      "source_blocks": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          15
+        ]
+      ],
+      "asset_key": "lb4-83e1ce65c94e"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-4",
+      "quote": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.\n\nDarum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.",
+      "source_blocks": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          16
+        ]
+      ],
+      "asset_key": "lb4-83e1ce65c94e"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-5",
+      "quote": "Sehr hilfreich sind Pläne, damit jeder weiß, wann er dran ist. So braucht niemand Angst zu haben, überfordert zu werden. Ein typischer Aufgabenplan für ein Ranger-Camp könnte so aussehen:\n\nAm Ende zählt nicht nur die Aufgabe, sondern auch, dass wir einander helfen. Die Goldene Regel (Galater 5,14) erinnert uns daran: Wenn jemand es alleine nicht schafft, springen wir ein – auch wenn wir schon unsere eigenen Aufgaben erledigen. Das macht ein echtes Team aus.",
+      "source_blocks": [
+        [
+          11,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          17
+        ]
+      ],
+      "asset_key": "lb4-2c02f432f4be"
+    },
+    {
+      "module": "team",
+      "hotspot": "team-6",
+      "quote": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.\n\nDarum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.\n\nDenk an ein starkes Seil: Von außen wirkt es fest und unzerreißbar. Doch in Wirklichkeit besteht es aus vielen dünnen Fasern, die ineinander verflochten sind. Jede einzelne Faser trägt nur wenig, aber zusammen halten sie große Lasten. So ist es auch mit deinem Team – jeder für sich trägt ein Stück, aber zusammen könnt ihr Großes bewegen.\n\nStell dir ein Baseballspiel vor: Was würde passieren, wenn alle Spieler unbedingt den Ball schlagen und ins Feld rennen wollten? Niemand würde im Outfield stehen, keiner am Schlagmal aufpassen, und niemand würde die Bases sichern. Das Team würde schnell verlieren – weil jeder nur an sich denkt. Bei den Rangers ist es genauso. Du bist Teil einer Mannschaft, in der jeder eine\n\nRolle hat. Gemeinsam mit deinem Teamleiter lernst du, wie man gut zusammenarbeitet. Am Anfang möchte vielleicht jeder am liebsten allein zeigen, was er kann. Doch wirkliche Stärke entsteht erst, wenn jeder seine Aufgabe übernimmt – und das Team zusammenhält.",
+      "source_blocks": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "asset_key": "lb4-83e1ce65c94e"
+    },
+    {
+      "module": "team",
+      "introduction": "Doch wirkliche Stärke entsteht erst, wenn jeder seine Aufgabe übernimmt – und das Team zusammenhält.",
+      "source_blocks": [
+        [
+          11,
+          3
+        ]
+      ],
+      "asset_key": "lb4-2c02f432f4be"
+    },
+    {
+      "module": "teamhelfer",
+      "hotspot": "teamhelfer-1",
+      "quote": "Ein Teamhelfer ist ein Ranger, der älter als 15 Jahre ist und den Wachstumspfad bereits abgeschlossen hat. Er befindet sich sozusagen in der „Ausbildungs- oder Probephase“ zum Teamleiter. Der Teamhelfer ist daran zu erkennen, dass er die gleiche grüne Schulterschlaufe trägt die dein Teamleiter hat, die aber nur halb so lang ist.",
+      "source_blocks": [
+        [
+          12,
+          1
+        ]
+      ],
+      "asset_key": "lb4-69acb08cba0b"
+    },
+    {
+      "module": "teamhelfer",
+      "hotspot": "teamhelfer-2",
+      "quote": "Schon bald werdet ihr merken, dass es Situationen gibt – zum Beispiel auf einem Camp, wenn der Teamleiter einmal nicht da ist – in denen ihr euch nur schwer einigen könnt, wie etwas umgesetzt werden soll. Damit das nicht zum Problem wird, gibt es in jedem Team idealerweise einen Teamhelfer. Ein Teamhelfer ist ein Ranger, der älter als 15 Jahre ist und den Wachstumspfad bereits abgeschlossen hat. Er befindet sich sozusagen in der „Ausbildungs- oder Probephase“ zum Teamleiter. Der Teamhelfer ist daran zu erkennen, dass er die gleiche grüne Schulterschlaufe trägt die dein Teamleiter hat, die aber nur halb so lang ist.\n\nWichtig ist, dass dieser Ranger zuverlässig, erfahren und verantwortungsbewusst ist. Außerdem sollte er die grundlegenden Ranger-Fähigkeiten sicher beherrschen und bereit sein, den anderen zu dienen. Denn beim Teamhelfer geht es nicht darum, „Chef zu sein“, sondern Verantwortung zu übernehmen. Wenn der Teamleiter einmal nicht da ist, vertritt der Teamhelfer ihn. Erkennbar ist er an der halben grünen Schulterschlaufe auf seiner Schulterklappe.",
+      "source_blocks": [
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ]
+      ],
+      "asset_key": "lb4-240217571aa9"
+    },
+    {
+      "module": "teamhelfer",
+      "hotspot": "teamhelfer-3",
+      "quote": "Es gab einmal einen Teamleiter, der ständig Schwierigkeiten mit seinen Rangers hatte, weil jeder von ihnen der Chef sein wollte. Mitten in ihrem Streit rief er sie zusammen und sagte:\n\n„In unserem Team gilt: Wer den anderen am meisten dient, ist der Größte unter uns. Wer dagegen unbedingt Chef sein will, ist der Kleinste.“\n\nDieser Teamleiter ist der oberste Leiter aller Rangers – und er ist es auch heute noch: Jesus. Darum kommt es nicht darauf an, wie „groß“ oder „klein“ deine Aufgabe wirkt.\n\nOb du Holz sägst, abtrocknest, Zeltplanen reinigst, das Feuer entzündest oder als Teamhelfer beim Aufbau anleitest – entscheidend ist, dass du deinen Dienst so gut wie möglich tust.",
+      "source_blocks": [
+        [
+          12,
+          3
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "asset_key": "lb4-f5e52930f3ef"
+    },
+    {
+      "module": "teamhelfer",
+      "introduction": "Wichtig ist, dass dieser Ranger zuverlässig, erfahren und verantwortungsbewusst ist. Außerdem sollte er die grundlegenden Ranger-Fähigkeiten sicher beherrschen und bereit sein, den anderen zu dienen. Denn beim Teamhelfer geht es nicht darum, „Chef zu sein“, sondern Verantwortung zu übernehmen. Wenn der Teamleiter einmal nicht da ist, vertritt der Teamhelfer ihn. Erkennbar ist er an der halben grünen Schulterschlaufe auf seiner Schulterklappe.",
+      "source_blocks": [
+        [
+          12,
+          2
+        ]
+      ],
+      "asset_key": "lb4-347c08ad5458"
+    },
+    {
+      "module": "teamname",
+      "hotspot": "teamname-1",
+      "quote": "Bei den Pfadfindern ist es Tradition, dass jedes Team sich einen eigenen, besonderen Namen gibt. Früher griff man dafür oft auf Tiernamen zurück – Tiere, deren Eigenschaften man bewundert oder nachahmen möchte. Stell dir zum Beispiel einen Bären vor, stark und kräftig, einen Fuchs, clever und listig,",
+      "source_blocks": [
+        [
+          12,
+          8
+        ]
+      ],
+      "asset_key": "lb4-c689756b8c3a"
+    },
+    {
+      "module": "teamname",
+      "hotspot": "teamname-2",
+      "quote": "oder einen Adler, majestätisch und frei am Himmel. Solche Tiere sind Klassiker, aber genau deshalb sollte euer Teamname etwas Einzigartiges sein. Denkt ruhig etwas ungewöhnlicher: Wie wäre es mit einem Höhlenbären, einem Eisfuchs oder einem Steinadler? Noch seltener\n\nund origineller sind Tiere aus fernen Regionen der Welt – vielleicht eine flinke Antilope, eine elegante Gazelle, ein bunter exotischer Vogel oder sogar fleißige Bienen oder Ameisen.",
+      "source_blocks": [
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ]
+      ],
+      "asset_key": "lb4-c689756b8c3a"
+    },
+    {
+      "module": "teamname",
+      "hotspot": "teamname-3",
+      "quote": "Wenn ihr lieber einen Namen aus einer anderen Kategorie wählt, etwa Helden aus der Bibel, stimmt das vorher mit eurem Stammleiter ab. So stellt ihr sicher, dass euer Teamname besonders, kreativ und passend ist.",
+      "source_blocks": [
+        [
+          12,
+          11
+        ]
+      ],
+      "asset_key": "lb4-c689756b8c3a"
+    },
+    {
+      "module": "teamname",
+      "introduction": "Wenn ihr lieber einen Namen aus einer anderen Kategorie wählt, etwa Helden aus der Bibel, stimmt das vorher mit eurem Stammleiter ab. So stellt ihr sicher, dass euer Teamname besonders, kreativ und passend ist.",
+      "source_blocks": [
+        [
+          12,
+          11
+        ]
+      ],
+      "asset_key": "lb4-c689756b8c3a"
+    },
+    {
+      "module": "banner",
+      "hotspot": "banner-1",
+      "quote": "Jetzt geht es darum, ein Teamemblem zu gestalten, das euer Team eindeutig repräsentiert. Dieses Emblem sollte den gewählten Teamnamen kreativ widerspiegeln und auf dem Teambanner zu sehen sein – eure ganz persönliche Visitenkarte, die euch bei allen Aktivitäten begleitet.\n\nEs ist üblich, das Teamemblem auch auf allen Ausrüstungsgegenständen anzubringen – so erkennt man sofort, wem Beil, Kiste oder Liederbuch gehört. Außerdem kann es auf Teamhalstüchern oder sogar als eigener Teamstempel erscheinen, mit dem ihr sichere Botschaften oder Schriftstücke markieren könnt.",
+      "source_blocks": [
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "banner",
+      "hotspot": "banner-2",
+      "quote": "Beispiel: Ein klassisches Pfadfinder-Banner oder Wimpel könnte ein dreieckiges Stoffstück in eurer Teamfarbe sein, das oben am Querholz befestigt wird. Darauf steht euer Teamname und das Emblem in leuchtenden Farben. Kleine Symbole, wie Sterne, Tiere oder naturbezogene Motive, machen es noch individueller.",
+      "source_blocks": [
+        [
+          13,
+          1
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "banner",
+      "hotspot": "banner-3",
+      "quote": "Das Banner sollte mit Sorgfalt hergestellt werden. Der Bannerstab sollte etwa ranger-hoch sein und aus der Natur stammen, gut bearbeitet und stabil. Besonders geeignet sind Haselnuss-, Buche- oder Eschenholz. Optional könnt ihr die Namen aller Teammitglieder und des Teamleiters in den Stab einritzen – später wird das für euch ein wertvolles Erinnerungsstück sein.",
+      "source_blocks": [
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          4
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "banner",
+      "hotspot": "banner-4",
+      "quote": "Oben am Stab wird das Banner befestigt, zum Beispiel mit Querhölzern. Verwendet dafür Lederschnüre, Laschen oder andere kreative Lösungen – verzichtet auf Nägel, Drähte oder Schrauben. Auf dem Banner könnt ihr eure Fertigkeiten in Knoten, Schnitzkunst oder Brandmalerei zeigen.",
+      "source_blocks": [
+        [
+          13,
+          5
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "banner",
+      "hotspot": "banner-5",
+      "quote": "Ihr könnt auch Materialien wie echtes Leder nutzen oder zusätzliche Verzierungen anbringen: Ein Fuchsschwanz für das Fuchsteam, geschnitzte Bärenkrallen, Adlerfedern oder andere passende Details setzen besondere Akzente.",
+      "source_blocks": [
+        [
+          13,
+          6
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "banner",
+      "introduction": "Jetzt geht es darum, ein Teamemblem zu gestalten, das euer Team eindeutig repräsentiert. Dieses Emblem sollte den gewählten Teamnamen kreativ widerspiegeln und auf dem Teambanner zu sehen sein – eure ganz persönliche Visitenkarte, die euch bei allen Aktivitäten begleitet.",
+      "source_blocks": [
+        [
+          13,
+          3
+        ]
+      ],
+      "asset_key": "lb4-35d08f17cb8b"
+    },
+    {
+      "module": "appell",
+      "hotspot": "appell-1",
+      "quote": "Beim Appell stellt sich das Team in einer Reihe auf: Der Teamhelfer mit dem Banner ganz rechts, der Teamleiter ganz links, dazwischen der Rest des Teams. Dann meldet der Teamhelfer zum Beispiel:",
+      "source_blocks": [
+        [
+          14,
+          2
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "appell",
+      "hotspot": "appell-2",
+      "quote": "Beim Appell stellt sich das Team in einer Reihe auf: Der Teamhelfer mit dem Banner ganz rechts, der Teamleiter ganz links, dazwischen der Rest des Teams. Dann meldet der Teamhelfer zum Beispiel:\n\nEin gut aufgestelltes Team bleibt ruhig, aufmerksam und ordentlich. Beim Appell zeigt sich durch Haltung, Ordnung und Verhalten die Einheit und Disziplin des Teams.",
+      "source_blocks": [
+        [
+          14,
+          2
+        ],
+        [
+          14,
+          6
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "appell",
+      "hotspot": "appell-3",
+      "quote": "Beim Appell stellt sich das Team in einer Reihe auf: Der Teamhelfer mit dem Banner ganz rechts, der Teamleiter ganz links, dazwischen der Rest des Teams. Dann meldet der Teamhelfer zum Beispiel:",
+      "source_blocks": [
+        [
+          14,
+          2
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "appell",
+      "hotspot": "appell-4",
+      "quote": "Beim Stammtreff meldet jedes Team, ob es vollständig ist oder ob einzelne Mitglieder fehlen – und warum. Bei kleineren Stammposten passiert das meist direkt beim Appell, bei größeren Teams kann dies auch während der gemeinsamen Teamzeit geschehen.\n\n„Das Löwen-Team ist mit sechs Rangers und einem Gast vollständig anwesend.“\n\n„Das Team der Königspinguine ist mit sieben Rangers unvollständig. Katja fehlt wegen Grippe, Mausi ist bei ihrer Oma.“",
+      "source_blocks": [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          5
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "appell",
+      "introduction": "Beim Stammtreff meldet jedes Team, ob es vollständig ist oder ob einzelne Mitglieder fehlen – und warum. Bei kleineren Stammposten passiert das meist direkt beim Appell, bei größeren Teams kann dies auch während der gemeinsamen Teamzeit geschehen.",
+      "source_blocks": [
+        [
+          14,
+          1
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "stammposten",
+      "hotspot": "stammposten-1",
+      "quote": "Als Team seid ihr Teil einer größeren Gemeinschaft – dem Stammposten. Je nach Größe kann es vorkommen, dass euer Team gemeinsam mit anderen Teams einen eigenen Stamm bildet. Auf jeden Fall gehören alle Teams zusammen zum Stammposten, der bei den Rangers-Pfadfindern der FECG eine einzigartige Stammnummer erhalten hat.",
+      "source_blocks": [
+        [
+          14,
+          8
+        ]
+      ],
+      "asset_key": "lb4-f1e14b1bd407"
+    },
+    {
+      "module": "stammposten",
+      "hotspot": "stammposten-2",
+      "quote": "Als Team seid ihr Teil einer größeren Gemeinschaft – dem Stammposten. Je nach Größe kann es vorkommen, dass euer Team gemeinsam mit anderen Teams einen eigenen Stamm bildet. Auf jeden Fall gehören alle Teams zusammen zum Stammposten, der bei den Rangers-Pfadfindern der FECG eine einzigartige Stammnummer erhalten hat.",
+      "source_blocks": [
+        [
+          14,
+          8
+        ]
+      ],
+      "asset_key": "lb4-0101e8164ee2"
+    },
+    {
+      "module": "stammposten",
+      "hotspot": "stammposten-3",
+      "quote": "Diese Nummer darfst du auf deiner Kluft rechts, etwa 3 cm unterhalb der Schulternaht, aufnähen. So könnt ihr erkennen, aus welchem Stamm ein Ranger kommt, wenn ihr ihm unterwegs begegnet. Beispielsweise steht die Nr. 1 für den ersten Stamm Deutschlands in Molbergen, die Nr. 5 für den ersten Stamm in Emden und die Nr. 6 für den Stamm in Meppen.",
+      "source_blocks": [
+        [
+          14,
+          9
+        ]
+      ],
+      "asset_key": "lb4-f1e14b1bd407"
+    },
+    {
+      "module": "stammposten",
+      "hotspot": "stammposten-4",
+      "quote": "Deinen Stammleiter hast du sicher schon kennengelernt – er trägt zwei bronzene Schlaufen auf den Schulterklappen seiner Kluft. Rangers mit halben grünen Schlaufen sind Stammhelfer oder Teamhelfer, die besondere Verantwortung innerhalb des Stammes übernehmen.",
+      "source_blocks": [
+        [
+          14,
+          10
+        ]
+      ],
+      "asset_key": "lb4-f1e14b1bd407"
+    },
+    {
+      "module": "stammposten",
+      "introduction": "Als Team seid ihr Teil einer größeren Gemeinschaft – dem Stammposten. Je nach Größe kann es vorkommen, dass euer Team gemeinsam mit anderen Teams einen eigenen Stamm bildet. Auf jeden Fall gehören alle Teams zusammen zum Stammposten, der bei den Rangers-Pfadfindern der FECG eine einzigartige Stammnummer erhalten hat.",
+      "source_blocks": [
+        [
+          14,
+          8
+        ]
+      ],
+      "asset_key": "lb4-f1e14b1bd407"
+    }
+  ],
+  "source_blocks": {
+    "4": {
+      "0": {
+        "text": "WIE WERDE ICH EIN RANGER?",
+        "bbox": [
+          45.51240158081055,
+          29.031431198120117,
+          379.07452392578125,
+          60.81742858886719
+        ]
+      },
+      "1": {
+        "text": "Jeder kann ein Ranger werden! Dafür brauchst du nur an den Treffen eines Stammes teilnehmen. Nach mindestens vier Besuchen und mit der unterschriebenen Einverständniserklärung deiner Eltern wirst du offizielles Mitglied und kannst regelmäßig dabei sein.",
+        "bbox": [
+          36.0,
+          63.54791259765625,
+          380.2177429199219,
+          108.08887481689453
+        ]
+      },
+      "2": {
+        "text": "Die Vergabe des Emblems",
+        "bbox": [
+          36.0,
+          133.8278045654297,
+          228.16502380371094,
+          148.84280395507812
+        ]
+      },
+      "3": {
+        "text": "Sobald du die wichtigsten Werte und Grundlagen der Rangers kennengelernt hast, darfst du die vollständige Kluft mit Halstuch, Stammnummer und Emblem tragen. Dein Teamleiter, Stammleiter und deine Ranger-Freunde helfen dir dabei, alles Wichtige zu lernen. Mit deinem Logbuch und etwas Übung wirst du schon bald Folgendes erklären können:",
+        "bbox": [
+          36.0,
+          157.341796875,
+          383.30462646484375,
+          201.8827667236328
+        ]
+      },
+      "4": {
+        "text": "Die Bedeutung der Symbole auf dem Rangers-Emblem.",
+        "bbox": [
+          276.093017578125,
+          286.7797546386719,
+          378.9613037109375,
+          309.7207336425781
+        ]
+      },
+      "5": {
+        "text": "Den Lebensweg eines Rangers erklären.",
+        "bbox": [
+          276.093017578125,
+          319.17974853515625,
+          373.12030029296875,
+          342.1207275390625
+        ]
+      },
+      "6": {
+        "text": "Die Regeln der Rangers und die Bedeutung.",
+        "bbox": [
+          276.093017578125,
+          351.5797424316406,
+          379.0872802734375,
+          374.520751953125
+        ]
+      },
+      "7": {
+        "text": "Das Motto der Rangers und seine Aussage.",
+        "bbox": [
+          276.093017578125,
+          383.979736328125,
+          377.77325439453125,
+          406.9207458496094
+        ]
+      },
+      "8": {
+        "text": "Das Emblem ist ein besonderes Abzeichen, das Eigentum des Stammes bleibt. Es zu erhalten bedeutet nicht nur, dass du die Werte der Rangers verstanden hast, sondern auch, dass du bereit bist, sie im Alltag zu leben. Mit dem Emblem auf deinem linken Arm ist deine Kluft komplett. Dazu bekommst du dein persönliches Logbuch – und damit beginnt dein Abenteuer als Ranger!",
+        "bbox": [
+          36.00001525878906,
+          500.0887451171875,
+          381.13739013671875,
+          555.4297485351562
+        ]
+      },
+      "9": {
+        "text": "RANGERS- EMBLEM ERKLÄRUNG:",
+        "bbox": [
+          520.0706787109375,
+          29.031431198120117,
+          741.3053588867188,
+          88.41740417480469
+        ]
+      },
+      "10": {
+        "text": "Mit der Verleihung des Ranger-Emblems erhältst du mehr als nur ein Abzeichen, es ist ein Zeichen unserer Werte und Überzeugungen. Jedes Symbol auf diesem Emblem trägt eine besondere Bedeutung, die für uns Ranger sehr wichtig sind und die du kennen solltest.",
+        "bbox": [
+          455.5274963378906,
+          92.6029052734375,
+          803.7151489257812,
+          126.34387969970703
+        ]
+      },
+      "11": {
+        "text": "Das Kreuz",
+        "bbox": [
+          455.527587890625,
+          153.7648162841797,
+          533.6475830078125,
+          168.77981567382812
+        ]
+      },
+      "12": {
+        "text": "Wie Pflanzen, die dem Licht entgegenwachsen, befindest auch du dich auf einem Weg des Wachstums. Deine Richtung ist entscheidend – es geht nach oben, Schritt für Schritt bergauf. Dein Ziel ist der Gipfel, und dort erkennst du bereits das Gipfelkreuz. Das Kreuz bedeutet für die Rangers die Errettung durch Jesus Tod am Kreuz und es steht sinnbildlich für das höchste Wachstumsziel, das wir als Rangers anstreben: immer näher zu unserem Herrn Jesus Christus zu kommen, vom Ihm zu lernen und somit Jesus ähnlicher werden.",
+        "bbox": [
+          455.527587890625,
+          177.2786865234375,
+          618.9649047851562,
+          308.21954345703125
+        ]
+      },
+      "13": {
+        "text": "Das Feuer",
+        "bbox": [
+          455.43310546875,
+          383.5127868652344,
+          534.7080688476562,
+          398.5278015136719
+        ]
+      },
+      "14": {
+        "text": "Das Feuer ist aus dem Pfadfinderalltag nicht weg zu denken. Rangers stinken auch nicht nach Feuer, sondern riechen nach Abendteuer. Als Pfadfinder nutzen wir das Feuer, um Essen zu kochen, uns aufzuwärmen und drumherum die Abende zu verbringen. Das Feuer symbolisiert auch die Wärme und Nähe Gottes durch den heiligen Geist der als Tröster und Führsprecher in unserem Alltag teilnehmen möchte.",
+        "bbox": [
+          455.43310546875,
+          407.02679443359375,
+          619.3115234375,
+          527.1678466796875
+        ]
+      },
+      "15": {
+        "text": "Der Kompass",
+        "bbox": [
+          637.7952270507812,
+          382.9458923339844,
+          727.9902954101562,
+          397.9609069824219
+        ]
+      },
+      "16": {
+        "text": "Der Kompass zeigt uns beim Pfadfinden die richtige Richtung und hilft uns, den Weg nicht zu verlieren. Für uns Rangers steht er aber auch sinnbildlich für die Bibel: Sie zeigt uns den Weg zu Gott und gibt Orientierung, wenn wir nicht weiterwissen.",
+        "bbox": [
+          637.7952270507812,
+          406.45989990234375,
+          797.40771484375,
+          483.4009094238281
+        ]
+      },
+      "17": {
+        "text": "Wie ein Kompass uns sicher durchs Gelände führt, hilft uns die Bibel, gute Entscheidungen zu treffen und auf dem richtigen Glaubensweg zu bleiben. Sie erinnert uns daran, dass Jesus der Weg, die Wahrheit und das Leben ist.",
+        "bbox": [
+          637.7952270507812,
+          492.85992431640625,
+          804.984619140625,
+          559.0009155273438
+        ]
+      },
+      "18": {
+        "text": "nachste Seite",
+        "bbox": [
+          675.7785034179688,
+          340.41448974609375,
+          749.2756958007812,
+          357.9846496582031
+        ]
+      },
+      "19": {
+        "text": "7 6",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          814.5789184570312,
+          577.1387939453125
+        ]
+      }
+    },
+    "5": {
+      "0": {
+        "text": "LAGERTECHNIK",
+        "bbox": [
+          123.65270233154297,
+          28.936826705932617,
+          295.8767395019531,
+          60.72282409667969
+        ]
+      },
+      "1": {
+        "text": "DER FECG PFADFINDERLILIE",
+        "bbox": [
+          37.61349868774414,
+          23.71541976928711,
+          392.764404296875,
+          116.30979919433594
+        ]
+      },
+      "2": {
+        "text": "Die Pfadfinderlilie hat mehrere Bedeutungen, die eng mit den Grundsätzen und Zielen der Pfadfinder verknüpft sind:",
+        "bbox": [
+          36.0,
+          75.5950927734375,
+          167.8760986328125,
+          120.13605499267578
+        ]
+      },
+      "3": {
+        "text": "1. TRADITION UND GESCHICHTE Die Lilie ist ein altes Symbol, das in verschiedenen Kulturen und Kontexten verwendet wurde. In der Pfadfinderbewegung wurde sie von Lord Robert Baden-Powell, dem Gründer der Bewegung, übernommen. Sie erschien erstmals auf den Abzeichen der Scouts in den frühen 1900er Jahren.",
+        "bbox": [
+          35.5900993347168,
+          146.4670867919922,
+          273.9685974121094,
+          218.86903381347656
+        ]
+      },
+      "4": {
+        "text": "2. WEGWEISER UND NAVIGATION Die Lilie ähnelt der Form eines Kompasses oder einer Windrose und symbolisiert somit Orientierung und Richtung. Dies steht sinnbildlich für die Pfadfinder, die den richtigen Weg an Hand der Bibel im Leben finden und anderen dabei helfen sollen, diesen Weg ebenfalls zu",
+        "bbox": [
+          35.59000015258789,
+          228.0670928955078,
+          273.3295593261719,
+          300.4690246582031
+        ]
+      },
+      "5": {
+        "text": "finden.",
+        "bbox": [
+          35.59000015258789,
+          302.72802734375,
+          60.84400177001953,
+          314.8690185546875
+        ]
+      },
+      "6": {
+        "text": "3. DREI BLATTER DER LILIE Diese repräsentieren die drei Grundprinzipien der „Rangers“.",
+        "bbox": [
+          83.57379913330078,
+          338.7505187988281,
+          303.3878173828125,
+          367.9525146484375
+        ]
+      },
+      "7": {
+        "text": "PFLICHT GEGENÜBER GOTT UND DEM LAND (geistliche und patriotische Verpflichtungen)",
+        "bbox": [
+          35.5973014831543,
+          418.4335021972656,
+          135.2255096435547,
+          463.6044921875
+        ]
+      },
+      "8": {
+        "text": "PFLICHT GEGENÜBER ANDEREN (Hilfeleistung und Dienst an der Gemeinschaft und anderen)",
+        "bbox": [
+          155.44129943847656,
+          503.9425048828125,
+          250.57940673828125,
+          559.9135131835938
+        ]
+      },
+      "9": {
+        "text": "PFLICHT GEGENÜBER SICH SELBST (Entwicklung und Verantwortung für das eigene Handeln)",
+        "bbox": [
+          274.0252685546875,
+          433.37353515625,
+          382.1062927246094,
+          478.5445251464844
+        ]
+      },
+      "10": {
+        "text": "4. MITTLERE SPITZE DER LILIE Sie symbolisiert den Nordstern, der die Pfadfinder daran erinnert, stets ihren moralischen Kompass nach den Maßstäben der Bibel zu folgen und die Eigenschaften der Rangers zu leben.",
+        "bbox": [
+          455.11590576171875,
+          31.663928985595703,
+          614.359375,
+          104.06586456298828
+        ]
+      },
+      "11": {
+        "text": "5. DIE SEITLICHEN SPITZEN DER LILIE Die seitlichen Spitzen der Lilie: Sie stehen für das Ausleben der Ranger- Eigenschaften und die Bereitschaft der Pfadfinder, anderen zu helfen.",
+        "bbox": [
+          643.464599609375,
+          31.663928985595703,
+          804.212646484375,
+          104.06586456298828
+        ]
+      },
+      "12": {
+        "text": "Insgesamt repräsentiert die Pfadfinderlilie die Kernwerte und Ideale der Pfadfinderbewegung, wie ...",
+        "bbox": [
+          475.2733154296875,
+          473.8668518066406,
+          734.64892578125,
+          496.807861328125
+        ]
+      },
+      "13": {
+        "text": "GEMEINSCHAFT",
+        "bbox": [
+          490.8660888671875,
+          513.3842163085938,
+          591.2507934570312,
+          531.3502197265625
+        ]
+      },
+      "14": {
+        "text": "HILFSBEREITSCHAFT",
+        "bbox": [
+          490.8660888671875,
+          537.9542236328125,
+          618.0827026367188,
+          555.9202270507812
+        ]
+      },
+      "15": {
+        "text": "ORIENTIERUNG",
+        "bbox": [
+          644.6041259765625,
+          513.3842163085938,
+          739.1246337890625,
+          531.3502197265625
+        ]
+      },
+      "16": {
+        "text": "MORALISCHE REINHEIT",
+        "bbox": [
+          644.6041259765625,
+          537.9542236328125,
+          788.7221069335938,
+          555.9202270507812
+        ]
+      },
+      "17": {
+        "text": "6. DAS BAND DAS DIE SPITZEN DER LILIE VERBINDET Es steht für die Einheit und Gemeinschaft der Rangers in der Gemeinde.",
+        "bbox": [
+          525.5117797851562,
+          390.4828186035156,
+          745.8948974609375,
+          441.2847900390625
+        ]
+      },
+      "18": {
+        "text": "9 8",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          814.5789184570312,
+          577.1387939453125
+        ]
+      }
+    },
+    "6": {
+      "0": {
+        "text": "DER RANGERS PFADFINDER DER FECG DIE REGELN",
+        "bbox": [
+          42.08649826049805,
+          24.28237533569336,
+          377.4445495605469,
+          93.31011199951172
+        ]
+      },
+      "1": {
+        "text": "Wir Rangers möchten diese Regeln mit Gottes Hilfe befolgen. Aus eigener Kraft schaffen wir das nicht immer, denn nur einer hat sie vollkommen gelebt – Jesus Christus. Mit seiner Unterstützung können auch wir lernen, gute und treue Pfadfinder zu sein.",
+        "bbox": [
+          36.0,
+          100.63449096679688,
+          383.03460693359375,
+          134.37547302246094
+        ]
+      },
+      "2": {
+        "text": "WACHSAM",
+        "bbox": [
+          35.9818000793457,
+          168.6083984375,
+          53.99979782104492,
+          258.9504089355469
+        ]
+      },
+      "3": {
+        "text": "Aufmerksamkeit ist eine wichtige Eigenschaft eines Rangers. Besonders auf dem Camp, wenn du Nachtwache hältst, verlassen sich deine Teamkameraden darauf, dass du wach bleibst und Gefahren erkennst. Doch Wachsamkeit gehört nicht nur ins Lager. Auch im Alltag hilft sie dir, Situationen richtig einzuschätzen und Gefahren frühzeitig zu erkennen. Trainiere deine Sinne – Hören, Sehen, Riechen, Schmecken und Tasten – und du wirst entdecken, wie viel dir bewusst wird, was anderen verborgen bleibt.",
+        "bbox": [
+          57.25979995727539,
+          156.00448608398438,
+          275.94635009765625,
+          265.3453674316406
+        ]
+      },
+      "4": {
+        "text": "REIN",
+        "bbox": [
+          365.5278015136719,
+          302.4366149902344,
+          383.5458068847656,
+          345.56463623046875
+        ]
+      },
+      "5": {
+        "text": "Rein zu leben heißt, Gott zu ehren – mit deinem Körper, deinen Gedanken und deinem Herzen. Nicht nur Schmutz auf der Haut macht unrein, auch negative Einflüsse wie schlechte Filme oder verletzende Worte wirken auf dein Inneres. Achte darauf, was du ansiehst, anhörst und sagst. Wenn du dich innerlich unwohl fühlst, sprich mit deinem Teamleiter – er kann dir helfen, wieder in Einklang mit Gott zu kommen.",
+        "bbox": [
+          143.85830688476562,
+          277.1383972167969,
+          361.98681640625,
+          364.87933349609375
+        ]
+      },
+      "6": {
+        "text": "EHRLICH",
+        "bbox": [
+          35.9818000793457,
+          386.8569030761719,
+          53.99979782104492,
+          462.40289306640625
+        ]
+      },
+      "7": {
+        "text": "„Ehrlichkeit zahlt sich aus“ – alles, was wir verschweigen, kommt früher oder später ans Licht. Auch kleine Lügen können langfristig Probleme bringen. Ehrlich zu sein erfordert manchmal Mut, zum Beispiel wenn du einen Fehler gemacht hast und zu den Betroffenen gehen musst, um ihn zu korrigieren. Wer Verantwortung übernimmt und die Wahrheit sagt, gewinnt Vertrauen und Respekt.",
+        "bbox": [
+          56.692901611328125,
+          378.61871337890625,
+          276.6222839355469,
+          455.5596923828125
+        ]
+      },
+      "8": {
+        "text": "TAPFER",
+        "bbox": [
+          367.19708251953125,
+          484.0841064453125,
+          385.215087890625,
+          555.0040893554688
+        ]
+      },
+      "9": {
+        "text": "Tapfer zu sein bedeutet nicht nur, sich Gefahren zu stellen, sondern auch, Konflikten mutig zu begegnen und den ersten Schritt auf andere zuzugehen, selbst wenn man glaubt, sie müssten ihn machen. Ehrlichkeit und Mut gehören zusammen: Wer tapfer ist, sagt die Wahrheit und handelt verantwortungsvoll, auch wenn es nicht einfach ist.",
+        "bbox": [
+          144.0,
+          477.831298828125,
+          363.3805236816406,
+          543.9722900390625
+        ]
+      },
+      "10": {
+        "text": "TREU",
+        "bbox": [
+          455.5093994140625,
+          68.4246826171875,
+          473.52740478515625,
+          114.126708984375
+        ]
+      },
+      "11": {
+        "text": "Wahre Freundschaft zeigt sich mit der Zeit. Geduld hilft dir, zu erkennen, wer verlässlich ist. In deinem Team und bei deinem Teamleiter wirst du Freunde finden, auf die du dich verlassen kannst. Doch selbst die besten Freunde können einmal enttäuschen. Es gibt nur einen Freund, der niemals enttäuscht: Jesus. Er sagt: „Wer in den kleinen Dingen treu ist, ist auch in großen treu“ (Lukas 16,10).",
+        "bbox": [
+          476.78741455078125,
+          33.64227294921875,
+          657.432861328125,
+          132.1831817626953
+        ]
+      },
+      "12": {
+        "text": "HOFLICH",
+        "bbox": [
+          785.0552978515625,
+          171.32119750976562,
+          803.0733032226562,
+          247.64120483398438
+        ]
+      },
+      "13": {
+        "text": "Höflichkeit zeigt Respekt und lässt andere dich ernst nehmen. Besonders Eltern und ältere Menschen verdienen unsere Rücksicht. Freundlichkeit fällt auf: Mädchen achten oft mehr darauf, wie respektvoll ein Junge sich verhält, als auf coole Sprüche oder Witze. Wer freundlich und aufmerksam ist, gewinnt Sympathie und Vertrauen.",
+        "bbox": [
+          630.7086791992188,
+          151.894287109375,
+          782.8240966796875,
+          250.43519592285156
+        ]
+      },
+      "14": {
+        "text": "GEHORSAM",
+        "bbox": [
+          455.79278564453125,
+          308.8600769042969,
+          473.810791015625,
+          405.75408935546875
+        ]
+      },
+      "15": {
+        "text": "Gehorsam bedeutet, auf Gottes Stimme zu hören und seinem Wort zu folgen – aber auch, Respekt vor Eltern, Lehrern und Leitern zu zeigen. Wer bereit ist, zuzuhören und Regeln zu befolgen, wird später selbst eher Verantwortung übernehmen können. Dein Team und dein Stamm sind perfekte Übungsplätze, um zuzuhören, Rücksicht zu nehmen und verantwortungsvoll zu handeln.",
+        "bbox": [
+          475.93701171875,
+          294.71319580078125,
+          637.6561279296875,
+          393.254150390625
+        ]
+      },
+      "16": {
+        "text": "GEISTLICH",
+        "bbox": [
+          785.0552978515625,
+          456.14111328125,
+          803.0733032226562,
+          554.9791259765625
+        ]
+      },
+      "17": {
+        "text": "Geistlich zu leben betrifft jeden von uns, denn wir bestehen nicht nur aus Körper, sondern auch aus Seele und Geist. So wie dein Körper Nahrung braucht, braucht auch dein Geist „Futter“. Beten, in der Bibel lesen oder Gottesdienste besuchen hilft dir, innerlich zu wachsen. Je mehr du auf Gottes Stimme hörst, desto stärker wirst du in deinem Glauben und in deinem Leben.",
+        "bbox": [
+          564.094482421875,
+          459.87860107421875,
+          783.6549072265625,
+          536.819580078125
+        ]
+      },
+      "18": {
+        "text": "11 10",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "7": {
+      "0": {
+        "text": "ZUSAMMENGEFASST EIN PFADFINDER IST",
+        "bbox": [
+          34.326541900634766,
+          32.106605529785156,
+          290.4861145019531,
+          116.20775604248047
+        ]
+      },
+      "1": {
+        "text": "WACHSAM - er achtet sowohl geistig als auch körperlich und geistlich auf sich und seine Umgebung.",
+        "bbox": [
+          36.0,
+          140.03158569335938,
+          375.8346252441406,
+          162.9725799560547
+        ]
+      },
+      "2": {
+        "text": "REIN - in seinem Körper, in seinen Gedanken und in seinem Reden.",
+        "bbox": [
+          36.0,
+          176.03158569335938,
+          283.86456298828125,
+          188.17259216308594
+        ]
+      },
+      "3": {
+        "text": "EHRLICH - er spricht die Wahrheit und verzichtet auf Lüge, Betrug und Diebstahl.",
+        "bbox": [
+          36.0,
+          201.23159790039062,
+          336.1374206542969,
+          213.3726043701172
+        ]
+      },
+      "4": {
+        "text": "TAPFER - selbst in Zeiten von Kritik oder Gefahr bleibt er standhaft und mutig.",
+        "bbox": [
+          36.0,
+          222.83160400390625,
+          329.39459228515625,
+          234.9726104736328
+        ]
+      },
+      "5": {
+        "text": "HOFLICH - er zeigt gutes Benehmen und begegnet anderen mit Güte und Rücksicht.",
+        "bbox": [
+          36.0,
+          248.0316162109375,
+          341.27642822265625,
+          260.172607421875
+        ]
+      },
+      "6": {
+        "text": "GEHORSAM - er hört auf Gott und sein Gewissen und respektiert Eltern, Leiter und Vorgesetzte.",
+        "bbox": [
+          36.0,
+          273.23162841796875,
+          380.4777526855469,
+          296.172607421875
+        ]
+      },
+      "7": {
+        "text": "GEISTLICH - er sucht die Nähe Gottes im Gebet, liest in der Bibel und bezeugt Jesus Christus.",
+        "bbox": [
+          36.0,
+          305.6316223144531,
+          379.6235046386719,
+          317.7726135253906
+        ]
+      },
+      "8": {
+        "text": "DIE GOLDENE REGEL",
+        "bbox": [
+          36.0,
+          385.60150146484375,
+          170.0,
+          436.7615051269531
+        ]
+      },
+      "9": {
+        "text": "Erinnere dich an die Goldene Regel, die Jesus gelehrt hat: „Liebe deinen Nächsten wie dich selbst.“ Das bedeutet: den anderen wertzuschätzen, ihn zu respektieren und ihm zu helfen. Wenn ihr das lernt, werdet ihr als Team unschlagbar.",
+        "bbox": [
+          35.858299255371094,
+          446.9337158203125,
+          193.49148559570312,
+          523.8746948242188
+        ]
+      },
+      "10": {
+        "text": "SEI BEREIT",
+        "bbox": [
+          466.60760498046875,
+          94.55779266357422,
+          619.6576538085938,
+          119.58279418945312
+        ]
+      },
+      "11": {
+        "text": "DAS RANGER-MOTTO",
+        "bbox": [
+          455.77459716796875,
+          26.514385223388672,
+          802.8091430664062,
+          72.68638610839844
+        ]
+      },
+      "12": {
+        "text": "Dieses Motto verbindet alle Rangers – und auch viele andere Pfadfindergruppen auf der ganzen Welt.",
+        "bbox": [
+          629.2913208007812,
+          92.22500610351562,
+          803.20458984375,
+          125.96598052978516
+        ]
+      },
+      "13": {
+        "text": "DIE BEDEUTUNG DES MOTTOS",
+        "bbox": [
+          520.7683715820312,
+          165.8941192626953,
+          733.4953002929688,
+          186.2641143798828
+        ]
+      },
+      "14": {
+        "text": "EIN RANGER IST STETS BEREIT",
+        "bbox": [
+          573.8023071289062,
+          322.7774963378906,
+          687.958251953125,
+          383.9955139160156
+        ]
+      },
+      "15": {
+        "text": "die Schöpfung im Auftrag Gottes zu bewahren,",
+        "bbox": [
+          695.0551147460938,
+          236.40701293945312,
+          789.9403686523438,
+          259.3479919433594
+        ]
+      },
+      "16": {
+        "text": "sich auch in schwierigen Situationen fröhlich und mutig einzubringen,",
+        "bbox": [
+          705.756103515625,
+          377.48199462890625,
+          795.9801635742188,
+          411.2230224609375
+        ]
+      },
+      "17": {
+        "text": "Verantwortung zu tragen und sich der Ordnung unterzuordnen,",
+        "bbox": [
+          691.39208984375,
+          500.7550048828125,
+          799.9752197265625,
+          534.4960327148438
+        ]
+      },
+      "18": {
+        "text": "einfach zu leben, zu teilen und großzügig zu geben,",
+        "bbox": [
+          565.860107421875,
+          449.8060302734375,
+          661.051513671875,
+          472.74700927734375
+        ]
+      },
+      "19": {
+        "text": "alle Menschen als von Gott geschaffene und geliebte Wesen zu sehen und zu achten,",
+        "bbox": [
+          524.7481079101562,
+          216.0670166015625,
+          628.8412475585938,
+          249.80799865722656
+        ]
+      },
+      "20": {
+        "text": "zu helfen und im Notfall Leben zu retten,",
+        "bbox": [
+          459.84912109375,
+          478.4440002441406,
+          539.8493041992188,
+          501.385009765625
+        ]
+      },
+      "21": {
+        "text": "mit ganzem Herzen zu beten und mit vollem Einsatz zu arbeiten.",
+        "bbox": [
+          455.4481201171875,
+          305.2750244140625,
+          538.9403686523438,
+          339.0159912109375
+        ]
+      },
+      "22": {
+        "text": "13 12",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "8": {
+      "0": {
+        "text": "DER RANGERSGRUSS",
+        "bbox": [
+          83.50890350341797,
+          24.828399658203125,
+          336.8703918457031,
+          104.20840454101562
+        ]
+      },
+      "1": {
+        "text": "Beim Gruß bedeckt der Daumen den kleinen Finger. Dies soll daran erinnern, dass der Stärkere den Schwächeren schützt und achtet. Die drei ausgestreckten Finger stehen als Zeichen für die Verpflichtung gegenüber",
+        "bbox": [
+          36.0,
+          130.3037109375,
+          385.57354736328125,
+          164.04469299316406
+        ]
+      },
+      "2": {
+        "text": "2. den Mitmenschen und",
+        "bbox": [
+          159.4453125,
+          207.1688995361328,
+          262.9453430175781,
+          261.3309020996094
+        ]
+      },
+      "3": {
+        "text": "1. Gott 3. den Rangers Regeln sowie der Goldenen Regel",
+        "bbox": [
+          36.0,
+          271.7989196777344,
+          387.2735900878906,
+          343.9609069824219
+        ]
+      },
+      "4": {
+        "text": "DEINE AUSSTATTUNG",
+        "bbox": [
+          507.33477783203125,
+          25.395416259765625,
+          751.2498168945312,
+          104.77542114257812
+        ]
+      },
+      "5": {
+        "text": "Die Kluft",
+        "bbox": [
+          455.5274963378906,
+          107.70179748535156,
+          522.5325317382812,
+          122.716796875
+        ]
+      },
+      "6": {
+        "text": "Sobald du offiziell ein Ranger bist und in den Stamm aufgenommen wurdest, darfst du die Pfadfinderkluft der Rangers tragen. Sie ist ein sichtbares Zeichen deiner Zugehörigkeit zur weltweiten Gemeinschaft der Rangers.",
+        "bbox": [
+          455.5274963378906,
+          132.41580200195312,
+          622.8448486328125,
+          187.7567596435547
+        ]
+      },
+      "7": {
+        "text": "Die gemeinsame Kluft zeigt, dass es bei uns nicht auf die modischsten Outfits ankommt – entscheidend ist die Persönlichkeit des Einzelnen. Außerdem ist die Kluft ein praktisches und robustes Kleidungsstück, das dich bei den meisten Unternehmungen bestens begleitet.",
+        "bbox": [
+          637.3724975585938,
+          131.66876220703125,
+          804.686279296875,
+          197.80970764160156
+        ]
+      },
+      "8": {
+        "text": "Die passende Pfadfinderkleidung",
+        "bbox": [
+          455.5274963378906,
+          221.5600128173828,
+          710.96240234375,
+          236.57501220703125
+        ]
+      },
+      "9": {
+        "text": "Als Pfadfinder bist du viel draußen unterwegs – bei jedem Wetter. Deshalb solltest du immer so ausgestattet sein, dass du auch auf spontane Aktionen im Gelände vorbereitet bist.",
+        "bbox": [
+          455.5274963378906,
+          246.27398681640625,
+          804.6621704101562,
+          269.2149658203125
+        ]
+      },
+      "10": {
+        "text": "Dazu gehoren",
+        "bbox": [
+          578.4395141601562,
+          294.90057373046875,
+          683.469482421875,
+          309.91558837890625
+        ]
+      },
+      "11": {
+        "text": "stabiles, wetterfestes Schuhwerk, eine strapazierfähige Hose, ein Regenschutz.",
+        "bbox": [
+          459.4671936035156,
+          318.5006103515625,
+          779.371337890625,
+          341.44158935546875
+        ]
+      },
+      "12": {
+        "text": "Im Winter bietet sich zusätzlich das Rangers-Sweatshirt an, im Sommer oder beim Sport verschiedene Rangers-T-Shirts. Zur Grundausstattung gehört außerdem eine Kopfbedeckung, die dich sowohl vor Sonne als auch vor Regen schützt – sei es ein Pfadfinderhut oder eine einfache Cap.",
+        "bbox": [
+          455.96624755859375,
+          424.72760009765625,
+          623.2835693359375,
+          501.66864013671875
+        ]
+      },
+      "13": {
+        "text": "Alle deine persönlichen Ausrüstungsgegenstände verdienen sorgfältige Pflege. Halte sie sauber und ordentlich, so sorgst du nicht nur dafür, dass sie lange halten, sondern präsentierst auch dich selbst und deinen Stamm in einem guten Licht.",
+        "bbox": [
+          637.811279296875,
+          424.7276306152344,
+          805.1194458007812,
+          490.86865234375
+        ]
+      },
+      "14": {
+        "text": "15 14",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "9": {
+      "0": {
+        "text": "Meine Kluft",
+        "bbox": [
+          54.347782135009766,
+          40.020957946777344,
+          290.1897888183594,
+          95.2660140991211
+        ]
+      },
+      "1": {
+        "text": "KLUFT, AUFNÄHER UND SCHLAUFEN",
+        "bbox": [
+          508.5057067871094,
+          29.239919662475586,
+          754.0698852539062,
+          86.0439453125
+        ]
+      },
+      "2": {
+        "text": "Auf deiner Kluft zeigen Aufnäher und farbige Schlaufen nicht nur Zugehörigkeit – sie erzählen auch deine Geschichte als Ranger. Jeder Aufnäher und jede Schlaufe hat eine besondere Bedeutung.",
+        "bbox": [
+          455.5274963378906,
+          94.02029418945312,
+          805.067138671875,
+          127.76126861572266
+        ]
+      },
+      "3": {
+        "text": "Namenschild (Nur bei Rangerleiter/in) Ranger-Schriftzug Stamm- oder Leitungsränge",
+        "bbox": [
+          65.63509368896484,
+          173.36990356445312,
+          289.3782653808594,
+          197.66590881347656
+        ]
+      },
+      "4": {
+        "text": "Städtename",
+        "bbox": [
+          62.379093170166016,
+          266.3218994140625,
+          107.50709533691406,
+          279.1298828125
+        ]
+      },
+      "5": {
+        "text": "Stammnummer",
+        "bbox": [
+          56.22709274291992,
+          317.6979064941406,
+          114.17909240722656,
+          330.5058898925781
+        ]
+      },
+      "6": {
+        "text": "ZusatzfunktionAufnäher",
+        "bbox": [
+          56.91509246826172,
+          377.9378967285156,
+          116.09111022949219,
+          400.3459167480469
+        ]
+      },
+      "7": {
+        "text": "Camp-Aufnäher Leitertraining",
+        "bbox": [
+          130.95509338378906,
+          434.62591552734375,
+          311.5223083496094,
+          449.5619201660156
+        ]
+      },
+      "8": {
+        "text": "Ranger Emblem",
+        "bbox": [
+          302.1950988769531,
+          363.0499267578125,
+          361.0430908203125,
+          375.85791015625
+        ]
+      },
+      "9": {
+        "text": "Pfadfinder Pfadranger",
+        "bbox": [
+          286.8351135253906,
+          281.5539245605469,
+          371.4671325683594,
+          295.20989990234375
+        ]
+      },
+      "10": {
+        "text": "Einsteiger Scouts",
+        "bbox": [
+          289.1151123046875,
+          214.64993286132812,
+          362.4430847167969,
+          227.73793029785156
+        ]
+      },
+      "11": {
+        "text": "Wachstumspfad",
+        "bbox": [
+          288.7231140136719,
+          200.75393676757812,
+          348.7863464355469,
+          213.5619354248047
+        ]
+      },
+      "12": {
+        "text": "Camp Aufnaher",
+        "bbox": [
+          455.2441101074219,
+          442.19000244140625,
+          576.7741088867188,
+          457.20501708984375
+        ]
+      },
+      "13": {
+        "text": "Nach jedem Camp gibt es einen Aufnäher als Erinnerung an das Campthema. Diesen trägst du auf der rechten Brusttasche deines Fahrtenhemds.",
+        "bbox": [
+          455.2441101074219,
+          466.90399169921875,
+          630.2122192382812,
+          511.44500732421875
+        ]
+      },
+      "14": {
+        "text": "Stammnummer und Ortsname",
+        "bbox": [
+          634.2520141601562,
+          270.6938781738281,
+          806.9020385742188,
+          303.7088928222656
+        ]
+      },
+      "15": {
+        "text": "Auf dem rechten Ärmel wird zuerst der Ortsname aufgenäht, etwa 2 cm unterhalb der Schulternaht. Die Stammnummer folgt direkt darunter, ebenfalls mit 2 cm Abstand. Sie zeigt, zu welchem Stammposten du gehörst. Jeder Stammposten in Deutschland hat eine eigene Nummer.",
+        "bbox": [
+          634.2520141601562,
+          313.40789794921875,
+          805.1979370117188,
+          390.348876953125
+        ]
+      },
+      "16": {
+        "text": "Rangers Emblem",
+        "bbox": [
+          455.4330139160156,
+          154.94590759277344,
+          580.8179321289062,
+          169.96090698242188
+        ]
+      },
+      "17": {
+        "text": "Das Emblem trägst du am linken Ärmel deines Fahrtenhemds, etwa 3 cm unter der Schulternaht. Es zeigt, dass du ein Ranger bist.",
+        "bbox": [
+          455.4330139160156,
+          179.659912109375,
+          607.4960327148438,
+          224.2008819580078
+        ]
+      },
+      "18": {
+        "text": "17 16",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "10": {
+      "0": {
+        "text": "SCHLAUFEN",
+        "bbox": [
+          88.19599914550781,
+          24.28237533569336,
+          331.3340148925781,
+          81.31837463378906
+        ]
+      },
+      "1": {
+        "text": "Wie du bei der oben dargestellten Kluft sehen konntest, gibt es unterschiedliche Farben, Breiten und Reihenfolgen an Schulterlaufen.",
+        "bbox": [
+          36.0,
+          78.4296875,
+          380.67669677734375,
+          101.37067413330078
+        ]
+      },
+      "2": {
+        "text": "Die Breiten Schlaufen stellen deine Altersstufe oder bei den Leitern die Funktionen dar.",
+        "bbox": [
+          36.0,
+          110.82968139648438,
+          351.2816467285156,
+          122.9706802368164
+        ]
+      },
+      "3": {
+        "text": "Orange Ranger bis Jahre",
+        "bbox": [
+          46.201900482177734,
+          200.01870727539062,
+          133.36691284179688,
+          244.23171997070312
+        ]
+      },
+      "4": {
+        "text": "Gelb Ranger bis Jahre",
+        "bbox": [
+          165.60690307617188,
+          200.01870727539062,
+          256.02191162109375,
+          244.23171997070312
+        ]
+      },
+      "5": {
+        "text": "Blau Ranger bis Jahre",
+        "bbox": [
+          282.8929138183594,
+          200.01870727539062,
+          376.55792236328125,
+          244.23171997070312
+        ]
+      },
+      "6": {
+        "text": "Wei Ranger bis m",
+        "bbox": [
+          41.1189079284668,
+          316.0437316894531,
+          138.89193725585938,
+          344.65673828125
+        ]
+      },
+      "7": {
+        "text": "Jahre",
+        "bbox": [
+          70.51190948486328,
+          347.2437438964844,
+          109.49891662597656,
+          360.2567443847656
+        ]
+      },
+      "8": {
+        "text": "Halbe grune Schlaufe hat ein Leiter Helfer der noch in der Ausbildung und Probezeit ist",
+        "bbox": [
+          156.75389099121094,
+          316.0437316894531,
+          266.31787109375,
+          425.46331787109375
+        ]
+      },
+      "9": {
+        "text": "Ganze grune Schlaufe hat ein Teamleiter",
+        "bbox": [
+          279.60430908203125,
+          316.05029296875,
+          379.75634765625,
+          360.2633056640625
+        ]
+      },
+      "10": {
+        "text": "Schwarze Schlaufe hat ein Gruppenleiter",
+        "bbox": [
+          40.89830780029297,
+          497.8423156738281,
+          138.78831481933594,
+          557.6552734375
+        ]
+      },
+      "11": {
+        "text": "Bronzene Schlaufe hat der Stammleiter",
+        "bbox": [
+          286.41632080078125,
+          497.8423156738281,
+          376.0513610839844,
+          557.6552734375
+        ]
+      },
+      "12": {
+        "text": "Silberne Schlaufe hat der Regionalleiter",
+        "bbox": [
+          162.92933654785156,
+          497.8423156738281,
+          256.4903869628906,
+          557.6552734375
+        ]
+      },
+      "13": {
+        "text": "PLATZIERUNG DER AUFNAHER",
+        "bbox": [
+          515.5972290039062,
+          192.7944793701172,
+          749.1209716796875,
+          246.00506591796875
+        ]
+      },
+      "14": {
+        "text": "Dann gibt es noch einzelne schmalere Schlaufen die schon eher Bänder darstellen. Besonders sticht das rote Band hervor das einige Ranger am äußeren Rand der Schulterlaufe tragen. Diese rote Schlaufe zeigt, dass dieser Rangerteilnehmer die Werkzeugprüfung bestanden hat und somit Messer, Säge, Axt und Beil nutzen darf. Das ist dann für alle Leiter",
+        "bbox": [
+          455.5274963378906,
+          33.64227294921875,
+          564.5787963867188,
+          175.3831329345703
+        ]
+      },
+      "15": {
+        "text": "auch aus anderen Gruppen sichtbar, wenn ein Ranger die aufgezählten Werkzeuge nutzt. Die anderen Bänder zeigen den Stufenpfad. Andere Pfadfinder stellen den Wachstumspfad oft durch Aufnäher dar. Als Ranger wirst du bei jeder Stufe die du auf dem Wachstumspfad erreichst mehrere Dinge aus dem Pfadfinderbereich lernen und die-",
+        "bbox": [
+          575.3624877929688,
+          33.64215087890625,
+          682.7396850585938,
+          175.3830108642578
+        ]
+      },
+      "16": {
+        "text": "se dann in deinem Logbuch von deinem Gruppen oder Teamleiter abhacken lassen. Wenn du dann alle Aufgaben oder Lehrinhalte der Stufe erledigt hast, bekommst du die dafür vorgesehene farbliche Schulterschlaufe.",
+        "bbox": [
+          695.197509765625,
+          33.64202880859375,
+          802.0715942382812,
+          121.38294219970703
+        ]
+      },
+      "17": {
+        "text": "Rangersschriftzug- bzw. Namenschild: 1cm über der Brusttasche. Rangersemblem: Die Breite der drei Fingerspitzen, des Trägers/in, unter der Ärmelnaht.",
+        "bbox": [
+          572.409423828125,
+          270.1719055175781,
+          773.6405639648438,
+          345.75592041015625
+        ]
+      },
+      "18": {
+        "text": "Städtename: Die Breite der zwei Fingerspitzen, des Trägers/in, unter der Ärmelnaht",
+        "bbox": [
+          470.36138916015625,
+          294.7319030761719,
+          564.495849609375,
+          335.9159240722656
+        ]
+      },
+      "19": {
+        "text": "Stammnummer: ZweifingerspitzenBreite unter dem Städtenamen.",
+        "bbox": [
+          471.3053894042969,
+          383.54791259765625,
+          531.4013671875,
+          424.73193359375
+        ]
+      },
+      "20": {
+        "text": "ZusatzfunktionAufnäher: ZweifingerspitzenBreite unter der Stammnummer.",
+        "bbox": [
+          471.3053894042969,
+          444.96392822265625,
+          530.8645629882812,
+          495.7479248046875
+        ]
+      },
+      "21": {
+        "text": "19 18",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "11": {
+      "0": {
+        "text": "DEIN TEAM",
+        "bbox": [
+          117.75039672851562,
+          25.395416259765625,
+          301.77691650390625,
+          73.76541137695312
+        ]
+      },
+      "1": {
+        "text": "GEMEINSAM SIND WIR STARK",
+        "bbox": [
+          36.0,
+          91.40251159667969,
+          250.0800018310547,
+          106.41751098632812
+        ]
+      },
+      "2": {
+        "text": "Stell dir ein Baseballspiel vor: Was würde passieren, wenn alle Spieler unbedingt den Ball schlagen und ins Feld rennen wollten? Niemand würde im Outfield stehen, keiner am Schlagmal aufpassen, und niemand würde die Bases sichern. Das Team würde schnell verlieren – weil jeder nur an sich denkt. Bei den Rangers ist es genauso. Du bist Teil einer Mannschaft, in der jeder eine",
+        "bbox": [
+          36.0,
+          112.09109497070312,
+          193.62327575683594,
+          210.6320037841797
+        ]
+      },
+      "3": {
+        "text": "Rolle hat. Gemeinsam mit deinem Teamleiter lernst du, wie man gut zusammenarbeitet. Am Anfang möchte vielleicht jeder am liebsten allein zeigen, was er kann. Doch wirkliche Stärke entsteht erst, wenn jeder seine Aufgabe übernimmt – und das Team zusammenhält.",
+        "bbox": [
+          215.43299865722656,
+          112.09100341796875,
+          383.7482604980469,
+          178.23194885253906
+        ]
+      },
+      "4": {
+        "text": "GEMEINSAM STARK WIE EIN SEIL",
+        "bbox": [
+          36.0,
+          447.8592834472656,
+          295.3349914550781,
+          462.8742980957031
+        ]
+      },
+      "5": {
+        "text": "Denk an ein starkes Seil: Von außen wirkt es fest und unzerreißbar. Doch in Wirklichkeit besteht es aus vielen dünnen Fasern, die ineinander verflochten sind. Jede einzelne Faser trägt nur wenig, aber zusammen halten sie große Lasten. So ist es auch mit deinem Team – jeder für sich trägt ein Stück, aber zusammen könnt ihr Großes bewegen.",
+        "bbox": [
+          36.0,
+          468.54779052734375,
+          263.4165344238281,
+          534.6887817382812
+        ]
+      },
+      "6": {
+        "text": "AUF DICH KOMMT ES AN",
+        "bbox": [
+          460.9051208496094,
+          62.33429718017578,
+          564.9810791015625,
+          191.16232299804688
+        ]
+      },
+      "7": {
+        "text": "Ein Team funktioniert nur, wenn jeder seine Aufgabe ernst nimmt. Stell dir ein Camp vor: Ein Zelt muss aufgebaut, Wasser geholt, Holz gesammelt, ein Feuer entzündet und Essen gekocht werden. Wenn alle dasselbe machen, bleibt vieles liegen – es entsteht Chaos. Aber wenn jeder weiß, was er tun soll, läuft alles geordnet und reibungslos.",
+        "bbox": [
+          575.4329833984375,
+          33.64227294921875,
+          804.03857421875,
+          99.78321075439453
+        ]
+      },
+      "8": {
+        "text": "Darum bekommt bei den Rangers jeder eine klare Aufgabe. Niemand muss alles allein schaffen, aber jeder trägt dazu bei, dass das Ganze gelingt.",
+        "bbox": [
+          575.4329833984375,
+          109.24221801757812,
+          646.9371948242188,
+          196.98313903808594
+        ]
+      },
+      "9": {
+        "text": "SO GEHTS GEORDNET",
+        "bbox": [
+          455.43310546875,
+          240.9300994873047,
+          612.9630126953125,
+          255.94509887695312
+        ]
+      },
+      "10": {
+        "text": "Sehr hilfreich sind Pläne, damit jeder weiß, wann er dran ist. So braucht niemand Angst zu haben, überfordert zu werden. Ein typischer Aufgabenplan für ein Ranger-Camp könnte so aussehen:",
+        "bbox": [
+          455.4330139160156,
+          261.61871337890625,
+          799.3984375,
+          295.35968017578125
+        ]
+      },
+      "11": {
+        "text": "DIE GOLDENE REGEL NICHT VERGESSEN",
+        "bbox": [
+          455.527587890625,
+          423.7647705078125,
+          614.9175415039062,
+          456.77978515625
+        ]
+      },
+      "12": {
+        "text": "Am Ende zählt nicht nur die Aufgabe, sondern auch, dass wir einander helfen. Die Goldene Regel (Galater 5,14) erinnert uns daran: Wenn jemand es alleine nicht schafft, springen wir ein – auch wenn wir schon unsere eigenen Aufgaben erledigen. Das macht ein echtes Team aus.",
+        "bbox": [
+          455.5274963378906,
+          474.4296875,
+          683.2247924804688,
+          529.7706909179688
+        ]
+      },
+      "13": {
+        "text": "Koch",
+        "bbox": [
+          478.3464050292969,
+          321.9079284667969,
+          498.7403869628906,
+          336.3169250488281
+        ]
+      },
+      "14": {
+        "text": "Hilfskoch",
+        "bbox": [
+          478.3464050292969,
+          335.91192626953125,
+          517.6854248046875,
+          350.3209228515625
+        ]
+      },
+      "15": {
+        "text": "Wasser",
+        "bbox": [
+          478.3464050292969,
+          349.9159240722656,
+          509.00042724609375,
+          364.3249206542969
+        ]
+      },
+      "16": {
+        "text": "Feuer",
+        "bbox": [
+          478.3464050292969,
+          363.919921875,
+          502.07940673828125,
+          378.32891845703125
+        ]
+      },
+      "17": {
+        "text": "Ordnung",
+        "bbox": [
+          478.3464050292969,
+          377.9239196777344,
+          514.4813842773438,
+          392.3329162597656
+        ]
+      },
+      "18": {
+        "text": "Holz",
+        "bbox": [
+          478.3464050292969,
+          391.92791748046875,
+          497.0393981933594,
+          406.3369140625
+        ]
+      },
+      "19": {
+        "text": "Aufgabe Manfred Klaus Würmle Siggi Bert Tom",
+        "bbox": [
+          477.9953918457031,
+          305.9149169921875,
+          774.3519287109375,
+          320.32391357421875
+        ]
+      },
+      "20": {
+        "text": "Mo Di Mi Do Fr Sa",
+        "bbox": [
+          557.0078735351562,
+          320.4375915527344,
+          761.569091796875,
+          332.5785827636719
+        ]
+      },
+      "21": {
+        "text": "Di Mi Do Fr Sa Mo",
+        "bbox": [
+          557.0078735351562,
+          334.44158935546875,
+          765.7261962890625,
+          346.58258056640625
+        ]
+      },
+      "22": {
+        "text": "Mi Do Fr Sa Mo Di",
+        "bbox": [
+          557.0078735351562,
+          348.4455871582031,
+          749.786865234375,
+          360.5865783691406
+        ]
+      },
+      "23": {
+        "text": "Do Fr Sa Mo Di Mi",
+        "bbox": [
+          557.0078735351562,
+          362.4495849609375,
+          763.7191772460938,
+          374.590576171875
+        ]
+      },
+      "24": {
+        "text": "Fr Sa Mo Di Mi Do",
+        "bbox": [
+          557.0078735351562,
+          376.4535827636719,
+          754.906982421875,
+          388.5945739746094
+        ]
+      },
+      "25": {
+        "text": "Sa Mo Di Mi Do Fr",
+        "bbox": [
+          557.0078735351562,
+          390.45758056640625,
+          751.79296875,
+          402.59857177734375
+        ]
+      },
+      "26": {
+        "text": "21 20",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "12": {
+      "0": {
+        "text": "TEAMHELFER: HALBE GRUNE SCHULTERSCHLAUFE",
+        "bbox": [
+          80.37840270996094,
+          29.031431198120117,
+          338.7983703613281,
+          74.9404296875
+        ]
+      },
+      "1": {
+        "text": "Schon bald werdet ihr merken, dass es Situationen gibt – zum Beispiel auf einem Camp, wenn der Teamleiter einmal nicht da ist – in denen ihr euch nur schwer einigen könnt, wie etwas umgesetzt werden soll. Damit das nicht zum Problem wird, gibt es in jedem Team idealerweise einen Teamhelfer. Ein Teamhelfer ist ein Ranger, der älter als 15 Jahre ist und den Wachstumspfad bereits abgeschlossen hat. Er befindet sich sozusagen in der „Ausbildungs- oder Probephase“ zum Teamleiter. Der Teamhelfer ist daran zu erkennen, dass er die gleiche grüne Schulterschlaufe trägt die dein Teamleiter hat, die aber nur halb so lang ist.",
+        "bbox": [
+          35.71649932861328,
+          81.264404296875,
+          203.0355224609375,
+          244.60523986816406
+        ]
+      },
+      "2": {
+        "text": "Wichtig ist, dass dieser Ranger zuverlässig, erfahren und verantwortungsbewusst ist. Außerdem sollte er die grundlegenden Ranger-Fähigkeiten sicher beherrschen und bereit sein, den anderen zu dienen. Denn beim Teamhelfer geht es nicht darum, „Chef zu sein“, sondern Verantwortung zu übernehmen. Wenn der Teamleiter einmal nicht da ist, vertritt der Teamhelfer ihn. Erkennbar ist er an der halben grünen Schulterschlaufe auf seiner Schulterklappe.",
+        "bbox": [
+          217.5614776611328,
+          81.26422119140625,
+          384.8778381347656,
+          201.4051055908203
+        ]
+      },
+      "3": {
+        "text": "Es gab einmal einen Teamleiter, der ständig Schwierigkeiten mit seinen Rangers hatte, weil jeder von ihnen der Chef sein wollte. Mitten in ihrem Streit rief er sie zusammen und sagte:",
+        "bbox": [
+          36.00447082519531,
+          338.0791015625,
+          203.3207550048828,
+          382.6201171875
+        ]
+      },
+      "4": {
+        "text": "„In unserem Team gilt: Wer den anderen am meisten dient, ist der Größte unter uns. Wer dagegen unbedingt Chef sein will, ist der Kleinste.“",
+        "bbox": [
+          219.21746826171875,
+          338.880126953125,
+          386.53118896484375,
+          383.4211120605469
+        ]
+      },
+      "5": {
+        "text": "Dieser Teamleiter ist der oberste Leiter aller Rangers – und er ist es auch heute noch: Jesus. Darum kommt es nicht darauf an, wie „groß“ oder „klein“ deine Aufgabe wirkt.",
+        "bbox": [
+          35.914459228515625,
+          502.48211669921875,
+          203.23068237304688,
+          547.0231323242188
+        ]
+      },
+      "6": {
+        "text": "Ob du Holz sägst, abtrocknest, Zeltplanen reinigst, das Feuer entzündest oder als Teamhelfer beim Aufbau anleitest – entscheidend ist, dass du deinen Dienst so gut wie möglich tust.",
+        "bbox": [
+          219.12745666503906,
+          502.48211669921875,
+          386.4447021484375,
+          547.0231323242188
+        ]
+      },
+      "7": {
+        "text": "DER TEAMNAME KREATIVITAT KENNT KEINE GRENZEN",
+        "bbox": [
+          490.5354919433594,
+          29.031431198120117,
+          768.05029296875,
+          74.9404296875
+        ]
+      },
+      "8": {
+        "text": "Bei den Pfadfindern ist es Tradition, dass jedes Team sich einen eigenen, besonderen Namen gibt. Früher griff man dafür oft auf Tiernamen zurück – Tiere, deren Eigenschaften man bewundert oder nachahmen möchte. Stell dir zum Beispiel einen Bären vor, stark und kräftig, einen Fuchs, clever und listig,",
+        "bbox": [
+          455.5274963378906,
+          88.35101318359375,
+          565.2628173828125,
+          208.4918975830078
+        ]
+      },
+      "9": {
+        "text": "oder einen Adler, majestätisch und frei am Himmel. Solche Tiere sind Klassiker, aber genau deshalb sollte euer Teamname etwas Einzigartiges sein. Denkt ruhig etwas ungewöhnlicher: Wie wäre es mit einem Höhlenbären, einem Eisfuchs oder einem Steinadler? Noch seltener",
+        "bbox": [
+          575.3624877929688,
+          88.35089111328125,
+          684.8008422851562,
+          208.4917755126953
+        ]
+      },
+      "10": {
+        "text": "und origineller sind Tiere aus fernen Regionen der Welt – vielleicht eine flinke Antilope, eine elegante Gazelle, ein bunter exotischer Vogel oder sogar fleißige Bienen oder Ameisen.",
+        "bbox": [
+          695.197509765625,
+          88.35076904296875,
+          804.6437377929688,
+          165.2917022705078
+        ]
+      },
+      "11": {
+        "text": "Wenn ihr lieber einen Namen aus einer anderen Kategorie wählt, etwa Helden aus der Bibel, stimmt das vorher mit eurem Stammleiter ab. So stellt ihr sicher, dass euer Teamname besonders, kreativ und passend ist.",
+        "bbox": [
+          455.52752685546875,
+          219.3096923828125,
+          804.8170166015625,
+          253.05067443847656
+        ]
+      },
+      "12": {
+        "text": "23 22",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "13": {
+      "0": {
+        "text": "DAS TEAMEMBLEM UND TEAMBANNER UNSER ERKENNUNGSZEICHEN",
+        "bbox": [
+          104.347900390625,
+          29.031431198120117,
+          319.29541015625,
+          92.94049072265625
+        ]
+      },
+      "1": {
+        "text": "Beispiel: Ein klassisches Pfadfinder-Banner oder Wimpel könnte ein dreieckiges Stoffstück in eurer Teamfarbe sein, das oben am Querholz befestigt wird. Darauf steht euer Teamname und das Emblem in leuchtenden Farben. Kleine Symbole, wie Sterne, Tiere oder naturbezogene Motive, machen es noch individueller.",
+        "bbox": [
+          455.527587890625,
+          132.28799438476562,
+          565.8028564453125,
+          252.4288787841797
+        ]
+      },
+      "2": {
+        "text": "Es ist üblich, das Teamemblem auch auf allen Ausrüstungsgegenständen anzubringen – so erkennt man sofort, wem Beil, Kiste oder Liederbuch gehört. Außerdem kann es auf Teamhalstüchern oder sogar als eigener Teamstempel erscheinen, mit dem ihr sichere Botschaften oder Schriftstücke markieren könnt.",
+        "bbox": [
+          455.527587890625,
+          261.88787841796875,
+          565.61376953125,
+          392.82879638671875
+        ]
+      },
+      "3": {
+        "text": "Jetzt geht es darum, ein Teamemblem zu gestalten, das euer Team eindeutig repräsentiert. Dieses Emblem sollte den gewählten Teamnamen kreativ widerspiegeln und auf dem Teambanner zu sehen sein – eure ganz persönliche Visitenkarte, die euch bei allen Aktivitäten begleitet. Das Banner sollte mit Sorgfalt hergestellt werden. Der Bannerstab sollte etwa ranger-",
+        "bbox": [
+          35.713592529296875,
+          102.52484130859375,
+          203.02268981933594,
+          201.0657501220703
+        ]
+      },
+      "4": {
+        "text": "hoch sein und aus der Natur stammen, gut bearbeitet und stabil. Besonders geeignet sind Haselnuss-, Buche- oder Eschenholz. Optional könnt ihr die Namen aller Teammitglieder und des Teamleiters in den Stab einritzen – später wird das für euch ein wertvolles Erinnerungsstück sein.",
+        "bbox": [
+          217.55859375,
+          102.52474975585938,
+          384.8624572753906,
+          179.46568298339844
+        ]
+      },
+      "5": {
+        "text": "Oben am Stab wird das Banner befestigt, zum Beispiel mit Querhölzern. Verwendet dafür Lederschnüre, Laschen oder andere kreative Lösungen – verzichtet auf Nägel, Drähte oder Schrauben. Auf dem Banner könnt ihr eure Fertigkeiten in Knoten, Schnitzkunst oder Brandmalerei zeigen.",
+        "bbox": [
+          36.0015869140625,
+          223.4666748046875,
+          385.4229736328125,
+          257.2076416015625
+        ]
+      },
+      "6": {
+        "text": "Ihr könnt auch Materialien wie echtes Leder nutzen oder zusätzliche Verzierungen anbringen: Ein Fuchsschwanz für das Fuchsteam, geschnitzte Bärenkrallen, Adlerfedern oder andere passende Details setzen besondere Akzente.",
+        "bbox": [
+          35.91158676147461,
+          293.62164306640625,
+          214.09271240234375,
+          348.96258544921875
+        ]
+      },
+      "7": {
+        "text": "25 24",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    },
+    "14": {
+      "0": {
+        "text": "DER APPELL WER IST ALLES DA",
+        "bbox": [
+          140.77149963378906,
+          29.314878463745117,
+          285.7618103027344,
+          75.223876953125
+        ]
+      },
+      "1": {
+        "text": "Beim Stammtreff meldet jedes Team, ob es vollständig ist oder ob einzelne Mitglieder fehlen – und warum. Bei kleineren Stammposten passiert das meist direkt beim Appell, bei größeren Teams kann dies auch während der gemeinsamen Teamzeit geschehen.",
+        "bbox": [
+          36.141700744628906,
+          80.55569458007812,
+          385.609130859375,
+          114.29666900634766
+        ]
+      },
+      "2": {
+        "text": "Beim Appell stellt sich das Team in einer Reihe auf: Der Teamhelfer mit dem Banner ganz rechts, der Teamleiter ganz links, dazwischen der Rest des Teams. Dann meldet der Teamhelfer zum Beispiel:",
+        "bbox": [
+          36.141700744628906,
+          123.75567626953125,
+          385.52813720703125,
+          157.4966583251953
+        ]
+      },
+      "3": {
+        "text": "„Das Löwen-Team ist mit sechs Rangers und einem Gast vollständig anwesend.“",
+        "bbox": [
+          42.522701263427734,
+          213.68365478515625,
+          174.47171020507812,
+          247.4246368408203
+        ]
+      },
+      "4": {
+        "text": "ODER",
+        "bbox": [
+          182.95220947265625,
+          212.20570373535156,
+          214.7382049560547,
+          275.0187072753906
+        ]
+      },
+      "5": {
+        "text": "„Das Team der Königspinguine ist mit sieben Rangers unvollständig. Katja fehlt wegen Grippe, Mausi ist bei ihrer Oma.“",
+        "bbox": [
+          230.88189697265625,
+          219.35699462890625,
+          370.5654602050781,
+          263.89794921875
+        ]
+      },
+      "6": {
+        "text": "Ein gut aufgestelltes Team bleibt ruhig, aufmerksam und ordentlich. Beim Appell zeigt sich durch Haltung, Ordnung und Verhalten die Einheit und Disziplin des Teams.",
+        "bbox": [
+          35.29389953613281,
+          519.218994140625,
+          384.7298278808594,
+          542.1599731445312
+        ]
+      },
+      "7": {
+        "text": "DEIN STAMMPOSTEN",
+        "bbox": [
+          514.8449096679688,
+          28.889707565307617,
+          743.73876953125,
+          60.67570495605469
+        ]
+      },
+      "8": {
+        "text": "Als Team seid ihr Teil einer größeren Gemeinschaft – dem Stammposten. Je nach Größe kann es vorkommen, dass euer Team gemeinsam mit anderen Teams einen eigenen Stamm bildet. Auf jeden Fall gehören alle Teams zusammen zum Stammposten, der bei den Rangers-Pfadfindern der FECG eine einzigartige Stammnummer erhalten hat.",
+        "bbox": [
+          455.527587890625,
+          66.80767822265625,
+          805.1414184570312,
+          111.34864044189453
+        ]
+      },
+      "9": {
+        "text": "Diese Nummer darfst du auf deiner Kluft rechts, etwa 3 cm unterhalb der Schulternaht, aufnähen. So könnt ihr erkennen, aus welchem Stamm ein Ranger kommt, wenn ihr ihm unterwegs begegnet. Beispielsweise steht die Nr. 1 für den ersten Stamm Deutschlands in Molbergen, die Nr. 5 für den ersten Stamm in Emden und die Nr. 6 für den Stamm in Meppen.",
+        "bbox": [
+          455.31158447265625,
+          137.60162353515625,
+          686.9068603515625,
+          203.74256896972656
+        ]
+      },
+      "10": {
+        "text": "Deinen Stammleiter hast du sicher schon kennengelernt – er trägt zwei bronzene Schlaufen auf den Schulterklappen seiner Kluft. Rangers mit halben grünen Schlaufen sind Stammhelfer oder Teamhelfer, die besondere Verantwortung innerhalb des Stammes übernehmen.",
+        "bbox": [
+          455.2395935058594,
+          256.0145568847656,
+          804.8268432617188,
+          289.7555236816406
+        ]
+      },
+      "11": {
+        "text": "27 26",
+        "bbox": [
+          16.0628662109375,
+          560.9508056640625,
+          820.3389282226562,
+          577.1387939453125
+        ]
+      }
+    }
+  }
+}
