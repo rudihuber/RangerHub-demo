@@ -4,7 +4,22 @@
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Aktueller Stand V34 – kompaktes Dashboard und geordnete Vorlagen
+## Aktueller Stand V35 – visueller Editor und Mitgliederstatus
+
+App öffnen: [RangerHub_Webapp_V35_Demo.html](RangerHub_Webapp_V35_Demo.html) oder `index.html`. [Öffentliche Demo](https://rudihuber.github.io/RangerHub-demo/?v=35).
+
+PowerPoint-artiger Ranger-Wissen-Editor mit Bühne, Seitenminiaturen, direkt bearbeitbaren Texten und Bildern, Raster, Ebenen, Undo/Redo, Entwurfsspeicherung, Ranger-Vorschau und ausdrücklicher Veröffentlichung. Originale aus Logbuch Ausgabe(4) bleiben erhalten; eigene Bilddateien liegen separat und sind in ZIP-Backups enthalten.
+
+Ranger und Leiter haben die Status Aktiv, Pausiert und Ausgetreten mit Gültigkeitsdaten und Verlauf. Die bestehenden Daten und der Speicher `rhv9` bleiben erhalten; die öffentliche Demo verwendet weiterhin `rhv9-demo`. Anwesenheitsquoten berücksichtigen Statuszeiträume, aktive Listen und Ranglisten den aktuellen Status. Offene Aufgaben und Prüfungen werden erhalten und bei Bedarf gekennzeichnet.
+
+- [Änderungen und Bedienung](docs/V35-UEBERGABE.md)
+- [Testbericht und Screenshots](docs/V35-TESTBERICHT.md)
+- [Zentrale Anbindung, Bildspeicher und optionale KI](docs/V35-BACKEND.md)
+- [SHA-256](docs/V35-SHA256SUMS) und [gesicherte V34-Baseline](docs/v35-baseline.json)
+
+Start: `python -m http.server 8000`, dann `index.html`. `assets/` und `vendor/` mit ausliefern. Tests: `python tools/check_v35.py`. Die manuelle Bearbeitung funktioniert ohne KI. KI und produktive Geräteanbindung benötigen die dokumentierte Serverkonfiguration; ohne KI-Zugang erscheint ausdrücklich „KI noch nicht konfiguriert“. Die öffentliche Demo bleibt browserlokal. Der private `main` bleibt bis zur Abnahme unverändert.
+
+## Archiv V34 – kompaktes Dashboard und geordnete Vorlagen
 
 App öffnen: [RangerHub_Webapp_V34_Demo.html](RangerHub_Webapp_V34_Demo.html) oder `index.html`. [Öffentliche Browser-Demo](https://rudihuber.github.io/RangerHub-demo/?v=34).
 

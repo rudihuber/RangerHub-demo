@@ -1,0 +1,9 @@
+test_entry_storage_and_source_images_remain_lossless (test_v35_packaging.V35Packaging.test_entry_storage_and_source_images_remain_lossless) ... ok
+test_full_before_edit_backup_and_restore_bytes (test_v35_packaging.V35Packaging.test_full_before_edit_backup_and_restore_bytes) ... ok
+test_historic_files_only_intended_unversioned_files_change (test_v35_packaging.V35Packaging.test_historic_files_only_intended_unversioned_files_change) ... ok
+test_new_modules_exist_once_and_no_provider_secret_in_browser (test_v35_packaging.V35Packaging.test_new_modules_exist_once_and_no_provider_secret_in_browser) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.638s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "passed": 6
+  },
+  "originalLibrary": {
+    "passed": 4
+  },
+  "failed": 0,
+  "note": "Ergebnis der bereits ausgef\u00fchrten Node-Unitpr\u00fcfungen."
+}
