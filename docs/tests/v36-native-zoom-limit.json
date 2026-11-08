@@ -1,0 +1,14 @@
+{
+  "cssZoom200Percent": "passed in both viewport/reflow tests",
+  "nativeZoom": "not verified",
+  "attempts": [
+    "Ctrl+Equal: innerWidth and devicePixelRatio unchanged",
+    "temporary extension: no service worker available",
+    "temporary profile zoom preference: width and DPR unchanged",
+    "chrome://settings/appearance: TargetClosedError"
+  ],
+  "manualFollowup": [
+    "V36-037",
+    "V36-053"
+  ]
+}

@@ -1,0 +1,9 @@
+test_all_historic_files_and_original_archives (test_v36_packaging.Integrity.test_all_historic_files_and_original_archives) ... ok
+test_build_hashes_modules_storage_and_no_browser_secret (test_v36_packaging.Integrity.test_build_hashes_modules_storage_and_no_browser_secret) ... ok
+test_embedded_attachments_and_source_graphics_exact (test_v36_packaging.Integrity.test_embedded_attachments_and_source_graphics_exact) ... ok
+test_full_before_edit_backup_readback (test_v36_packaging.Integrity.test_full_before_edit_backup_readback) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.811s
+
+OK

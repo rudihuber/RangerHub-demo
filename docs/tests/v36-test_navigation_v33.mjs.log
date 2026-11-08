@@ -1,0 +1,14 @@
+✔ Ranger hierarchy is exactly adventure, participation and reference, with no staff lists (3.574413ms)
+✔ Leader cockpit is always a fixed group; secondary groups use accordions (1.009189ms)
+✔ Admin and Stammleiter retain both permitted editors, regular leaders do not gain them (0.293523ms)
+✔ Ranger direct staff views are blocked while all ordinary personal views work (0.251411ms)
+✔ Editor and examination URL guards reuse exact existing rights (0.176751ms)
+✔ Missing identity and leader personal expedition routes are rejected (0.149981ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12.453823

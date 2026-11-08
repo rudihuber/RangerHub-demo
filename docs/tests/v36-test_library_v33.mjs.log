@@ -1,0 +1,12 @@
+✔ 16 module and 76 hotspot identities and initial release flags survive source correction (1.99946ms)
+✔ 43 checked original files are used; motto retains its own source typography (12.071961ms)
+✔ old edits, publication flags and custom entries remain authoritative without state mutation (12.321879ms)
+✔ all module views use original images or exact motto typography and original source text (7.451704ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 39.121687

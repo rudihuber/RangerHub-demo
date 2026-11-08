@@ -1,10 +1,24 @@
 # RangerHub Demo
 
+## V36 – Kalender, Mitgliederkarten und sichere Vertretung
+
+Die bestehende App erhält feste AT-/NT-Regale (39/27 Bücher), mittiges mobiles Wetter und gemeinsame kompakte Mitgliederkarten. Kalenderlöschungen bleiben in ihrer Ausgangsansicht; Status und Daten bleiben erhalten. Vertreterrechte sind zentral, zeitlich begrenzt und widerrufbar. Ohne produktive API bleibt die Freischaltung ausdrücklich deaktiviert.
+
+- [Bedienung und Änderungen](docs/V36-UEBERGABE.md)
+- [Servereinrichtung](docs/V36-BACKEND.md)
+- [Testbericht](docs/V36-TESTBERICHT.md) und [100-Fälle-Matrix](docs/V36-QA-ERGEBNISSE.csv)
+- [Prüfsummen](docs/V36-SHA256SUMS) und [gesicherte Ausgangsbasis](docs/v36-baseline.json)
+
+Review-Branch: `feature/v36-secure-delegation-review`. Kein automatischer Merge und keine Aktualisierung von main. Start über `index.html` mit kompletter Ressourcenstruktur. Abnahme: `python tools/check_v36.py`.
+
+Der frühere V35-Stand ist im folgenden Archivabschnitt dokumentiert.
+
+
 Öffentliche Vorschau mit ausschließlich fiktiven Demo-Profilen. Die App ist
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
 
-## Aktueller Stand V35 – visueller Editor und Mitgliederstatus
+## Archiv V35 – visueller Editor und Mitgliederstatus
 
 App öffnen: [RangerHub_Webapp_V35_Demo.html](RangerHub_Webapp_V35_Demo.html) oder `index.html`. [Öffentliche Demo](https://rudihuber.github.io/RangerHub-demo/?v=35).
 
