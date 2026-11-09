@@ -1,5 +1,8 @@
 # RangerHub Demo
 
+[Korrigierte V36-Demo zur Ansicht](https://rudihuber.github.io/RangerHub-demo/RangerHub_Webapp_V36_Demo.html?v=36). Die bestehende Startseite bleibt V35. Die V36-Vorschau verwendet ausschließlich fiktive Profile; produktive Vertreterrechte und KI benötigen die gesonderte Serveranbindung.
+
+
 Öffentliche Vorschau mit ausschließlich fiktiven Demo-Profilen. Die App ist
 über `index.html` erreichbar und benötigt weder Backend noch Build. Die
 mitgelieferten JavaScript-, CSS-, Bild- und Import-Dateien müssen mitgehostet werden.
